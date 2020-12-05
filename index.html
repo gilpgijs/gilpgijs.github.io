@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="cmp/layout-cajon.js"></script>
+    <script type="module" src="cmp/mi-nav.js"></script>
+    <script type="module" src="cmp/mi-footer.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav" base="index.html"></mi-nav>
+      <span slot="toolbar" style="margin-left: auto;">Hola</span>
+      <h1>Introducción a JavaScript</h1>
+      <mi-nav></mi-nav>
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script src="js/title.js"></script>
+  </body>
+</html>

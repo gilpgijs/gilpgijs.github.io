@@ -1,0 +1,4 @@
+mi-nav a.actual {
+  font-weight: bold;
+  color: var(--color-nav-resaltada);
+}
