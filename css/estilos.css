@@ -1,4 +1,5 @@
 @import "./mi-footer.css";
+@import "./material-icons.css";
 
 :root {
   --color-fondo-divisor: white;
@@ -18,7 +19,6 @@
   color: var(--color-letra);
   background-color: var(--color-fondo);
 }
-
 
 h1,
 h2 {
