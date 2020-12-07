@@ -8,7 +8,6 @@ ctrl-diapositiva {
 ctrl-diapositiva>a {
   background-color: var(--color-diapositiva-fondo);
   color: var(--color-diapositiva);
-  cursor: pointer;
 }
 
 ctrl-diapositiva>.cierra {
