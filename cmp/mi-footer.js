@@ -1,4 +1,8 @@
-customElements.define("mi-footer", class extends HTMLElement {
+/* This work by Gilberto Pacheco Gallegos is licensed under the Creative Commons
+ * Atribución 4.0 Internacional License. To view a copy of this license, visit
+ * http://creativecommons.org/licenses/by/4.0/. */
+
+ class MiFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
       `<p>
@@ -20,4 +24,5 @@ customElements.define("mi-footer", class extends HTMLElement {
             Creative Commons Atribución 4.0 Internacional</a>.
       </p>`;
   }
-});
+}
+customElements.define("mi-footer", MiFooter);
