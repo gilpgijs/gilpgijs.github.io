@@ -11,6 +11,10 @@ ctrl-diapositiva>a {
   vertical-align: middle;
 }
 
+ctrl-diapositiva>button {
+  vertical-align: middle;
+}
+
 ctrl-diapositiva>.cierra {
   position: fixed;
   z-index: 1003;
@@ -22,10 +26,12 @@ ctrl-diapositiva>.cierra {
   transform: translateX(150%);
   transition: transform 0.7s ease-out;
 }
+
 ctrl-diapositiva>.toc {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
+
 ctrl-diapositiva>nav {
   position: fixed;
   z-index: 1004;
