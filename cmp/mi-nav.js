@@ -2,8 +2,6 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
-import { marcaActual } from "../lib/utilHtml.js";
-
 class MiNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
@@ -31,7 +29,7 @@ class MiNav extends HTMLElement {
         <li><a href="/18_servicios.html">Servicios</a></li>
         <li><a href="/19_polimorfismo.html">Polimorfismo</a></li>
       </ul>`;
-    marcaActual(this);
+    // marcaActual(this);
   }
 }
 

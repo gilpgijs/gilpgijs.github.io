@@ -41,3 +41,7 @@ a.actual {
   font-weight: bold;
   color: var(--color-nav-resaltada);
 }
+
+nav-local {
+  display: block;
+}

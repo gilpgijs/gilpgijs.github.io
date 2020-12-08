@@ -8,11 +8,7 @@ ctrl-diapositiva {
 ctrl-diapositiva>a {
   background-color: var(--color-diapositiva-fondo);
   color: var(--color-diapositiva);
-  vertical-align: middle;
-}
-
-ctrl-diapositiva>button {
-  vertical-align: middle;
+  text-decoration: none;
 }
 
 ctrl-diapositiva>.cierra {
