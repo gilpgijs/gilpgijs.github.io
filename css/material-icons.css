@@ -17,6 +17,7 @@
   /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
 }
+.material-icons.rem { font-size: 1rem; }
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
