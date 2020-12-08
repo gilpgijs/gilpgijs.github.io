@@ -3,14 +3,14 @@
  * http://creativecommons.org/licenses/by/4.0/. */
 ctrl-diapositiva {
   margin-left: auto;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 ctrl-diapositiva>a {
   background-color: var(--color-diapositiva-fondo);
   color: var(--color-diapositiva);
   text-decoration: none;
-  vertical-align: middle;
 }
 
 ctrl-diapositiva>.cierra {
@@ -28,7 +28,6 @@ ctrl-diapositiva>.cierra {
 ctrl-diapositiva>.toc {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-  vertical-align: middle;
 }
 
 ctrl-diapositiva>nav {
