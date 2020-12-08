@@ -8,8 +8,8 @@ ctrl-diapositiva {
 }
 
 ctrl-diapositiva>a {
-  background-color: var(--color-diapositiva-fondo);
-  color: var(--color-diapositiva);
+  background-color: var(--color-ancla-toolbar-fondo);
+  color: var(--color-ancla-toolbar-letra);
   text-decoration: none;
 }
 

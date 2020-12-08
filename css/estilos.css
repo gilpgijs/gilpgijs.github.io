@@ -1,34 +1,33 @@
+/* This work by Gilberto Pacheco Gallegos is licensed under the Creative Commons
+ * Atribución 4.0 Internacional License. To view a copy of this license, visit
+ * http://creativecommons.org/licenses/by/4.0/. */
+
 @import "./mi-footer.css";
 @import "./material-icons.css";
-
 :root {
   --color-fondo-divisor: white;
   --color-fondo-divisor-seleccionado: grey;
-  --ancho-nav: 200px;
+  --ancho-nav: 250px;
   --ancho-lectura: 900px;
   --color-letra: black;
   --color-fondo: white;
-  --color-diapositiva-letra: black;
-  --color-diapositiva-fondo: white;
+  --color-titulo-letra: #039623;
+  --color-ancla-toolbar-letra: black;
+  --color-ancla-toolbar-fondo: white;
   --color-sombra: #49494980;
   --color-fondo-nav: #e4e4e4;
   --color-nav-resaltada: #dd8b11;
   --padding-mi-nav: 2rem 0.5rem 0.5rem 0.5rem;
   --padding-diapositiva: 0.5rem;
-  font-family: serif;
+  font-family: sans-serif;
   color: var(--color-letra);
   background-color: var(--color-fondo);
 }
 
 h1,
 h2 {
-  color: #039623;
+  color: var(--color-titulo-letra);
   text-shadow: 3px 1px 2px #cccccc;
-  font-family: sans-serif;
-}
-
-[slot=toolbar] {
-  font-family: sans-serif;
 }
 
 mi-nav li {
@@ -44,4 +43,18 @@ a.actual {
 
 nav-local {
   display: block;
+}
+
+iframe {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.marco-lectura {
+  max-width: var(--ancho-lectura);
+  margin: 1rem auto;
+}
+
+.marco-lectura p {
+  text-align: justify;
 }
