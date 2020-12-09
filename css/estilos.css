@@ -4,6 +4,7 @@
 
 @import "./mi-footer.css";
 @import "./material-icons.css";
+
 :root {
   --color-fondo-divisor: white;
   --color-fondo-divisor-seleccionado: grey;
@@ -57,4 +58,19 @@ iframe {
 
 .marco-lectura p {
   text-align: justify;
+}
+
+code.language-html {
+  color: #880000;
+  font-size: 1.3em;
+}
+
+code.language-css {
+  color: #ff0000;
+  font-size: 1.3em;
+}
+
+code.language-javascript {
+  color: blue;
+  font-size: 1.3em;
 }
