@@ -7,23 +7,25 @@ customElements.define("nav-local", class extends HTMLElement {
     this.innerHTML = /* html */
       `<ol>
         <li><p><a href="index.html">Introducción a HTML5</a></p></li>
-        <li><p><a href="2_SGML.html">SGML</a></p></li>
-        <li><p><a href="3_doctype.html">DOCTYPE</a></p></li>
-        <li><p><a href="4_contenido.html">Contenido HTML</a></p></li>
-        <li><p><a href="5_comentarios.html">Comentarios</a></p></li>
+        <li><p><a href="2_contenido.html">Contenido</a></p></li>
+        <li><p><a href="3_SGML.html">SGML</a></p></li>
+        <li><p><a href="4_comentarios.html">Comentarios</a></p></li>
+        <li><p><a href="5_doctype.html">DOCTYPE</a></p></li>
         <li><p><a href="6_sin_contenido.html">Elementos sin Contenido</a></p></li>
         <li><p><a href="7_con_contenido.html">Elementos con Contenido</a></p></li>
-        <li><p><a href="8_estructura.html">Estructura</a></p></li>
-        <li><p><a href="9_fraseo.html">Contenido de Fraseo</a></p></li>
-        <li><p><a href="10_p.html">El Elemento p</a></p></li>
-        <li><p><a href="11_cierran_p.html">Elementos que cierran p</a></p></li>
-        <li><p><a href="12_ejemplo_p.html">Ejemplo de p</a></p></li>
-        <li><p><a href="13_titulos.html">Títulos</a></p></li>
-        <li><p><a href="14_ejemplo_titulos.html">Ejemplo de Títulos</a></p></li>
-        <li><p><a href="15_a.html">El elemento a</a></p></li>
-        <li><p><a href="16_ejemplo_a.html">Ejemplo de a</a></p></li>
-        <li><p><a href="17_footer.html">El elemento footer</a></p></li>
-        <li><p><a href="18_ejemplo_footer.html">Ejemplo de footer</a></p></li>
+        <li><p><a href="8_atributos.html">Atributos</a></p></li>
+        <li><p><a href="9_html.html">El Elemento <dfn>html</dfn></a></p></li>
+        <li><p><a href="10_head.html">El Elemento <dfn>head</dfn></a></p></li>
+        <li><p><a href="11_codificacion.html">Codificación de Caracteres</a></p></li>
+        <li><p><a href="12_viewport.html">El Viewport</a></p></li>
+        <li><p><a href="13_title.html">El Elemento <dfn>title</dfn></a></p></li>
+        <li><p><a href="14_body.html">El Elemento <dfn>body</dfn></a></p></li>
+        <li><p><a href="15_fraseo.html">Elementos de Fraseo</a></p></li>
+        <li><p><a href="16_h1.html">El Elemento <dfn>h1</dfn></a></p></li>
+        <li><p><a href="17_p.html">El Elemento <dfn>p</dfn></a></p></li>
+        <li><p><a href="18_cierran_p.html">Elementos que Cierran <em>p</em></a></p></li>
+        <li><p><a href="19_footer.html">El Elemento <dfn>footer</dfn></a></p></li>
+        <li><p><a href="20_entidades.html">Entidades de Caracteres</a></p></li>
       </ol>`;
   }
 });
