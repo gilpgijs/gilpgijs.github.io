@@ -111,3 +111,14 @@ code.language-javascript {
 numeros-de-linea {
   display: block;
 }
+
+
+.columnas-4 {
+  columns: 4 180px;
+  column-gap: 1rem;
+}
+
+.columnas-2 {
+  columns: 2 360px;
+  column-gap: 1rem;
+}
