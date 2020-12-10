@@ -87,3 +87,27 @@ code.language-javascript {
   color: blue;
   font-size: 1.3em;
 }
+
+.código {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.código td {
+  font-family: Consolas, 'Courier New', monospace;
+  white-space: pre;
+}
+
+.código td:first-child {
+  text-align: right;
+  padding-right: 0.5rem;
+  border-right: 1px solid black;
+}
+
+.código td:last-child {
+  padding-left: 0.5rem;
+}
+
+numeros-de-linea {
+  display: block;
+}
