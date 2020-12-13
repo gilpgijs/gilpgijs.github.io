@@ -36,7 +36,7 @@ ctrl-diapositiva>nav {
   top: 0;
   right: 0;
   bottom: 0;
-  width: min(var(--ancho-toc), 70%);
+  width: 70%;
   padding: var(--padding-diapositiva);
   box-sizing: border-box;
   color: var(--color-letra, black);
