@@ -14,6 +14,7 @@
   --color-letra: black;
   --color-fondo: white;
   --color-titulo-letra: #039623;
+  --color-titulo-strong: #c61b04;
   --color-ancla-toolbar-letra: black;
   --color-ancla-toolbar-fondo: white;
   --color-sombra: #49494980;
@@ -30,6 +31,12 @@ h1,
 h2 {
   color: var(--color-titulo-letra);
   text-shadow: 3px 1px 2px #cccccc;
+}
+
+h1 strong,
+h2 strong,
+a strong {
+  color: var(--color-titulo-strong);
 }
 
 @media screen and (max-width: 999px) {
@@ -87,31 +94,6 @@ code.language-javascript {
   color: blue;
   font-size: 1.3em;
 }
-
-.código {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.código td {
-  font-family: Consolas, 'Courier New', monospace;
-  white-space: pre;
-}
-
-.código td:first-child {
-  text-align: right;
-  padding-right: 0.5rem;
-  border-right: 1px solid black;
-}
-
-.código td:last-child {
-  padding-left: 0.5rem;
-}
-
-numeros-de-linea {
-  display: block;
-}
-
 
 .columnas-4 {
   columns: 4 180px;

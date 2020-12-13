@@ -22,7 +22,7 @@
   /* Soporte para Firefox. */
   -moz-osx-font-smoothing: grayscale;
 }
-
+.rem {font-size: 1rem;}
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;

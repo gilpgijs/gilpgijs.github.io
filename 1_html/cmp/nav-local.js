@@ -15,16 +15,20 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="7_atributos.html">Atributos</a></p></li>
         <li><p><a href="8_con_contenido.html">Elementos con Contenido</a></p></li>
         <li><p><a href="9_sin_contenido.html">Elementos sin Contenido</a></p></li>
-        <li><p><a href="10_html.html">El Elemento <em>html</em></a></p></li>
-        <li><p><a href="11_codificacion.html">Codificación de Caracteres</a></p></li>
-        <li><p><a href="12_viewport.html">El Viewport</a></p></li>
-        <li><p><a href="13_title.html">El Elemento <em>title</em></a></p></li>
-        <li><p><a href="14_fraseo.html">Elementos de Fraseo</a></p></li>
-        <li><p><a href="15_h1.html">El Elemento <em>h1</em></a></p></li>
-        <li><p><a href="16_p.html">El Elemento <em>p</em></a></p></li>
-        <li><p><a href="17_cierran_p.html">Elementos que Cierran <em>p</em></a></p></li>
-        <li><p><a href="18_footer.html">El Elemento <em>footer</dfn></a></p></li>
-        <li><p><a href="19_entidades.html">Entidades de Caracteres</a></p></li>
+        <li><p><a href="10_padres.html">Elementos padres</a></p></li>
+        <li><p><a href="11_hijos.html">Elementos hijos</a></p></li>
+        <li><p><a href="12_html.html">El Elemento <strong>html</strong></a></p></li>
+        <li><p><a href="13_head.html">El Elemento <strong>head</strong></a></p></li>
+        <li><p><a href="14_codificacion.html">Codificación de Caracteres</a></p></li>
+        <li><p><a href="15_viewport.html">El Viewport</a></p></li>
+        <li><p><a href="16_title.html">El Elemento <strong>title</strong></a></p></li>
+        <li><p><a href="17_body.html">El Elemento <strong>body</strong></a></p></li>
+        <li><p><a href="18_fraseo.html">Elementos de Fraseo</a></p></li>
+        <li><p><a href="19_h1.html">El Elemento <strong>h1</strong></a></p></li>
+        <li><p><a href="20_p.html">El Elemento <strong>p</strong></a></p></li>
+        <li><p><a href="21_cierran_p.html">Elementos que Cierran <strong>p</strong></a></p></li>
+        <li><p><a href="22_footer.html">El Elemento <strong>footer</dfn></a></p></li>
+        <li><p><a href="23_entidades.html">Entidades de Caracteres</a></p></li>
       </ol>`;
   }
 });
