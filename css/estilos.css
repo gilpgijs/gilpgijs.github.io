@@ -15,8 +15,11 @@
   --color-fondo: white;
   --color-titulo-letra: #039623;
   --color-titulo-strong: #c61b04;
-  --scrollbarBG: #CFD8DC;
-  --thumbBG: rgb(144, 164, 174);
+  --color-scrollbar: #CFD8DC;
+  --color-thumb: #90a4ae;
+  --color-thumb-activo: #3f3f3f;
+  --ancho-thumb: 7px;
+  --border-radius-thumb: 3.5px;
   --color-ancla-toolbar-letra: black;
   --color-ancla-toolbar-fondo: white;
   --color-sombra: #49494980;
@@ -28,20 +31,27 @@
   color: var(--color-letra);
   background-color: var(--color-fondo);
 }
+
 html {
   scrollbar-width: thin;
-  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  scrollbar-color: var(--color-thumb) var(--color-scrollbar);
 }
+
 body::-webkit-scrollbar {
-  width: 11px;
+  width: var(--ancho-thumb);
 }
+
 body::-webkit-scrollbar-track {
-  background: var(--scrollbarBG);
+  background: var(--color-scrollbar);
 }
+
 body::-webkit-scrollbar-thumb {
-  background-color: var(--thumbBG) ;
-  border-radius: 6px;
-  border: 3px solid var(--scrollbarBG);
+  background-color: var(--color-thumb);
+  border-radius: var(--border-radius-thumb);
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: var(--color-thumb-activo);
 }
 
 h1,
