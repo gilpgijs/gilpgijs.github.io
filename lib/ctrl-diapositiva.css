@@ -36,7 +36,6 @@ ctrl-diapositiva>nav {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 70%;
   padding: var(--padding-diapositiva);
   box-sizing: border-box;
   color: var(--color-letra, black);
@@ -45,6 +44,21 @@ ctrl-diapositiva>nav {
   box-shadow: 0.5rem 0 0.5rem var(--color-sombra);
   transform: translateX(150%);
   transition: transform 0.7s ease-out;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-thumb2) var(--color-scrollbar);
+}
+ctrl-diapositiva>nav::-webkit-scrollbar {
+  width: var(--ancho-thumb);
+}
+ctrl-diapositiva>nav::-webkit-scrollbar-track {
+  background: var(--color-scrollbar);
+}
+ctrl-diapositiva>nav::-webkit-scrollbar-thumb {
+  background-color: var(--color-thumb2) ;
+  border-radius: var(--border-radius-thumb);
+}
+ctrl-diapositiva>nav::-webkit-scrollbar-thumb:active {
+  background-color: var(--color-thumb-activo);
 }
 
 ctrl-diapositiva.abierto>nav,
@@ -55,4 +69,16 @@ ctrl-diapositiva.abierto>.cierra {
 ctrl-diapositiva>nav header {
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 999px) {
+  ctrl-diapositiva.abierto>nav {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  ctrl-diapositiva.abierto>nav {
+    width: var(--ancho-nav, 200px);
+  }
 }

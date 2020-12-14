@@ -20,7 +20,7 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="12_html.html">El Elemento <strong>html</strong></a></p></li>
         <li><p><a href="13_head.html">El Elemento <strong>head</strong></a></p></li>
         <li><p><a href="14_codificacion.html">Codificación de Caracteres</a></p></li>
-        <li><p><a href="15_viewport.html">El Viewport</a></p></li>
+        <li><p><a href="15_viewport.html">El Metadato <strong>viewport</strong></a></p></li>
         <li><p><a href="16_title.html">El Elemento <strong>title</strong></a></p></li>
         <li><p><a href="17_body.html">El Elemento <strong>body</strong></a></p></li>
         <li><p><a href="18_fraseo.html">Elementos de Fraseo</a></p></li>
@@ -28,7 +28,8 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="20_p.html">El Elemento <strong>p</strong></a></p></li>
         <li><p><a href="21_cierran_p.html">Elementos que Cierran <strong>p</strong></a></p></li>
         <li><p><a href="22_footer.html">El Elemento <strong>footer</dfn></a></p></li>
-        <li><p><a href="23_entidades.html">Entidades de Caracteres</a></p></li>
+        <li><p><a href="23_referencias.html">Referencias de Caracteres</a></p></li>
+        <li><p><a href="24_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
       </ol>`;
   }
 });
