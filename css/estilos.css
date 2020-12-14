@@ -55,14 +55,14 @@ body::-webkit-scrollbar-thumb:active {
   background-color: var(--color-thumb-activo);
 }
 
-h1,
-h2 {
+h1:not(.default),
+h2:not(.default) {
   color: var(--color-titulo-letra);
   text-shadow: 3px 1px 2px #cccccc;
 }
 
-h1 strong,
-h2 strong,
+h1:not(.default) strong,
+h2:not(.default) strong,
 a strong {
   color: var(--color-titulo-strong);
 }
@@ -108,6 +108,26 @@ iframe {
   text-align: justify;
 }
 
+.horizontal {
+  text-align: center;
+}
+
+.horizontal>* {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.columnas-4 {
+  columns: 4 180px;
+  column-gap: 1rem;
+}
+
+.columnas-2 {
+  columns: 2 360px;
+  column-gap: 1rem;
+}
+
 code.language-html {
   color: #880000;
   font-size: 1.3em;
@@ -121,14 +141,4 @@ code.language-css {
 code.language-javascript {
   color: blue;
   font-size: 1.3em;
-}
-
-.columnas-4 {
-  columns: 4 180px;
-  column-gap: 1rem;
-}
-
-.columnas-2 {
-  columns: 2 360px;
-  column-gap: 1rem;
 }

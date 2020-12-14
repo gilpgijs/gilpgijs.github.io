@@ -10,7 +10,7 @@ class MiNav extends HTMLElement {
         <li><a href="/index.html">Inicio</a></li>
         <li><a href="/0_sw.html">Software a Instalar</a></li>
         <li><a href="/1_html/">Introducción a HTML5</a></li>
-        <li><a href="/2_css3.html">Introducción a CSS3</a></li>
+        <li><a href="/2_css/">Introducción a CSS3</a></li>
         <li><a href="/3_cajas.html">Modelo de Cajas</a></li>
         <li><a href="/4_intro_js.html">Introducción a JavaScript</a></li>
         <li><a href="/5_tipos.html">Tipos de Datos</a></li>
