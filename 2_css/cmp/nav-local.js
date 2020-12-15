@@ -11,10 +11,10 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="3_CSS.html">CSS</a></p></li>
         <li><p><a href="4_style.html">El Elemento <strong>style</strong></a></p></li>
         <li><p><a href="5_comentarios.html">Comentarios</a></p></li>
-        <li><p><a href="6_reglas.html">Reglas</a></p></li>
-        <li><p><a href="7_selectores.html">Selectores</a></p></li>
+        <li><p><a href="6_reglas.html">Reglas de Estilo</a></p></li>
+        <li><p><a href="7_selectores.html">Selector de Tipo</a></p></li>
         <li><p><a href="8_propiedades.html">Propiedades</a></p></li>
-        <li><p><a href="9_font.html">Fonts</a></p></li>
+        <li><p><a href="9_fonts.html">Fonts</a></p></li>
         <li><p><a href="10_font-family.html">La Propiedad <strong>font-family</strong></a></p></li>
         <li><p><a href="11_colores.html">Colores en CSS</a></p></li>
         <li><p><a href="12_color.html">La Propiedad <strong>color</strong></a></p></li>
