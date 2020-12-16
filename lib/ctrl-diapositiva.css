@@ -49,6 +49,7 @@ ctrl-diapositiva>nav {
 }
 ctrl-diapositiva>nav::-webkit-scrollbar {
   width: var(--ancho-thumb);
+  height: var(--ancho-thumb);
 }
 ctrl-diapositiva>nav::-webkit-scrollbar-track {
   background: var(--color-scrollbar);

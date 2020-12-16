@@ -11,9 +11,10 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="3_python.html">Python Tutor para JavaScript</a></p></li>
         <li><p><a href="4_identificadores.html">Identificadores</a></p></li>
         <li><p><a href="5_console.html">console.log</a></p></li>
-        <li><p><a href="6_una.html">Comentarios de una Línea</a></p></li>
-        <li><p><a href="7_una_o_mas.html">Comentarios de una o más Líneas</a></p></li>
-        <li><p><a href="8_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
+        <li><p><a href="6_comentarios.html">Comentarios</a></p></li>
+        <li><p><a href="7_una.html">Comentarios de una Línea</a></p></li>
+        <li><p><a href="8_una_o_mas.html">Comentarios de una o más Líneas</a></p></li>
+        <li><p><a href="9_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
       </ol>`;
   }
 });

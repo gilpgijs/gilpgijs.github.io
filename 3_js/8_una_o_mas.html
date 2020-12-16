@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../cmp/base.js"></script>
+    <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav"></mi-nav>
+      <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
+      <h1>Comentarios de una o más Líneas</h1>
+      <div class="marco-lectura">
+        <p>
+          Los
+          <dfn>comentarios de una o más líneas</dfn>
+          empiezan con el texto
+          <code class="language-javascript" style="color: #008000;">/*</code>
+          y terminan con
+          <code class="language-javascript" style="color: #008000;">*/</code>.
+          Pueden usar una o más líneas.
+        </p>
+      </div>
+      <div class="horizontal">
+        <div>
+          <h3>Ejemplo</h3>
+          <muestra-codigo><div><div><span style="color: #008000;">/*&nbsp;Muestra&nbsp;"Hola&nbsp;pp".&nbsp;*/</span></div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"Hola"</span>,&nbsp;<span style="color: #a31515;">"pp"</span>);</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"tt"</span>);&nbsp;<span style="color: #008000;">/*&nbsp;Muestra&nbsp;"tt".&nbsp;*/</span></div><div><span style="color: #008000;">/*&nbsp;Muestra</span></div><div><span style="color: #008000;">&nbsp;*&nbsp;"bb".&nbsp;*/</span></div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"bb"</span>);</div></div></muestra-codigo>
+        </div>
+        <div>
+          <h3>Salida</h3>
+          <pre><samp>Hola pp
+tt
+bb</samp></pre>
+        </div>
+      </div>
+      <div class="marco-lectura">
+        <p>
+          <a href="http://pythontutor.com/javascript.html#code=/*%20Muestra%20%22Hola%20pp%22.%20*/%0Aconsole.log%28%22Hola%22,%20%22pp%22%29%3B%0Aconsole.log%28%22tt%22%29%3B%20/*%20Muestra%20%22tt%22.%20*/%0A/*%20Muestra%0A%20*%20%22bb%22.%20*/%0Aconsole.log%28%22bb%22%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
+          target=_blank>Visualiza el código en Python Tutor.</a>
+        </p>
+      </div>
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script type="module" src="../js/title.js"></script>
+  </body>
+</html>

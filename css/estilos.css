@@ -37,6 +37,7 @@
 
 body::-webkit-scrollbar {
   width: var(--ancho-thumb);
+  height: var(--ancho-thumb);
 }
 
 body::-webkit-scrollbar-track {
@@ -123,6 +124,10 @@ iframe {
 .columnas-2 {
   columns: 2 360px;
   column-gap: 1rem;
+}
+
+pre {
+  font-size: 1.3em;
 }
 
 code.language-html {
