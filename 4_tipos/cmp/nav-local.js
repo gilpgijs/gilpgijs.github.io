@@ -15,7 +15,7 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="7_identificadores.html">Identificadores</a></p></li>
         <li><p><a href="8_variables.html">Variables</a></p></li>
         <li><p><a href="9_constantes.html">Constantes</a></p></li>
-        <li><p><a href="10_duplicados.html">Variables Duplicadas</a></p></li>
+        <li><p><a href="10_duplicadas.html">Variables Duplicadas</a></p></li>
         <li><p><a href="11_asignacion.html">Asignación</a></p></li>
         <li><p><a href="12_incr_y_decr.html">Incremento y Decremento</a></p></li>
         <li><p><a href="13_plantillas.html">Plantillas de Texto</a></p></li>

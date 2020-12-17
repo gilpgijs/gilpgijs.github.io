@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../cmp/base.js"></script>
+    <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav"></mi-nav>
+      <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
+      <h1>Constantes</h1>
+      <div class="marco-lectura">
+        <p>
+          Similares a las variables, pero su valor no puede cambiar una vez
+          asignado.
+        </p>
+        <p>
+          Se declaran con
+          <code class="language-javascript">const</code>
+        </p>
+      <h2>Ejemplo</h2>
+      </div>
+      <div class="horizontal">
+        <muestra-codigo><div style="background-color: rgb(255, 255, 255); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;"><div><span style="color: #0000ff;">const</span>&nbsp;<span style="color: #0070c1;">PI</span>&nbsp;=&nbsp;<span style="color: #098658;">3.14159</span>;</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #0070c1;">PI</span>);</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"PI"</span>);</div><div><span style="color: #0070c1;">PI</span>&nbsp;=&nbsp;<span style="color: #098658;">9</span>;</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #0070c1;">PI</span>);</div></div></muestra-codigo>
+        <div>
+          <h3>Salida</h3>
+          <pre><samp>3.14159
+PI
+<span style="color: red;">TypeError: Assignment to constant variable.</span></samp></pre>
+        </div>
+      </div>
+      <div class="marco-lectura">
+        <p>
+          <a href="http://www.pythontutor.com/javascript.html#code=const%20PI%20%3D%203.14159%3B%0Aconsole.log%28PI%29%3B%0Aconsole.log%28%22PI%22%29%3B%0API%20%3D%209%3B%0Aconsole.log%28PI%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
+          target=_blank>Visualiza el código en Python Tutor.</a>
+        </p>
+      </div>
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script type="module" src="../js/title.js"></script>
+  </body>
+</html>

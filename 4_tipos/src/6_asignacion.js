@@ -1,8 +1,8 @@
 let b = 4;
-let c = "pp";
+let c = "h";
 const d = 5;
-c = "h"; // c === "h"
 c += "gg"; // c = c + "gg"; c === "hgg"
+c += 2; // c = c + 2; c === "hgg2"
 b = d * 2; // b === 10
 b += d; // b = b + d; b === 15
 b -= 2; // b = b - 2; b === 13
