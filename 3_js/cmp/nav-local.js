@@ -8,8 +8,8 @@ customElements.define("nav-local", class extends HTMLElement {
       `<ol>
         <li><p><a href="index.html">Introducción a JavaScript</a></p></li>
         <li><p><a href="2_contenido.html">Contenido</a></p></li>
-        <li><p><a href="3_python.html">Python Tutor para JavaScript</a></p></li>
-        <li><p><a href="4_identificadores.html">Identificadores</a></p></li>
+        <li><p><a href="3_js.html">JavaScript</a></p></li>
+        <li><p><a href="4_textos.html">Textos</a></p></li>
         <li><p><a href="5_console.html">console.log</a></p></li>
         <li><p><a href="6_comentarios.html">Comentarios</a></p></li>
         <li><p><a href="7_una.html">Comentarios de una Línea</a></p></li>

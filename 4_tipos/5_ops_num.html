@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../cmp/base.js"></script>
+    <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav"></mi-nav>
+      <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
+      <h1>Operadores Numéricos</h1>
+      <div class="marco-lectura">
+        <p>Muestra una serie de valores.</p>
+        <p>
+          Aunque al escribir los valores en el código van separados por coma, se
+          muestran separados por espacio.
+        </p>
+        <p>
+          Cada instrucción
+          <code class="language-javascript"><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span></code>
+          es un renglón.
+        </p>
+      </div>
+      <div class="horizontal">
+        <div>
+          <h3>Ejemplo</h3>
+          <muestra-codigo><div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"Hola"</span>,&nbsp;<span style="color: #a31515;">"pp"</span>);</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"tt"</span>);</div></div></muestra-codigo>
+        </div>
+        <div>
+          <h3>Salida</h3>
+          <pre><samp>Hola pp
+tt</samp></pre>
+        </div>
+      </div>
+      <div class="marco-lectura">
+        <p>
+          <a href="http://pythontutor.com/javascript.html#code=console.log%28%22Hola%22,%20%22pp%22%29%3B%0Aconsole.log%28%22tt%22%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
+          target=_blank>Visualiza el código en Python Tutor.</a>
+        </p>
+      </div>
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script type="module" src="../js/title.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../cmp/base.js"></script>
+    <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav"></mi-nav>
+      <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
+      <h1>Números</h1>
+      <div class="marco-lectura">
+        <p>
+          Como la cantidad de números reales definidos por las matemáticas es
+          infinita en muchos sentidos, no se pueden implementar en una
+          computadora; es por ello que se ha construído una aritmética parecida.
+        </p>
+        <p>
+          Los <dfn>números</dfn> en JavaScript se representan usando el estándar
+          <dfn>IEEE 754</dfn>. En realidad son límites, porque el conjunto de números
+          debe ser finito en todo sentido.
+        </p>
+        <p>
+          Un <dfn>límite</dfn> es un número que se representa a sí mismo, a
+          números ligeramente menores y ligeramente mayores; por ejemplo,
+          <code class="language-javascript">1.0</code>
+          representa a
+          <code class="language-javascript">1.0</code>,
+          así como números muy cercanos,
+          como podrían ser
+          <code class="language-javascript">1.000000000000000000000001</code>,
+          <code class="language-javascript">1.000000000000000000000002</code>,
+          <code class="language-javascript">0.999999999999999999999999</code>
+          o
+          <code class="language-javascript">0.999999999999999999999998</code>.
+        </p>
+        <p>
+          Incluyen a los números enteros como
+          <code class="language-javascript">1</code>,
+          <code class="language-javascript">2</code>,
+          <code class="language-javascript">101</code>.
+        </p>
+        <p>
+          El número <code class="language-javascript">0</code> representa a los 
+          números cercanos a 0, ya sean positivos o negativos.
+        </p>
+        <p>
+          El número <code class="language-javascript">+0</code> representa a los 
+          números positivos cercanos a 0.
+        </p>
+        <p>
+          El número <code class="language-javascript">-0</code> representa a los 
+          números negativos cercanos a 0.
+        </p>
+        <p>
+          El valor
+          <code class="language-javascript">NaN</code>
+          representa valores que no son un número; por ejemplo, los resultados
+          de
+          <code class="language-javascript">0 / 0</code>
+          y
+          <code class="language-javascript">Math.sqrt(-1)</code>
+          (la raíz cuadrada de -1).
+        </p>
+        <h2>Temas por Investigar</h2>
+        <ul>
+          <li>
+            <p>Representación de números en notación científica.</p>
+          </li>
+        </ul>
+      </div>
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script type="module" src="../js/title.js"></script>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../cmp/base.js"></script>
+    <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav"></mi-nav>
+      <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
+      <h1>Textos</h1>
+      <div class="marco-lectura">
+        <p>
+          Los
+          <dfn>caracteres</dfn>
+          son los diferentes símbolos de comunicación escrita; por ejemplo:
+          letras, dígitos o signos de puntuación.
+        </p>
+        <p>
+          Los
+          <dfn>textos</dfn>
+          son secuencias de caracteres delimitadas por los siguientes símbolos:
+        </p>
+        <dl>
+          <dt><code class="language-javascript">' '</code></dt>
+          <dd>
+            <p>
+              El delimitador es el símbolo <dfn>apóstrofo</dfn>
+              (<code class="language-javascript">'</code>).
+            </p>
+            <p>
+              En su interior puedes poner cualquier caracter, excepto
+              apóstrofo y salto de línea.
+            </p>
+          </dd>
+          <dt><code class="language-javascript">" "</code></dt>
+          <dd>
+            <p>
+              El delimitador es el símbolo <dfn>comillas</dfn>
+              (<code class="language-javascript">"</code>).
+            </p>
+            <p>
+              En su interior puedes poner cualquier caracter, excepto
+              comillas y salto de línea.
+            </p>
+          </dd>
+        </dl>
+        <p>
+          La
+          <dfn>codificación</dfn>
+          de un texto es asignar a cada caracter del texto una combinación
+          de varios 1 y 0. La combinación se puede expresar como un número.
+        </p>
+        <p>
+          JavaScript usa la codificación UTF-16
+          <a href="https://unicode.org" target="_blank">Unicode</a>.
+        </p>
+        <p>
+          Para agregar un emoji desde Windows solo tienes que presiona la tecla
+          con el logotipo de Windows al mismpo tiempo que el punto
+          (<kbd><img style="vertical-align: middle;" src="img/winlogo.png"
+              alt="Logotipo de Windows">+.</kbd>).
+        </p>
+        <h2>Ejemplos</h2>
+        <ul>
+          <li><code class="language-javascript">"Hola pp"</code></li>
+          <li><code class="language-javascript">`gg-99`</code></li>
+          <li>
+            <code
+              class="language-javascript">'😁¡¡¡¡A sus órdenes jefecita!!!!'</code>
+          </li>
+        </ul>
+        <h2>Temas por Investigar</h2>
+        <ul>
+          <li>
+            <p>Secuencias de escape.</p>
+          </li>
+          <li>
+            <p>
+              Propiedades y métodos del tipo
+              <code class="language-javascript">string</code>.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script type="module" src="../js/title.js"></script>
+  </body>
+</html>

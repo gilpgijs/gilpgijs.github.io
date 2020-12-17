@@ -144,3 +144,11 @@ code.language-javascript {
   color: blue;
   font-size: 1.3em;
 }
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+}
