@@ -21,6 +21,7 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="13_plantillas.html">Plantillas de Texto</a></p></li>
         <li><p><a href="14_precedencia.html">Precedencia de Operadores</a></p></li>
         <li><p><a href="15_expresiones.html">Expresiones</a></p></li>
+        <li><p><a href="16_jsdoc.html">JSDoc</a></p></li>
       </ol>`;
   }
 });

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Saludo</title>
+  </head>
+  <body>
+    <form action="javascript:saluda();">
+      <h1>Saludo</h1>
+      <p>
+        <label>
+          Nombre
+          <input id="inNombre" type="text" required>
+        </label>
+      </p>
+      <p><button>Calcular</button></p>
+      <p><output id=outSaludo></output></p>
+    </form> <!-- Aquí termina la forma. -->
+    <footer>
+      <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
+    </footer>
+    <!--
+      El elemento script tiene el código JavaScript
+      de la página.
+    -->
+    <script>
+      /* Este código no se ejecuta al inicio; primero
+       * se ejecuta la instrucción
+       * saluda();
+       * y con ello se transfiere la ejecución al
+       * contenido de esta function. */
+      function saluda() {
+        const nombre = inNombre.value;
+        const saludo = `Hola ${nombre}.`;
+        outSaludo.value = saludo;
+      }
+    </script>
+  </body>
+</html>
