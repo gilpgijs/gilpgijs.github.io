@@ -6,4 +6,4 @@ console.log("a"); // Muestra un texto.
 a = 4; // El valor de a cambia a 4.
 console.log(a);
 b = a; // A b se le asigna el valor de a.
-console.log(b);
+console.log(b * 8); // 4 * 8 -> 32

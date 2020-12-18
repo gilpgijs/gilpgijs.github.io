@@ -152,3 +152,30 @@ figure {
 figure img {
   max-width: 100%;
 }
+
+table.borde {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.borde,
+table.borde td {
+  border: thin solid;
+  border-collapse: collapse;
+}
+
+table.borde th,
+table.borde td {
+  padding: 0.4rem;
+}
+
+table.borde,
+table.borde td {
+  border: thin solid;
+  border-collapse: collapse;
+}
+
+table.borde th,
+table.borde td {
+  padding: 0.4rem;
+}

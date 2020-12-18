@@ -1,10 +1,10 @@
 const TT = `bb`;
-const t = 2;
-/* Concatenación Ejemplo
+const T = 2;
+/* Muestra: Ejemplo
 de bb*/
 console.log(`Ejemplo
 de ${TT}`);
-/* Concatenación 168
+/* Muestra: 168
 de bb yy*/
-console.log(`${t * 8}8
+console.log(`${T * 8}8
 de ${TT} yy`);

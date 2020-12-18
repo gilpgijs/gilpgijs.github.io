@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../cmp/base.js"></script>
+    <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav"></mi-nav>
+      <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
+      <h1>Ejemplo de Análisis</h1>
+      <div class="marco-lectura">
+        <p>
+          Antes de empezar a programar, hay que organizar el trabajo, entender
+          el problema y plantear una solución.
+        </p>
+        <h2>Problema</h2>
+        <p>Hacer un programa que salude al usuario por su nombre.</p>
+        <h2>Análisis</h2>
+        <p>
+          El saludo se puede calcular a partir su nombre usando la expresión
+          <br>
+          <code class="language-javascript">saludo = `Hola ${nombre}.`</code>
+          <br>
+          El nombre no puede estar en blanco.
+        </p>
+        <h2>Datos a Solicitar</h2>
+        <ul>
+          <li>El nombre del usuario.</li>
+        </ul>
+        <h2>Datos a Mostrar</h2>
+        <ul>
+          <li>El saludo al usuario.</li>
+        </ul>
+        <h2>Escenarios</h2>
+        <dl>
+          <dt>nombre = "Pedro"</dt>
+          <dd>
+            <p>saludo = "Hola Pedro."</p>
+          </dd>
+          <dt>nombre = "Salma"</dt>
+          <dd>
+            <p>saludo = "Hola Salma."</p>
+          </dd>
+        </ul>
+      </div>
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script type="module" src="../js/title.js"></script>
+  </body>
+</html>
