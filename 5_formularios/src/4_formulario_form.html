@@ -15,8 +15,9 @@
         Cuando la forma se activa, se ejecuta el
         código de JavaScript
         saluda();
-        Con ello se ejecuta etiqueta <script> que aparece más
-        abajo y se llama "function saluda()". -->
+        Con ello se invoca la función saluda que está
+        en el elemento <script> que aparece más abajo.
+    -->
     <form action="javascript:saluda();">
       <h1>Saludo</h1>
       <p>
@@ -25,6 +26,7 @@
           <input id="inNombre" type="text" required>
         </label>
       </p>
+      <!-- Este button activa la forma. -->
       <p><button>Calcular</button></p>
       <p><output id=outSaludo></output></p>
     </form> <!-- Aquí termina la forma. -->
@@ -32,6 +34,8 @@
       <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
     </footer>
     <script>
+      /* Esta es la función que se invoca al activar
+       * la forma. */
       function saluda() {
         const nombre = inNombre.value;
         const saludo = `Hola ${nombre}.`;

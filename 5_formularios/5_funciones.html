@@ -13,20 +13,53 @@
     <layout-cajon>
       <mi-nav slot="nav"></mi-nav>
       <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
-      <h1>El Elemento <strong>style</strong></h1>
+      <h1>Funciones</h1>
       <div class="marco-lectura">
         <p>
-          El elemento
-          <dfn><code class="language-html">script</code></dfn>
-          define el contenido que se muestra.
+          Las
+          <dfn>funciones</dfn>
+          son secuencias de instrucciones que tienen asociado un nombre.
+        </p>
+        <p>El <dfn>nombre</dfn> de una función es un identificador.</p>
+        <p>
+          Una función no se ejecuta ella misma; debe usarse el nombre de la
+          función seguida de paréntesis para que se ejecute. Por ejemplo, si una
+          función se llama
+          <code class="language-javascript">saluda</code>,
+          para hacer que se ejecute hay que ejecutar la instrucción
+          <code class="language-javascript">saluda();</code>
         </p>
         <p>
-          Su especificación está en
-          <a href="https://html.spec.whatwg.org/multipage/sections.html#the-body-element"
-            target="_blank">https://html.spec.whatwg.org/multipage/sections.html#the-body-element</a>
+          A la instrucción que solicita la ejecución de una función, se le llama
+          <dfn>invocación de función</dfn>.
+        </p>
+        <p>
+          Antes de que una función se ejecute, se suspende lo que se estaba
+          haciendo haciendo y se marca el punto donde se invocó la función.
+          Posteriormente se ejecuta la función y al terminar, se regresa al
+          punto de invocación y se continúa con la siguiente instrucción.
+        </p>
+        <h2>Ejemplo</h2>
+      </div>
+      <div class="horizontal">
+        <muestra-codigo><div style="background-color: rgb(255, 255, 255); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;"><div><span style="color: #0000ff;">let</span>&nbsp;<span style="color: #001080;">nombre</span>&nbsp;=&nbsp;<span style="color: #a31515;">"pp"</span>;</div><div><span style="color: #795e26;">saluda</span>();&nbsp;<span style="color: #008000;">//&nbsp;invoca&nbsp;a&nbsp;function&nbsp;saluda().</span></div><div><span style="color: #008000;">/*&nbsp;Al&nbsp;terminar&nbsp;la&nbsp;primera&nbsp;invocación</span></div><div><span style="color: #008000;">&nbsp;*&nbsp;continúa&nbsp;aquí.&nbsp;*/</span></div><div><span style="color: #001080;">nombre</span>&nbsp;=&nbsp;<span style="color: #a31515;">"qk"</span>;</div><div><span style="color: #795e26;">saluda</span>();&nbsp;<span style="color: #008000;">//&nbsp;invoca&nbsp;a&nbsp;function&nbsp;saluda().</span></div><div><span style="color: #008000;">/*&nbsp;Al&nbsp;terminar&nbsp;la&nbsp;segunda&nbsp;invocación</span></div><div><span style="color: #008000;">&nbsp;*&nbsp;continúa&nbsp;aquí.&nbsp;*/</span></div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"adios"</span>);</div><div><span style="color: #008000;">/*&nbsp;Declaración&nbsp;de&nbsp;function&nbsp;saluda.</span></div><div><span style="color: #008000;">&nbsp;*&nbsp;Primero&nbsp;va&nbsp;la&nbsp;palabra&nbsp;function.</span></div><div><span style="color: #008000;">&nbsp;*&nbsp;Sigue&nbsp;el&nbsp;nombre.</span></div><div><span style="color: #008000;">&nbsp;*&nbsp;Siguen&nbsp;los&nbsp;paréntesis.</span></div><div><span style="color: #008000;">&nbsp;*&nbsp;Finalmente,&nbsp;entre&nbsp;llaves&nbsp;({}),&nbsp;van&nbsp;las</span></div><div><span style="color: #008000;">&nbsp;*&nbsp;instrucciones.&nbsp;*/</span></div><div><span style="color: #0000ff;">function</span>&nbsp;<span style="color: #795e26;">saluda</span>()&nbsp;{</div><div>&nbsp;&nbsp;<span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">`Hola&nbsp;</span><span style="color: #0000ff;">${</span><span style="color: #001080;">nombre</span><span style="color: #0000ff;">}</span><span style="color: #a31515;">.`</span>);</div><div>}</div></div></muestra-codigo>
+        <div>
+          <h3>Salida</h3>
+          <pre><samp>Hola pp.
+Hola qk.
+adios</pre>
+        </div>
+      </div>
+      <div class="marco-lectura">
+        <p>
+          <a href="http://www.pythontutor.com/javascript.html#code=let%20nombre%20%3D%20%22pp%22%3B%0Asaluda%28%29%3B%20//%20invoca%20a%20function%20saluda%28%29.%0A/*%20Al%20terminar%20la%20primera%20invocaci%C3%B3n%0A%20*%20contin%C3%BAa%20aqu%C3%AD.%20*/%0Anombre%20%3D%20%22qk%22%3B%0Asaluda%28%29%3B%20//%20invoca%20a%20function%20saluda%28%29.%0A/*%20Al%20terminar%20la%20segunda%20invocaci%C3%B3n%0A%20*%20contin%C3%BAa%20aqu%C3%AD.%20*/%0Aconsole.log%28%22adios%22%29%3B%0A/*%20Declaraci%C3%B3n%20de%20function%20saluda.%0A%20*%20Primero%20va%20la%20palabra%20function.%0A%20*%20Sigue%20el%20nombre.%0A%20*%20Siguen%20los%20par%C3%A9ntesis.%0A%20*%20Finalmente,%20entre%20llaves%20%28%7B%7D%29,%20van%20las%0A%20*%20instrucciones.%20*/%0Afunction%20saluda%28%29%20%7B%0A%20%20console.log%28%60Hola%20%24%7Bnombre%7D.%60%29%3B%0A%7D&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
+          target=_blank>Visualiza el código en Python Tutor.</a>
+        </p>
+        <p>
+          En JavaScript, las variables declarades en el mismo espacio que una
+          función, se pueden usar dentro de la función.
         </p>
       </div>
-      <muestra-codigo><div><div><span style="color: #800000;">&lt;!DOCTYPE</span>&nbsp;<span style="color: #ff0000;">html</span><span style="color: #800000;">&gt;</span></div><div><span style="color: #800000;">&lt;html</span>&nbsp;<span style="color: #ff0000;">lang</span>=<span style="color: #0000ff;">"es"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;head&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;meta</span>&nbsp;<span style="color: #ff0000;">charset</span>=<span style="color: #0000ff;">"UTF-8"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;meta</span>&nbsp;<span style="color: #ff0000;">name</span>=<span style="color: #0000ff;">"viewport"</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000;">content</span>=<span style="color: #0000ff;">"width=device-width,&nbsp;initial-scale=1.0"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;title&gt;</span>Hola&nbsp;Mundo<span style="color: #800000;">&lt;/title&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;/head&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #008000;">&lt;!--</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;El&nbsp;otro&nbsp;elemento&nbsp;hijo&nbsp;de&nbsp;html&nbsp;es&nbsp;body&nbsp;y&nbsp;define&nbsp;el</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;contenido&nbsp;que&nbsp;se&nbsp;muestra.</span></div><div><span style="color: #008000;">&nbsp;&nbsp;--&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;body&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;h1&gt;</span>Hola&nbsp;Mundo<span style="color: #800000;">&lt;/h1&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;</span>Hola&nbsp;mundo.<span style="color: #800000;">&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;</span>Este&nbsp;es&nbsp;mi&nbsp;primer&nbsp;ejemplo.<span style="color: #800000;">&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;footer&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;</span><span style="color: #0000ff;">&amp;copy;</span>&nbsp;2020&nbsp;Gilberto&nbsp;Pacheco&nbsp;Gallegos.<span style="color: #800000;">&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;/footer&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;/body&gt;</span><span style="color: #008000;">&lt;!--&nbsp;Fin&nbsp;del&nbsp;elemento&nbsp;body.&nbsp;--&gt;</span></div><div><span style="color: #800000;">&lt;/html&gt;</span></div></div></muestra-codigo>
       <mi-footer></mi-footer>
     </layout-cajon>
     <script type="module" src="../js/title.js"></script>

@@ -17,7 +17,7 @@
       </p>
       <p><button>Calcular</button></p>
       <p><output id=outSaludo></output></p>
-    </form> <!-- Aquí termina la forma. -->
+    </form>
     <footer>
       <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
     </footer>
@@ -26,16 +26,16 @@
       de la página.
     -->
     <script>
-      /* Este código no se ejecuta al inicio; primero
-       * se ejecuta la instrucción
+      /* Este código no se ejecuta al inicio; es
+       * necesario que se ejecute la instrucción
        * saluda();
-       * y con ello se transfiere la ejecución al
-       * contenido de esta function. */
+       * y con ello se transfiere la ejecución a
+       * esta function. */
       function saluda() {
         const nombre = inNombre.value;
         const saludo = `Hola ${nombre}.`;
         outSaludo.value = saludo;
       }
-    </script>
+    </script> <!-- Fin del script. -->
   </body>
 </html>
