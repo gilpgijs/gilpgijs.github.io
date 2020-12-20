@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../cmp/base.js"></script>
+    <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav"></mi-nav>
+      <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
+      <h1>El Elemento <strong>output</strong></h1>
+      <div class="marco-lectura">
+        <p>
+          Muestra el resultado de un cálculo.
+        </p>
+        <p>
+          La especificación del tipo de elemento está en
+          <a href="https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element"
+            target="_blank">https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element</a>
+        </p>
+      </div>
+      <div class="horizontal">
+        <muestra-codigo><div style="background-color: rgb(255, 255, 255); font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;"><div><span style="color: #800000;">&lt;!DOCTYPE</span>&nbsp;<span style="color: #ff0000;">html</span><span style="color: #800000;">&gt;</span></div><div><span style="color: #800000;">&lt;html</span>&nbsp;<span style="color: #ff0000;">lang</span>=<span style="color: #0000ff;">"es"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;head&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;meta</span>&nbsp;<span style="color: #ff0000;">charset</span>=<span style="color: #0000ff;">"UTF-8"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;meta</span>&nbsp;<span style="color: #ff0000;">name</span>=<span style="color: #0000ff;">"viewport"</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000;">content</span>=<span style="color: #0000ff;">"width=device-width,&nbsp;initial-scale=1.0"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;title&gt;</span>Saludo<span style="color: #800000;">&lt;/title&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;/head&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;body&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;form</span>&nbsp;<span style="color: #ff0000;">action</span>=<span style="color: #0000ff;">"javascript:saluda();"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;h1&gt;</span>Saludo<span style="color: #800000;">&lt;/h1&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;label&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nombre</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;input</span>&nbsp;<span style="color: #ff0000;">id</span>=<span style="color: #0000ff;">"inNombre"</span>&nbsp;<span style="color: #ff0000;">type</span>=<span style="color: #0000ff;">"text"</span>&nbsp;<span style="color: #ff0000;">required</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;/label&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;&lt;button&gt;</span>Calcular<span style="color: #800000;">&lt;/button&gt;&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">&lt;!--</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El&nbsp;elemento&nbsp;output&nbsp;muestra&nbsp;el&nbsp;resultado&nbsp;de&nbsp;un</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cálculo.</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;&lt;output</span>&nbsp;<span style="color: #ff0000;">id</span>=<span style="color: #0000ff;">outSaludo</span><span style="color: #800000;">&gt;&lt;/output&gt;&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;/form&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;footer&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;</span><span style="color: #0000ff;">&amp;copy;</span>&nbsp;2020&nbsp;Gilberto&nbsp;Pacheco&nbsp;Gallegos.<span style="color: #800000;">&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;/footer&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;script&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">function</span>&nbsp;<span style="color: #795e26;">saluda</span>()&nbsp;{</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">const</span>&nbsp;<span style="color: #0070c1;">nombre</span>&nbsp;=&nbsp;<span style="color: #001080;">inNombre</span>.<span style="color: #001080;">value</span>;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #0000ff;">const</span>&nbsp;<span style="color: #0070c1;">saludo</span>&nbsp;=&nbsp;<span style="color: #a31515;">`Hola&nbsp;</span><span style="color: #0000ff;">${</span><span style="color: #0070c1;">nombre</span><span style="color: #0000ff;">}</span><span style="color: #a31515;">.`</span>;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">/*&nbsp;outSaludo.value&nbsp;=&nbsp;saluda</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;muestra&nbsp;en&nbsp;el&nbsp;output&nbsp;con</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;id="outSaludo"</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;el&nbsp;valor&nbsp;de&nbsp;la&nbsp;constante&nbsp;"saludo".&nbsp;*/</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #001080;">outSaludo</span>.<span style="color: #001080;">value</span>&nbsp;=&nbsp;<span style="color: #0070c1;">saludo</span>;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;/script&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;/body&gt;</span></div><div><span style="color: #800000;">&lt;/html&gt;</span></div></div></muestra-codigo>
+        <div>
+          <h2>Salida.</h2>
+          <iframe src="src/1_formulario.html" height="250"></iframe>
+        </div>
+      </div>    
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script type="module" src="../js/title.js"></script>
+  </body>
+</html>

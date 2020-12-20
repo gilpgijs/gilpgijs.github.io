@@ -15,11 +15,12 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="7_form.html">El Elemento <strong>form</strong></a></p></li>
         <li><p><a href="8_input.html">El Elemento <strong>input</strong></a></p></li>
         <li><p><a href="9_label.html">El Elemento <strong>label</strong></a></p></li>
-        <li><p><a href="10_output.html">El Elemento <strong>output</strong></a></p></li>
-        <li><p><a href="11_ejecución.html">Ejecución</a></p></li>
-        <li><p><a href="12_depuracion.html">Depuración</a></p></li>
-        <li><p><a href="13_2_botones.html">Formulario con 2 botones</a></p></li>
-        <li><p><a href="14_encuesta.html">Encuesta</a></p></li>
+        <li><p><a href="10_button.html">El Elemento <strong>button</strong></a></p></li>
+        <li><p><a href="11_output.html">El Elemento <strong>output</strong></a></p></li>
+        <li><p><a href="12_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
+        <li><p><a href="13_2_botones.html">Formulario con 2 Botones</a></p></li>
+        <li><p><a href="14_juego.html">Juego con Botones</a></p></li>
+        <li><p><a href="15_encuesta.html">Encuesta</a></p></li>
       </ol>`;
   }
 });

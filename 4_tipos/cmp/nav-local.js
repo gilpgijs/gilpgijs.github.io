@@ -12,16 +12,19 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="4_recta.html">Recta Numérica</a></p></li>
         <li><p><a href="5_ops_num.html">Operadores Numéricos</a></p></li>
         <li><p><a href="6_ops_txt.html">Operadores de Texto</a></p></li>
-        <li><p><a href="7_identificadores.html">Identificadores</a></p></li>
-        <li><p><a href="8_variables.html">Variables</a></p></li>
-        <li><p><a href="9_constantes.html">Constantes</a></p></li>
-        <li><p><a href="10_duplicadas.html">Variables Duplicadas</a></p></li>
-        <li><p><a href="11_asignacion.html">Asignación</a></p></li>
-        <li><p><a href="12_incr_y_decr.html">Incremento y Decremento</a></p></li>
-        <li><p><a href="13_plantillas.html">Plantillas de Texto</a></p></li>
-        <li><p><a href="14_precedencia.html">Precedencia de Operadores</a></p></li>
-        <li><p><a href="15_expresiones.html">Expresiones</a></p></li>
-        <li><p><a href="16_jsdoc.html">JSDoc</a></p></li>
+        <li><p><a href="7_booleanos.html">Boleanos</a></p></li>
+        <li><p><a href="8_ops_bool.html">Operadoes Lógicos</a></p></li>
+        <li><p><a href="9_ops_rel.html">Operadoes Relacionales</a></p></li>
+        <li><p><a href="10_identificadores.html">Identificadores</a></p></li>
+        <li><p><a href="11_variables.html">Variables</a></p></li>
+        <li><p><a href="12_constantes.html">Constantes</a></p></li>
+        <li><p><a href="13_duplicadas.html">Variables Duplicadas</a></p></li>
+        <li><p><a href="14_asignacion.html">Asignación</a></p></li>
+        <li><p><a href="15_incr_y_decr.html">Incremento y Decremento</a></p></li>
+        <li><p><a href="16_plantillas.html">Plantillas de Texto</a></p></li>
+        <li><p><a href="17_precedencia.html">Precedencia de Operadores</a></p></li>
+        <li><p><a href="18_expresiones.html">Expresiones</a></p></li>
+        <li><p><a href="19_jsdoc.html">JSDoc</a></p></li>
       </ol>`;
   }
 });
