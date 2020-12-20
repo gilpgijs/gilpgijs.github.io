@@ -15,8 +15,7 @@ class MiNav extends HTMLElement {
         <li><a href="/4_tipos/">Tipos de Datos</a></li>
         <li><a href="/5_formularios/">Formularios</a></li>
         <li><a href="/6_condicionales.html">Condicionales</a></li>
-        <li><a href="/7_posicionamiento.html">Posicionamiento CSS3</a></li>
-        <li><a href="/8_ciclos.html">Ciclos</a></li>
+        <li><a href="/7_ciclos.html">Ciclos</a></li>
       </ul>`;
     // marcaActual(this);
   }
