@@ -13,8 +13,8 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="5_ops_num.html">Operadores Numéricos</a></p></li>
         <li><p><a href="6_ops_txt.html">Operadores de Texto</a></p></li>
         <li><p><a href="7_booleanos.html">Boleanos</a></p></li>
-        <li><p><a href="8_ops_bool.html">Operadoes Lógicos</a></p></li>
-        <li><p><a href="9_ops_rel.html">Operadoes Relacionales</a></p></li>
+        <li><p><a href="8_ops_bool.html">Operadores Lógicos</a></p></li>
+        <li><p><a href="9_ops_rel.html">Operadores Relacionales</a></p></li>
         <li><p><a href="10_identificadores.html">Identificadores</a></p></li>
         <li><p><a href="11_variables.html">Variables</a></p></li>
         <li><p><a href="12_constantes.html">Constantes</a></p></li>

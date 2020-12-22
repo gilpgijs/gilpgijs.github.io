@@ -15,8 +15,8 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="7_atributos.html">Atributos</a></p></li>
         <li><p><a href="8_con_contenido.html">Elementos con Contenido</a></p></li>
         <li><p><a href="9_sin_contenido.html">Elementos sin Contenido</a></p></li>
-        <li><p><a href="10_padres.html">Elementos padres</a></p></li>
-        <li><p><a href="11_hijos.html">Elementos hijos</a></p></li>
+        <li><p><a href="10_padres.html">Elementos Padres</a></p></li>
+        <li><p><a href="11_hijos.html">Elementos Hijos</a></p></li>
         <li><p><a href="12_html.html">El Elemento <strong>html</strong></a></p></li>
         <li><p><a href="13_head.html">El Elemento <strong>head</strong></a></p></li>
         <li><p><a href="14_codificacion.html">Codificación de Caracteres</a></p></li>

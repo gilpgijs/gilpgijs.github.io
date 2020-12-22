@@ -6,18 +6,27 @@ class MiNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
       `<h2>Contenido</h2>
-      <ul>
+      <ol>
         <li><a href="/index.html">Inicio</a></li>
-        <li><a href="/0_sw.html">Software a Instalar</a></li>
-        <li><a href="/1_html/">Introducción a HTML5</a></li>
-        <li><a href="/2_css/">Introducción a CSS3</a></li>
-        <li><a href="/3_js/">Introducción a JavaScript</a></li>
-        <li><a href="/4_tipos/">Tipos de Datos</a></li>
-        <li><a href="/5_formularios/">Formularios</a></li>
-        <li><a href="/6_condicionales.html">Condicionales</a></li>
-        <li><a href="/7_ciclos.html">Ciclos</a></li>
-      </ul>`;
-    // marcaActual(this);
+        <li><a href="/2_sw.html">Software a Instalar</a></li>
+        <li><a href="/3_html/">Introducción a HTML5</a></li>
+        <li><a href="/4_css/">Introducción a CSS3</a></li>
+        <li><a href="/5_js/">Introducción a JavaScript</a></li>
+        <li><a href="/6_adivinanza/">Adivinanza</a></li>
+        <li><a href="/7_encuesta/">Encuesta</a></li>
+        <li><a href="/8_formularios/">Formulario</a></li>
+        <li><a href="/9_mueve/">Mueve Figura</a></li>
+        <li><a href="/10_plurales/">Plurales</a></li>
+        <li><a href="/11_recomendaciones/">Recomendaciones</a></li>
+        <li><a href="/12_switch/">Recomendaciones con Switch</a></li>
+        <li><a href="/13_complejas/">Recomendaciones más Complejas</a></li>
+        <li><a href="/14_complejas_switch/">Recomendaciones más Complejas con Switch</a></li>
+        <li><a href="/15_recta/">Dibuja una Recta</a></li>
+        <li><a href="/16_ondulando/">Ondulando</a></li>
+        <li><a href="/17_valida/">Valida Datos</a></li>
+        <li><a href="/18_contadores/">Contadores</a></li>
+        <li><a href="/19_acumuladores/">Acumuladores</a></li>
+      </ol>`;
   }
 }
 
