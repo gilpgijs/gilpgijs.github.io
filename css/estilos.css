@@ -35,6 +35,14 @@
   scrollbar-color: var(--color-thumb) var(--color-scrollbar);
 }
 
+body {
+  visibility: hidden;
+}
+
+body.visible {
+  visibility: visible;
+}
+
 body::-webkit-scrollbar {
   width: var(--ancho-thumb);
   height: var(--ancho-thumb);
@@ -107,13 +115,11 @@ iframe {
 }
 
 .horizontal {
-  text-align: center;
-}
-
-.horizontal>* {
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: wrap;
+  gap: 1rem;
 }
 
 .columnas-4 {

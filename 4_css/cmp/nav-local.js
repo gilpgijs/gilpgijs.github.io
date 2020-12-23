@@ -20,6 +20,7 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="12_color.html">La Propiedad <strong>color</strong></a></p></li>
         <li><p><a href="13_background-color.html">La Propiedad <strong>background-color</strong></a></p></li>
         <li><p><a href="14_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
+        <li><p><a href="15_resumen.html">Resumen</a></p></li>
       </ol>`;
   }
 });
