@@ -114,12 +114,19 @@ iframe {
   text-align: justify;
 }
 
+/* No funciona bien con display:flex en pantallas pequeñas. */
 .horizontal {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-flow: wrap;
-  gap: 1rem;
+  text-align: center;
+}
+
+.horizontal>* {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+.horizontal>*:not(:first-child) {
+  margin-left: 1rem;
 }
 
 .columnas-4 {
