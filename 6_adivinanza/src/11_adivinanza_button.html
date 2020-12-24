@@ -7,38 +7,43 @@
     <title>Adivina</title>
     <style>
       img {
-        /* La altura es el 40% de la altura de la
-         * ventana. */
         max-height: 40vh;
       }
     </style>
   </head>
   <body>
+    <!--
+      Cuando un button type="submit" se activa, la
+      forma que lo contiene también se activa.
+    -->
     <form action=javascript:rana();>
       <h1>Adivina</h1>
       <p>¿Qúe animal es este?</p>
-      <!--
-        figure es un elemento de agrupamiento especial
-        para enmarcar imágenes.
-      -->
       <figure>
-        <!--
-        img
-          Elemento de fraseo para mostrar imágenes,
-          principalmente de los tipos gif, jpg y png.
-        src
-          URL de la imagen.
-        alt
-          Texto alterno que se muestra solo cuando no
-          se puede cargar la imagen.
-        -->
         <img
           src="https://media.giphy.com/media/JKNn9A98JBVlu/giphy.gif"
           alt="Imagen de un animal">
       </figure>
       <p>
-        <button>Una Rana</button>
-        <button formaction="javascript:oso();">Un Oso</button>
+      <!--
+        Este button activa la forma.
+        Muestra en su superficie el texto "Una Rana".
+        Por omisión type="submit".
+      -->
+      <button>Una Rana</button>
+      <!--
+        Este button también activa la forma.
+        Muestra en su superficie el texto "Un Oso".
+        Por omisión type="submit".
+
+        formaction="javascript:oso();"
+          En vez de usar el atributo action de la forma, ejecuta
+          el código de JavaScript
+          oso();
+          Con ello se invoca la función oso que está
+          en el elemento <script> que aparece más abajo.
+      -->
+      <button formaction="javascript:oso();">Un Oso</button>
       </p>
       <p><output id=outResultado></output></p>
     </form>
@@ -47,10 +52,10 @@
     </footer>
     <script>
       function rana() {
-        outResultado.value = "Claro que no es una rana.";
+        outResultado.value = "❌🐸 Claro que no es una rana.";
       }
       function oso() {
-        outResultado.value = "Claro que si es un oso.";
+        outResultado.value = "❤🐻 Claro que si es un oso.";
       }
     </script>
   </body>

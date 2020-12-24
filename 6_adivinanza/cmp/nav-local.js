@@ -17,15 +17,16 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="9_duplicadas.html">Variables Duplicadas</a></p></li>
         <li><p><a href="10_jsdoc.html">JsDoc</a></p></li>
         <li><p><a href="11_funciones.html">Funciones</a></p></li>
-        <li><p><a href="12_max-height.html">La propiedad <strong>max-height</strong></a></p></li>
-        <li><p><a href="13_script.html">El Elemento <strong>script</strong></a></p></li>
-        <li><p><a href="14_img.html">El Elemento <strong>img</strong></a></p></li>
-        <li><p><a href="15_figure.html">El Elemento <strong>figure</strong></a></p></li>
-        <li><p><a href="16_form.html">El Elemento <strong>form</strong></a></p></li>
-        <li><p><a href="17_button.html">El Elemento <strong>button</strong></a></p></li>
-        <li><p><a href="18_output.html">El Elemento <strong>output</strong></a></p></li>
-        <li><p><a href="19_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
-        <li><p><a href="20_resumen.html">Resumen</a></p></li>
+        <li><p><a href="12_tamanos.html">Tamaños y Distancias en CSS</a></p></li>
+        <li><p><a href="13_max-height.html">La propiedad <strong>max-height</strong></a></p></li>
+        <li><p><a href="14_script.html">El Elemento <strong>script</strong></a></p></li>
+        <li><p><a href="15_img.html">El Elemento <strong>img</strong></a></p></li>
+        <li><p><a href="16_figure.html">El Elemento <strong>figure</strong></a></p></li>
+        <li><p><a href="17_form.html">El Elemento <strong>form</strong></a></p></li>
+        <li><p><a href="18_button.html">El Elemento <strong>button</strong></a></p></li>
+        <li><p><a href="19_output.html">El Elemento <strong>output</strong></a></p></li>
+        <li><p><a href="20_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
+        <li><p><a href="21_resumen.html">Resumen</a></p></li>
       </ol>`;
   }
 });

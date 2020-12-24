@@ -7,8 +7,6 @@
     <title>Adivina</title>
     <style>
       img {
-        /* La altura es el 40% de la altura de la
-         * ventana. */
         max-height: 40vh;
       }
     </style>
@@ -17,10 +15,6 @@
     <form action=javascript:rana();>
       <h1>Adivina</h1>
       <p>¿Qúe animal es este?</p>
-      <!--
-        figure es un elemento de agrupamiento especial
-        para enmarcar imágenes.
-      -->
       <figure>
         <!--
         img
@@ -47,10 +41,10 @@
     </footer>
     <script>
       function rana() {
-        outResultado.value = "Claro que no es una rana.";
+        outResultado.value = "❌🐸 Claro que no es una rana.";
       }
       function oso() {
-        outResultado.value = "Claro que si es un oso.";
+        outResultado.value = "❤🐻 Claro que si es un oso.";
       }
     </script>
   </body>

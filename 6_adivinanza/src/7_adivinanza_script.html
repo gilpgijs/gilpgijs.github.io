@@ -7,8 +7,6 @@
     <title>Adivina</title>
     <style>
       img {
-        /* La altura es el 40% de la altura de la
-         * ventana. */
         max-height: 40vh;
       }
     </style>
@@ -17,21 +15,7 @@
     <form action=javascript:rana();>
       <h1>Adivina</h1>
       <p>¿Qúe animal es este?</p>
-      <!--
-        figure es un elemento de agrupamiento especial
-        para enmarcar imágenes.
-      -->
       <figure>
-        <!--
-        img
-          Elemento de fraseo para mostrar imágenes,
-          principalmente de los tipos gif, jpg y png.
-        src
-          URL de la imagen.
-        alt
-          Texto alterno que se muestra solo cuando no
-          se puede cargar la imagen.
-        -->
         <img
           src="https://media.giphy.com/media/JKNn9A98JBVlu/giphy.gif"
           alt="Imagen de un animal">
@@ -45,12 +29,26 @@
     <footer>
       <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
     </footer>
+    <!--
+      El elemento script tiene el código JavaScript
+      de la página.
+    -->
     <script>
-      function rana() {
-        outResultado.value = "Claro que no es una rana.";
+      /* Este código no se ejecuta al inicio; es
+       * necesario que se ejecute la instrucción
+       * rana();
+       * y con ello se transfiere la ejecución a
+       * esta function. */
+       function rana() {
+        outResultado.value = "❌🐸 Claro que no es una rana.";
       }
-      function oso() {
-        outResultado.value = "Claro que si es un oso.";
+      /* Este código tampoco se ejecuta al inicio; es
+       * necesario que se ejecute la instrucción
+       * oso();
+       * y con ello se transfiere la ejecución a
+       * esta function. */
+       function oso() {
+        outResultado.value = "❤🐻 Claro que si es un oso.";
       }
     </script>
   </body>
