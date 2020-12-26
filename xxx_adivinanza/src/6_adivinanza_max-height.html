@@ -7,25 +7,24 @@
     <title>Adivina</title>
     <style>
       img {
+        /* La altura es el 40% de la altura de la
+         * ventana. */
         max-height: 40vh;
       }
     </style>
   </head>
   <body>
-    <form action=javascript:rana();>
-      <h1>Adivina</h1>
-      <p>¿Qúe animal es este?</p>
-      <figure>
-        <img
-          src="https://media.giphy.com/media/JKNn9A98JBVlu/giphy.gif"
-          alt="Imagen de un animal">
-      </figure>
-      <p>
-        <button>Una Rana</button>
-        <button formaction="javascript:oso();">Un Oso</button>
-      </p>
-      <p><output id=outResultado></output></p>
-    </form>
+    <h1>Adivina</h1>
+    <p>¿Qúe animal es este?</p>
+    <figure>
+      <img alt="Imagen de un animal"
+        src="https://media.giphy.com/media/JKNn9A98JBVlu/giphy.gif">
+    </figure>
+    <p>
+      <button type="button" onclick="rana();">Una Rana</button>
+      <button type="button" onclick="oso();">Un Oso</button>
+    </p>
+    <p><output id=outResultado></output></p>
     <footer>
       <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
     </footer>

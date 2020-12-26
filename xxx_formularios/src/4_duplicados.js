@@ -1,4 +1,4 @@
-let a = 1;
+let a = "Q1";
 console.log(a);
-const a = 5;
+const a = "Q2";
 console.log(a);

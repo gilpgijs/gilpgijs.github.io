@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Fondo Aleatorio</title>
+  </head>
+  <body>
+    <h1>Fondo Aleatorio</h1>
+    <script>
+      const rBc = color();
+      const gBc = color();
+      const bBc = color();
+      document.body.style.backgroundColor = `rgb(${rBc}, ${gBc}, ${bBc})`;
+      function color() {
+        return 155 + Math.floor(Math.random() * 100);
+      }
+    </script>
+  </body>
+</html>
