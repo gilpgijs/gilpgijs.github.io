@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Fondo Slider</title>
+  </head>
+  <body>
+    <h1>Fondo Slider</h1>
+    <p>
+      <label>
+        Rojo
+        <input id="rojo" type="range" min="0" max="255" onchange="cambio()">
+      </label>
+    </p>
+    <p>
+      <label>
+        Verde
+        <input id="verde" type="range" min="0" max="255" onchange="cambio()">
+      </label>
+    </p>
+    <p>
+      <label>
+        Azul
+        <input id="azul" type="range" min="0" max="255" onchange="cambio()">
+      </label>
+    </p>
+    <script>
+      cambio();
+      function cambio() {
+        document.body.style.backgroundColor = `rgb(${rojo.valueAsNumber},
+          ${verde.valueAsNumber}, ${azul.valueAsNumber})`;
+      }
+    </script>
+  </body>
+</html>
