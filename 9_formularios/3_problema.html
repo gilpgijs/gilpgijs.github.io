@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="../cmp/base.js"></script>
+    <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
+  </head>
+  <body>
+    <layout-cajon>
+      <mi-nav slot="nav"></mi-nav>
+      <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
+      <h1>Definición del Problema</h1>
+      <div class="marco-lectura">
+        <p>Hacer un programa que salude al usuario por su nombre.</p>
+        <p>
+          Muchos programas realizan procesamiento de datos. Para ello
+          necesitamos identificar:
+        </p>
+        <dl>
+          <dt>Datos de Entrada</dt>
+          <dd>
+            <p>
+              Los datos que se solicitan al usuario y con los que trabaja el
+              programa.
+            </p>
+          </dd>
+          <dt>Datos de Salida</dt>
+          <dd>
+            <p>
+              Los datos que produce el programa y que generalmente se obtienen
+              a partir de los datos de entrada.
+            </p>
+          </dd>
+          <dt>Procesamiento</dt>
+          <dd>
+            <p>
+              Las transformaciones o cálculos que realiza el programa sobre los
+              datos de entrada para obtener los datos de salida.
+            </p>
+          </dd>
+        </dl>
+        <h2>Datos de Entrada</h2>
+        <p>Recibirá un nombre. </p>
+        <h2>Procesamiento</h2>
+        <p>
+          El saludo se formará concatenando el texto "Hola" con el nombre
+          introducido y con un punto (.) al final.
+        </p>
+        <h2>Datos de Salida</h2>
+        <p>Es saludo obtenido en el procesamiento.</p>
+        <h2>Escenarios</h2>
+        <dl>
+          <dt>nombre = "Pedro"</dt>
+          <dd>
+            <p>saludo = "Hola Pedro."</p>
+          </dd>
+          <dt>nombre = "Salma"</dt>
+          <dd>
+            <p>saludo = "Hola Salma."</p>
+          </dd>
+        </ul>
+      </div>
+      <mi-footer></mi-footer>
+    </layout-cajon>
+    <script type="module" src="../js/title.js"></script>
+  </body>
+</html>

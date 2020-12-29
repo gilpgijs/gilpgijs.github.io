@@ -12,9 +12,12 @@ class MiNav extends HTMLElement {
         <li><a href="/3_html/">Introducción a HTML5</a></li>
         <li><a href="/4_css/">Introducción a CSS3</a></li>
         <li><a href="/5_js/">Introducción a JavaScript</a></li>
-        <li><a href="/6_chismes/">Chismes</a></li>
+        <li><a href="/6_variables/">Variables</a></li>
+        <li><a href="/7_chismes/">Chismes</a></li>
+        <li><a href="/8_textos/">Textos</a></li>
+        <li><a href="/9_formularios/">Formulario</a></li>
+        <li><a href="/10_numeros/">Números</a></li>
         <li><a href="/7_encuesta/">Encuesta</a></li>
-        <li><a href="/8_formularios/">Formulario</a></li>
         <li><a href="/9_mueve/">Mueve Figura</a></li>
         <li><a href="/10_plurales/">Plurales</a></li>
         <li><a href="/11_recomendaciones/">Recomendaciones</a></li>
