@@ -1,2 +1,2 @@
 console.log("Hola", "pp");
-console.log("tt");
+console.log(7);

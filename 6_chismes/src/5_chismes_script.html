@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Chismes</title>
+  </head>
+  <body>
+    <h1>Chismes</h1>
+    <p>
+      <button onclick="chisme();">
+        Mostrar un Chisme
+      </button>
+    </p>
+    <p><output id="outResultado"></output></p>
+    <footer>
+      <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
+    </footer>
+    <!--
+      El elemento script tiene el código JavaScript
+      de la página.
+    -->
+    <script>
+      /* Esta función no se ejecuta al inicio; es
+       * necesario que se ejecute la instrucción
+       * saluda();
+       * y con ello se transfiere la ejecución a
+       * esta function. */
+       function chisme() {
+        outResultado.value =
+          "Se tatuó a su novia y lo cortaron.";
+      }
+    </script> <!-- Fin del script. -->
+  </body>
+</html>
