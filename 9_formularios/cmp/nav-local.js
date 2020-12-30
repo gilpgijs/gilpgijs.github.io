@@ -11,12 +11,10 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="3_problema.html">Definición del Problema</a></p></li>
         <li><p><a href="4_diseno.html">Diseño</a></p></li>
         <li><p><a href="5_codigo.html">Código</a></p></li>
-        <li><p><a href="6_form.html">El Elemento <strong>form</strong></a></p></li>
-        <li><p><a href="7_input.html">El Elemento <strong>input</strong></a></p></li>
-        <li><p><a href="8_label.html">El Elemento <strong>label</strong></a></p></li>
-        <li><p><a href="9_button.html">El Elemento <strong>button</strong></a></p></li>
-        <li><p><a href="10_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
-        <li><p><a href="11_resumen.html">Resumen</a></p></li>
+        <li><p><a href="6_input.html">El Elemento <strong>input</strong></a></p></li>
+        <li><p><a href="7_label.html">El Elemento <strong>label</strong></a></p></li>
+        <li><p><a href="8_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
+        <li><p><a href="9_resumen.html">Resumen</a></p></li>
       </ol>`;
   }
 });

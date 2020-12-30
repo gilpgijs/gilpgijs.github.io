@@ -7,29 +7,24 @@
     <title>Saludo</title>
   </head>
   <body>
-    <form action="javascript:saluda();">
-      <h1>Saludo</h1>
-      <p>
-        <label>
-          Nombre
-          <!--
-            Campo de captura de datos.
-            id="inNombre"
-              identificador del campo de captura. Se
-              puede usar desde el script más abajo. El
-              id no se puede repetir en la página.
-            type="text"
-              indica que captura un texto.
-            required
-              El campo no se puede dejar en blanco
-              cuando se active la forma.
-          -->
-          <input id="inNombre" type="text" required>
-        </label>
-      </p>
-      <p><button type="submit">Saludar</button></p>
-      <p><output id=outSaludo></output></p>
-    </form>
+    <h1>Saludo</h1>
+    <p>
+      <label>
+        Nombre
+        <!--
+          Campo de captura de datos.
+          id="inNombre"
+            identificador del campo de captura. Se
+            puede usar desde el script más abajo. El
+            id no se puede repetir en la página.
+        -->
+        <input id="inNombre">
+      </label>
+    </p>
+    <p>
+      <button onclick="saluda();">Saludar</button>
+    </p>
+    <p><output id=outSaludo></output></p>
     <footer>
       <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
     </footer>

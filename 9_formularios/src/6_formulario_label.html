@@ -7,26 +7,26 @@
     <title>Saludo</title>
   </head>
   <body>
-    <form action="javascript:saluda();">
-      <h1>Saludo</h1>
-      <p>
+    <h1>Saludo</h1>
+    <p>
+      <!--
+        Etiqueta para un control. 
+      -->
+      <label>
         <!--
-          Etiqueta para un control. 
+          Este es el texto del rótulo. Al hacer clic
+          en el rótulo, el control asociado recibe
+          el foco.
         -->
-        <label>
-          <!--
-            Este es el texto del rótulo. Al hacer clic
-            en el rótulo, el control asociado recibe
-            el foco.
-          -->
-          Nombre
-          <!-- Control asociado. -->
-          <input id="inNombre" type="text" required>
-        </label>
-      </p>
-      <p><button type="submit">Saludar</button></p>
-      <p><output id=outSaludo></output></p>
-    </form>
+        Nombre
+        <!-- Control asociado. -->
+        <input id="inNombre">
+      </label>
+    </p>
+    <p>
+      <button onclick="saluda();">Saludar</button>
+    </p>
+    <p><output id=outSaludo></output></p>
     <footer>
       <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
     </footer>
