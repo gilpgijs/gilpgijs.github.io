@@ -17,18 +17,20 @@ class MiNav extends HTMLElement {
         <li><a href="/8_textos/">Textos</a></li>
         <li><a href="/9_formularios/">Formulario</a></li>
         <li><a href="/10_numeros/">Números</a></li>
-        <li><a href="/7_encuesta/">Encuesta</a></li>
-        <li><a href="/9_mueve/">Mueve Figura</a></li>
-        <li><a href="/10_plurales/">Plurales</a></li>
-        <li><a href="/11_recomendaciones/">Recomendaciones</a></li>
-        <li><a href="/12_switch/">Recomendaciones con Switch</a></li>
-        <li><a href="/13_complejas/">Recomendaciones más Complejas</a></li>
-        <li><a href="/14_complejas_switch/">Recomendaciones más Complejas con Switch</a></li>
-        <li><a href="/15_recta/">Dibuja una Recta</a></li>
-        <li><a href="/16_ondulando/">Ondulando</a></li>
-        <li><a href="/17_valida/">Valida Datos</a></li>
-        <li><a href="/18_contadores/">Contadores</a></li>
-        <li><a href="/19_acumuladores/">Acumuladores</a></li>
+        <li><a href="/11_likes/">Likes</a></li>
+        <li><a href="/12_formulario_numerico/">Formulario Numérico</a></li>
+        <li><a href="/13_mueve/">Mueve Emojis</a></li>
+        <li><a href="/14_valida/">Valida Formulario</a></li>
+        <li><a href="/15_recomendaciones/">Recomendaciones</a></li>
+        <li><a href="/16_switch/">Recomendaciones con Switch</a></li>
+        <li><a href="/17_complejas/">Recomendaciones más Complejas</a></li>
+        <li><a href="/18_complejas_switch/">Recomendaciones más Complejas con Switch</a></li>
+        <li><a href="/19_recta/">Dibuja una Recta</a></li>
+        <li><a href="/20_ondulando/">Ondulando</a></li>
+        <li><a href="/21_girando/">Girando</a></li>
+        <li><a href="/22_valida/">Valida Datos</a></li>
+        <li><a href="/13_contadores/">Contadores</a></li>
+        <li><a href="/24_acumuladores/">Acumuladores</a></li>
       </ol>`;
   }
 }
