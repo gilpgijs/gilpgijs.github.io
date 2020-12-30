@@ -6,7 +6,7 @@ customElements.define("nav-local", class extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
       `<ol>
-        <li><p><a href="index.html">Tipos de Datos</a></p></li>
+        <li><p><a href="index.html">Textos</a></p></li>
         <li><p><a href="2_contenido.html">Contenido</a></p></li>
         <li><p><a href="3_ops_txt.html">Operadores de Texto</a></p></li>
         <li><p><a href="4_asignacion.html">Operadores de Asignación</a></p></li>

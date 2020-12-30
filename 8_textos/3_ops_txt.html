@@ -14,10 +14,29 @@
       <mi-nav slot="nav"></mi-nav>
       <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
       <h1>Operadores de Texto</h1>
-      <muestra-codigo><div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"ab"</span>&nbsp;+&nbsp;<span style="color: #a31515;">'$&nbsp;h'</span>);&nbsp;<span style="color: #008000;">//&nbsp;Concatenación&nbsp;ab$&nbsp;h</span></div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"gg"</span>&nbsp;+&nbsp;<span style="color: #098658;">2</span>);&nbsp;<span style="color: #008000;">//&nbsp;Concatenación&nbsp;gg2</span></div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #098658;">2</span>&nbsp;+&nbsp;<span style="color: #a31515;">"gg"</span>);&nbsp;<span style="color: #008000;">//&nbsp;Concatenación&nbsp;2gg</span></div></div></muestra-codigo>
       <div class="marco-lectura">
         <p>
-          <a href="http://www.pythontutor.com/javascript.html#code=console.log%28%22ab%22%20%2B%20'%24%20h'%29%3B%20//%20Concatenaci%C3%B3n%20ab%24%20h%0Aconsole.log%28%22gg%22%20%2B%202%29%3B%20//%20Concatenaci%C3%B3n%20gg2%0Aconsole.log%282%20%2B%20%22gg%22%29%3B%20//%20Concatenaci%C3%B3n%202gg&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
+          Cuando uno de los 2 operandos del operador
+          <code class="language-javascript">+</code>
+          es 
+          <code class="language-javascript">string</code>,
+          se realiza una
+          <dfn>concatenación</dfn>,
+          que consiste en convertir los 2 operandos en texto y juntarlos.
+        </p>
+      </div>
+      <div class="horizontal">
+        <muestra-codigo><div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"ab"</span>&nbsp;+&nbsp;<span style="color: #a31515;">'$&nbsp;h'</span>);&nbsp;<span style="color: #008000;">//&nbsp;Concatenación&nbsp;ab$&nbsp;h</span></div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"gg"</span>&nbsp;+&nbsp;<span style="color: #098658;">2</span>);&nbsp;<span style="color: #008000;">//&nbsp;Concatenación&nbsp;gg2</span></div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #0000ff;">true</span>&nbsp;+&nbsp;<span style="color: #a31515;">"gg"</span>);&nbsp;<span style="color: #008000;">//&nbsp;Concatenación&nbsp;truegg</span></div></div></muestra-codigo>
+        <div>
+          <h3>Salida</h3>
+          <pre><samp>ab$ h
+gg2
+truegg</samp></pre>
+        </div>
+      </div>
+      <div class="marco-lectura">
+        <p>
+          <a href="http://www.pythontutor.com/javascript.html#code=console.log%28%22ab%22%20%2B%20'%24%20h'%29%3B%20//%20Concatenaci%C3%B3n%20ab%24%20h%0Aconsole.log%28%22gg%22%20%2B%202%29%3B%20//%20Concatenaci%C3%B3n%20gg2%0Aconsole.log%28true%20%2B%20%22gg%22%29%3B%20//%20Concatenaci%C3%B3n%20truegg&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
           target=_blank>Visualiza el código en Python Tutor.</a>
         </p>
       </div>

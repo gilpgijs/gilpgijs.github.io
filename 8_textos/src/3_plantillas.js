@@ -4,7 +4,7 @@ const T = 2;
 de bb*/
 console.log(`Ejemplo
 de ${TT}`);
-/* Muestra: 168
+/* Muestra: 288
 de bb yy*/
-console.log(`${T * 8}8
+console.log(`${T + "8"}8
 de ${TT} yy`);
