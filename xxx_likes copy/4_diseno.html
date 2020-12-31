@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="../cmp/base.js"></script>
     <script type="module" src="./cmp/ctrl-diapositiva.js"></script>
+    <script type="module" src="../lib/muestra-codigo.js"></script>
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../lib/ctrl-diapositiva.css">
   </head>
@@ -12,12 +13,28 @@
     <layout-cajon>
       <mi-nav slot="nav"></mi-nav>
       <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
-      <h1 class="presentación">Likes</h1>
+      <h1>Diseño</h1>
       <div class="marco-lectura">
         <p>
-          En esta presentación se muestra como contar los likes y dislikes de
-          una imagen.
+          Se usará una página que presente un gif animado con un oso y 2
+          botones:
         </p>
+        <dl>
+          <dt>Un botón con el texto <q>Una Rana</q></dt>
+          <dd>
+            <p>
+              Al Hacer clic en el botón, el programa muestra el texto
+              "❌🐸 Claro que no es una rana.".
+            </p>
+          </dd>
+          <dt>Un botón con el texto <q>Un Oso</q></dt>
+          <dd>
+            <p>
+              Al Hacer clic en el botón, el programa muestra el texto
+              "❤🐻 Claro que si es un oso.".
+            </p>
+          </dd>
+        </dl>
       </div>
       <mi-footer></mi-footer>
     </layout-cajon>

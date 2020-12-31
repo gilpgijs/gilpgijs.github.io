@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Mueve</title>
+    <style>
+      .movible {
+        position: fixed;
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mueve</h1>
+    <p>
+      <button type="button" onclick="retrocede();">◀</button>
+      <button type="button" onclick="avanza();">▶</button>
+    </p>
+    <span id="carita" class="movible">😄</span>
+    <script>
+      const VELOCIDAD = 10;
+      let x = 0;
+      function avanza() {
+        x += VELOCIDAD;
+        actualizaDibujo();
+      }
+      function retrocede() {
+        x -= VELOCIDAD;
+        actualizaDibujo();
+      }
+      function actualizaDibujo() {
+        carita.style = `left: ${x}px`;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>¿Te gusta?</title>
+  </head>
+  <body>
+    <h1>¿Te gusta?</h1>
+    <figure>
+      <img alt="Imagen de un animal"
+        src="https://media.giphy.com/media/JKNn9A98JBVlu/giphy.gif">
+      <figcaption>Mi animal favorito.</figcaption>
+    </figure>
+    <p>
+      <button type="button" onclick="like();">
+        👍
+        <output id="totalLikes">0</output>
+      </button>
+      <button type="button" onclick="dislike();">
+        👎
+        <output id="totalDislikes">0</output>
+      </button>
+    </p>
+    <footer>
+      <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
+    </footer>
+    <script>
+      let likes = 0;
+      let dislikes = 0;
+      function like() {
+        likes++;
+        // Mostrar el concepto de literal de objeto, atributos y operaciones.
+        totalLikes.value = likes;
+      }
+      function dislike() {
+        dislikes++;
+        totalDislikes.value = dislikes;
+      }
+    </script>
+  </body>
+</html>
