@@ -6,6 +6,8 @@
 @import "./material-icons.css";
 
 :root {
+  --intro-duracion: 2s;
+  --intro-funcion: ease-out;
   --color-fondo-divisor: white;
   --color-fondo-divisor-seleccionado: grey;
   --ancho-nav: 200px;
@@ -164,6 +166,14 @@ figure {
 
 figure img {
   max-width: 100%;
+}
+
+.resaltado {
+  background-color: rgb(255, 255, 89);
+}
+
+.resaltado2 {
+  background-color: rgb(255, 214, 139);
 }
 
 table.borde {

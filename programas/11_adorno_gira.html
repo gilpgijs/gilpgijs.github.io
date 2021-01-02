@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Adorno con Giro</title>
+    <style>
+      .movible {
+        position: fixed;
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Adorno con Giro</h1>
+    <footer>
+      <p>&copy; 2020 Gilberto Pacheco Gallegos</p>
+    </footer>
+    <script>
+      const INCREMENTO = 0.3;
+      const ÁNGULO_FINAL = 4 * Math.PI;
+      const X_BASE = window.innerWidth / 2;
+      const Y_BASE = window.innerHeight / 2;
+      const amplitud = Math.min(window.innerHeight,
+        window.innerWidth) /
+        (3 * ÁNGULO_FINAL);
+      let inner = "";
+      for (let ángulo = 0; ángulo < ÁNGULO_FINAL;
+        ángulo += INCREMENTO) {
+        const r = amplitud * ángulo;
+        const x = X_BASE + r * Math.sin(ángulo);
+        const y = Y_BASE + r * Math.cos(ángulo);
+        inner += /* html */
+          `<div class="movible"
+              style="bottom: ${y}px; left: ${x}px;">
+            ⌛
+          </div>`;
+      }
+      document.body.innerHTML += inner;
+    </script>
+  </body>
+</html>

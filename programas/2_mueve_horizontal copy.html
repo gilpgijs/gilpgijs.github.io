@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Mueve Horizontal</title>
+    <style>
+      .movible {
+        position: fixed;
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mueve Horizontal</h1>
+    <footer>
+      <p>&copy; 2020 Gilberto Pacheco Gallegos</p>
+    </footer>
+    <output id="carita" class="movible">😄</output>
+    <script>
+      const REFRESCO = 5;
+      const VELOCIDAD = 0.5;
+      let x = 0;
+      setInterval(avanza, REFRESCO);
+      function avanza() {
+        const y = window.innerHeight / 2;
+        const xMáxima = window.innerWidth;
+        carita.style = `left: ${x}px; bottom: ${y}px`;
+        x = (x + VELOCIDAD) % xMáxima;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Mueve Aleatorio</title>
+    <style>
+      .movible {
+        position: fixed;
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mueve Aleatorio</h1>
+    <footer>
+      <p>&copy; 2020 Gilberto Pacheco Gallegos</p>
+    </footer>
+    <output id="carita" class="movible">😄</output>
+    <script>
+      const REFRESCO = 5;
+      const RUIDO = 4;
+      let velocidad = 1;
+      let x = window.innerWidth / 2;
+      setInterval(avanza, REFRESCO);
+      function avanza() {
+        const y = window.innerHeight / 2;
+        const xMáxima = window.innerWidth;
+        carita.style = `left: ${x}px; bottom: ${y}px`;
+        x += velocidad + aleatorio();
+        if (x < 0) {
+          x = 0;
+          velocidad = -velocidad;
+        } else if (x > xMáxima) {
+          x = xMáxima;
+          velocidad = -velocidad;
+        }
+      }
+      function aleatorio() {
+        return Math.random() > 0.5 ? RUIDO : -RUIDO;
+      }
+    </script>
+  </body>
+</html>
