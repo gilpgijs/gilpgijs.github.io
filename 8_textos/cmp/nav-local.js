@@ -11,7 +11,10 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="3_ops_txt.html">Operadores de Texto</a></p></li>
         <li><p><a href="4_asignacion.html">Operadores de Asignación</a></p></li>
         <li><p><a href="5_plantillas.html">Plantillas de Texto</a></p></li>
-        <li><p><a href="6_resumen.html">Resumen</a></p></li>
+        <li><p><a href="6_igualdad.html">Operadores de Igualdad</a></p></li>
+        <li><p><a href="7_orden.html">Operadores de Orden</a></p></li>
+        <li><p><a href="8_orden_igualdad.html">Operadores Combinados de Orden e Igualdad</a></p></li>
+        <li><p><a href="9_resumen.html">Resumen</a></p></li>
       </ol>`;
   }
 });

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
       content="width=device-width, initial-scale=1.0">
-    <title>Mueve Recta</title>
+    <title>Animación Horizontal</title>
     <style>
       .movible {
         position: fixed;
@@ -13,26 +13,21 @@
     </style>
   </head>
   <body>
-    <h1>Mueve Recta</h1>
+    <h1>Animación Horizontal</h1>
     <footer>
       <p>&copy; 2020 Gilberto Pacheco Gallegos</p>
     </footer>
     <output id="carita" class="movible">😄</output>
     <script>
-      const X_INICIAL = 0;
       const REFRESCO = 5;
       const VELOCIDAD = 0.5;
-      let x = X_INICIAL;
+      let x = 0;
       setInterval(avanza, REFRESCO);
       function avanza() {
-        const xFinal = window.innerWidth;
-        const yInicial = window.innerHeight / 2;
-        const yFinal = window.innerHeight;
-        y = ((yFinal - yInicial) /
-          (xFinal - X_INICIAL)) * (x - X_INICIAL) +
-          yInicial;
+        const y = window.innerHeight / 2;
+        const xMáxima = window.innerWidth;
         carita.style = `left: ${x}px; bottom: ${y}px`;
-        x = (x + VELOCIDAD) % xFinal;
+        x = (x + VELOCIDAD) % xMáxima;
       }
     </script>
   </body>

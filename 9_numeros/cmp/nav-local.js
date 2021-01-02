@@ -12,7 +12,10 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="4_ops_num.html">Operadores Numéricos</a></p></li>
         <li><p><a href="5_asignacion.html">Asignación</a></p></li>
         <li><p><a href="6_incr_y_decr.html">Incremento y Decremento</a></p></li>
-        <li><p><a href="7_resumen.html">Resumen</a></p></li>
+        <li><p><a href="7_igualdad.html">Operadores de Igualdad</a></p></li>
+        <li><p><a href="8_orden.html">Operadores de Orden</a></p></li>
+        <li><p><a href="9_orden_igualdad.html">Operadores Combinados de Orden e Igualdad</a></p></li>
+        <li><p><a href="10_resumen.html">Resumen</a></p></li>
       </ol>`;
   }
 });
