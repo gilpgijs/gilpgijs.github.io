@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Mueve con Botones</title>
+    <style>
+      .movible {
+        position: fixed;
+        font-size: 3rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mueve con Botones</h1>
+    <p>
+      <button type="button" onclick="retrocede();">◀</button>
+      <button type="button" onclick="avanza();">▶</button>
+    </p>
+    <footer>
+      <p>&copy; 2020 Gilberto Pacheco Gallegos</p>
+    </footer>
+    <output id="carita" class="movible">😄</output>
+    <script>
+      let yBase;
+      let xMenor;
+      let xMayor;
+      let x = window.innerWidth / 5;
+      const VELOCIDAD = 30;
+      actualiza();
+      function retrocede() {
+        actualiza();
+        if (x > xMenor) {
+          x -= VELOCIDAD;
+        }
+      }
+      function avanza() {
+        actualiza();
+        if (x < xMayor) {
+          x += VELOCIDAD;
+        }
+      }
+      function actualiza() {
+        yBase = window.innerHeight / 2;
+        xMenor = window.innerWidth / 5;
+        xMayor = 4 * window.innerWidth / 5;
+        carita.style =
+          `left: ${x}px; bottom: ${yBase}px`;
+      }
+    </script>
+  </body>
+</html>

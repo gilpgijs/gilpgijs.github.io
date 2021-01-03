@@ -6,24 +6,51 @@
       content="width=device-width, initial-scale=1.0">
     <title>Sprite</title>
     <style>
+      /* El selector ".movible" identifica a todos los
+       * elementos cuyo atributo "class" contenga la
+       * palabra "movible" */
       .movible {
+        /* La posición del elemento en la ventana se
+         * especifica directamente con las propiedades
+         *   left (lado izquierdo del elemento)
+         *   right (lado derecho del elemento)
+         *   top (lado superior del elemento)
+         *   bottom (lado inferior del elemento) */
         position: fixed;
+        /* El tamaño del font es de 3 veces el tamaño
+         * de letra para el elemento raíz (en este
+         * caso html). */
         font-size: 3rem;
       }
     </style>
   </head>
   <body>
     <h1>Sprite</h1>
-    <output style="left: 100px; bottom: 150px"
-      class="movible">
-      😄
-    </output>
     <p>
-      Este ejemplo te muestra usar una figura que se
-      pueda colocar en cualquier lugar.
+      Este ejemplo te muestra como colocar una figura
+      en cualquier lugar de la ventana.
     </p>
     <footer>
       <p>&copy; 2021 Gilberto Pacheco Gallegos</p>
     </footer>
+    <!--
+      class="movible"
+        Aplican las reglas de estilo que tengan el
+        selector ".movible".
+      style="left: 100px; bottom: 150px"
+        El atributo "style" permite definir
+        propiedades de estilo que apliquen solo al
+        elemento.
+      left: 100px;
+        El lado izquierdo del elemento está a 100px de
+        la orilla izquierda de la ventana.
+      bottom: 150px
+        El lado de abajo del elemento está a 150px de
+        la orilla inferior de la ventana.
+    -->
+    <output style="left: 100px; bottom: 150px"
+      class="movible">
+      😄
+    </output>
   </body>
 </html>
