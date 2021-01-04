@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones</title>
+  </head>
+  <body>
+    <h1>Recomendaciones</h1>
+    <p>
+      <!--
+        El tipo de elemento "label" representa un
+        rótulo o etiqueta asociado a un elemento de
+        captura de datos.
+
+        El contenido del elemento es el texto del
+        rótulo.
+      -->
+      <label>
+        <!--
+          Este es el texto del rótulo. Al hacer clic
+          en este, se transfiere el teclado al
+          elemento de captura de datos.
+        -->
+        Género
+        <!--
+          El "select" es un tipo de elemento de
+          captura de datos que permite seleccionar
+          entre un conjunto de opciones.
+        -->
+        <select id=inGénero>
+          <!--
+            El tipo de elemento "option" representa
+            una opción de loe elementos de tipo
+            "select".
+
+            El contenido del elemento es el texto que
+            se muestra para la opción. En este caso es
+            "-- Selecciona --""
+            
+            value=""
+              Si se selecciona esta opción, el
+              atributo "value" del elemento tipo
+              "select" vale "".
+          -->
+          <option value="">-- Selecciona --</option>
+          <!--
+            Para esta opción el texto que se muestra
+            es "Balada" y cuando se selecciona esta
+            opción, el atributo value del elemento
+            tipo "select" vale "balada".
+          -->
+          <option value="balada">Balada</option>
+          <option value="cumbia">Cumbia</option>
+          <option value="reggaeton">Reggaeton</option>
+          <option value="mariachi">Mariachi</option>
+        </select>
+      </label>
+    </p>
+    <p>
+      <button onclick="recomienda();">
+        Recomendar
+      </button>
+    </p>
+    <p><output id="outRecomendación"></output></p>
+    <footer>
+      <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
+    </footer>
+    <script>
+      function recomienda() {
+        const género = inGénero.value;
+        let recomendación;
+        if (género === "") {
+          recomendación =
+            "Te falta seleccionar un género";
+        } else if (género === "balada" ||
+          género === "mariachi") {
+          recomendación = "Juan Gabriel";
+        } else if (género === "cumbia") {
+          recomendación = "Selena";
+        } else {
+          recomendación = "De ese género no conozco.";
+        }
+        outRecomendación.value = recomendación;
+      }
+    </script>
+  </body>
+</html>

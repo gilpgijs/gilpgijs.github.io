@@ -29,7 +29,6 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="21_cierran_p.html">Elementos que Cierran <strong>p</strong></a></p></li>
         <li><p><a href="22_footer.html">El Elemento <strong>footer</strong></a></p></li>
         <li><p><a href="23_referencias.html">Referencias de Caracteres</a></p></li>
-        <li><p><a href="24_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
         <li><p><a href="25_resumen.html">Resumen</a></p></li>
       </ol>`;
   }

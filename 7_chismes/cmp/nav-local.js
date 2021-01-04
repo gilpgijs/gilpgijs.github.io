@@ -17,7 +17,6 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="9_output.html">El Elemento <strong>output</strong></a></p></li>
         <li><p><a href="10_id.html">El Atributo <strong>id</strong></a></p></li>
         <li><p><a href="11_value.html">El Atributo <strong>value</strong></a></p></li>
-        <li><p><a href="12_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
         <li><p><a href="13_resumen.html">Resumen</a></p></li>
       </ol>`;
   }

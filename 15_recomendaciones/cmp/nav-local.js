@@ -8,9 +8,10 @@ customElements.define("nav-local", class extends HTMLElement {
       `<ol>
         <li><p><a href="index.html">Recomendaciones</a></p></li>
         <li><p><a href="2_contenido.html">Contenido</a></p></li>
-        <li><p><a href="3_funciones_funciones.html">Funciones que Invocan Funciones</a></p></li>
-        <li><p><a href="4_if.html">if</a></p></li>
-        <li><p><a href="5_codigo.html">Código</a></p></li>
+        <li><p><a href="3_multiple_else.html">Condicional Múltiple con Else</a></p></li>
+        <li><p><a href="4_problema.html">Planteamiento del Problema</a></p></li>
+        <li><p><a href="5_diseno.html">Diseño</a></p></li>
+        <li><p><a href="6_codigo.html">Código</a></p></li>
       </ol>`;
   }
 });

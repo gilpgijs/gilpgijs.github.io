@@ -22,7 +22,7 @@ class MiNav extends HTMLElement {
         <li><a href="/13_sonrie/">Haz Algo cuando Choques</a></li>
         <li><a href="/14_mueve_aleatorio/">Que se Mueva como Quiera</a></li>
         <li><a href="/15_recomendaciones/">Recomendaciones</a></li>
-        <li><a href="/16_switch/">Switch</a></li>
+        <li><a href="/16_switch/">La estructura switch</a></li>
         <li><a href="/17_recta/">Dibuja una Recta</a></li>
         <li><a href="/18_girando/">Dibuja Girando</a></li>
         <li><a href="/19_elige_giros/">Elige Cantidad de Giros</a></li>

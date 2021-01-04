@@ -13,23 +13,19 @@
     <layout-cajon>
       <mi-nav slot="nav"></mi-nav>
       <ctrl-diapositiva slot="toolbar"></ctrl-diapositiva>
-      <h1>Funciones que Invocan Funciones</h1>
+      <h1>Funciones con Parámetros</h1>
       <div class="horizontal">
-        <muestra-codigo><div><div><span style="color: #0000ff;">function</span>&nbsp;<span style="color: #795e26;">c1</span>()&nbsp;{</div><div>&nbsp;&nbsp;<span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"c1-1"</span>);</div><div>&nbsp;&nbsp;<span style="color: #795e26;">c2</span>();</div><div>&nbsp;&nbsp;<span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"c1-2"</span>);</div><div>}</div><div><span style="color: #0000ff;">function</span>&nbsp;<span style="color: #795e26;">c2</span>()&nbsp;{</div><div>&nbsp;&nbsp;<span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"c2"</span>);</div><div>}</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"global-1"</span>);</div><div><span style="color: #795e26;">c2</span>();</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"global-2"</span>);</div><div><span style="color: #795e26;">c1</span>();</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"global-3"</span>);</div></div></muestra-codigo>
+        <muestra-codigo><div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"m1"</span>);</div><div><span style="color: #795e26;">fn</span>(<span style="color: #098658;">3</span>,&nbsp;-<span style="color: #098658;">2</span>);</div><div><span style="color: #0000ff;">function</span>&nbsp;<span style="color: #795e26;">fn</span>(<span style="color: #001080;">a</span>,&nbsp;<span style="color: #001080;">b</span>)&nbsp;{</div><div>&nbsp;&nbsp;<span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #001080;">a</span>&nbsp;+&nbsp;<span style="color: #001080;">b</span>);</div><div>}</div><div><span style="color: #001080;">console</span>.<span style="color: #795e26;">log</span>(<span style="color: #a31515;">"3"</span>);</div></div></muestra-codigo>
         <div>
           <h3>Salida</h3>
-          <pre><samp>global-1
-c2
-global-2
-c1-1
-c2
-c1-2
-global-3</samp></pre>
+          <pre><samp>m1
+1
+3</samp></pre>
         </div>
       </div>
       <div class="marco-lectura">
         <p>
-          <a href="http://www.pythontutor.com/javascript.html#code=function%20c1%28%29%20%7B%0A%20%20console.log%28%22c1-1%22%29%3B%0A%20%20c2%28%29%3B%0A%20%20console.log%28%22c1-2%22%29%3B%0A%7D%0Afunction%20c2%28%29%20%7B%0A%20%20console.log%28%22c2%22%29%3B%0A%7D%0Aconsole.log%28%22global-1%22%29%3B%0Ac2%28%29%3B%0Aconsole.log%28%22global-2%22%29%3B%0Ac1%28%29%3B%0Aconsole.log%28%22global-3%22%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
+          <a href="http://www.pythontutor.com/javascript.html#code=console.log%28%22m1%22%29%3B%0Afn%283,%20-2%29%3B%0Afunction%20fn%28a,%20b%29%20%7B%0A%20%20console.log%28a%20%2B%20b%29%3B%0A%7D%0Aconsole.log%28%223%22%29%3B&curInstr=0&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
             target=_blank>Visualiza el código en Python Tutor.</a>
         </p>
       </div>

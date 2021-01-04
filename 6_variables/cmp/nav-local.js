@@ -10,7 +10,6 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="2_contenido.html">Contenido</a></p></li>
         <li><p><a href="3_identificadores.html">Identificadores</a></p></li>
         <li><p><a href="4_variables.html">Variables</a></p></li>
-        <li><p><a href="5_ejecutar.html">Crear, Ejecutar y Depurar</a></p></li>
         <li><p><a href="6_constantes.html">Constantes</a></p></li>
         <li><p><a href="7_duplicadas.html">Variables Duplicadas</a></p></li>
         <li><p><a href="8_jsdoc.html">JsDoc</a></p></li>
