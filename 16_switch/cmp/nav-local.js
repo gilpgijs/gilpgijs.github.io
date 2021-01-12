@@ -9,8 +9,8 @@ customElements.define("nav-local", class extends HTMLElement {
         <li><p><a href="index.html">La estructura switch</a></p></li>
         <li><p><a href="2_contenido.html">Contenido</a></p></li>
         <li><p><a href="3_switch.html">switch</a></p></li>
-        <li><p><a href="4_switch_default.html">switch con default</a></p></li>
         <li><p><a href="5_codigo.html">Recomendaciones con switch</a></p></li>
+        <li><p><a href="4_switch_default.html">switch con default</a></p></li>
         <li><p><a href="6_codigo_switch.html">Recomendaciones con switch y default</a></p></li>
       </ol>`;
   }
