@@ -279,11 +279,9 @@ const ARCHIVOS = [
 
 self.addEventListener("install", evt => {
   console.log("Service Worker instalado.");
-  // Realiza la instalación: carga los archivos requeridos en la caché.
   evt.waitUntil(cargaCache());
 });
 
-// Toma de la caché archivos solicitados. Si no están en caché, se descargan.
 self.addEventListener("fetch", evt => {
   if (evt.request.method === "GET") {
     evt.respondWith(usaCache(evt));
