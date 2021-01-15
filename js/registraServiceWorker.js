@@ -1,3 +1,5 @@
+import { muestraError } from "../lib/utilHtml.js";
+
 registraServiceWorker();
 async function registraServiceWorker() {
   try {
@@ -7,8 +9,4 @@ async function registraServiceWorker() {
   } catch (e) {
     muestraError(e);
   }
-}
-function muestraError(e) {
-  console.log(e);
-  alert(e.message);
 }
