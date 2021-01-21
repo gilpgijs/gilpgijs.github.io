@@ -14,5 +14,5 @@ console.log("adios");
  * Finalmente, entre llaves ({}), van las
  * instrucciones. */
 function saluda() {
-  console.log(`Hola ${nombre}.`);
+  console.log(nombre);
 }
