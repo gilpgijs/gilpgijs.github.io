@@ -4,7 +4,7 @@
 
 @import "./mi-footer.css";
 @import "./material-icons.css";
-
+@import "./xahn-mono.css";
 :root {
   --intro-duracion: 2s;
   --intro-funcion: ease-out;

@@ -3,37 +3,53 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
+      content="width=device-width,
+       initial-scale=1.0">
     <title>Chismes</title>
   </head>
   <body>
     <h1>Chismes</h1>
     <p>
       <!--
-        Este button muestra en su superficie el texto
+        Este button muestra en su
+        superficie el texto de su
+        contenido, que es
           "Mostrar un Chisme".
         onclick="chisme();"
-          Al hacer clic en el botón, se ejecuta la
+          Al hacer clic en el
+          botón, se ejecuta la
           instrucción
             chisme();
-          Con ello, se invoca la función chisme()
-          definida en el elemento script más abajo.
+          Con ello, se invoca la
+            function chisme()
+          definida en el elemento
+          tipo script de abajo.
       -->
       <button onclick="chisme();">
         Mostrar un Chisme
       </button>
     </p>
-    <p><output id="outResultado"></output></p>
+    <p>
+      <output id="outResultado">
+      </output>
+    </p>
     <footer>
-      <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
+      <p>
+        &copy; 2020
+        Gilberto Pacheco Gallegos.
+      </p>
     </footer>
     <script>
-      /* Esta function se ejecuta al hacer clic en el
-       * button que aparece arriba. */
+      /* Esta function se ejecuta
+       * al hacer clic en el
+       * button de arriba. */
       function chisme() {
         outResultado.value =
           "Se tatuó a su novia y lo cortaron.";
-      } // Al teminar de ejecutarse regresa a onclick.
+        /* Al teminar de
+         * ejecutarse regresa a
+         * onclick. */
+      } 
     </script>
   </body>
 </html>
