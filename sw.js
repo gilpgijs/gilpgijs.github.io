@@ -1,6 +1,6 @@
 /* Espera 11 minutos después de hacer los cambios en tu sitio, para depués
  * actualizar este archivo. */
-const CACHE = "gilpgijs-1.14";
+const CACHE = "gilpgijs-1.16";
 
 /**  Archivos requeridos para que la aplicación funcione fuera de línea. */
 const ARCHIVOS = [
@@ -253,13 +253,37 @@ const ARCHIVOS = [
   "cmp/mi-footer.js",
   "cmp/mi-nav.js",
   "css/estilos.css",
+  "css/gentium-book-basic-v11-latin-700.woff",
+  "css/gentium-book-basic-v11-latin-700.woff2",
+  "css/gentium-book-basic-v11-latin-700italic.woff",
+  "css/gentium-book-basic-v11-latin-700italic.woff2",
+  "css/gentium-book-basic-v11-latin-italic.woff",
+  "css/gentium-book-basic-v11-latin-italic.woff2",
+  "css/gentium-book-basic-v11-latin-regular.woff",
+  "css/gentium-book-basic-v11-latin-regular.woff2",
+  "css/gentium-book-basic.css",
   "css/material-icons.css",
   "css/MaterialIcons-Regular.codepoints",
   "css/MaterialIcons-Regular.ttf",
   "css/mi-footer.css",
-  "css/xahn-mono.css",
-  "css/xanh-mono-v4-latin-regular.woff",
-  "css/xanh-mono-v4-latin-regular.woff2",
+  "css/ubuntu-mono-v10-latin-700.woff",
+  "css/ubuntu-mono-v10-latin-700.woff2",
+  "css/ubuntu-mono-v10-latin-700italic.woff",
+  "css/ubuntu-mono-v10-latin-700italic.woff2",
+  "css/ubuntu-mono-v10-latin-italic.woff",
+  "css/ubuntu-mono-v10-latin-italic.woff2",
+  "css/ubuntu-mono-v10-latin-regular.woff",
+  "css/ubuntu-mono-v10-latin-regular.woff2",
+  "css/ubuntu-mono.css",
+  "css/ubuntu-v15-latin-700.woff",
+  "css/ubuntu-v15-latin-700.woff2",
+  "css/ubuntu-v15-latin-700italic.woff",
+  "css/ubuntu-v15-latin-700italic.woff2",
+  "css/ubuntu-v15-latin-italic.woff",
+  "css/ubuntu-v15-latin-italic.woff2",
+  "css/ubuntu-v15-latin-regular.woff",
+  "css/ubuntu-v15-latin-regular.woff2",
+  "css/ubuntu.css",
   "img/icono256.png",
   "img/icono1024.png",
   "img/icono2048.png",
