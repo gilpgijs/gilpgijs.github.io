@@ -1,3 +1,4 @@
+// @ts-nocheck
 /* Espera 11 minutos después de hacer los cambios en tu sitio, para depués
  * actualizar este archivo. */
 const CACHE = "gilpgijs-1.18";
