@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
+      content="width=device-width,
+       initial-scale=1.0">
     <title>Ondula</title>
     <style>
       .movible {
@@ -15,23 +16,35 @@
   <body>
     <h1>Ondula</h1>
     <footer>
-      <p>&copy; 2020 Gilberto Pacheco Gallegos</p>
+      <p>
+        &copy; 2020
+        Gilberto Pacheco Gallegos.
+      </p>
     </footer>
-    <output id="carita" class="movible">😄</output>
+    <output id="carita"
+      class="movible">
+      😄
+    </output>
     <script>
       const REFRESCO = 5;
       const VELOCIDAD = 0.5;
       const FRECUENCIA = 0.03;
       let x = 0;
-      setInterval(avanza, REFRESCO);
+      setInterval(
+        avanza, REFRESCO);
       function avanza() {
-        const xMáxima = window.innerWidth;
-        const amplitud = window.innerHeight / 3;
-        const yBase = window.innerHeight / 2;
+        const xMáxima =
+          window.innerWidth;
+        const amplitud =
+          window.innerHeight / 3;
+        const yBase =
+          window.innerHeight / 2;
         y = yBase +
           amplitud * Math.sin(FRECUENCIA * x);
-        carita.style = `left: ${x}px; bottom: ${y}px`;
-        x = (x + VELOCIDAD) % xMáxima;
+        carita.style =
+          `left: ${x}px; bottom: ${y}px`;
+        x =
+          (x + VELOCIDAD) % xMáxima;
       }
     </script>
   </body>

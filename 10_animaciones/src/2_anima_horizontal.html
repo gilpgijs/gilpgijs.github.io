@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
-    <title>Animación Horizontal</title>
+      content="width=device-width,
+       initial-scale=1.0">
+    <title>
+      Animación Horizontal
+    </title>
     <style>
       .movible {
         position: fixed;
@@ -15,9 +18,15 @@
   <body>
     <h1>Animación Horizontal</h1>
     <footer>
-      <p>&copy; 2020 Gilberto Pacheco Gallegos</p>
+      <p>
+        &copy; 2020
+        Gilberto Pacheco Gallegos.
+      </p>
     </footer>
-    <output id="carita" class="movible">😄</output>
+    <output id="carita"
+      class="movible">
+      😄
+    </output>
     <script>
       const REFRESCO = 5;
       const VELOCIDAD = 0.5;
@@ -25,9 +34,12 @@
       setInterval(avanza, REFRESCO);
       function avanza() {
         const y = window.innerHeight / 2;
-        const xMáxima = window.innerWidth;
-        carita.style = `left: ${x}px; bottom: ${y}px`;
-        x = (x + VELOCIDAD) % xMáxima;
+        const xMáxima =
+          window.innerWidth;
+        carita.style =
+          `left: ${x}px; bottom: ${y}px`;
+        x =
+          (x + VELOCIDAD) % xMáxima;
       }
     </script>
   </body>

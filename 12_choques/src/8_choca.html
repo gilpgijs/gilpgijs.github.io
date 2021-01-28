@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-      content="width=device-width, initial-scale=1.0">
+      content="width=device-width,
+       initial-scale=1.0">
     <title>Choca</title>
     <style>
       .movible {
@@ -15,13 +16,18 @@
   <body>
     <h1>Choca</h1>
     <footer>
-      <p>&copy; 2020 Gilberto Pacheco Gallegos</p>
+      <p>
+        &copy; 2020
+        Gilberto Pacheco Gallegos.
+      </p>
     </footer>
-    <output id="abrazo" class="movible"
+    <output id="abrazo"
+      class="movible"
       style="background-color: greenyellow;">
       🤗
     </output>
-    <output id="triste" class="movible"
+    <output id="triste"
+      class="movible"
       style="background-color: grey;">
       😪
     </output>
@@ -30,9 +36,12 @@
       const REFRESCO = 5;
       setInterval(avanza, REFRESCO);
       function avanza() {
-        const velocidad = window.innerWidth / 2000;
-        const x2 = window.innerWidth;
-        const y = window.innerHeight / 2;
+        const velocidad =
+          window.innerWidth / 2000;
+        const x2 =
+          window.innerWidth;
+        const y =
+          window.innerHeight / 2;
         triste.style.left =
           `${window.innerWidth / 2}px`;
         triste.style.bottom =
@@ -43,14 +52,18 @@
           x = (x + velocidad) % x2;
         }
       }
-      /** Devuelve true si 2 elementos se tocan.
-       * @param {HTMLElement} e1 un elemento
-       * @param {HTMLElement} e2 otro elemento
-       * @returns {boolean} true - si los elementos se
+      /** Devuelve true si 2
+       * elementos se tocan.
+       * @param {HTMLElement} e1
+       * @param {HTMLElement} e2
+       * @returns {boolean} true
+       *  si los elementos se
        *  tocan. */
       function seTocan(e1, e2) {
-        const rE1 = e1.getBoundingClientRect();
-        const rE2 = e2.getBoundingClientRect();
+        const rE1 =
+          e1.getBoundingClientRect();
+        const rE2 =
+          e2.getBoundingClientRect();
         return (rE1.right >= rE2.left &&
           rE1.left <= rE2.right &&
           rE1.top <= rE2.bottom &&
