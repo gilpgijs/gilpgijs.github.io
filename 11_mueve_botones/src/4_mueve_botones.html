@@ -29,22 +29,27 @@
       let x = window.innerWidth / 5;
       const VELOCIDAD = 30;
       actualiza();
+      dibuja();
       function retrocede() {
         actualiza();
         if (x > xMenor) {
           x -= VELOCIDAD;
         }
+        dibuja();
       }
       function avanza() {
         actualiza();
         if (x < xMayor) {
           x += VELOCIDAD;
         }
+        dibuja();
       }
       function actualiza() {
         yBase = window.innerHeight / 2;
         xMenor = window.innerWidth / 5;
         xMayor = 4 * window.innerWidth / 5;
+      }
+      function dibuja() {
         carita.style =
           `left: ${x}px; bottom: ${yBase}px`;
       }
