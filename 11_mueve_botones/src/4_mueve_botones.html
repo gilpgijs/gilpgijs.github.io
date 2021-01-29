@@ -9,7 +9,7 @@
       Mueve con Botones
     </title>
     <style>
-      .movible {
+      .sprite {
         position: fixed;
         font-size: 3rem;
       }
@@ -32,17 +32,16 @@
       </p>
     </footer>
     <output id="carita"
-      class="movible">
+      class="sprite">
       😄
     </output>
     <script>
       let yBase;
       let xMenor;
       let xMayor;
-      let x =
-        window.innerWidth / 5;
       const VELOCIDAD = 30;
       actualiza();
+      let x = xMenor;
       dibuja();
       function retrocede() {
         actualiza();

@@ -6,7 +6,7 @@
       content="width=device-width, initial-scale=1.0">
     <title>Adorno con Giro</title>
     <style>
-      .movible {
+      .sprite {
         position: fixed;
       }
     </style>
@@ -31,7 +31,7 @@
         const x = X_BASE + r * Math.cos(ángulo);
         const y = Y_BASE + r * Math.sin(ángulo);
         inner += /* html */
-          `<div class="movible"
+          `<div class="sprite"
               style="bottom: ${y}px; left: ${x}px;">
             ⌛
           </div>`;
