@@ -3,58 +3,83 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-      content="width=device-width, initial-scale=1">
-    <title>Recomendaciones con switch</title>
+      content="width=device-width,
+       initial-scale=1">
+    <title>
+      Recomendaciones con switch
+    </title>
   </head>
   <body>
-    <h1>Recomendaciones con switch</h1>
+    <h1>
+      Recomendaciones con switch
+    </h1>
     <p>
       <label>
         Género
         <select id=inGénero>
-          <option value="">-- Selecciona --</option>
-          <option value="cumbia">Cumbia</option>
-          <option value="reggeaton">Reggeaton</option>
-          <option value="mariachi">Mariachi</option>
-          <option value="pop">Pop</option>
-          <option value="balada">Balada</option>
+          <option value="">
+            -- Selecciona --
+          </option>
+          <option value="cumbia">
+            Cumbia
+          </option>
+          <option
+            value="mariachi">
+            Mariachi
+          </option>
+          <option value="pop">
+            Pop
+          </option>
+          <option value="balada">
+            Balada
+          </option>
         </select>
       </label>
     </p>
     <p>
-      <button onclick="recomienda();">
+      <button
+        onclick="recomienda();">
         Recomendar
       </button>
     </p>
-    <p><output id="outRecomendación"></output></p>
+    <p>
+      <output
+        id="outRecomendación">
+      </output>
+    </p>
     <footer>
-      <p>&copy; 2020 Gilberto Pacheco Gallegos.</p>
+      <p>
+        &copy; 2020
+        Gilberto Pacheco Gallegos.
+      </p>
     </footer>
     <script>
       function recomienda() {
-        const género = inGénero.value;
+        const género =
+          inGénero.value;
         let recomendación = "";
         switch (género) {
           case "":
             recomendación +=
-              "Te falta seleccionar un género";
+              `Falta seleccionar
+               un género`;
             break;
           case "pop":
-            recomendación += "¡Belinda!";
+            recomendación +=
+              "¡Belinda!";
           case "balada":
           case "mariachi":
-            recomendación += "¡Juan Gabriel!";
+            recomendación +=
+              "¡Juan Gabriel!";
             break;
           case "cumbia":
-            recomendación += "¡Selena!";
-            break;
-          case "reggeaton":
-            recomendación += "¡Bad Bunny!";
+            recomendación +=
+              "¡Selena!";
             break;
         }
-        outRecomendación.value = recomendación;
+        outRecomendación.value =
+          recomendación;
       }
     </script>
-    </div>
   </body>
 </html>
