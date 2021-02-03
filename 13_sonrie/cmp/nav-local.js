@@ -8,7 +8,7 @@ customElements.define("nav-local", class extends HTMLElement {
       `<ol>
         <li><p><a href="index.html">Haz Algo cuando Choques</a></p></li>
         <li><p><a href="2_contenido.html">Contenido</a></p></li>
-        <li><p><a href="3_multiple.html">Condicional Múltiple</a></p></li>
+        <li><p><a href="3_if_else.html">if-else</a></p></li>
         <li><p><a href="4_codigo.html">Código</a></p></li>
       </ol>`;
   }
