@@ -28,13 +28,11 @@
     <script>
       const REFRESCO = 5;
       const RUIDO = 4;
-      let x =
-        window.innerWidth / 2;
+      let velocidad = 0.5;
+      let x = 0;
       setInterval(
         avanza, REFRESCO);
       function avanza() {
-        let velocidad =
-          window.innerWidth / 2000;
         const y =
           window.innerHeight / 2;
         const xMáxima =
