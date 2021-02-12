@@ -38,7 +38,8 @@
           <dd>
             <p>
               Una expresión del tipo
-              <code class="language-css"><var>nombre</var>: <em>valor</em></code>
+              <code
+                class="language-css"><var>nombre</var>: <em>valor</em></code>
             </p>
           </dd>
           <dt><dfn>lista de declaraciones de propiedades</dfn></dt>
@@ -66,7 +67,127 @@
             target="_blank">https://www.w3.org/TR/css-syntax-3/#style-rule</a>
         </p>
       </div>
-      <muestra-codigo><div><div><span style="color: #800000;">&lt;!DOCTYPE</span>&nbsp;<span style="color: #ff0000;">html</span><span style="color: #800000;">&gt;</span></div><div><span style="color: #800000;">&lt;html</span>&nbsp;<span style="color: #ff0000;">lang</span>=<span style="color: #0000ff;">"es"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;head&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;meta</span>&nbsp;<span style="color: #ff0000;">charset</span>=<span style="color: #0000ff;">"UTF-8"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;meta</span>&nbsp;<span style="color: #ff0000;">name</span>=<span style="color: #0000ff;">"viewport"</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000;">content</span>=<span style="color: #0000ff;">"width=device-width,&nbsp;initial-scale=1.0"</span><span style="color: #800000;">&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;title&gt;</span>Hola&nbsp;Mundo<span style="color: #800000;">&lt;/title&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;style&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">/*&nbsp;Esta&nbsp;es&nbsp;una&nbsp;regla.</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;El&nbsp;selector&nbsp;es&nbsp;body.</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Sus&nbsp;propiedades&nbsp;están&nbsp;dentro&nbsp;de&nbsp;las&nbsp;llaves.&nbsp;*/</span></div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">body</span>&nbsp;{</div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000;">color</span>:&nbsp;<span style="color: #0451a5;">white</span>;</div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000;">background-color</span>:&nbsp;<span style="color: #795e26;">rgb</span>(<span style="color: #098658;">0</span>,&nbsp;<span style="color: #098658;">0</span>,&nbsp;<span style="color: #098658;">255</span>);</div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000;">font-family</span>:&nbsp;<span style="color: #0451a5;">serif</span>;</div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span style="color: #008000;">/*&nbsp;Aquí&nbsp;termina&nbsp;la&nbsp;primera&nbsp;regla.&nbsp;*/</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #008000;">/*&nbsp;Esta&nbsp;es&nbsp;otra&nbsp;regla.</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;El&nbsp;selector&nbsp;es&nbsp;h1.</span></div><div><span style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Sus&nbsp;propiedades&nbsp;están&nbsp;dentro&nbsp;de&nbsp;las&nbsp;llaves.&nbsp;*/</span></div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">h1</span>&nbsp;{</div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000;">color</span>:&nbsp;<span style="color: #0451a5;">#ffff00</span>;</div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #ff0000;">font-family</span>:&nbsp;<span style="color: #0451a5;">sans-serif</span>;</div><div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;<span style="color: #008000;">/*&nbsp;Aquí&nbsp;termina&nbsp;la&nbsp;segunda&nbsp;regla.&nbsp;*/</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;/style&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;/head&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;body&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;h1&gt;</span>Hola&nbsp;Mundo<span style="color: #800000;">&lt;/h1&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;</span>Hola&nbsp;mundo.<span style="color: #800000;">&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;</span>Este&nbsp;es&nbsp;mi&nbsp;primer&nbsp;ejemplo.<span style="color: #800000;">&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;footer&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;p&gt;</span><span style="color: #0000ff;">&amp;copy;</span>&nbsp;2020&nbsp;Gilberto&nbsp;Pacheco&nbsp;Gallegos.<span style="color: #800000;">&lt;/p&gt;</span></div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #800000;">&lt;/footer&gt;</span></div><div>&nbsp;&nbsp;<span style="color: #800000;">&lt;/body&gt;</span></div><div><span style="color: #800000;">&lt;/html&gt;</span></div></div></muestra-codigo>
+      <muestra-codigo>
+        <div>
+          <div><span style="color: #800000;">&lt;!DOCTYPE</span>&nbsp;<span
+              style="color: #ff0000;">html</span><span
+              style="color: #800000;">&gt;</span></div>
+          <div><span style="color: #800000;">&lt;html</span>&nbsp;<span
+              style="color: #ff0000;">lang</span>=<span
+              style="color: #0000ff;">"es"</span><span
+              style="color: #800000;">&gt;</span></div>
+          <div>&nbsp;&nbsp;<span style="color: #800000;">&lt;head&gt;</span>
+          </div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;meta</span>&nbsp;<span
+              style="color: #ff0000;">charset</span>=<span
+              style="color: #0000ff;">"UTF-8"</span><span
+              style="color: #800000;">&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;meta</span>&nbsp;<span
+              style="color: #ff0000;">name</span>=<span
+              style="color: #0000ff;">"viewport"</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #ff0000;">content</span>=<span
+              style="color: #0000ff;">"width=device-width,</span></div>
+          <div><span
+              style="color: #0000ff;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;initial-scale=1.0"</span><span
+              style="color: #800000;">&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;title&gt;</span>Hola&nbsp;Mundo<span
+              style="color: #800000;">&lt;/title&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;style&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #008000;">/*&nbsp;Esta&nbsp;es&nbsp;una&nbsp;regla.</span>
+          </div>
+          <div><span
+              style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;El&nbsp;selector&nbsp;es&nbsp;body.</span>
+          </div>
+          <div><span
+              style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Sus&nbsp;propiedades&nbsp;están</span>
+          </div>
+          <div><span
+              style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;dentro&nbsp;de&nbsp;las&nbsp;llaves.&nbsp;*/</span>
+          </div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">body</span>&nbsp;{</div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #ff0000;">color</span>:&nbsp;<span
+              style="color: #0451a5;">white</span>;</div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #ff0000;">background-color</span>:</div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #795e26;">rgb</span>(<span
+              style="color: #098658;">0</span>,&nbsp;<span
+              style="color: #098658;">0</span>,&nbsp;<span
+              style="color: #098658;">255</span>);</div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #ff0000;">font-family</span>:&nbsp;<span
+              style="color: #0451a5;">serif</span>;</div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<span
+              style="color: #008000;">/*&nbsp;Fin&nbsp;de&nbsp;la&nbsp;1a&nbsp;regla.&nbsp;*/</span>
+          </div><br>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #008000;">/*&nbsp;Esta&nbsp;es&nbsp;otra&nbsp;regla.</span>
+          </div>
+          <div><span
+              style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;El&nbsp;selector&nbsp;es&nbsp;h1.</span>
+          </div>
+          <div><span
+              style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;Sus&nbsp;propiedades&nbsp;están</span>
+          </div>
+          <div><span
+              style="color: #008000;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;dentro&nbsp;de&nbsp;las&nbsp;llaves.&nbsp;*/</span>
+          </div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">h1</span>&nbsp;{</div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #ff0000;">color</span>:&nbsp;<span
+              style="color: #0451a5;">#ffff00</span>;</div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #ff0000;">font-family</span>:&nbsp;<span
+              style="color: #0451a5;">sans-serif</span>;</div>
+          <div class="resaltado">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<span
+              style="color: #008000;">/*&nbsp;Fin&nbsp;de&nbsp;la&nbsp;2a&nbsp;regla.&nbsp;*/</span>
+          </div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;/style&gt;</span></div>
+          <div>&nbsp;&nbsp;<span style="color: #800000;">&lt;/head&gt;</span>
+          </div>
+          <div>&nbsp;&nbsp;<span style="color: #800000;">&lt;body&gt;</span>
+          </div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;h1&gt;</span>Hola&nbsp;Mundo<span
+              style="color: #800000;">&lt;/h1&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;p&gt;</span>Hola&nbsp;mundo.<span
+              style="color: #800000;">&lt;/p&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;p&gt;</span></div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este&nbsp;es&nbsp;mi&nbsp;primer&nbsp;ejemplo.
+          </div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;/p&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;footer&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;p&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #0000ff;">&amp;copy;</span>&nbsp;2020</div>
+          <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gilberto&nbsp;Pacheco&nbsp;Gallegos.
+          </div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;/p&gt;</span></div>
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;<span
+              style="color: #800000;">&lt;/footer&gt;</span></div>
+          <div>&nbsp;&nbsp;<span style="color: #800000;">&lt;/body&gt;</span>
+          </div>
+          <div><span style="color: #800000;">&lt;/html&gt;</span></div>
+        </div>
+      </muestra-codigo>
       <mi-footer></mi-footer>
     </layout-cajon>
     <script type="module" src="../js/title.js"></script>
