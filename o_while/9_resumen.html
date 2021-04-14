@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>Resumen</h1>
+    <div class="marco-lectura">
+      <ul>
+        <li>
+          <p>
+            La <dfn>estructura de control while</dfn> consta de:
+          </p>
+          <ol>
+            <li>
+              <p>
+                La palabra reservada <code
+                  class="language-javascript">while</code>.
+              </p>
+            </li>
+            <li>
+              <p>Una condición.</p>
+            </li>
+            <li>
+              <p>Un bloque de instrucciones.</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <p>Para ejecutar, se siguen estos pasos:</p>
+          <ol>
+            <li>
+              <p>Se evalúa la condición.</p>
+            </li>
+            <li>
+              <p>
+                Si la condición evalúa a <code
+                  class="lang-javascript">false</code>,
+                se termina la ejecución del ciclo y continúa con las
+                instrucciones
+                que aparecen después de la estructura; si la condición evalúa a
+                <code class="lang-javascript">true</code>, continúa con el
+                siguiente
+                paso.
+              </p>
+            </li>
+            <li>
+              <p>Se elecuta el bloque de instrucciones.</p>
+            </li>
+            <li>
+              <p>Regresa al paso 1 y vuelve a ejecutar los pasos.</p>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <p>
+            Mientras la condición evalúa a
+            <code class="language-javascript">true</code>,
+            la estructura de control sigue repitiendo el bloque de
+            instrucciones.
+          </p>
+        </li>
+        <li>
+          <p>
+            Cuando la condición evalúa a
+            <code class="language-javascript">false</code>,
+            se termina el ciclo.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>

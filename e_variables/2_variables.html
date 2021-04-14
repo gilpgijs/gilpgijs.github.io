@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <script type="module" src="/js/config.js"></script>
+  <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <h1>Variables</h1>
+    <div class="marco-lectura">
+      <p>
+        Una <dfn>variable</dfn> es un lugar en donde se puede almacenar un dato;
+        dicho dato puede cambiar durante la ejecución de un programa.
+      </p>
+      <p>
+        Se declaran con
+        <code class="language-javascript" style="color: #0000ff;">let</code>
+        o con
+        <code class="language-javascript" style="color: #0000ff;">var</code>,
+        aunque se recomienda usar
+        <code class="language-javascript" style="color: #0000ff;">let</code>.
+      </p>
+      <p>
+        Tienen asociado un <dfn>nombre</dfn>, que tiene la estructura de un
+        identificador y normalmente empieza con minúscula.
+      </p>
+      <p>
+        Tienen asociado un <dfn>valor</dfn>, que es un dato, el cual puede
+        cambiar durante la ejecución del programa.
+      </p>
+      <p>
+        El <dfn>operador de asignación</dfn>
+        (<code class="language-javascript" style="color: #0000ff;">=</code>)
+        sirve para cambiar el valor de una variable, perdiendo el valor
+        anterior. El operando del lado izquierdo siempre debe ser una variable.
+      </p>
+      <p>
+        Cuando el nombre de una variable no aparece a la izquierda del
+        operador de asignación, se usa su valor.
+      </p>
+      <h2>Ejemplo</h2>
+    </div>
+    <div class="horizontal">
+      <muestra-codigo>
+        <div>
+          <div><span style="color: #0000ff;">let</span>&nbsp;<span
+              style="color: #001080;">a</span>&nbsp;=&nbsp;<span
+              style="color: #a31515;">"hola"</span>;</div>
+          <div><span style="color: #0000ff;">let</span>&nbsp;<span
+              style="color: #001080;">b</span>&nbsp;=&nbsp;<span
+              style="color: #a31515;">"adios"</span>;</div>
+          <div><span style="color: #001080;">console</span>.<span
+              style="color: #795e26;">log</span>(<span
+              style="color: #001080;">a</span>);</div>
+          <div><span style="color: #001080;">console</span>.<span
+              style="color: #795e26;">log</span>(<span
+              style="color: #001080;">b</span>);</div>
+          <div><span style="color: #001080;">console</span>.<span
+              style="color: #795e26;">log</span>(<span
+              style="color: #a31515;">"a"</span>);</div>
+          <div><span style="color: #001080;">a</span>&nbsp;=&nbsp;<span
+              style="color: #a31515;">"gg"</span>;</div>
+          <div><span style="color: #001080;">console</span>.<span
+              style="color: #795e26;">log</span>(<span
+              style="color: #001080;">a</span>);</div>
+          <div><span style="color: #001080;">b</span>&nbsp;=&nbsp;<span
+              style="color: #001080;">a</span>;</div>
+          <div><span style="color: #001080;">console</span>.<span
+              style="color: #795e26;">log</span>(<span
+              style="color: #001080;">b</span>);</div>
+        </div>
+      </muestra-codigo>
+      <div>
+        <h3>Salida</h3>
+        <pre><samp>hola
+adios
+a
+gg
+gg</samp></pre>
+      </div>
+    </div>
+    <div class="marco-lectura">
+      <p>
+        En la próxima presentación se explica con detalle la ejecución de este
+        programa.
+      </p>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>

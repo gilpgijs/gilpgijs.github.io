@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="/js/config.js"></script>
+  <link rel="icon" sizes="32x32" href="/favicon.ico">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <script type="module" src="/lib/muestra-codigo.js"></script>
+</head>
+<body>
+  <layout-cajon>
+    <mi-nav slot="nav"></mi-nav>
+    <ctrl-diapositiva></ctrl-diapositiva>
+    <h1>Expresiones</h1>
+    <div class="marco-lectura">
+      <p>
+        Hay que aprender a estructurar las expresiones matemáticas en el
+        lenguaje de programación.
+      </p>
+      <p>Ejemplos de expresiones aritméticas expresadas en JavaScript:</p>
+      <dl>
+        <dt>
+          <img src="img/cuadratica.png"
+            alt="x = (-b + Math.sqrt(b**2 - 4*a*c)) / (2*a)">
+        </dt>
+        <dd>
+          <p>
+            <code
+              class="language-javascript">x = (-b + Math.sqrt(b**2 - 4*a*c)) / (2*a)</code>
+          </p>
+        </dd>
+        <dt>
+          <img src="img/recta.png"
+            alt="y = ((y2 - y1) / (x2 - x1)) * (x - x1) + y1">
+        </dt>
+        <dd>
+          <p>
+            <code
+              class="language-javascript">y = ((y2 - y1) / (x2 - x1)) * (x - x1) + y1</code>
+          </p>
+        </dd>
+      </dl>
+      <h2>Temas por Investigar</h2>
+      <ul>
+        <li>
+          <p>
+            El objeto
+            <code class="language-javascript">Math</code>.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <mi-footer></mi-footer>
+  </layout-cajon>
+</body>
+</html>
