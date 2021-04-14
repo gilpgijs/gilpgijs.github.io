@@ -10,7 +10,7 @@ Cambia los \ por / desde Visual Studio Code
 
 Ctrl+H
 Find:\
-Replace:/,
+Replace:/
 Reemplaza todo
  
 Coloca las comillas del final de cada línea
