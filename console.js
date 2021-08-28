@@ -13,4 +13,8 @@
     div.textContent = arguments.join(" ");
     document.body.append(div);
   }
+<<<<<<< HEAD
 })();
+=======
+})();
+>>>>>>> f95a88dbb0ec8c32966249ce4b04b9b1470df007
