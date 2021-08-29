@@ -2,126 +2,35 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
+import "../1_fundamentos/cmp/fundamentos-contenido.js"
+import "../2_conceptos/cmp/conceptos-contenido.js"
+
 export class MiNav extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = /* html */
-      `<h2>Contenido</h2>
-      <ol type="A">
-        <li>
-          <p><a href="/index.html">Inicio</a></p>
-        </li>
-        <li>
-          <p><a href="/b_sw.html">Software a instalar</a></p>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>Fundamentos</h3>
-            </summary>
-            <ol>
-              <li>
-                <p>
-                  <a href="/c_fundamentos/1_proceso.html">Proceso de
-                    información</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/c_fundamentos/2_algoritmo.html">Algoritmo</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/c_fundamentos/3_diagrama.html">Diagrama de flujo</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/c_fundamentos/4_pseudocodigo.html">Pseudocódigo</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/c_fundamentos/5_lenguaje.html">Lenguaje de
-                    programación</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/c_fundamentos/6_resumen.html">Resumen</a></p>
-              </li>
-            </ol>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>Introducción a JavaScript</h3>
-            </summary>
-            <ol>
-              <li>
-                <p><a href="/d_js/1_js.html">JavaScript</a></p>
-              </li>
-              <li>
-                <p><a href="/d_js/2_textos.html">Textos</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/d_js/3_string.html">El tipo
-                    <strong>string</strong></a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/d_js/4_console.html">console.log</a></p>
-              </li>
-              <li>
-                <p><a href="/d_js/5_orden.html">Orden de ejecución</a></p>
-              </li>
-              <li>
-                <details>
-                  <summary>
-                    <h4>Prueba de escritorio básica</h4>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/d_js/6_pres/index.html">Prueba de escritorio
-                          básica</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/d_js/6_pres/1.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #a31515;">"p"</span>);</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/d_js/6_pres/2.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #a31515;">"a"</span>);</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/d_js/6_pres/3.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #a31515;">"u"</span>);</code></a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
-              </li>
-              <li>
-                <p><a href="/d_js/7_resumen.html">Resumen</a></p>
-              </li>
-            </ol>
-          </details>
-        </li>
+ connectedCallback() {
+  this.innerHTML = /* html */
+   `<nav>
+   <h2>Contenido</h2>
+    <ul>
+     <li><p><a href="/index.html">Inicio</a></p></li>
+     <li>
+      <h3>Lecciones</h3>
+      <ol>
+       <li>
+        <details>
+         <summary>
+          <h4><a href="/1_fundamentos/index.html">Fundamentos</a></h4>
+         </summary>
+         <fundamentos-contenido></fundamentos-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+           <h3><a href="/2_conceptos/index.html">Conceptos básicos</a></h3>
+         </summary>
+         <conceptos-contenido></conceptos-contenido>
+        </details>
+       </li>
         <li>
           <details>
             <summary>
@@ -1059,8 +968,11 @@ export class MiNav extends HTMLElement {
             </ol>
           </details>
         </li>
-      </ol>`;
-  }
+      </ol>
+     </li>
+    </ul>
+    </nav>`;
+ }
 }
 
 customElements.define("mi-nav", MiNav);
