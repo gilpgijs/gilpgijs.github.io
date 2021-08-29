@@ -4,6 +4,7 @@
 
 import "../1_fundamentos/cmp/fundamentos-contenido.js"
 import "../2_conceptos/cmp/conceptos-contenido.js"
+import "../3_variables/cmp/variables-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -31,154 +32,14 @@ export class MiNav extends HTMLElement {
          <conceptos-contenido></conceptos-contenido>
         </details>
        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>Variables</h3>
-            </summary>
-            <ol>
-              <li>
-                <p>
-                  <a
-                    href="/e_variables/1_identificadores.html">Identificadores</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/e_variables/2_variables.html">Variables</a></p>
-              </li>
-              <li>
-                <details>
-                  <summary>
-                    <h4>Prueba de escritorio con variables</h4>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/index.html">Prueba de
-                          escritorio con variables</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/1.html">Ejecuta
-                          <code><span
-                                  style="color: #0000ff;">let</span>&nbsp;<span
-                                  style="color: #001080;">a</span>&nbsp;=&nbsp;<span
-                                  style="color: #a31515;">"hola"</span>;</code>
-                        </a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/2.html">Ejecuta
-                          <code><span
-                                  style="color: #0000ff;">let</span>&nbsp;<span
-                                  style="color: #001080;">b</span>&nbsp;=&nbsp;<span
-                                  style="color: #a31515;">"adios"</span>;</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/3.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #001080;">a</span>);</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/4.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #001080;">b</span>);</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/5.html">Ejecuta
-                          <code><span
-                                    style="color: #001080;">console</span>.<span
-                                    style="color: #795e26;">log</span>(<span
-                                    style="color: #a31515;">"a"</span>);</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/6.html">Ejecuta
-                          <code><span
-                                    style="color: #001080;">a</span>&nbsp;=&nbsp;<span
-                                    style="color: #a31515;">"gg"</span>;</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/7.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #001080;">a</span>);</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/8.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">b</span>&nbsp;=&nbsp;<span
-                                  style="color: #001080;">a</span>;</code></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/e_variables/3_pres_var/9.html">Ejecuta
-                          <code><span
-                                  style="color: #001080;">console</span>.<span
-                                  style="color: #795e26;">log</span>(<span
-                                  style="color: #001080;">b</span>);</code></a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
-              </li>
-              <li>
-                <p><a href="/e_variables/4_constantes.html">Constantes</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/e_variables/5_duplicadas.html">Variables
-                    Duplicadas</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/e_variables/6_no_encontradas.html">Variables no
-                    encontradas</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/e_variables/7_bloques.html">Bloques</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/e_variables/8_pres_bloque.html">Prueba de escritorio
-                    con bloques</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/e_variables/9_pres_bloque_v_d.html">Prueba de
-                    escritorio con bloques y variables del mismo nombre</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/e_variables/10_resumen.html">Resumen</a></p>
-              </li>
-            </ol>
-          </details>
-        </li>
+       <li>
+        <details>
+         <summary>
+          <h3><a href="/3_variables/index.html">Variables</a></h3>
+         </summary>
+         <variables-contenido></variables-contenido>
+        </details>
+       </li>
         <li>
           <details>
             <summary>
