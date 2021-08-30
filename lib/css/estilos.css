@@ -66,8 +66,8 @@ muestra-codigo>div>div {
  white-space: nowrap;
 }
 
-mi-nav summary h3:not(.default),
-mi-nav summary h4:not(.default) {
+summary h3:not(.default),
+summary h4:not(.default) {
  color: var(--colSummary);
  display: inline;
  font-family: var(--fontSans);

@@ -6,6 +6,8 @@ import "../1_fundamentos/cmp/fundamentos-contenido.js"
 import "../2_conceptos/cmp/conceptos-contenido.js"
 import "../3_variables/cmp/variables-contenido.js"
 import "../4_comentarios/cmp/comentarios-contenido.js"
+import "../5_bloques/cmp/bloques-contenido.js"
+import "../6_if/cmp/if-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -54,121 +56,21 @@ export class MiNav extends HTMLElement {
          <summary>
          <h3><a href="/5_bloques/index.html">Bloques</a></h3>
          </summary>
-         <ol>
-         <li>
-           <p>
-             <a href="/5_bloques/7_bloques.html">Bloques</a>
-           </p>
-         </li>
-         <li>
-           <p>
-             <a href="/5_bloques/8_pres_bloque.html">Depura bloques</a>
-           </p>
-         </li>
-         <li>
-           <p>
-             <a href="/5_bloques/9_pres_bloque_v_d.html">Depura bloques con
-               variables duplicadas</a>
-           </p>
-         </li>
-         <li>
-         <p><a href="/5_bloques/10_resumen.html">Resumen</a></p>
-       </li>
- </ol>
+         <bloques-contenido></bloques-contenido>
         </details>
        </li>
        <li>
-          <details>
-            <summary>
-              <h3>if</h3>
-            </summary>
-            <ol>
-              <li>
-                <p>
-                  <a href="/6_if/1_boolean.html">El tipo
-                    <strong>boolean</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/6_if/2_txt_igualdad.html">Operadores de igualdad de
-                    textos</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/6_if/3_if.html">La estructura de control
-                    <strong>if</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/6_if/4_if_true.html">Prueba de escritorio cuando la
-                    condición de <strong>if</strong> evalúa a
-                    <strong>true</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/6_if/5_if_false.html">Prueba de escritorio cuando la
-                    condición de <strong>if</strong> evalúa a
-                    strong>false</strong></a>
-                </p>
-              </li>
-              <li>
-                <details>
-                  <summary>
-                    <h3>Programa con <strong>if</strong></h3>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/6_if/6_if_programa/index.html">Programa con
-                          <strong>if</strong></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/6_if/6_if_programa/2_problema.html">Definición del
-                          Problema</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/6_if/6_if_programa/3_escenarios.html">Escenarios</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p><a href="/6_if/6_if_programa/4_diseno.html">Diseño</a></p>
-                    </li>
-                    <li>
-                      <p><a href="/6_if/6_if_programa/5_codigo.html">Código</a></p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/6_if/6_if_programa/6_replit.html">Prueba los
-                          escenarios en
-                          <em>Replit</em></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a href="/6_if/6_if_programa/7_vsc.html">Prueba los
-                          escenarios en <em>Visual
-                            Studio Code</em></a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
-              </li>
-              <li>
-                <p><a href="/6_if/7_resumen.html">Resumen</a></p>
-              </li>
-            </ol>
-          </details>
-        </li>
-        <li>
+        <details>
+         <summary>
+          <h3>
+           <a href="/6_if/index.html">La estructura de control
+            <strong>if</strong></a>
+          </h3>
+         </summary>
+         <if-contenido></if-contenido>
+        </details>
+       </li>
+       <li>
           <details>
             <summary>
               <h3>if-else</h3>

@@ -6,59 +6,69 @@ export class GResumen extends Diapositiva {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>G. Resumen</h1>
-    <div class="lectura">
-     <ul>
-      <li>
-       <p>
-        Un <dfn>algoritmo</dfn> es un conjunto ordenado de intrucciones que se
-        ejecutan una tras otra para realizar una tarea.
-       </p>
-      </li>
-      <li>
-       <p>
-        El <dfn>proceso de información</dfn> es la manera en que normalmente se
-        utilizan los datos en el software. Normalmente consta de 3 pasos que se
-        ejecutan uno tras otro.
-       </p>
-       <ol>
-        <li>
-         <p>Adquisición de datos</p>
-        </li>
-        <li>
-         <p>Procesamiento de datos</p>
-        </li>
-        <li>
-         <p>Despliegue de resultados</p>
-        </li>
-       </ol>
-      </li>
-      <li>
-       <p>
-        Un <dfn>lenguaje de programación</dfn> es un conjunto de reglas precisas
-        que se pueden usar para indicar a una computadora como realizar un
-        algoritmo.
-       </p>
-      </li>
-      <li>
-       <p>
-        Un <dfn>programa</dfn> o <dfn>código</dfn> es la representación de un
-        algoritmo usando un lenguaje de programación.
-       </p>
-      </li>
-      <li>
-       <p>
-        Un <dfn>pseudocódigo</dfn> es la especificación de un algoritmo usando
-        texto informal parecido al lenguaje humano.
-       </p>
-      </li>
-      <li>
-       <p>
-        Un <dfn>diagrama de flujo</dfn> es una forma de especificar un algoritmo
-        usando dibujos con características bien definidas.
-       </p>
-      </li>
-     </ul>
-    </div>`;
+   <div class="lectura">
+    <ul>
+     <li>
+      <p>
+       Un <dfn>identificador</dfn> es el nombre que tiene un elemento de un
+       programa y que no se puede repetir en ciertas partes del código.
+      </p>
+     </li>
+     <li>
+      <p>Un identificador debe cumplir con las siguientes reglas:</p>
+      <ul>
+       <li>
+        <p>
+         Empezar con una letra
+         (<code class="language-javascript">a</code>
+         –
+         <code class="language-javascript">z</code>
+         o
+         <code class="language-javascript">A</code>
+         –
+         <code class="language-javascript">Z</code>)
+         con o sin acentos (á, ñ, por ejemplo),
+         guion bajo (<code class="language-javascript">_</code>)
+         o
+         <code class="language-javascript">$</code>.
+        </p>
+       </li>
+       <li>
+        <p>
+         Los caracteres siguientes pueden ser cualquiera de los
+         anteriores o dígitos (<code class="language-javascript">0</code>
+         – <code class="language-javascript">9</code>).
+        </p>
+       </li>
+      </ul>
+     </li>
+     <li>
+      <p>
+       Una
+       <dfn>constante</dfn>
+       es similar a una variable, pero su valor no puede cambiar una vez
+       asignado.
+      </p>
+     </li>
+     <li>
+      <p>
+       Las variables o constantes declaradas en el mismo espacio no pueden tener
+       el mismo nombre.
+      </p>
+     </li>
+     <li>
+      <p>
+       Cuando tratas de usar una variable o una constante no definida, obtienes
+       un mensaje de error y se aborta la ejecución del programa.
+      </p>
+     </li>
+     <li>
+      <p>
+       La función <dfn>prompt</dfn> sirve para pedir datos.
+      </p>
+     </li>
+    </ul>
+   </div>`;
  }
 }
 

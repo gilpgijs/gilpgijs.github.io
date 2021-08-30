@@ -7,28 +7,12 @@ export class FPrompt extends Diapositiva {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<h1>F. La función prompt</h1>
-   <div class="marco-lectura">
+   <div class="lectura">
     <p>
      La función <dfn>prompt</dfn> sirve para pedir datos.
     </p>
     <h2>Ejemplo</h2>
    </div>
-   <div class="horizontal">
-    <div class="noPrint">
-     <h3>Salida</h3>
-     ${!this.hasAttribute("noprint") ?
-    `<iframe src="src/5_prompt.html"></iframe>`
-    : ""}
-     <p class="noPrint">
-      <a target="_blank" href="src/5_prompt.html">Ábrelo en otra pestaña.</a>
-     </p>
-     <p class="noPrint">
-      <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cmeta%20name%3D%22viewport%22%0A%20%20content%3D%22width%3Ddevice-width%22%3E%0A%3Cscript%3E%0A%20debugger%3B%0A%20const%20nombre%20%3D%20prompt(%22Nombre%3A%22)%3B%0A%20document.write(%22Hola%20%22)%3B%0A%20document.write(nombre)%3B%0A%20document.write(%22.%20Lindo%20d%C3%ADa.%22)%3B%0A%3C%2Fscript%3E">
-       Revísalo en gilpgedit.
-      </a>
-     </p>
-    </div>
     <muestra-codigo>
      <div>
       <div><span style="color: #800000;">&lt;meta</span>&nbsp;<span
@@ -55,6 +39,16 @@ export class FPrompt extends Diapositiva {
       <div><span style="color: #800000;">&lt;/script&gt;</span></div>
      </div>
     </muestra-codigo>
+    <div class="lectura noPrint">
+    <p class="noPrint">
+     <a target="_blank" href="src/5_prompt.html">Ábrelo en otra pestaña.</a>
+    </p>
+    <p class="noPrint">
+     <a target="_blank"
+       href="https://gilpgedit.github.io/#%3Cmeta%20name%3D%22viewport%22%0A%20%20content%3D%22width%3Ddevice-width%22%3E%0A%3Cscript%3E%0A%20debugger%3B%0A%20const%20nombre%20%3D%20prompt(%22Nombre%3A%22)%3B%0A%20document.write(%22Hola%20%22)%3B%0A%20document.write(nombre)%3B%0A%20document.write(%22.%20Lindo%20d%C3%ADa.%22)%3B%0A%3C%2Fscript%3E">
+      Revísalo en gilpgedit.
+     </a>
+    </p>
    </div>`;
  }
 }
