@@ -85,9 +85,6 @@ export class EOrden extends Diapositiva {
       <div><span style="color: #800000;">&lt;/script&gt;</span></div>
      </div>
     </muestra-codigo>
-   </div>
-   </div>
-   <div class="lectura">
    </div>`;
  }
 }

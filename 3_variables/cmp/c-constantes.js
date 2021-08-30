@@ -8,20 +8,28 @@ export class CConstantes extends Diapositiva {
   this.innerHTML = /* html */
    `<h1>C. Constantes</h1>
    <div class="lectura">
-    <p>
-     Una
-     <dfn>constante</dfn>
-     es similar a una variable, pero su valor no puede cambiar una vez asignado.
-    </p>
-    <p>
-     Normalmente el nombre se escribe en mayúsculas, usando guión bajo
-     (<code class="language-javascript">_</code>)
-     para separar palabras.
-    </p>
-    <p>
-     Se declaran con
-     <code class="language-javascript">const</code>
-    </p>
+    <ul>
+     <li>
+      <p>
+       Una
+       <dfn>constante</dfn>
+       es similar a una variable, pero su valor no puede cambiar una vez asignado.
+      </p>
+     </li>
+     <li>
+      <p>
+       Normalmente el nombre se escribe en mayúsculas, usando guión bajo
+       (<code class="language-javascript">_</code>)
+       para separar palabras.
+      </p>
+     </li>
+     <li>
+       <p>
+       Se declaran con
+       <code class="language-javascript">const</code>
+      </p>
+     </li>
+    </ul>
     <h2>Ejemplo</h2>
    </div>
    <div class="horizontal">
