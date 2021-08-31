@@ -8,6 +8,7 @@ import "../3_variables/cmp/variables-contenido.js"
 import "../4_comentarios/cmp/comentarios-contenido.js"
 import "../5_bloques/cmp/bloques-contenido.js"
 import "../6_if/cmp/if-contenido.js"
+import "../7_if_else/cmp/if-else-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -71,77 +72,16 @@ export class MiNav extends HTMLElement {
         </details>
        </li>
        <li>
-          <details>
-            <summary>
-              <h3>if-else</h3>
-            </summary>
-            <ol>
-              <li>
-                <p>
-                  <a href="/7_if_else/1_if_else.html">La estructura de control
-                    <strong>if-else</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/7_if_else/2_if_else_true.html">Prueba de escritorio
-                    cuando la condición de <strong>if-else</strong> evalúa a
-                    <strong>true</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/7_if_else/3_if_else_false.html">Prueba de escritorio
-                    cuando la condición de <strong>if-else</strong> evalúa a
-                    <strong>false</strong></a>
-                </p>
-              </li>
-              <li>
-                <details>
-                  <summary>
-                    <h3>Programa con <strong>if-else</strong></h3>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/7_if_else/4_if_else_programa/index.html">Programa
-                          con <strong>if-else</strong></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/7_if_else/4_if_else_programa/2_problema.html">Definición
-                          del Problema</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/7_if_else/4_if_else_programa/3_escenarios.html">Escenarios</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/7_if_else/4_if_else_programa/4_diseno.html">Diseño</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/7_if_else/4_if_else_programa/5_codigo.html">Código</a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
-              </li>
-              <li>
-                <p><a href="/7_if_else/5_resumen.html">Resumen</a></p>
-              </li>
-            </ol>
-          </details>
-        </li>
+        <details>
+         <summary>
+          <h3>
+           <a href="/7_if_else/index.html">La estructura de control
+            <strong>if-else</strong></a>
+          </h3>
+         </summary>
+         <if-else-contenido></if-else-contenido>
+        </details>
+       </li>
         <li>
           <details>
             <summary>
