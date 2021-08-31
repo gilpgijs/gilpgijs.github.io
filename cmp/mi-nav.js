@@ -9,6 +9,7 @@ import "../4_comentarios/cmp/comentarios-contenido.js"
 import "../5_bloques/cmp/bloques-contenido.js"
 import "../6_if/cmp/if-contenido.js"
 import "../7_if_else/cmp/if-else-contenido.js"
+import "../8_multiple/cmp/multiple-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -82,83 +83,15 @@ export class MiNav extends HTMLElement {
          <if-else-contenido></if-else-contenido>
         </details>
        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>Condicional múltiple</h3>
-            </summary>
-            <ol>
-              <li>
-                <p><a href="/8_multiple/1_multiple.html">Condicional Múltiple</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/8_multiple/2_pres_m_1_true.html">Prueba de escritorio cuando
-                    la primera condición de una condicional múltiple evalúa a
-                    <strong>true</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/8_multiple/3_pres_m_2_true.html">Prueba de escritorio cuando
-                    es la segunda condición de una condicional múltiple la que
-                    evalúa a <strong>true</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/8_multiple/4_pres_m_false.html">Prueba de escritorio cuando
-                    todas las condiciones de una condicional múltiple evalúan a
-                    <strong>false</strong></a>
-                </p>
-              </li>
-              <li>
-                <details>
-                  <summary>
-                    <h3>Programa de condicional múltiple</h3>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/8_multiple/5_m_prog/index.html">Programa de
-                          condicional múltiple</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/8_multiple/5_m_prog/2_problema.html">Definición
-                          del Problema</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/8_multiple/5_m_prog/3_escenarios.html">Escenarios</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/8_multiple/5_m_prog/4_diseno.html">Diseño</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/8_multiple/5_m_prog/5_codigo.html">Código</a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
-              </li>
-              <li>
-                <p><a href="/8_multiple/6_resumen.html">Resumen</a></p>
-              </li>
-            </ol>
-          </details>
-        </li>
-        <li>
+       <li>
+        <details>
+         <summary>
+          <h3><a href="/8_multiple/index.html">Condicional múltiple</a></h3>
+         </summary>
+         <multiple-contenido></multiple-contenido>
+        </details>
+       </li>
+       <li>
           <details>
             <summary>
               <h3>Condicional múltiple con <strong>else</strong></h3>
