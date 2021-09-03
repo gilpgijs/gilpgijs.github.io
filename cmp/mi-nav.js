@@ -12,6 +12,7 @@ import "../7_if_else/cmp/if-else-contenido.js"
 import "../8_multiple/cmp/multiple-contenido.js"
 import "../9_melse/cmp/multiple-else-contenido.js"
 import "../10_textos/cmp/textos-contenido.js"
+import "../11_logicos/cmp/logicos-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -34,7 +35,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-           <h3><a href="/2_conceptos/index.html">Conceptos básicos</a></h3>
+          <h3><a href="/2_conceptos/index.html">Conceptos básicos</a></h3>
          </summary>
          <conceptos-contenido></conceptos-contenido>
         </details>
@@ -50,7 +51,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-         <h3><a href="/4_comentarios/index.html">Comentarios</a></h3>
+          <h3><a href="/4_comentarios/index.html">Comentarios</a></h3>
          </summary>
          <comentarios-contenido></comentarios-contenido>
         </details>
@@ -58,7 +59,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-         <h3><a href="/5_bloques/index.html">Bloques</a></h3>
+          <h3><a href="/5_bloques/index.html">Bloques</a></h3>
          </summary>
          <bloques-contenido></bloques-contenido>
         </details>
@@ -111,32 +112,15 @@ export class MiNav extends HTMLElement {
          </summary>
          <textos-contenido></textos-contenido>
          </details>
+         </li>
+         <li>
+         <details>
+         <summary>
+         <h3><a href="/11_logicos/index.html">Operadores lógicos</a></h3>
+         </summary>
+         <logicos-contenido></logicos-contenido>
+        </details>
        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>Operadores lógicos</h3>
-            </summary>
-            <ol>
-              <li>
-                <p><a href="/11_logicos/1_op_y.html">Operador lógico Y</a></p>
-              </li>
-              <li>
-                <p><a href="/11_logicos/2_op_o.html">Operador lógico O</a></p>
-              </li>
-              <li>
-                <p><a href="/11_logicos/3_op_no.html">Operador lógico NO</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/11_logicos/4_op_ternario.html">Operador lógico
-                    ternario</a>
-                </p>
-              </li>
-              <li><p><a href="/11_logicos/5_resumen.html">Resumen</a></p></li>
-            </ol>
-          </details>
-        </li>
         <li>
           <details>
             <summary>
