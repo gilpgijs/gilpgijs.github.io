@@ -18,11 +18,22 @@ export class HResumen extends Diapositiva {
          </p>
        </li>
        <li>
-         <p>
-           La estructura de control <dfn>if</dfn> permite usar el resultado de
-           una condición lógica para controlar si un grupo de instrucciones
-           debe o no ejecutarse.
-         </p>
+        <p>Se revisaron los siguientes operadores sobre texto:</p>
+        <ul>
+          <li>
+            <p><code class="language-javascript">===</code></p>
+          </li>
+          <li>
+            <p><code class="language-javascript">!==</code></p>
+          </li>
+        </ul>
+       </li>
+       <li>
+        <p>
+         La estructura de control <dfn>if</dfn> permite usar el resultado de
+         una condición lógica para controlar si un grupo de instrucciones
+         debe o no ejecutarse.
+        </p>
         </li>
         <li>
           <p>

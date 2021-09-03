@@ -58,19 +58,13 @@ export class EOrden extends Diapositiva {
      </p>
      <p class="noPrint">
       <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cscript%3E%0Adebugger%3B%0Adocument.write(%22p%3Cbr%3E%22)%3B%20document.write(%22a%22)%3B%0Adocument.write(%22u%22)%3B%0A%3C%2Fscript%3E">
+        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20document.write(%22p%3Cbr%3E%22)%3B%20document.write(%22a%22)%3B%0A%20document.write(%22u%22)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>
      </p>
     </div>
     <muestra-codigo>
      <div>
-      <div><span style="color: #800000;">&lt;meta</span>&nbsp;<span
-         style="color: #ff0000;">name</span>=<span
-         style="color: #0000ff;">"viewport"</span></div>
-      <div>&nbsp;&nbsp;<span style="color: #ff0000;">content</span>=<span
-         style="color: #0000ff;">"width=device-width"</span><span
-         style="color: #800000;">&gt;</span></div>
       <div><span style="color: #800000;">&lt;script&gt;</span></div>
       <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
       <div>&nbsp;<span style="color: #001080;">document</span>.<span

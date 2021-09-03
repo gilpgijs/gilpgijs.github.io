@@ -25,12 +25,6 @@ export class BTxtIgualdad extends Diapositiva {
    </div>
    <muestra-codigo>
     <div>
-     <div><span style="color: #800000;">&lt;meta</span>&nbsp;<span
-        style="color: #ff0000;">name</span>=<span
-        style="color: #0000ff;">"viewport"</span></div>
-     <div>&nbsp;&nbsp;<span style="color: #ff0000;">content</span>=<span
-        style="color: #0000ff;">"width=device-width"</span><span
-        style="color: #800000;">&gt;</span></div>
      <div><span style="color: #800000;">&lt;script&gt;</span></div>
      <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
      <div>&nbsp;<span style="color: #001080;">document</span>.<span

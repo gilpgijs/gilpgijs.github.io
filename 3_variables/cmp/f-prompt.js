@@ -15,12 +15,6 @@ export class FPrompt extends Diapositiva {
    </div>
     <muestra-codigo>
      <div>
-      <div><span style="color: #800000;">&lt;meta</span>&nbsp;<span
-         style="color: #ff0000;">name</span>=<span
-         style="color: #0000ff;">"viewport"</span></div>
-      <div>&nbsp;&nbsp;<span style="color: #ff0000;">content</span>=<span
-         style="color: #0000ff;">"width=device-width"</span><span
-         style="color: #800000;">&gt;</span></div>
       <div><span style="color: #800000;">&lt;script&gt;</span></div>
       <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
       <div>&nbsp;<span style="color: #0000ff;">const</span>&nbsp;<span
@@ -45,7 +39,7 @@ export class FPrompt extends Diapositiva {
     </p>
     <p class="noPrint">
      <a target="_blank"
-       href="https://gilpgedit.github.io/#%3Cmeta%20name%3D%22viewport%22%0A%20%20content%3D%22width%3Ddevice-width%22%3E%0A%3Cscript%3E%0A%20debugger%3B%0A%20const%20nombre%20%3D%20prompt(%22Nombre%3A%22)%3B%0A%20document.write(%22Hola%20%22)%3B%0A%20document.write(nombre)%3B%0A%20document.write(%22.%20Lindo%20d%C3%ADa.%22)%3B%0A%3C%2Fscript%3E">
+       href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20nombre%20%3D%20prompt(%22Nombre%3A%22)%3B%0A%20document.write(%22Hola%20%22)%3B%0A%20document.write(nombre)%3B%0A%20document.write(%22.%20Lindo%20d%C3%ADa.%22)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>
     </p>

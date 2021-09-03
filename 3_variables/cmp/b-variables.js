@@ -76,19 +76,13 @@ export class BVariables extends Diapositiva {
      </p>
      <p class="noPrint">
       <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cmeta%20name%3D%22viewport%22%0A%20%20content%3D%22width%3Ddevice-width%22%3E%0A%3Cscript%3E%0A%20debugger%3B%0A%20let%20miNombre%20%3D%20%22pp%22%3B%0A%20let%20suNombre%20%3D%20%22tt%22%3B%0A%20document.write(miNombre)%3B%0A%20document.write(suNombre)%3B%0A%20document.write(%22miNombre%22)%3B%0A%20miNombre%20%3D%20%22bb%22%3B%0A%20document.write(miNombre)%3B%0A%20suNombre%20%3D%20miNombre%3B%0A%20document.write(suNombre)%3B%0A%3C%2Fscript%3E">
+        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20miNombre%20%3D%20%22pp%22%3B%0A%20let%20suNombre%20%3D%20%22tt%22%3B%0A%20document.write(miNombre)%3B%0A%20document.write(suNombre)%3B%0A%20document.write(%22miNombre%22)%3B%0A%20miNombre%20%3D%20%22bb%22%3B%0A%20document.write(miNombre)%3B%0A%20suNombre%20%3D%20miNombre%3B%0A%20document.write(suNombre)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>
      </p>
     </div>
     <muestra-codigo>
      <div>
-      <div><span style="color: #800000;">&lt;meta</span>&nbsp;<span
-         style="color: #ff0000;">name</span>=<span
-         style="color: #0000ff;">"viewport"</span></div>
-      <div>&nbsp;&nbsp;<span style="color: #ff0000;">content</span>=<span
-         style="color: #0000ff;">"width=device-width"</span><span
-         style="color: #800000;">&gt;</span></div>
       <div><span style="color: #800000;">&lt;script&gt;</span></div>
       <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
       <div>&nbsp;<span style="color: #0000ff;">let</span>&nbsp;<span

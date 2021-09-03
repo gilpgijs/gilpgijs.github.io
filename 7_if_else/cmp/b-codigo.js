@@ -9,12 +9,6 @@ export class BCodigo extends Diapositiva {
    `<h1>B. Código</h1>
    <muestra-codigo>
     <div>
-     <div><span style="color: #800000;">&lt;meta</span>&nbsp;<span
-        style="color: #ff0000;">name</span>=<span
-        style="color: #0000ff;">"viewport"</span></div>
-     <div>&nbsp;&nbsp;<span style="color: #ff0000;">content</span>=<span
-        style="color: #0000ff;">"width=device-width"</span><span
-        style="color: #800000;">&gt;</span></div>
      <div><span style="color: #800000;">&lt;script&gt;</span></div>
      <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
      <div>&nbsp;<span style="color: #0000ff;">const</span>&nbsp;<span
@@ -50,7 +44,7 @@ export class BCodigo extends Diapositiva {
     </p>
     <p class="noPrint">
      <a target="_blank"
-       href="https://gilpgedit.github.io/#%3Cmeta%20name%3D%22viewport%22%0A%20%20content%3D%22width%3Ddevice-width%22%3E%0A%3Cscript%3E%0A%20debugger%3B%0A%20const%20respuesta%20%3D%20prompt(%0A%20%20%60Agua%20pasa%20por%20mi%20casa%0Acate%20de%20mi%20coraz%C3%B3n.%0A%C2%BFQu%C3%A9%20es%3F%60)%3B%0A%20if%20(respuesta%20%3D%3D%3D%20%22el%20aguacate%22)%20%7B%0A%20%20document.write(%22Bien.%22)%3B%0A%20%7D%20else%20%7B%0A%20%20document.write(%22Mal.%22)%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
+       href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20respuesta%20%3D%20prompt(%0A%20%20%60Agua%20pasa%20por%20mi%20casa%0Acate%20de%20mi%20coraz%C3%B3n.%0A%C2%BFQu%C3%A9%20es%3F%60)%3B%0A%20if%20(respuesta%20%3D%3D%3D%20%22el%20aguacate%22)%20%7B%0A%20%20document.write(%22Bien.%22)%3B%0A%20%7D%20else%20%7B%0A%20%20document.write(%22Mal.%22)%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>
     </p>

@@ -10,6 +10,8 @@ import "../5_bloques/cmp/bloques-contenido.js"
 import "../6_if/cmp/if-contenido.js"
 import "../7_if_else/cmp/if-else-contenido.js"
 import "../8_multiple/cmp/multiple-contenido.js"
+import "../9_melse/cmp/multiple-else-contenido.js"
+import "../10_textos/cmp/textos-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -92,134 +94,24 @@ export class MiNav extends HTMLElement {
         </details>
        </li>
        <li>
-          <details>
-            <summary>
-              <h3>Condicional múltiple con <strong>else</strong></h3>
-            </summary>
-            <ol>
-              <li>
-                <p>
-                  <a href="/9_melse/1_melse.html">Condicional múltiple con
-                  <strong>else</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/9_melse/2_pres_melse_1_true.html">Prueba de
-                    escritorio cuando la primera condición de una condicional
-                    múltiple con <strong>else</strong> evalúa a
-                    <strong>true</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/9_melse/3_pres_melse_2_true.html">Prueba de
-                    escritorio cuando es la segunda condición de una condicional
-                    múltiple con <strong>else</strong> la que evalúa a
-                    <strong>true</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/9_melse/4_pres_melse_false.html">Prueba de
-                    escritorio cuando todas las condiciones de una condicional
-                    múltiple con <strong>else</strong> evalúan a
-                    <strong>false</strong></a>
-                </p>
-              </li>
-              <li>
-                <details>
-                  <summary>
-                    <h3>
-                      Programa de Condicional Múltiple con <strong>else</strong>
-                    </h3>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/9_melse/5_melse_prog/index.html">Programa de
-                          condicional múltiple con <strong>else</strong></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/9_melse/5_melse_prog/2_problema.html">Definición
-                          del problema</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/9_melse/5_melse_prog/3_escenarios.html">Escenarios</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/9_melse/5_melse_prog/4_diseno.html">Diseño</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/9_melse/5_melse_prog/5_codigo.html">Código</a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
-              </li>
-              <li>
-                <p><a href="/9_melse/6_resumen.html">Resumen</a></p>
-              </li>
-            </ol>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>Más textos</h3>
-            </summary>
-            <ol>
-              <li>
-                <p>
-                  <a href="/10_textos/1_number.html">El tipo
-                    <strong>number</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/10_textos/2_concatenacion.html">Operador de
-                    concatenación <em>a</em> <strong>+</strong> <em>b</em></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/10_textos/3_asignacion.html">Operador de
-                    concatenación con asignación
-                    <em>a</em> <strong>+=</strong> <em>x</em></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/10_textos/4_plantillas.html">Plantillas de texto</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/10_textos/5_orden.html">Operadores de orden</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/10_textos/6_orden_igualdad.html">Operadores
-                    combinados de orden e igualdad</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/10_textos/7_resumen.html">Resumen</a></p>
-              </li>
-            </ol>
-          </details>
-        </li>
+        <details>
+         <summary>
+          <h3>
+           <a href="/9_melse/index.html">Condicional múltiple con
+            <strong>else</strong></a>
+          </h3>
+         </summary>
+         <multiple-else-contenido></multiple-else-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+          <h3><a href="/10_textos/index.html">Más textos</a></h3>
+         </summary>
+         <textos-contenido></textos-contenido>
+         </details>
+       </li>
         <li>
           <details>
             <summary>
