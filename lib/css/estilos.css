@@ -52,8 +52,7 @@ h3:not(.default) {
 
 h1:not(.default) strong,
 h2:not(.default) strong,
-mi-nav a,
-ctrl-diapositiva a {
+mi-nav a {
  font-family: var(--fontSans);
 }
 

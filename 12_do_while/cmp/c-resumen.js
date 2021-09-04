@@ -9,27 +9,50 @@ export class CResumen extends Diapositiva {
    <div class="lectura">
     <ul>
      <li>
-      <p>
-       La estructura de control <dfn>if-else</dfn> permite usar el resultado de
-       una condición lógica para controlar si dos grupos de instrucciones deben
-       o no ejecutarse. Un grupo de instrucciones va inmediatamente después de
-       la condición y el otro grupo va después de la palabra reservada
-       <code class="language-javascript">else</code>.
-      </p>
+      <p>La estructura de control <dfn>do-while</dfn> consta de:</p>
+      <ul>
+       <li>
+        <p>
+         La palabra reservada <code
+           class="language-javascript">do</code>.
+        </p>
+       </li>
+       <li>
+        <p>Sigue un bloque de instruciones.</p>
+       </li>
+       <li>
+        <p>
+         Sigue la palabra reservada
+         <code class="language-javascript">while</code>.
+        </p>
+       </li>
+       <li>
+        <p>Sigue una condición.</p>
+       </li>
+      </ul>
      </li>
      <li>
       <p>
-       Si la condición evalúa a
+       Mientras la condición evalúa a
        <code class="language-javascript">true</code>,
-       el grupo de instrucciones después de la condición se ejecuta.
+       la estructura de control sigue repitiendo el bloque de instrucciones.
       </p>
      </li>
      <li>
       <p>
-       Si la condición evalúa a
+       Cuando la condición evalúa a
        <code class="language-javascript">false</code>,
-       el grupo de instrucciones después de la palabra reservada
-       <code class="language-javascript">else</code> se ejecuta.
+       se termina el ciclo.
+      </p>
+     </li>
+     <li>
+      <p>El bloque de instrucciones se ejecuta al menos una vez.</p>
+     </li>
+     <li>
+      <p>
+       Un uso común de
+       <code class="language-javascript">do-while</code>,
+       es validar los datos introducidos por el teclado.
       </p>
      </li>
     </ul>

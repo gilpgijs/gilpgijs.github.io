@@ -216,7 +216,6 @@ const ARCHIVOS = [
   "q_switch/7_switch_default.html",
   "q_switch/8_pres_switch_default.html",
   "q_switch/9_resumen.html",
-  "q_switch/cmp/ctrl-diapositiva.js",
   "q_switch/cmp/nav-local.js",
   "q_switch/img/switch-default.svg",
   "q_switch/img/switch.svg",

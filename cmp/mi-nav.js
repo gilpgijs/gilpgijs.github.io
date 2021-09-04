@@ -13,6 +13,8 @@ import "../8_multiple/cmp/multiple-contenido.js"
 import "../9_melse/cmp/multiple-else-contenido.js"
 import "../10_textos/cmp/textos-contenido.js"
 import "../11_logicos/cmp/logicos-contenido.js"
+import "../12_do_while/cmp/do-while-contenido.js"
+import "../14_mas_numeros/cmp/mas-numeros-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -121,114 +123,74 @@ export class MiNav extends HTMLElement {
          <logicos-contenido></logicos-contenido>
         </details>
        </li>
+       <li>
+        <details>
+         <summary>
+          <h3>
+           <a href="/12_do_while/index.html">La estructura de control
+            <strong>do-while</strong></a>
+          </h3>
+         </summary>
+         <do-while-contenido></do-while-contenido>
+        </details>
+       </li>
         <li>
           <details>
             <summary>
-              <h3>do-while</h3>
+              <h3>Números</h3>
             </summary>
-            <ol>
+            <ol type="A">
               <li>
-                <p><a href="/12_do_while/1_do_while.html">do-while</a></p>
+                <p><a href="/13_numeros/a_naturales.html">Números naturales (&naturals;)</a></p>
               </li>
               <li>
                 <p>
-                  <a href="/12_do_while/2_pres_d14_while.html">Prueba de
-                    escritorio con <strong>do-while</strong></a>
+                  <a href="/13_numeros/b_cero.html">El 0</a>
                 </p>
               </li>
               <li>
-                <details>
-                  <summary>
-                    <h3>Programa con <strong>do-while</strong></h3>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/12_do_while/3_d14_while_prog/index.html">Programa
-                          con <strong>do-while</strong></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/12_do_while/3_d14_while_prog/2_problema.html">Definición
-                          del problema</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/12_do_while/3_d14_while_prog/3_escenarios.html">Escenarios</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/12_do_while/3_d14_while_prog/4_diseno.html">Diseño</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/12_do_while/3_d14_while_prog/5_codigo.html">Código</a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
+                <p>
+                  <a href="/13_numeros/c_suma.html">La suma</a>
+                </p>
               </li>
-              <li><p><a href="/12_do_while/4_resumen.html">Resumen</a></p></li>
+              <li>
+                <p>
+                  <a href="/13_numeros/d_multiplicacion.html">La multiplicación</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/13_numeros/e_enteros.html">Números enteros (&integers;)</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/13_numeros/f_racionales.html">Números racionales (&rationals;)</a>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <a href="/13_numeros/g_irracionales.html">Números irracionales (&primes;) y reales (&reals;)</a>
+                </p>
+              </li>
+              <li>
+                <p><a href="/13_numeros/h_rarezas.html">Rarezas</a></p>
+              </li>
+              <li>
+                <p>
+                  <a href="/13_numeros/i_godel.html">Teorema de Gödel</a>
+                </p>
+              </li>
+              <li><p><a href="/13_numeros/j_resumen.html">Resumen</a></p></li>
             </ol>
           </details>
         </li>
         <li>
           <details>
             <summary>
-              <h3>Más números</h3>
+              <h3><a href="/14_mas_numeros/index.html">Más números</a></h3>
             </summary>
-            <ol>
-              <li>
-                <p><a href="/13_numeros/1_recta.html">Recta numérica</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/2_ops_num.html">Operadores numéricos</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/3_asignacion.html">Operadores con
-                    asignación</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/4_incr_y_decr.html">Incremento y
-                    decremento</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/5_igualdad.html">Operadores de
-                    igualdad</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/13_numeros/6_orden.html">Operadores de orden</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/7_orden_igualdad.html">Operadores
-                    combinados de orden e igualdad</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/13_numeros/8_precedencia.html">Precedencia de Operadores</a></p>
-              </li>
-              <li>
-                <p><a href="/13_numeros/9_expresiones.html">Expresiones</a></p>
-              </li>
-              <li><p><a href="/13_numeros/10_resumen.html">Resumen</a></p></li>
-            </ol>
+            <mas-numeros-contenido></mas-numeros-contenido>
           </details>
         </li>
         <li>
@@ -238,55 +200,55 @@ export class MiNav extends HTMLElement {
             </summary>
             <ol>
               <li>
-                <p><a href="/14_while/1_while.html">while</a></p>
+                <p><a href="/15_while/1_while.html">while</a></p>
               </li>
               <li>
                 <p>
-                  <a href="/14_while/2_pres_while_asc.html">Prueba de escritorio
+                  <a href="/15_while/2_pres_while_asc.html">Prueba de escritorio
                     con <strong>while</strong> ascendente</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/14_while/3_pres_while_asc_2.html">Prueba de
+                  <a href="/15_while/3_pres_while_asc_2.html">Prueba de
                     escritorio con <strong>while</strong> ascendente de 2 en
                     2</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/14_while/4_pres_while_desc.html">Prueba de escritorio
+                  <a href="/15_while/4_pres_while_desc.html">Prueba de escritorio
                     con <strong>while</strong> descendente</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/14_while/5_pres_while_desc_2.html">Prueba de
+                  <a href="/15_while/5_pres_while_desc_2.html">Prueba de
                     escritorio con <strong>while</strong> descendente de 2 en
                     2</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/14_while/6_pres_while_no_ejec.html">Prueba de
+                  <a href="/15_while/6_pres_while_no_ejec.html">Prueba de
                     escritorio con <strong>while</strong> que no se ejecuta</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/14_while/7_pres_while_desc_mal.html">Prueba de
+                  <a href="/15_while/7_pres_while_desc_mal.html">Prueba de
                     escritorio con <strong>while</strong> descendente mal
                     diseñado</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/14_while/8_pres_while_asc_mal.html">Prueba de
+                  <a href="/15_while/8_pres_while_asc_mal.html">Prueba de
                     escritorio con <strong>while</strong> ascendente mal
                     diseñado</a>
                 </p>
               </li>
-              <li><p><a href="/14_while/9_resumen.html">Resumen</a></p></li>
+              <li><p><a href="/15_while/9_resumen.html">Resumen</a></p></li>
             </ol>
           </details>
         </li>
@@ -297,11 +259,11 @@ export class MiNav extends HTMLElement {
             </summary>
             <ol>
               <li>
-                <p><a href="/15_for/1_for.html">for</a></p>
+                <p><a href="/16_for/1_for.html">for</a></p>
               </li>
               <li>
                 <p>
-                  <a href="/15_for/2_pres_for.html">Prueba de escritorio con
+                  <a href="/16_for/2_pres_for.html">Prueba de escritorio con
                     <strong>for</strong></a>
                 </p>
               </li>
@@ -313,39 +275,39 @@ export class MiNav extends HTMLElement {
                   <ol start="0">
                     <li>
                       <p>
-                        <a href="/15_for/3_for_prog/index.html">Programa
+                        <a href="/16_for/3_for_prog/index.html">Programa
                           con <strong>for</strong></a>
                       </p>
                     </li>
                     <li>
                       <p>
                         <a
-                          href="/15_for/3_for_prog/2_problema.html">Definición
+                          href="/16_for/3_for_prog/2_problema.html">Definición
                           del problema</a>
                       </p>
                     </li>
                     <li>
                       <p>
                         <a
-                          href="/15_for/3_for_prog/3_escenarios.html">Escenarios</a>
+                          href="/16_for/3_for_prog/3_escenarios.html">Escenarios</a>
                       </p>
                     </li>
                     <li>
                       <p>
                         <a
-                          href="/15_for/3_for_prog/4_diseno.html">Diseño</a>
+                          href="/16_for/3_for_prog/4_diseno.html">Diseño</a>
                       </p>
                     </li>
                     <li>
                       <p>
                         <a
-                          href="/15_for/3_for_prog/5_codigo.html">Código</a>
+                          href="/16_for/3_for_prog/5_codigo.html">Código</a>
                       </p>
                     </li>
                   </ol>
                 </details>
               </li>
-              <li><p><a href="/15_for/4_resumen.html">Resumen</a></p></li>
+              <li><p><a href="/16_for/4_resumen.html">Resumen</a></p></li>
             </ol>
           </details>
         </li>
@@ -356,56 +318,56 @@ export class MiNav extends HTMLElement {
             </summary>
             <ol>
               <li>
-                <p><a href="/16_switch/1_switch.html">switch</a></p>
+                <p><a href="/17_switch/1_switch.html">switch</a></p>
               </li>
               <li>
                 <p>
-                  <a href="/16_switch/2_pres_switch_c.html">Prueba de
+                  <a href="/17_switch/2_pres_switch_c.html">Prueba de
                     escritorio cuando <strong>switch</strong> entra en un
                     caso</a>
                 </p>
               </li>
               <li>
                 <p>
-                  <a href="/16_switch/3_pres_switch_c_v.html">Prueba de
+                  <a href="/17_switch/3_pres_switch_c_v.html">Prueba de
                     escritorio cuando <strong>switch</strong> entra en un caso
                     con varios <strong>case</strong></a>
                 </p>
               </li>
               <li>
                 <p>
-                <a href="/16_switch/4_pres_switch_c_v2.html">Prueba de
+                <a href="/17_switch/4_pres_switch_c_v2.html">Prueba de
                   escritorio cuando <strong>switch</strong> entra en otro caso
                   con varios <strong>case</strong></a>
                 </p>
               </li>
               <li>
                 <p>
-                <a href="/16_switch/5_pres_switch_c_s_b.html">Prueba de
+                <a href="/17_switch/5_pres_switch_c_s_b.html">Prueba de
                   escritorio cuando <strong>switch</strong> entra en un caso
                   sin <strong>break</strong></a>
                 </p>
               </li>
               <li>
                 <p>
-                <a href="/16_switch/6_pres_switch_c_n.html">Prueba de
+                <a href="/17_switch/6_pres_switch_c_n.html">Prueba de
                   escritorio cuando <strong>switch</strong> no cumple ningún
                   caso</a>
               </p>
               </li>
               <li>
                 <p>
-                  <a href="/16_switch/7_switch_default.html">switch-default</a>
+                  <a href="/17_switch/7_switch_default.html">switch-default</a>
                 </p>
               </li>
               <li>
                 <p>
-                <a href="/16_switch/8_pres_switch_default.html">Prueba de
+                <a href="/17_switch/8_pres_switch_default.html">Prueba de
                   escritorio cuando <strong>switch-default</strong> no cumple
                   ningún caso</a>
                 </p>
               </li>
-              <li><p><a href="/16_switch/9_resumen.html">Resumen</a></p></li>
+              <li><p><a href="/17_switch/9_resumen.html">Resumen</a></p></li>
             </ol>
           </details>
         </li>

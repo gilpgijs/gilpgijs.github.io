@@ -6,31 +6,30 @@ export class BCodigo extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>B. Código</h1>
+   `<h1>B. Código con <strong>do-while</strong></h1>
    <muestra-codigo>
     <div>
      <div><span style="color: #800000;">&lt;script&gt;</span></div>
      <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-     <div>&nbsp;<span style="color: #0000ff;">const</span>&nbsp;<span
-        style="color: #0070c1;">respuesta</span>&nbsp;=&nbsp;<span
-        style="color: #795e26;">prompt</span>(</div>
+     <div>&nbsp;<span style="color: #0000ff;">let</span>&nbsp;<span
+        style="color: #001080;">respuesta</span>&nbsp;=&nbsp;<span
+        style="color: #a31515;">""</span>;</div>
+     <div>&nbsp;<span style="color: #af00db;">do</span>&nbsp;{</div>
      <div>&nbsp;&nbsp;<span
-        style="color: #a31515;">&grave;Agua&nbsp;pasa&nbsp;por&nbsp;mi&nbsp;casa</span>
+        style="color: #001080;">respuesta</span>&nbsp;=&nbsp;<span
+        style="color: #795e26;">prompt</span>(</div>
+     <div>&nbsp;&nbsp;&nbsp;<span
+        style="color: #a31515;">&grave;Selecciona&nbsp;un&nbsp;género&nbsp;musical:</span>
      </div>
-     <div><span style="color: #a31515;">cate&nbsp;de&nbsp;mi&nbsp;corazón.</span>
+     <div><span style="color: #a31515;">&nbsp;1&nbsp;-&nbsp;Pop</span></div>
+     <div><span style="color: #a31515;">&nbsp;2&nbsp;-&nbsp;Reguetón&grave;</span>);
      </div>
-     <div><span style="color: #a31515;">¿Qué&nbsp;es?&grave;</span>);</div>
-     <div>&nbsp;<span style="color: #af00db;">if</span>&nbsp;(<span
-        style="color: #0070c1;">respuesta</span>&nbsp;===&nbsp;<span
-        style="color: #a31515;">"el&nbsp;aguacate"</span>)&nbsp;{</div>
-     <div>&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"Bien."</span>);</div>
-     <div>&nbsp;}&nbsp;<span style="color: #af00db;">else</span>&nbsp;{</div>
-     <div>&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-        style="color: #795e26;">write</span>(<span
-        style="color: #a31515;">"Mal."</span>);</div>
-     <div>&nbsp;}</div>
+     <div>&nbsp;}&nbsp;<span style="color: #af00db;">while</span>&nbsp;(<span
+        style="color: #001080;">respuesta</span>&nbsp;!==&nbsp;<span
+        style="color: #a31515;">"1"</span></div>
+     <div>&nbsp;&nbsp;&amp;&amp;&nbsp;<span
+        style="color: #001080;">respuesta</span>&nbsp;!==&nbsp;<span
+        style="color: #a31515;">"2"</span>);</div>
      <div>&nbsp;<span style="color: #001080;">document</span>.<span
         style="color: #795e26;">write</span>(<span
         style="color: #a31515;">"Adios."</span>);</div>
@@ -39,12 +38,12 @@ export class BCodigo extends Diapositiva {
    </muestra-codigo>
    <div class="lectura noPrint">
     <p class="noPrint">
-     <a target="_blank" href="src/2_if_else.html">Ábrelo en otra
+     <a target="_blank" href="src/2_do_while_prog.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">
      <a target="_blank"
-       href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20respuesta%20%3D%20prompt(%0A%20%20%60Agua%20pasa%20por%20mi%20casa%0Acate%20de%20mi%20coraz%C3%B3n.%0A%C2%BFQu%C3%A9%20es%3F%60)%3B%0A%20if%20(respuesta%20%3D%3D%3D%20%22el%20aguacate%22)%20%7B%0A%20%20document.write(%22Bien.%22)%3B%0A%20%7D%20else%20%7B%0A%20%20document.write(%22Mal.%22)%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
+       href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20respuesta%20%3D%20%22%22%3B%0A%20do%20%7B%0A%20%20respuesta%20%3D%20prompt(%0A%20%20%20%60Selecciona%20un%20g%C3%A9nero%20musical%3A%0A%201%20-%20Pop%0A%202%20-%20Reguet%C3%B3n%60)%3B%0A%20%7D%20while%20(respuesta%20!%3D%3D%20%221%22%0A%20%20%26%26%20respuesta%20!%3D%3D%20%222%22)%3B%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>
     </p>
