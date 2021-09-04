@@ -22,7 +22,7 @@ export class DIf extends Diapositiva {
        control <code class="language-javascript">if</code>:
       </p>
       <figure>
-       <img src="img/if.svg" alt="if" style="max-width: 350px;">
+       <img src="/6_if/img/if.svg" alt="if" style="max-width: 350px;">
       </figure>
      </li>
      <li>

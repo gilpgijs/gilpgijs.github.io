@@ -14,7 +14,7 @@ export class Expresiones extends Diapositiva {
      <h2>Ejemplos de expresiones aritméticas expresadas en JavaScript</h2>
      <dl>
        <dt>
-         <img src="img/cuadratica.png"
+         <img src="/14_mas_numeros/img/cuadratica.png"
            alt="x = (-b + Math.sqrt(b**2 - 4*a*c)) / (2*a)">
        </dt>
        <dd>
@@ -24,7 +24,7 @@ export class Expresiones extends Diapositiva {
          </p>
        </dd>
        <dt>
-         <img src="img/recta.png"
+         <img src="/14_mas_numeros/img/recta.png"
            alt="y = ((y2 - y1) / (x2 - x1)) * (x - x1) + y1">
        </dt>
        <dd>

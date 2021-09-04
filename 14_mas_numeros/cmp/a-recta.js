@@ -8,7 +8,7 @@ export class OpY extends Diapositiva {
   this.innerHTML = /* html */
    `<h1>A. Recta numérica</h1>
    <figure>
-     <img alt="Imagen de la recta numérica" src="img/recta.svg">
+     <img alt="Imagen de la recta numérica" src="/14_mas_numeros/img/recta.svg">
    </figure>
    <div class="lectura">
      <p>Los números a la izquierda son menores que los de la derecha.</p>

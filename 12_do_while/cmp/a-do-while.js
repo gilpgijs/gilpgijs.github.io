@@ -14,7 +14,8 @@ export class DoWhile extends Diapositiva {
        control <code class="language-javascript">do-while</code>:
       </p>
       <figure>
-       <img src="img/do-while.svg" alt="do-while" style="max-width: 350px;">
+       <img src="/12_do_while/img/do-while.svg" alt="do-while"
+        style="max-width: 350px;">
       </figure>
      </li>
      <li>

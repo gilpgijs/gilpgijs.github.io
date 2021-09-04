@@ -20,7 +20,8 @@ export class AIfElse extends Diapositiva {
      control <code class="language-javascript">if-else</code>:
     </p>
     <figure>
-     <img src="img/if-else.svg" alt="if-else" style="max-width: 350px;">
+     <img src="/7_if_else/img/if-else.svg" alt="if-else"
+      style="max-width: 350px;">
     </figure>
     <p>
      Si la condición evalúa a

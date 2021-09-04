@@ -14,7 +14,7 @@ export class MultipleElse extends Diapositiva {
        múltiple:
       </p>
       <figure>
-       <img src="img/condicional-multiple-else.svg"
+       <img src="/9_melse/img/condicional-multiple-else.svg"
          alt="Condicional Múltiple con Else" style="max-width: 350px;">
       </figure>
      </li>

@@ -14,8 +14,8 @@ export class Multiple extends Diapositiva {
        múltiple:
       </p>
       <figure>
-       <img src="img/condicional-multiple.svg" alt="Condicional Múltiple"
-         style="max-width: 350px;">
+       <img src="/8_multiple/img/condicional-multiple.svg"
+         alt="Condicional Múltiple" style="max-width: 350px;">
       </figure>
      </li>
      <li>
