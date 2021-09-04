@@ -3,7 +3,7 @@ import "./a-op-y.js";
 import "./b-op-o.js";
 import "./c-op-no.js";
 import "./d-op-ternario.js";
-import "./e-resumen.js";
+import "./e-resumen-11.js";
 import "./logicos-index.js";
 
 export class LogicosPrint extends Diapositiva {
@@ -27,7 +27,7 @@ export class LogicosPrint extends Diapositiva {
      <d-op-ternario></d-op-ternario>
     </section>
     <section>
-     <e-resumen></e-resumen>
+     <e-resumen-11></e-resumen-11>
     </section>`;
  }
 }

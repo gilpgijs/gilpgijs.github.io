@@ -1,10 +1,10 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
-import "./a-algoritmo.js";
-import "./b-proceso.js";
-import "./c-lenguaje.js";
-import "./d-pseudocodigo.js";
-import "./e-diagrama.js";
-import "./f-resumen.js";
+import "./a-algoritmo-1.js";
+import "./b-proceso-1.js";
+import "./c-lenguaje-1.js";
+import "./d-pseudocodigo-1.js";
+import "./e-diagrama-1.js";
+import "./f-resumen-1.js";
 import "./fundamentos-index.js";
 
 export class FundamentosPrint extends Diapositiva {
@@ -16,22 +16,22 @@ export class FundamentosPrint extends Diapositiva {
      <fundamentos-index></fundamentos-index>
     </section>
     <section>
-     <a-algoritmo></a-algoritmo>
+     <a-algoritmo-1></a-algoritmo-1>
     </section>
     <section>
-     <b-proceso></b-proceso>
+     <b-proceso-1></b-proceso-1>
     </section>
     <section>
-     <c-lenguaje></c-lenguaje>
+     <c-lenguaje-1></c-lenguaje-1>
     </section>
     <section>
-     <d-pseudocodigo></d-pseudocodigo>
+     <d-pseudocodigo-1></d-pseudocodigo-1>
     </section>
     <section>
-     <e-diagrama></e-diagrama>
+     <e-diagrama-1></e-diagrama-1>
     </section>
     <section>
-     <f-resumen></f-resumen>
+     <f-resumen-1></f-resumen-1>
     </section>`;
  }
 }

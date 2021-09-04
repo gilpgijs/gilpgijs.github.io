@@ -1,7 +1,7 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "./a-multiple.js";
-import "./b-codigo.js";
-import "./c-resumen.js";
+import "./b-codigo-8.js";
+import "./c-resumen-8.js";
 import "./multiple-index.js";
 
 export class MultiplePrint extends Diapositiva {
@@ -16,10 +16,10 @@ export class MultiplePrint extends Diapositiva {
      <a-multiple></a-multiple>
     </section>
     <section>
-     <b-codigo></b-codigo>
+     <b-codigo-8></b-codigo-8>
     </section>
     <section>
-     <c-resumen></c-resumen>
+     <c-resumen-8></c-resumen-8>
     </section>`;
  }
 }

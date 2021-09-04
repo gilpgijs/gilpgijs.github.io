@@ -4,11 +4,11 @@ import "./b-ops-num.js";
 import "./c-asignacion.js";
 import "./d-incr-y-decr.js";
 import "./e-igualdad.js";
-import "./f-orden.js";
+import "./f-orden-14.js";
 import "./g-orden-igualdad.js";
 import "./h-precedencia.js";
 import "./i-expresiones.js";
-import "./j-resumen.js";
+import "./j-resumen-14.js";
 import "./mas-numeros-index.js";
 
 export class MasNumerosPrint extends Diapositiva {
@@ -35,7 +35,7 @@ export class MasNumerosPrint extends Diapositiva {
      <e-igualdad></e-igualdad>
     </section>
     <section>
-     <f-orden></f-orden>
+     <f-orden-14></f-orden-14>
     </section>
     <section>
      <g-orden-igualdad></g-orden-igualdad>
@@ -47,7 +47,7 @@ export class MasNumerosPrint extends Diapositiva {
      <i-expresiones></i-expresiones>
     </section>
     <section>
-     <j-resumen></j-resumen>
+     <j-resumen-14></j-resumen-14>
     </section>`;
  }
 }

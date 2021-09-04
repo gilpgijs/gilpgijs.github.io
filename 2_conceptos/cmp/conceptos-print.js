@@ -5,7 +5,7 @@ import "./c-string.js";
 import "./conceptos-index.js";
 import "./d-write.js";
 import "./e-orden.js";
-import "./f-resumen.js";
+import "./f-resumen-2.js";
 
 export class ConceptosPrint extends Diapositiva {
  /** @override */
@@ -31,7 +31,7 @@ export class ConceptosPrint extends Diapositiva {
      <e-orden></e-orden>
     </section>
     <section>
-     <f-resumen></f-resumen>
+     <f-resumen-2></f-resumen-2>
     </section>`;
  }
 }

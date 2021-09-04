@@ -1,11 +1,11 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "./a-number.js";
 import "./b-concatenacion.js";
-import "./c-asignacion.js";
+import "./c-asignacion-10.js";
 import "./d-plantillas.js";
-import "./e-orden.js";
+import "./e-orden-10.js";
 import "./f-orden-igualdad.js";
-import "./g-resumen.js";
+import "./g-resumen-10.js";
 import "./textos-index.js";
 
 export class TextosPrint extends Diapositiva {
@@ -23,19 +23,19 @@ export class TextosPrint extends Diapositiva {
      <b-concatenacion></b-concatenacion>
     </section>
     <section>
-     <c-asignacion></c-asignacion>
+     <c-asignacion-10></c-asignacion-10>
     </section>
     <section>
      <d-plantillas></d-plantillas>
     </section>
     <section>
-     <e-orden></e-orden>
+     <e-orden-10></e-orden-10>
     </section>
     <section>
      <f-orden-igualdad></f-orden-igualdad>
     </section>
     <section>
-     <g-resumen></g-resumen>
+     <g-resumen-10></g-resumen-10>
     </section>`;
  }
 }

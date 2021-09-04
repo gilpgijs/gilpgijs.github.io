@@ -5,7 +5,7 @@ import "./c-constantes.js";
 import "./d-duplicadas.js";
 import "./e-no-encontradas.js";
 import "./f-prompt.js";
-import "./g-resumen.js";
+import "./g-resumen-3.js";
 import "./variables-index.js";
 
 export class VariablesPrint extends Diapositiva {
@@ -35,7 +35,7 @@ export class VariablesPrint extends Diapositiva {
      <f-prompt noprint></f-prompt>
     </section>
     <section>
-     <g-resumen></g-resumen>
+     <g-resumen-3></g-resumen-3>
     </section>`;
  }
 }

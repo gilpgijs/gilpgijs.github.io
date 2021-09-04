@@ -1,7 +1,7 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "./a-do-while.js";
-import "./b-codigo.js";
-import "./c-resumen.js";
+import "./b-codigo-12.js";
+import "./c-resumen-12.js";
 import "./do-while-index.js";
 
 export class DoWhilePrint extends Diapositiva {
@@ -16,10 +16,10 @@ export class DoWhilePrint extends Diapositiva {
      <a-do-while></a-do-while>
     </section>
     <section>
-     <b-codigo></b-codigo>
+     <b-codigo-12></b-codigo-12>
     </section>
     <section>
-     <c-resumen></c-resumen>
+     <c-resumen-12></c-resumen-12>
     </section>`;
  }
 }

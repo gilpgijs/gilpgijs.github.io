@@ -14,6 +14,7 @@ import "../9_melse/cmp/multiple-else-contenido.js"
 import "../10_textos/cmp/textos-contenido.js"
 import "../11_logicos/cmp/logicos-contenido.js"
 import "../12_do_while/cmp/do-while-contenido.js"
+import "../13_numeros/cmp/numeros-contenido.js"
 import "../14_mas_numeros/cmp/mas-numeros-contenido.js"
 
 export class MiNav extends HTMLElement {
@@ -134,65 +135,22 @@ export class MiNav extends HTMLElement {
          <do-while-contenido></do-while-contenido>
         </details>
        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>Números</h3>
-            </summary>
-            <ol type="A">
-              <li>
-                <p><a href="/13_numeros/a_naturales.html">Números naturales (&naturals;)</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/b_cero.html">El 0</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/c_suma.html">La suma</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/d_multiplicacion.html">La multiplicación</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/e_enteros.html">Números enteros (&integers;)</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/f_racionales.html">Números racionales (&rationals;)</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/g_irracionales.html">Números irracionales (&primes;) y reales (&reals;)</a>
-                </p>
-              </li>
-              <li>
-                <p><a href="/13_numeros/h_rarezas.html">Rarezas</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/13_numeros/i_godel.html">Teorema de Gödel</a>
-                </p>
-              </li>
-              <li><p><a href="/13_numeros/j_resumen.html">Resumen</a></p></li>
-            </ol>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <h3><a href="/14_mas_numeros/index.html">Más números</a></h3>
-            </summary>
-            <mas-numeros-contenido></mas-numeros-contenido>
-          </details>
-        </li>
+       <li>
+        <details>
+         <summary>
+          <h3><a href="/13_numeros/index.html">Números</a></h3>
+         </summary>
+         <numeros-contenido></numeros-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+          <h3><a href="/14_mas_numeros/index.html">Más números</a></h3>
+         </summary>
+         <mas-numeros-contenido></mas-numeros-contenido>
+        </details>
+       </li>
         <li>
           <details>
             <summary>

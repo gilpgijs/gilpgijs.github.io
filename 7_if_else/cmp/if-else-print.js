@@ -1,7 +1,7 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
 import "./a-if-else.js";
-import "./b-codigo.js";
-import "./c-resumen.js";
+import "./b-codigo-7.js";
+import "./c-resumen-7.js";
 import "./if-else-index.js";
 
 export class IfElsePrint extends Diapositiva {
@@ -16,10 +16,10 @@ export class IfElsePrint extends Diapositiva {
      <a-if-else></a-if-else>
     </section>
     <section>
-     <b-codigo></b-codigo>
+     <b-codigo-7></b-codigo-7>
     </section>
     <section>
-     <c-resumen></c-resumen>
+     <c-resumen-7></c-resumen-7>
     </section>`;
  }
 }
