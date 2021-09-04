@@ -6,6 +6,7 @@ export class GilPGIJSIndex extends Diapositiva {
   super.connectedCallback();
   this.innerHTML = /* html */
    `<div class="lectura">
+   <h2>por Gilberto Paheco Gallegos</h2>
     <p>Contenido introductorio sobre JavaScript</p>
     <p>
      Una vez concluidos estos temas, puedes continuar con
