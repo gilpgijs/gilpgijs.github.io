@@ -16,6 +16,8 @@ import "../11_logicos/cmp/logicos-contenido.js"
 import "../12_do_while/cmp/do-while-contenido.js"
 import "../13_numeros/cmp/numeros-contenido.js"
 import "../14_mas_numeros/cmp/mas-numeros-contenido.js"
+import "../15_while/cmp/while-contenido.js"
+import "../16_for/cmp/for-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -151,124 +153,28 @@ export class MiNav extends HTMLElement {
          <mas-numeros-contenido></mas-numeros-contenido>
         </details>
        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>while</h3>
-            </summary>
-            <ol>
-              <li>
-                <p><a href="/15_while/1_while.html">while</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/15_while/2_pres_while_asc.html">Prueba de escritorio
-                    con <strong>while</strong> ascendente</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/15_while/3_pres_while_asc_2.html">Prueba de
-                    escritorio con <strong>while</strong> ascendente de 2 en
-                    2</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/15_while/4_pres_while_desc.html">Prueba de escritorio
-                    con <strong>while</strong> descendente</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/15_while/5_pres_while_desc_2.html">Prueba de
-                    escritorio con <strong>while</strong> descendente de 2 en
-                    2</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/15_while/6_pres_while_no_ejec.html">Prueba de
-                    escritorio con <strong>while</strong> que no se ejecuta</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/15_while/7_pres_while_desc_mal.html">Prueba de
-                    escritorio con <strong>while</strong> descendente mal
-                    diseñado</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/15_while/8_pres_while_asc_mal.html">Prueba de
-                    escritorio con <strong>while</strong> ascendente mal
-                    diseñado</a>
-                </p>
-              </li>
-              <li><p><a href="/15_while/9_resumen.html">Resumen</a></p></li>
-            </ol>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>for</h3>
-            </summary>
-            <ol>
-              <li>
-                <p><a href="/16_for/1_for.html">for</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/16_for/2_pres_for.html">Prueba de escritorio con
-                    <strong>for</strong></a>
-                </p>
-              </li>
-              <li>
-                <details>
-                  <summary>
-                    <h3>Programa con <strong>for</strong></h3>
-                  </summary>
-                  <ol start="0">
-                    <li>
-                      <p>
-                        <a href="/16_for/3_for_prog/index.html">Programa
-                          con <strong>for</strong></a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/16_for/3_for_prog/2_problema.html">Definición
-                          del problema</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/16_for/3_for_prog/3_escenarios.html">Escenarios</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/16_for/3_for_prog/4_diseno.html">Diseño</a>
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <a
-                          href="/16_for/3_for_prog/5_codigo.html">Código</a>
-                      </p>
-                    </li>
-                  </ol>
-                </details>
-              </li>
-              <li><p><a href="/16_for/4_resumen.html">Resumen</a></p></li>
-            </ol>
-          </details>
-        </li>
+       <li>
+        <details>
+         <summary>
+          <h3>
+           <a href="/15_while/index.html">La estructura de control
+            <strong>while</strong></a>
+          </h3>
+         </summary>
+         <while-contenido></while-contenido>
+        </details>
+       </li>
+       <li>
+        <details>
+         <summary>
+          <h3>
+           <a href="/16_for/index.html">La estructura de control
+            <strong>for</strong></a>
+          </h3>
+         </summary>
+         <for-contenido></for-contenido>
+        </details>
+       </li>
         <li>
           <details>
             <summary>
