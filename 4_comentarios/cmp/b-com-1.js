@@ -28,9 +28,9 @@ export class BCom1 extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida</h2>
-     <iframe src="src/1_comentarios_una.html"></iframe>
+     <iframe src="/4_comentarios/src/1_comentarios_una.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="src/1_comentarios_una.html">Ábrelo en otra
+      <a target="_blank" href="/4_comentarios/src/1_comentarios_una.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">

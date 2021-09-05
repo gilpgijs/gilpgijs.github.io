@@ -24,9 +24,9 @@ export class Concatenacion extends Diapositiva {
   <div class="horizontal">
    <div>
     <h2>Salida</h2>
-    <iframe src="src/1_concatenacion.html"></iframe>
+    <iframe src="/10_textos/src/1_concatenacion.html"></iframe>
     <p class="noPrint">
-     <a target="_blank" href="src/1_concatenacion.html">Ábrelo en otra pestaña.</a>
+     <a target="_blank" href="/10_textos/src/1_concatenacion.html">Ábrelo en otra pestaña.</a>
     </p>
     <p class="noPrint">
      <a target="_blank"

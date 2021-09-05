@@ -18,6 +18,7 @@ import "../13_numeros/cmp/numeros-contenido.js"
 import "../14_mas_numeros/cmp/mas-numeros-contenido.js"
 import "../15_while/cmp/while-contenido.js"
 import "../16_for/cmp/for-contenido.js"
+import "../17_switch/cmp/switch-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -175,66 +176,17 @@ export class MiNav extends HTMLElement {
          <for-contenido></for-contenido>
         </details>
        </li>
-        <li>
-          <details>
-            <summary>
-              <h3>switch</h3>
-            </summary>
-            <ol>
-              <li>
-                <p><a href="/17_switch/1_switch.html">switch</a></p>
-              </li>
-              <li>
-                <p>
-                  <a href="/17_switch/2_pres_switch_c.html">Prueba de
-                    escritorio cuando <strong>switch</strong> entra en un
-                    caso</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/17_switch/3_pres_switch_c_v.html">Prueba de
-                    escritorio cuando <strong>switch</strong> entra en un caso
-                    con varios <strong>case</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                <a href="/17_switch/4_pres_switch_c_v2.html">Prueba de
-                  escritorio cuando <strong>switch</strong> entra en otro caso
-                  con varios <strong>case</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                <a href="/17_switch/5_pres_switch_c_s_b.html">Prueba de
-                  escritorio cuando <strong>switch</strong> entra en un caso
-                  sin <strong>break</strong></a>
-                </p>
-              </li>
-              <li>
-                <p>
-                <a href="/17_switch/6_pres_switch_c_n.html">Prueba de
-                  escritorio cuando <strong>switch</strong> no cumple ningún
-                  caso</a>
-              </p>
-              </li>
-              <li>
-                <p>
-                  <a href="/17_switch/7_switch_default.html">switch-default</a>
-                </p>
-              </li>
-              <li>
-                <p>
-                <a href="/17_switch/8_pres_switch_default.html">Prueba de
-                  escritorio cuando <strong>switch-default</strong> no cumple
-                  ningún caso</a>
-                </p>
-              </li>
-              <li><p><a href="/17_switch/9_resumen.html">Resumen</a></p></li>
-            </ol>
-          </details>
-        </li>
+       <li>
+        <details>
+         <summary>
+          <h3>
+           <a href="/17_switch/index.html">La estructura de control
+           <strong>switch</strong></a>
+          </h3>
+         </summary>
+          <switch-contenido></switch-contenido>
+        </details>
+       </li>
       </ol>
      </li>
     </ul>

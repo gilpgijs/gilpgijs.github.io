@@ -28,9 +28,9 @@ export class CCom1OMas extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida</h2>
-     <iframe src="src/2_comentarios_una_o_mas.html"></iframe>
+     <iframe src="/4_comentarios/src/2_comentarios_una_o_mas.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="src/2_comentarios_una_o_mas.html">Ábrelo en otra
+      <a target="_blank" href="/4_comentarios/src/2_comentarios_una_o_mas.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">

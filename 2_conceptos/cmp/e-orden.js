@@ -52,9 +52,9 @@ export class EOrden extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida.</h2>
-     <iframe src="src/1_orden.html"></iframe>
+     <iframe src="/2_conceptos/src/1_orden.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="src/1_orden.html">Ábrelo en otra pestaña.</a>
+      <a target="_blank" href="/2_conceptos/src/1_orden.html">Ábrelo en otra pestaña.</a>
      </p>
      <p class="noPrint">
       <a target="_blank"

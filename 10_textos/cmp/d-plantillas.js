@@ -40,9 +40,9 @@ export class Plantillas extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida</h2>
-     <iframe src="src/3_plantillas.html"></iframe>
+     <iframe src="/10_textos/src/3_plantillas.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="src/3_plantillas.html">Ábrelo en otra
+      <a target="_blank" href="/10_textos/src/3_plantillas.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">

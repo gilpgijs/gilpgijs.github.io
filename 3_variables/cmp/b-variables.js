@@ -70,9 +70,9 @@ export class BVariables extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida</h2>
-     <iframe src="src/1_variables.html"></iframe>
+     <iframe src="/3_variables/src/1_variables.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="src/1_variables.html">Ábrelo en otra pestaña.</a>
+      <a target="_blank" href="/3_variables/src/1_variables.html">Ábrelo en otra pestaña.</a>
      </p>
      <p class="noPrint">
       <a target="_blank"

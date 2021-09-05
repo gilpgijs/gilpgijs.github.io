@@ -26,9 +26,9 @@ export class Asignacion extends Diapositiva {
   <div class="horizontal">
    <div>
     <h2>Salida</h2>
-    <iframe src="src/2_asignacion.html"></iframe>
+    <iframe src="/10_textos/src/2_asignacion.html"></iframe>
     <p class="noPrint">
-     <a target="_blank" href="src/2_asignacion.html">Ábrelo en otra
+     <a target="_blank" href="/10_textos/src/2_asignacion.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">

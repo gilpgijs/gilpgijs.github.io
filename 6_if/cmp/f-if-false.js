@@ -12,9 +12,9 @@ export class EIfFalse extends Diapositiva {
   <div class="horizontal">
    <div>
     <h2>Salida</h2>
-    <iframe src="src/4_if_false.html"></iframe>
+    <iframe src="/6_if/src/4_if_false.html"></iframe>
     <p class="noPrint">
-     <a target="_blank" href="src/4_if_false.html">Ábrelo en otra
+     <a target="_blank" href="/6_if/src/4_if_false.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">

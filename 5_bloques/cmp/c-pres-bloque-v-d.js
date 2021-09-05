@@ -21,9 +21,9 @@ export class CPresBloqueVD extends Diapositiva {
    <div class="horizontal">
     <div>
      <h2>Salida</h2>
-     <iframe src="src/2_dup_blk.html"></iframe>
+     <iframe src="/5_bloques/src/2_dup_blk.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="src/2_dup_blk.html">Ábrelo en otra
+      <a target="_blank" href="/5_bloques/src/2_dup_blk.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">
