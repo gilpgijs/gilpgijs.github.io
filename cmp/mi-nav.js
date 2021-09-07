@@ -41,7 +41,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3><a href="/2_conceptos/index.html">Conceptos básicos</a></h3>
+          <h4><a href="/2_conceptos/index.html">Conceptos básicos</a></h4>
          </summary>
          <conceptos-contenido></conceptos-contenido>
         </details>
@@ -49,7 +49,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3><a href="/3_variables/index.html">Variables</a></h3>
+          <h4><a href="/3_variables/index.html">Variables</a></h4>
          </summary>
          <variables-contenido></variables-contenido>
         </details>
@@ -57,7 +57,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3><a href="/4_comentarios/index.html">Comentarios</a></h3>
+          <h4><a href="/4_comentarios/index.html">Comentarios</a></h4>
          </summary>
          <comentarios-contenido></comentarios-contenido>
         </details>
@@ -65,7 +65,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3><a href="/5_bloques/index.html">Bloques</a></h3>
+          <h4><a href="/5_bloques/index.html">Bloques</a></h4>
          </summary>
          <bloques-contenido></bloques-contenido>
         </details>
@@ -73,10 +73,10 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3>
+          <h4>
            <a href="/6_if/index.html">La estructura de control
             <strong>if</strong></a>
-          </h3>
+          </h4>
          </summary>
          <if-contenido></if-contenido>
         </details>
@@ -84,10 +84,10 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3>
+          <h4>
            <a href="/7_if_else/index.html">La estructura de control
             <strong>if-else</strong></a>
-          </h3>
+          </h4>
          </summary>
          <if-else-contenido></if-else-contenido>
         </details>
@@ -95,7 +95,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3><a href="/8_multiple/index.html">Condicional múltiple</a></h3>
+          <h4><a href="/8_multiple/index.html">Condicional múltiple</a></h4>
          </summary>
          <multiple-contenido></multiple-contenido>
         </details>
@@ -103,10 +103,10 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3>
+          <h4>
            <a href="/9_melse/index.html">Condicional múltiple con
             <strong>else</strong></a>
-          </h3>
+          </h4>
          </summary>
          <multiple-else-contenido></multiple-else-contenido>
         </details>
@@ -114,7 +114,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3><a href="/10_textos/index.html">Más textos</a></h3>
+          <h4><a href="/10_textos/index.html">Más textos</a></h4>
          </summary>
          <textos-contenido></textos-contenido>
          </details>
@@ -122,7 +122,7 @@ export class MiNav extends HTMLElement {
          <li>
          <details>
          <summary>
-         <h3><a href="/11_logicos/index.html">Operadores lógicos</a></h3>
+         <h4><a href="/11_logicos/index.html">Operadores lógicos</a></h4>
          </summary>
          <logicos-contenido></logicos-contenido>
         </details>
@@ -130,10 +130,10 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3>
+          <h4>
            <a href="/12_do_while/index.html">La estructura de control
             <strong>do-while</strong></a>
-          </h3>
+          </h4>
          </summary>
          <do-while-contenido></do-while-contenido>
         </details>
@@ -141,7 +141,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3><a href="/13_numeros/index.html">Números</a></h3>
+          <h4><a href="/13_numeros/index.html">Números</a></h4>
          </summary>
          <numeros-contenido></numeros-contenido>
         </details>
@@ -149,7 +149,7 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3><a href="/14_mas_numeros/index.html">Más números</a></h3>
+          <h4><a href="/14_mas_numeros/index.html">Más números</a></h4>
          </summary>
          <mas-numeros-contenido></mas-numeros-contenido>
         </details>
@@ -157,10 +157,10 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3>
+          <h4>
            <a href="/15_while/index.html">La estructura de control
             <strong>while</strong></a>
-          </h3>
+          </h4>
          </summary>
          <while-contenido></while-contenido>
         </details>
@@ -168,10 +168,10 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3>
+          <h4>
            <a href="/16_for/index.html">La estructura de control
             <strong>for</strong></a>
-          </h3>
+          </h4>
          </summary>
          <for-contenido></for-contenido>
         </details>
@@ -179,10 +179,10 @@ export class MiNav extends HTMLElement {
        <li>
         <details>
          <summary>
-          <h3>
+          <h4>
            <a href="/17_switch/index.html">La estructura de control
            <strong>switch</strong></a>
-          </h3>
+          </h4>
          </summary>
           <switch-contenido></switch-contenido>
         </details>

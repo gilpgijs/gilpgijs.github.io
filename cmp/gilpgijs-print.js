@@ -23,10 +23,8 @@ export class GilPGIJSPrint extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<section>
-     <gilpgijs-index></gilpgijs-index>
-     <mi-footer></mi-footer>
-    </section>
+   `<gilpgijs-index></gilpgijs-index>
+    <mi-footer></mi-footer>
     <section>
      <h1 class="presentación">1. Fundamentos</h1>
      <fundamentos-print></fundamentos-print>
