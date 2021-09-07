@@ -19,15 +19,6 @@ export class EOrden extends Diapositiva {
      </li>
      <li>
       <p>
-       Cada instrucción
-       <code
-        class="language-javascript"><span
-         style="color: #001080;">console</span>.<span
-         style="color: #795e26;">log</span></code>
-       es un renglón.
-      </p>
-     <li>
-      <p>
        Una <dfn>prueba de escritorio</dfn> es la ejecución detallada y
        paso a paso de un programa.
       </p>

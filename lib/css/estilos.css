@@ -42,6 +42,10 @@ mi-nav {
  display: block;
 }
 
+h1:not(.default) {
+ margin-top: 3rem;
+}
+
 h1:not(.default),
 h2:not(.default),
 h3:not(.default) {

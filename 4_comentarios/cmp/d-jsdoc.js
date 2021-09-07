@@ -68,17 +68,21 @@ export class DJsDoc extends Diapositiva {
    </div>
    <muestra-codigo>
     <div>
+     <div><span style="color: #800000;">&lt;script&gt;</span></div>
+     <div>&nbsp;<span style="color: #008000;">/**</span></div>
      <div><span
-        style="color: #008000;">/**&nbsp;Variable&nbsp;numérica&nbsp;cuyo&nbsp;valor&nbsp;inicial&nbsp;es&nbsp;0.</span>
+        style="color: #008000;">&nbsp;&nbsp;*&nbsp;Número&nbsp;de&nbsp;veces&nbsp;que&nbsp;aparece</span>
      </div>
-     <div><span style="color: #008000;">&nbsp;*&nbsp;</span><span
-        style="color: #0000ff;">@type</span><span
-        style="color: #008000;">&nbsp;</span><span
-        style="color: #267f99;">{number}</span><span
-        style="color: #008000;">&nbsp;*/</span></div>
-     <div><span style="color: #0000ff;">let</span>&nbsp;<span
-        style="color: #001080;">e</span>&nbsp;=&nbsp;<span
+     <div><span
+        style="color: #008000;">&nbsp;&nbsp;*&nbsp;la&nbsp;palabra&nbsp;sapo.</span>
+     </div>
+     <div><span
+        style="color: #008000;">&nbsp;&nbsp;*&nbsp;@type&nbsp;{number}</span></div>
+     <div><span style="color: #008000;">&nbsp;&nbsp;*/</span></div>
+     <div>&nbsp;<span style="color: #0000ff;">let</span>&nbsp;<span
+        style="color: #001080;">sapos</span>&nbsp;=&nbsp;<span
         style="color: #098658;">0</span>;</div>
+     <div><span style="color: #800000;">&lt;/script&gt;</span></div>
     </div>
    </muestra-codigo>`;
  }

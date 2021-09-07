@@ -11,7 +11,7 @@ export class BVariables extends Diapositiva {
     <p>
      Una
      <dfn>variable</dfn>
-     es un lugar en donde se almacena un datoque puede cambiar durante la
+     es un lugar en donde se almacena un dato que puede cambiar durante la
      ejecución de un programa.
     </p>
     <h2>Declaración</h2>
