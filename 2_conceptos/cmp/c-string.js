@@ -79,10 +79,14 @@ export class CString extends Diapositiva {
      </ul>
      <h2>Ejemplos</h2>
      <ul>
-      <li><code class="language-javascript">"Hola pp"</code></li>
       <li>
-       <code
-         class="language-javascript">'😁¡¡¡¡A sus órdenes jefecita!!!!'</code>
+       <p><code class="language-javascript">"Hola pp"</code></p>
+      </li>
+      <li>
+       <p>
+        <code
+          class="language-javascript">'😁¡¡¡¡A sus órdenes jefecita!!!!'</code>
+       </p>
       </li>
      </ul>
      <h2>Cadena Vacía</h2>
