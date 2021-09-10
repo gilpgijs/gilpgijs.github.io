@@ -24,7 +24,7 @@ export class ENoEncontradas extends Diapositiva {
      </p>
      <p class="noPrint">
       <a target="_blank"
-        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20b%20%3D%20%22BB%22%3B%0A%20document.write(bb)%3B%0A%3C%2Fscript%3E">
+        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20b%20%3D%20%22BB%22%3B%0A%20document.write(B)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>
      </p>
@@ -38,7 +38,7 @@ export class ENoEncontradas extends Diapositiva {
          style="color: #a31515;">"BB"</span>;</div>
       <div>&nbsp;<span style="color: #001080;">document</span>.<span
          style="color: #795e26;">write</span>(<span
-         style="color: #001080;">bb</span>);</div>
+         style="color: #001080;">B</span>);</div>
       <div><span style="color: #800000;">&lt;/script&gt;</span></div>
      </div>
     </muestra-codigo>
