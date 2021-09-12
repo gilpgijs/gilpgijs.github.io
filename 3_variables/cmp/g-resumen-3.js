@@ -45,6 +45,14 @@ export class GResumen extends Diapositiva {
      <li>
       <p>
        Una
+       <dfn>variable</dfn>
+       es un lugar en donde se almacena un dato que puede cambiar durante la
+       ejecución de un programa.
+      </p>
+     </li>
+     <li>
+      <p>
+       Una
        <dfn>constante</dfn>
        es similar a una variable, pero su valor no puede cambiar una vez
        asignado.
