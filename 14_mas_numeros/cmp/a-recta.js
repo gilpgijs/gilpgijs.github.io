@@ -74,7 +74,7 @@ export class OpY extends Diapositiva {
        </dt>
        <dd>
          <p>
-           Representa a todos los valores más positivos que
+           Representa a todos los valores mayores que
            <code class="language-javascript">Number.MAX_VALUE</code>.
          </p>
        </dd>
@@ -83,7 +83,7 @@ export class OpY extends Diapositiva {
        </dt>
        <dd>
          <p>
-           Representa a todos los valores más negativos que
+           Representa a todos los valores menores que
            <code class="language-javascript">-Number.MAX_VALUE</code>.
          </p>
        </dd>

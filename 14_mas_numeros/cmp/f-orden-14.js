@@ -76,7 +76,8 @@ export class Orden extends Diapositiva {
         style="color: #098658;">8</span>);&nbsp;<span
         style="color: #008000;">//&nbsp;false</span></div>
      <div><span style="color: #800000;">&lt;/script&gt;</span></div>
-    </div>`;
+    </div>
+   </muestra-codigo>`;
  }
 }
 
