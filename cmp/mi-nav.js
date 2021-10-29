@@ -23,174 +23,135 @@ import "../17_switch/cmp/switch-contenido.js"
 export class MiNav extends HTMLElement {
  connectedCallback() {
   this.innerHTML = /* html */
-   `<nav>
-   <h2>Contenido</h2>
-    <ul>
-     <li><p><a href="/index.html">Inicio</a></p></li>
+   `<ul>
+     <li><p><a href="/index.html">Introducción a JavaScript</a></p></li>
      <li>
       <h3>Lecciones</h3>
-      <ol>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/1_fundamentos/index.html">Fundamentos</a></h4>
-         </summary>
-         <fundamentos-contenido></fundamentos-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/2_conceptos/index.html">Conceptos básicos</a></h4>
-         </summary>
-         <conceptos-contenido></conceptos-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/3_variables/index.html">Variables</a></h4>
-         </summary>
-         <variables-contenido></variables-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/4_comentarios/index.html">Comentarios</a></h4>
-         </summary>
-         <comentarios-contenido></comentarios-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/5_bloques/index.html">Bloques</a></h4>
-         </summary>
-         <bloques-contenido></bloques-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4>
-           <a href="/6_if/index.html">La estructura de control
-            <strong>if</strong></a>
-          </h4>
-         </summary>
-         <if-contenido></if-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4>
-           <a href="/7_if_else/index.html">La estructura de control
-            <strong>if-else</strong></a>
-          </h4>
-         </summary>
-         <if-else-contenido></if-else-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/8_multiple/index.html">Condicional múltiple</a></h4>
-         </summary>
-         <multiple-contenido></multiple-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4>
-           <a href="/9_melse/index.html">Condicional múltiple con
-            <strong>else</strong></a>
-          </h4>
-         </summary>
-         <multiple-else-contenido></multiple-else-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/10_textos/index.html">Más textos</a></h4>
-         </summary>
-         <textos-contenido></textos-contenido>
-         </details>
-         </li>
-         <li>
-         <details>
-         <summary>
-         <h4><a href="/11_logicos/index.html">Operadores lógicos</a></h4>
-         </summary>
-         <logicos-contenido></logicos-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4>
-           <a href="/12_do_while/index.html">La estructura de control
-            <strong>do-while</strong></a>
-          </h4>
-         </summary>
-         <do-while-contenido></do-while-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/13_numeros/index.html">Números</a></h4>
-         </summary>
-         <numeros-contenido></numeros-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4><a href="/14_mas_numeros/index.html">Más números</a></h4>
-         </summary>
-         <mas-numeros-contenido></mas-numeros-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4>
-           <a href="/15_while/index.html">La estructura de control
-            <strong>while</strong></a>
-          </h4>
-         </summary>
-         <while-contenido></while-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4>
-           <a href="/16_for/index.html">La estructura de control
-            <strong>for</strong></a>
-          </h4>
-         </summary>
-         <for-contenido></for-contenido>
-        </details>
-       </li>
-       <li>
-        <details>
-         <summary>
-          <h4>
-           <a href="/17_switch/index.html">La estructura de control
-           <strong>switch</strong></a>
-          </h4>
-         </summary>
-          <switch-contenido></switch-contenido>
-        </details>
-       </li>
-      </ol>
+      <details>
+       <summary>
+        <h4><a href="/1_fundamentos/index.html">1. Fundamentos</a></h4>
+       </summary>
+       <fundamentos-contenido></fundamentos-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/2_conceptos/index.html">2. Conceptos básicos</a></h4>
+       </summary>
+       <conceptos-contenido></conceptos-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/3_variables/index.html">3. Variables</a></h4>
+       </summary>
+       <variables-contenido></variables-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/4_comentarios/index.html">4. Comentarios</a></h4>
+       </summary>
+       <comentarios-contenido></comentarios-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/5_bloques/index.html">5. Bloques</a></h4>
+       </summary>
+       <bloques-contenido></bloques-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4>
+         <a href="/6_if/index.html">6. La estructura de control
+          <strong>if</strong></a>
+         </h4>
+       </summary>
+       <if-contenido></if-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4>
+         <a href="/7_if_else/index.html">7. La estructura de control
+          <strong>if-else</strong></a>
+        </h4>
+       </summary>
+       <if-else-contenido></if-else-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/8_multiple/index.html">8. Condicional múltiple</a></h4>
+       </summary>
+       <multiple-contenido></multiple-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4>
+         <a href="/9_melse/index.html">9. Condicional múltiple con
+          <strong>else</strong></a>
+        </h4>
+       </summary>
+       <multiple-else-contenido></multiple-else-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/10_textos/index.html">10. Más textos</a></h4>
+       </summary>
+       <textos-contenido></textos-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/11_logicos/index.html">11. Operadores lógicos</a></h4>
+       </summary>
+       <logicos-contenido></logicos-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4>
+         <a href="/12_do_while/index.html">12. La estructura de control
+          <strong>do-while</strong></a>
+        </h4>
+       </summary>
+       <do-while-contenido></do-while-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/13_numeros/index.html">13. Números</a></h4>
+       </summary>
+       <numeros-contenido></numeros-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4><a href="/14_mas_numeros/index.html">14. Más números</a></h4>
+       </summary>
+       <mas-numeros-contenido></mas-numeros-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4>
+         <a href="/15_while/index.html">15. La estructura de control
+          <strong>while</strong></a>
+        </h4>
+       </summary>
+       <while-contenido></while-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4>
+         <a href="/16_for/index.html">16. La estructura de control
+          <strong>for</strong></a>
+        </h4>
+       </summary>
+       <for-contenido></for-contenido>
+      </details>
+      <details>
+       <summary>
+        <h4>
+         <a href="/17_switch/index.html">17. La estructura de control
+          <strong>switch</strong></a>
+        </h4>
+       </summary>
+       <switch-contenido></switch-contenido>
+      </details>
      </li>
-    </ul>
-    </nav>`;
+    </ul>`;
  }
 }
 
