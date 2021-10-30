@@ -28,6 +28,9 @@ muestra-codigo>div>div {
  white-space: nowrap;
 }
 
+figcaption {
+ font-family: var(--fontMono);
+}
 .print .noPrint {
  display: none;
 }

@@ -1,39 +1,53 @@
-import { Diapositiva } from "../../lib/Diapositiva.js";
-import "./a-algoritmo-1.js";
-import "./b-proceso-1.js";
-import "./c-lenguaje-1.js";
-import "./d-pseudocodigo-1.js";
-import "./e-diagrama-1.js";
-import "./f-resumen-1.js";
-import "./fundamentos-index.js";
+import { Diapositiva } from "../../lib/Diapositiva.js"
+import "./d1a-computadoras.js"
+import "../b_dispositivos/cmp/d1b-dispositivos-print.js"
+import "./d1c-programas.js"
+import "./d1d-tipos-programas.js"
+import "./d1e-hardware.js"
+import "./d1f-software.js"
+import "./d1g-lenguaje.js"
+import "./d1h-compilador.js"
+import "./d1i-interprete.js"
+import "./d1j-resumen.js"
+import "./fundamentos-index.js"
 
 export class FundamentosPrint extends Diapositiva {
  /** @override */
  connectedCallback() {
-  super.connectedCallback();
+  super.connectedCallback()
   this.innerHTML = /* html */
-   `<section>
-     <fundamentos-index></fundamentos-index>
+   `<fundamentos-index></fundamentos-index>
+    <section>
+     <d1a-computadoras></d1a-computadoras>
     </section>
     <section>
-     <a-algoritmo-1></a-algoritmo-1>
+     <d1b-dispositivos-print></d1b-dispositivos-print>
     </section>
     <section>
-     <b-proceso-1></b-proceso-1>
+     <d1c-programas></d1c-programas>
     </section>
     <section>
-     <c-lenguaje-1></c-lenguaje-1>
+     <d1d-tipos-programas></d1d-tipos-programas>
     </section>
     <section>
-     <d-pseudocodigo-1></d-pseudocodigo-1>
+     <d1e-hardware></d1e-hardware>
     </section>
     <section>
-     <e-diagrama-1></e-diagrama-1>
+     <d1f-software></d1f-software>
     </section>
     <section>
-     <f-resumen-1></f-resumen-1>
-    </section>`;
+     <d1g-lenguaje></d1g-lenguaje>
+    </section>
+    <section>
+     <d1h-compilador></d1h-compilador>
+    </section>
+    <section>
+     <d1i-interprete></d1i-interprete>
+    </section>
+    <section>
+     <d1j-resumen></d1j-resumen>
+    </section>`
  }
 }
 
-customElements.define("fundamentos-print", FundamentosPrint);
+customElements.define("fundamentos-print", FundamentosPrint)

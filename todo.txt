@@ -1,3 +1,5 @@
+1. Hacer pruebas en móviles.
+2. Poner los títulos de los operadores como en css de gilpgihc.
 
 Comando para generar el listado:
 Get-ChildItem -path . -Recurse | Select Directory,Name | Out-File archivos.txt

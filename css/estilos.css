@@ -8,7 +8,7 @@
  :root {
    --introDuracion: 2s;
    --introFuncion: ease-out;
-   --anchoNav: 250px;
+   --anchoNav: 300px;
    --anchoLectura: 900px;
    --colLetra: black;
    --colFondo: white;
@@ -39,6 +39,4 @@
    font-family: var(--fontSerif);
    color: var(--colLetra);
    background-color: var(--colFondo);
-   scrollbar-width: thin;
-   scrollbar-color: var(--colThumb) var(--colScrollbar);
  }

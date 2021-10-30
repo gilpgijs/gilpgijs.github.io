@@ -7,7 +7,7 @@ h3:not(.default) {
 }
 
 h1 strong,
-a strong {
+mi-nav a strong {
  color: var(--colTituloStrong);
 }
 
