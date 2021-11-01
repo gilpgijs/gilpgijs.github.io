@@ -1,5 +1,5 @@
 :host(:not(.pres)) #principal {
- transform: translateX(150%);
+ opacity: 0;
  animation-timing-function: var(--introFuncion, ease-out);
  animation-duration: var(--introDuracion, 3s);
  animation-fill-mode: forwards;
@@ -7,9 +7,9 @@
 }
 @keyframes desplaza {
  from {
-  transform: translateX(150%);
+  opacity: 0;
  }
  to {
-  transform: translateX(0);
+  opacity: 1;
  }
 }
