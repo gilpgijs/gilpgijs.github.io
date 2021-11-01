@@ -5,7 +5,7 @@
 @import "./mi-nav.css";
 @import "./titulos.css";
 
-body {
+/* body {
  visibility: hidden;
 }
 
@@ -15,7 +15,7 @@ body.print {
 
 body.visible {
  visibility: visible;
-}
+} */
 
 .anterior,
 .siguiente {
