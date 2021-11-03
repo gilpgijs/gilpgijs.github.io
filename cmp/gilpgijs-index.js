@@ -36,6 +36,13 @@ export class GilPGIJSIndex extends Diapositiva {
      <h2>Contenido</h2>
      <mi-nav></mi-nav>
     </div>`
+  if (this.hasAttribute("open")) {
+   /** @type {HTMLDetailsElement[]} */
+   const details = Array.from(this.querySelectorAll("mi-nav details"))
+   for (const detail of details) {
+    detail.open = true;
+   }
+  }
  }
 }
 

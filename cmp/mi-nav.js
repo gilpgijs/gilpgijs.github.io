@@ -189,8 +189,8 @@ export class MiNav extends HTMLElement {
        </li>
       </ol>
      </li>
-    </ul>`;
+    </ul>`
  }
 }
 
-customElements.define("mi-nav", MiNav);
+customElements.define("mi-nav", MiNav)
