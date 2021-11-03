@@ -4,7 +4,14 @@
 Comando para generar el listado:
 Get-ChildItem -path . -Recurse | Select Directory,Name | Out-File archivos.txt
 
-Quita las carpetas y el archivo sw.js del listado.
+Quita  del listado:
+* las carpetas
+* 404.html
+* archivos.txt
+* icono.xcf
+* README.md
+* sw.js
+* todo.txt
 
 Cambia los \ por / desde Visual Studio Code
 

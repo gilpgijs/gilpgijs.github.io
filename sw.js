@@ -1,6 +1,6 @@
 /* Espera 11 minutos después de hacer los cambios en tu sitio, para depués
  * actualizar este archivo. */
-const CACHE = "gilpgijs-2.54";
+const CACHE = "gilpgijs-2.55";
 
 /** Archivos requeridos para que la aplicación funcione fuera de línea. */
 const ARCHIVOS = [
@@ -489,12 +489,7 @@ const ARCHIVOS = [
  "lib/muestra-codigo.js",
  "lib/muestra-codigo_shadow.js",
  "lib/utilHtml.js",
- "lib/css/estilos.css",
- "lib/css/mi-footer.css",
- "lib/css/mi-nav.css",
  "lib/css/prueba.css",
- "lib/css/titulos.css",
- "lib/css/transicion.css",
  "/"
 ];
 
