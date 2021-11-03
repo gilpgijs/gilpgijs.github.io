@@ -1,5 +1,4 @@
 import { Diapositiva } from "../../lib/Diapositiva.js";
-import "../../lib/muestra-codigo.js";
 import "../g_if_programa/cmp/g-if-programa-contenido.js";
 
 export class IfContenido extends Diapositiva {
@@ -59,7 +58,7 @@ export class IfContenido extends Diapositiva {
      <li>
       <p><a href="/6_if/h_resumen.html">Resumen</a></p>
      </li>
-    </ol>`;
+    </ol>`
    const details = this.querySelector("details");
    if (details && !this.closest("mi-nav")) {
     details.open = true;
@@ -67,4 +66,4 @@ export class IfContenido extends Diapositiva {
  }
 }
 
-customElements.define("if-contenido", IfContenido);
+customElements.define("if-contenido", IfContenido)

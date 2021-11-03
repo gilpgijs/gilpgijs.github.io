@@ -2,14 +2,17 @@ mi-nav {
  display: block;
 }
 
+nav a,
 mi-nav a {
  font-family: var(--fontSans);
 }
 
+nav .actual h4,
 mi-nav .actual h4 {
  font-style: oblique;
 }
 
+nav a.actual,
 mi-nav a.actual {
  font-weight: bold;
  color: var(--colNavResaltada);

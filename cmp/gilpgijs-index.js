@@ -1,5 +1,5 @@
 import { Diapositiva } from "../lib/Diapositiva.js"
-import "../lib/instrucciones-nav.js"
+import { INSTRUCCIONES_NAV } from "../lib/INSTRUCCIONES_NAV.js"
 
 export class GilPGIJSIndex extends Diapositiva {
  /** @override */
@@ -32,7 +32,7 @@ export class GilPGIJSIndex extends Diapositiva {
        </p>
       </li>
      </ul>
-     <instrucciones-nav></instrucciones-nav>
+     ${INSTRUCCIONES_NAV}
      <h2>Contenido</h2>
      <mi-nav></mi-nav>
     </div>`
