@@ -7,11 +7,13 @@
  <meta name="theme-color" content="#039623">
  <link rel="manifest" href="/site.webmanifest">
  <script type="module" src="/js/config.js"></script>
- <script type="module" src="/cmp/mi-nav.js"></script>
- <script type="module" src="cmp/gilpgijs-print.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/miNav.css">
 </head>
 <body class="print">
- <gilpgijs-print></gilpgijs-print>
+ <script type="module">
+  import { gilpgijsPrint } from "./js/gilpgijsPrint.js"
+  gilpgijsPrint()
+ </script>
 </body>
 </html>

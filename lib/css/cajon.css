@@ -1,0 +1,117 @@
+/* This work by Gilberto Pacheco Gallegos is licensed under the Creative Commons
+ * Atribución 4.0 Internacional License. To view a copy of this license, visit
+ * http://creativecommons.org/licenses/by/4.0/. */
+
+#principal {
+ background-color: var(--colBk, white);
+ transition: margin-left 0.7s ease-in-out;
+}
+
+#principal>.controles {
+ display: flex;
+ margin: 1rem 0;
+ gap: var(--gap);
+}
+
+#principal>.controles>.siguiente {
+ margin-left: auto
+}
+
+#nav {
+ position: fixed;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ box-sizing: border-box;
+ overflow: auto;
+ color: var(--colLetra, black);
+ background-color: var(--colFondoNav);
+ padding: var(--padMiNav);
+ transition: transform 0.7s ease-in-out;
+}
+
+#nav>header {
+ text-align: end
+}
+
+#nav>header>h2 {
+ text-align: start;
+ font-family: var(--fontSans);
+ color: var(--colTituloLetra);
+ text-shadow: var(--colTituloShadow);
+}
+
+@media screen and (max-width: 999px) {
+ #cierra {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--colSombra);
+  transform: translateX(-150%);
+  transition: transform 0.7s ease-out;
+ }
+
+ #nav {
+  width: min(var(--anchoNav), 70%);
+  box-shadow: var(--navSombra);
+ }
+
+ .xmenu>#nav {
+  transform: translateX(-150%);
+ }
+
+ .menu>#cierra,
+ .menu>#nav {
+  transform: translateX(0);
+ }
+}
+
+@media screen and (min-width: 1000px) {
+ #cierra {
+  display: none;
+ }
+
+ #nav {
+  width: var(--anchoNav, 200px);
+ }
+
+ .menu>#nav {
+  transform: translateX(-150%);
+ }
+
+ .xmenu>#principal {
+  margin-left: calc(var(--anchoNav, 200px));
+ }
+
+ .xmenu #abre {
+  display: none
+ }
+}
+
+@media print {
+
+ #nav,
+ #principal>.controles {
+  display: none;
+ }
+}
+
+body:not(.pres) #principal {
+ opacity: 0;
+ animation-timing-function: var(--introFuncion, ease-out);
+ animation-duration: var(--introDuracion, 3s);
+ animation-fill-mode: forwards;
+ animation-name: aparece;
+}
+
+@keyframes aparece {
+ from {
+  opacity: 0;
+ }
+
+ to {
+  opacity: 1;
+ }
+}
