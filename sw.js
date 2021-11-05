@@ -1,6 +1,6 @@
 /* Espera 11 minutos después de hacer los cambios en tu sitio, para depués
  * actualizar este archivo. */
-const CACHE = "gilpgijs-2.57";
+const CACHE = "gilpgijs-2.58";
 
 /** Archivos requeridos para que la aplicación funcione fuera de línea. */
 const ARCHIVOS = [
@@ -225,16 +225,15 @@ const ARCHIVOS = [
  "1_fundamentos/b_dispositivos/6_servidores.html",
  "1_fundamentos/b_dispositivos/index.html",
  "1_fundamentos/b_dispositivos/print.html",
- "1_fundamentos/b_dispositivos/cmp/d1b-dispositivos-contenido.js",
- "1_fundamentos/b_dispositivos/cmp/d1b-dispositivos-index.js",
- "1_fundamentos/b_dispositivos/cmp/d1b-dispositivos-print.js",
  "1_fundamentos/b_dispositivos/cmp/d1b1-consolas.js",
  "1_fundamentos/b_dispositivos/cmp/d1b2-celulares.js",
  "1_fundamentos/b_dispositivos/cmp/d1b3-tablets.js",
  "1_fundamentos/b_dispositivos/cmp/d1b4-laptops.js",
  "1_fundamentos/b_dispositivos/cmp/d1b5-desktops.js",
  "1_fundamentos/b_dispositivos/cmp/d1b6-servidores.js",
- "1_fundamentos/cmp/d1a-computadoras.js",
+ "1_fundamentos/b_dispositivos/js/d1bDispositivosContenido.js",
+ "1_fundamentos/b_dispositivos/js/d1bDispositivosIndex.js",
+ "1_fundamentos/b_dispositivos/js/d1bDispositivosPrint.js",
  "1_fundamentos/cmp/d1c-programas.js",
  "1_fundamentos/cmp/d1d-tipos-programas.js",
  "1_fundamentos/cmp/d1e-hardware.js",
@@ -243,9 +242,6 @@ const ARCHIVOS = [
  "1_fundamentos/cmp/d1h-compilador.js",
  "1_fundamentos/cmp/d1i-interprete.js",
  "1_fundamentos/cmp/d1j-resumen.js",
- "1_fundamentos/cmp/fundamentos-contenido.js",
- "1_fundamentos/cmp/fundamentos-index.js",
- "1_fundamentos/cmp/fundamentos-print.js",
  "1_fundamentos/img/compilador.svg",
  "1_fundamentos/img/interprete.svg",
  "1_fundamentos/img/pexels-andrea-piacquadio-3776817.jpg",
@@ -255,6 +251,10 @@ const ARCHIVOS = [
  "1_fundamentos/img/pexels-manuel-geissinger-325229.jpg",
  "1_fundamentos/img/pexels-teona-swift-6912819.jpg",
  "1_fundamentos/img/pexels-tima-miroshnichenko-6021573.jpg",
+ "1_fundamentos/js/d1aComputadoras.js",
+ "1_fundamentos/js/fundamentosContenido.js",
+ "1_fundamentos/js/fundamentosIndex.js",
+ "1_fundamentos/js/fundamentosPrint.js",
  "2_conceptos/a_js.html",
  "2_conceptos/b_algoritmo.html",
  "2_conceptos/b_proceso.html",
@@ -489,7 +489,6 @@ const ARCHIVOS = [
  "lib/INSTRUCCIONES_NAV.js",
  "lib/layout-cajon.js",
  "lib/layoutCajon.js",
- "lib/LAYOUT_CAJON_SHADOW_HTML.js",
  "lib/mi-footer.js",
  "lib/miFooter.js",
  "lib/muestra-codigo.js",

@@ -1,4 +1,4 @@
-1. Hacer pruebas en móviles.
+1. ok hasta 1/b/index.html
 2. Poner los títulos de los operadores como en css de gilpgihc.
 
 Comando para generar el listado:
