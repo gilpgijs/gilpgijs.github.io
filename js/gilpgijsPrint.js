@@ -109,6 +109,8 @@ export function gilpgijsPrint() {
     <switch-print></switch-print>
     ${miFooter()}
    </section>`
- const nav = document.querySelector("nav")
- abreDetails(nav)
-}
+   const navs = Array.from(document.querySelectorAll("nav"))
+   for (const nav of navs) {
+    abreDetails(nav)
+   }
+ }

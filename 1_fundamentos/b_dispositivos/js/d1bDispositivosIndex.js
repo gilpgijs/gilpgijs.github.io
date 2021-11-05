@@ -7,7 +7,9 @@ export function d1bDispositivosIndex() {
     <p class="noPrint">
      <a href="print.html" target="_blank">Versión para Imprimir.</a>
      <h2>Contenido</h2>
-     ${d1bDispositivosContenido()}
+     <nav>
+      ${d1bDispositivosContenido()}
+     </nav>
     </p>
    </div>`)
 }

@@ -1,7 +1,6 @@
 import {
  d1bDispositivosPrint
 } from "../b_dispositivos/js/d1bDispositivosPrint.js"
-import "../cmp/d1c-programas.js"
 import "../cmp/d1d-tipos-programas.js"
 import "../cmp/d1e-hardware.js"
 import "../cmp/d1f-software.js"
@@ -10,6 +9,7 @@ import "../cmp/d1h-compilador.js"
 import "../cmp/d1i-interprete.js"
 import "../cmp/d1j-resumen.js"
 import { d1aComputadoras } from "./d1aComputadoras.js"
+import { d1cProgramas } from "./d1cProgramas.js"
 import { fundamentosIndex } from "./fundamentosIndex.js"
 
 export function fundamentosPrint() {
@@ -21,7 +21,7 @@ export function fundamentosPrint() {
     ${d1bDispositivosPrint()}
    </section>
    <section>
-    <d1c-programas></d1c-programas>
+    ${d1cProgramas()}
    </section>
    <section>
     <d1d-tipos-programas></d1d-tipos-programas>
