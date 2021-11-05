@@ -5,12 +5,13 @@ export function d1cProgramas() {
     <ul>
      <li>
       <p>
-       Según la <em>Real Academia Española</em>, una
+       Según la <em>Real Academia Española</em>, un
        <dfn>programa</dfn>
        es un
-       <q>conjunto unitario de instrucciones que permite a una computadora realizar
-       funciones diversas, como el tratamiento de textos, el diseño de gráficos, la
-       resolución de problemas matemáticos, el manejo de bancos de datos, etc.</q>.
+       <q>conjunto unitario de instrucciones que permite a una computadora
+        realizar funciones diversas, como el tratamiento de textos, el diseño de
+        gráficos, la resolución de problemas matemáticos, el manejo de bancos de
+        datos, etc.</q>.
       </p>
      </li>
     </ul>
