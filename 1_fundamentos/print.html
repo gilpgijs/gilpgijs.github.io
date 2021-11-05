@@ -7,11 +7,16 @@
  <meta name="theme-color" content="#039623">
  <link rel="manifest" href="/site.webmanifest">
  <script type="module" src="/js/config.js"></script>
- <script type="module" src="cmp/fundamentos-print.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body class="print">
- <fundamentos-print></fundamentos-print>
- <mi-footer></mi-footer>
+ <script type="module">
+  import { fundamentosPrint } from "./js/fundamentosPrint.js"
+  import { abreDetails } from "../lib/abreDetails.js"
+  import { miFooter } from "../lib/miFooter.js"
+  document.body.innerHTML += fundamentosPrint() + miFooter()
+  const nav = document.querySelector("nav")
+  abreDetails(nav)
+ </script>
 </body>
 </html>

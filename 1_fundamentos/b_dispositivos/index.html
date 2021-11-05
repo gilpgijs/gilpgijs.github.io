@@ -6,14 +6,22 @@
  <link rel="icon" sizes="32x32" href="/favicon.ico">
  <meta name="theme-color" content="#039623">
  <link rel="manifest" href="/site.webmanifest">
- <script type="module" src="/js/configCajon.js"></script>
- <script src="/lib/layout-cajon.js"></script>
- <script type="module" src="cmp/d1b-dispositivos-index.js"></script>
+ <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/miNav.css">
+ <link rel="stylesheet" href="/lib/css/cajon.css">
+ <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/miNav.css">
+ <link rel="stylesheet" href="/lib/css/cajon.css">
 </head>
 <body>
- <layout-cajon>
-  <d1b-dispositivos-index></d1b-dispositivos-index>
- </layout-cajon>
+ <script type="module">
+  import { layoutCajon } from "../../lib/layoutCajon.js"
+  import { miFooter } from "../../lib/miFooter.js"
+  import { miNav } from "../../js/miNav.js"
+  import { d1bDispositivosIndex } from "./js/d1bDispositivosIndex.js"
+  layoutCajon(miNav(), d1bDispositivosIndex(), miFooter())
+  nav = null
+ </script>
 </body>
 </html>

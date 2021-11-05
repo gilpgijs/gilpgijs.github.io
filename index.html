@@ -24,8 +24,9 @@
   import { miFooter } from "./lib/miFooter.js"
   import { miNav } from "./js/miNav.js"
   import { gilpgijsIndex } from "./js/gilpgijsIndex.js"
-  const nav = miNav()
+  let nav = miNav()
   layoutCajon(nav, gilpgijsIndex(nav), miFooter())
+  nav = null
  </script>
 </body>
 </html>

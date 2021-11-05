@@ -2,15 +2,6 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
-import "../1_fundamentos/cmp/fundamentos-contenido.js"
-import "../2_conceptos/cmp/conceptos-contenido.js"
-import "../3_variables/cmp/variables-contenido.js"
-import "../4_comentarios/cmp/comentarios-contenido.js"
-import "../5_bloques/cmp/bloques-contenido.js"
-import "../6_if/cmp/if-contenido.js"
-import "../7_if_else/cmp/if-else-contenido.js"
-import "../8_multiple/cmp/multiple-contenido.js"
-import "../9_melse/cmp/multiple-else-contenido.js"
 import "../10_textos/cmp/textos-contenido.js"
 import "../11_logicos/cmp/logicos-contenido.js"
 import "../12_do_while/cmp/do-while-contenido.js"
@@ -19,6 +10,17 @@ import "../14_mas_numeros/cmp/mas-numeros-contenido.js"
 import "../15_while/cmp/while-contenido.js"
 import "../16_for/cmp/for-contenido.js"
 import "../17_switch/cmp/switch-contenido.js"
+import {
+ fundamentosContenido
+} from "../1_fundamentos/js/fundamentosContenido.js"
+import "../2_conceptos/cmp/conceptos-contenido.js"
+import "../3_variables/cmp/variables-contenido.js"
+import "../4_comentarios/cmp/comentarios-contenido.js"
+import "../5_bloques/cmp/bloques-contenido.js"
+import "../6_if/cmp/if-contenido.js"
+import "../7_if_else/cmp/if-else-contenido.js"
+import "../8_multiple/cmp/multiple-contenido.js"
+import "../9_melse/cmp/multiple-else-contenido.js"
 
 export function miNav() {
  return (/* html */
@@ -32,7 +34,7 @@ export function miNav() {
         <summary>
          <h4><a href="/1_fundamentos/index.html">Fundamentos</a></h4>
         </summary>
-        <fundamentos-contenido></fundamentos-contenido>
+        ${fundamentosContenido()}
        </details>
       </li>
       <li>

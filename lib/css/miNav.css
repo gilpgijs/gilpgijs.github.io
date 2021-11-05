@@ -2,29 +2,9 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
-.miNav a {
- font-family: var(--fontSans);
-}
-
 .miNav a.actual {
  font-weight: bold;
  color: var(--colNavResaltada);
-}
-
-.miNav a strong {
- color: var(--colTituloStrong);
-}
-
-.miNav summary {
- margin-top: 1rem;
- margin-bottom: 1rem;
-}
-
-.miNav h4,
-.miNav h5 {
- display: inline;
- color: var(--colSummary);
- font-family: var(--fontSans);
 }
 
 .miNav .actual h4,
