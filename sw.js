@@ -1,6 +1,6 @@
 /* Espera 11 minutos después de hacer los cambios en tu sitio, para depués
  * actualizar este archivo. */
-const CACHE = "gilpgijs-2.58";
+const CACHE = "gilpgijs-2.59";
 
 /** Archivos requeridos para que la aplicación funcione fuera de línea. */
 const ARCHIVOS = [
