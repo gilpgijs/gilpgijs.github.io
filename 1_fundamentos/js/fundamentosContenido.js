@@ -22,29 +22,32 @@ export function fundamentosContenido() {
      <p><a href="/1_fundamentos/c_programas.html">Programas</a></p>
     </li>
     <li>
-     <p>
-      <a href="/1_fundamentos/d_tipos_programas.html">Tipos de programas</a>
-     </p>
-    </li>
-    <li>
-     <p><a href="/1_fundamentos/e_hardware.html">Hardware</a></p>
-    </li>
-    <li>
-     <p><a href="/1_fundamentos/f_software.html">Software</a></p>
+     <p><a href="/1_fundamentos/d_operativos.html">Sistemas operativos</a></p>
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/g_lenguaje.html">Lenguaje de programación</a>
+      <a href="/1_fundamentos/e_tipos_programas.html">Otros tipos de programas</a>
      </p>
     </li>
     <li>
-     <p><a href="/1_fundamentos/h_compilador.html">Compilador</a></p>
+     <p><a href="/1_fundamentos/f_hardware.html">Hardware</a></p>
     </li>
     <li>
-     <p><a href="/1_fundamentos/i_interprete.html">Intérprete</a></p>
+     <p><a href="/1_fundamentos/g_software.html">Software</a></p>
     </li>
     <li>
-     <p><a href="/1_fundamentos/j_resumen.html">Resumen</a></p>
+     <p>
+      <a href="/1_fundamentos/h_lenguaje.html">Lenguaje de programación</a>
+     </p>
+    </li>
+    <li>
+     <p><a href="/1_fundamentos/i_compilador.html">Compilador</a></p>
+    </li>
+    <li>
+     <p><a href="/1_fundamentos/j_interprete.html">Intérprete</a></p>
+    </li>
+    <li>
+     <p><a href="/1_fundamentos/k_resumen.html">Resumen</a></p>
     </li>
    </ol>`)
 }

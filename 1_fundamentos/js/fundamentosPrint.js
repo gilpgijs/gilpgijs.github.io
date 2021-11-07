@@ -1,15 +1,17 @@
 import {
  d1bDispositivosPrint
 } from "../b_dispositivos/js/d1bDispositivosPrint.js"
-import "../cmp/d1d-tipos-programas.js"
-import "../cmp/d1e-hardware.js"
-import "../cmp/d1f-software.js"
-import "../cmp/d1g-lenguaje.js"
-import "../cmp/d1h-compilador.js"
-import "../cmp/d1i-interprete.js"
-import "../cmp/d1j-resumen.js"
 import { d1aComputadoras } from "./d1aComputadoras.js"
 import { d1cProgramas } from "./d1cProgramas.js"
+import { d1dOperativos } from "./d1dOperativos.js"
+import { d1eTiposProgramas } from "./d1eTiposProgramas.js"
+import { d1fHardware } from "./d1fHardware.js"
+import { d1gSoftware } from "./d1gSoftware.js"
+import { d1hLenguaje } from "./d1hLenguaje.js"
+import { d1iCompilador } from "./d1iCompilador.js"
+import { d1jInterprete } from "./d1jInterprete.js"
+import "./d1kResumen.js"
+import { d1kResumen } from "./d1kResumen.js"
 import { fundamentosIndex } from "./fundamentosIndex.js"
 
 export function fundamentosPrint() {
@@ -24,24 +26,27 @@ export function fundamentosPrint() {
     ${d1cProgramas()}
    </section>
    <section>
-    <d1d-tipos-programas></d1d-tipos-programas>
+    ${d1dOperativos()}
    </section>
    <section>
-    <d1e-hardware></d1e-hardware>
+    ${d1eTiposProgramas()}
    </section>
    <section>
-    <d1f-software></d1f-software>
+    ${d1fHardware()}
    </section>
    <section>
-    <d1g-lenguaje></d1g-lenguaje>
+    ${d1gSoftware()}
    </section>
    <section>
-    <d1h-compilador></d1h-compilador>
+    ${d1hLenguaje()}
    </section>
    <section>
-    <d1i-interprete></d1i-interprete>
+    ${d1iCompilador()}
    </section>
    <section>
-    <d1j-resumen></d1j-resumen>
+    ${d1jInterprete()}
+   </section>
+   <section>
+    ${d1kResumen()}
    </section>`
 }

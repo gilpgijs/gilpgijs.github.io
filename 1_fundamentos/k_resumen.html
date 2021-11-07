@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="theme-color" content="#039623">
+ <link rel="manifest" href="/site.webmanifest">
+ <script type="module" src="/js/config.js"></script>
+ <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/miNav.css">
+ <link rel="stylesheet" href="/lib/css/cajon.css">
+</head>
+<body>
+ <script type="module">
+  import { layoutCajon } from "../lib/layoutCajon.js"
+  import { miFooter } from "../lib/miFooter.js"
+  import { miNav } from "../js/miNav.js"
+  import { d1kResumen } from "./js/d1kResumen.js"
+  layoutCajon(miNav(), d1kResumen(), miFooter())
+ </script>
+</body>
+</html>

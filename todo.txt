@@ -1,4 +1,4 @@
-1. ok hasta 1/c
+1. ok hasta 1_fundamentos
 2. Poner los títulos de los operadores como en css de gilpgihc.
 
 Comando para generar el listado:
@@ -12,6 +12,7 @@ Quita  del listado:
 * README.md
 * sw.js
 * todo.txt
+* settings.json
 
 Cambia los \ por / desde Visual Studio Code
 
