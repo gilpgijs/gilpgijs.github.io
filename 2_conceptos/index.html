@@ -12,13 +12,12 @@
  <link rel="stylesheet" href="/lib/css/cajon.css">
 </head>
 <body>
- <layout-cajon>
-  <script type="module">
-   import { layoutCajon } from "../lib/layoutCajon.js"
-   import { miFooter } from "../lib/miFooter.js"
-   import { miNav } from "../js/miNav.js"
-   import { conceptosIndex } from "./js/conceptosIndex.js"
-   layoutCajon(miNav(), conceptosIndex(), miFooter())
-  </script>
- </body>
+ <script type="module">
+  import { layoutCajon } from "../lib/layoutCajon.js"
+  import { miFooter } from "../lib/miFooter.js"
+  import { miNav } from "../js/miNav.js"
+  import { conceptosIndex } from "./js/conceptosIndex.js"
+  layoutCajon(miNav(), conceptosIndex(), miFooter())
+ </script>
+</body>
 </html>

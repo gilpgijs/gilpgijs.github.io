@@ -6,14 +6,18 @@
  <link rel="icon" sizes="32x32" href="/favicon.ico">
  <meta name="theme-color" content="#039623">
  <link rel="manifest" href="/site.webmanifest">
- <script type="module" src="/js/configCajon.js"></script>
- <script src="/lib/layout-cajon.js"></script>
- <script type="module" src="cmp/e-orden.js"></script>
+ <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/miNav.css">
+ <link rel="stylesheet" href="/lib/css/cajon.css">
 </head>
 <body>
- <layout-cajon>
-  <e-orden></e-orden>
- </layout-cajon>
+ <script type="module">
+  import { layoutCajon } from "../lib/layoutCajon.js"
+  import { miFooter } from "../lib/miFooter.js"
+  import { miNav } from "../js/miNav.js"
+  import { d2iOrden } from "./js/d2iOrden.js"
+  layoutCajon(miNav(), d2iOrden(), miFooter())
+ </script>
 </body>
 </html>

@@ -1,12 +1,8 @@
-import { Diapositiva } from "../../lib/Diapositiva.js";
 import "../../lib/muestra-codigo.js";
 
-export class EOrden extends Diapositiva {
- /** @override */
- connectedCallback() {
-  super.connectedCallback();
-  this.innerHTML = /* html */
-   `<h1>E. Orden de ejecución</h1>
+export function d2iOrden() {
+ return (/* html */
+  `<h1>I. Orden de ejecución</h1>
    <div class="lectura">
     <ul>
      <li>
@@ -45,7 +41,8 @@ export class EOrden extends Diapositiva {
      <h2>Salida.</h2>
      <iframe src="/2_conceptos/src/1_orden.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="/2_conceptos/src/1_orden.html">Ábrelo en otra pestaña.</a>
+      <a target="_blank" href="/2_conceptos/src/1_orden.html">Ábrelo en otra
+       pestaña.</a>
      </p>
      <p class="noPrint">
       <a target="_blank"
@@ -70,8 +67,5 @@ export class EOrden extends Diapositiva {
       <div><span style="color: #800000;">&lt;/script&gt;</span></div>
      </div>
     </muestra-codigo>
-   </div>`;
- }
+   </div>`)
 }
-
-customElements.define("e-orden", EOrden);

@@ -17,7 +17,7 @@ export function conceptosContenido() {
     </li>
     <li>
      <p>
-      <a href="/2_conceptos/e_log.html">La instrucción
+      <a href="/2_conceptos/e_log.html">La función
        <strong>console.log</strong></a>
      </p>
     </li>

@@ -20,7 +20,8 @@ export function d1fProgramasContenido() {
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/f_programas/4_sitios.html">Sitios web</a>
+      <a href="/1_fundamentos/f_programas/4_sitios.html">Navegadores y sitios
+       web</a>
      </p>
     </li>
     <li>

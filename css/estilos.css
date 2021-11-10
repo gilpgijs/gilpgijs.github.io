@@ -89,6 +89,15 @@ h1 strong {
  }
 }
 
+figure {
+ text-align: center;
+}
+
+figure img {
+ max-width: 100%;
+ max-height: 65vh;
+}
+
 figcaption {
  font-family: var(--fontMono);
 }
@@ -165,14 +174,6 @@ code.language-kotlin,
 code.language-javascript {
  color: blue;
  font-family: var(--fontMono);
-}
-
-figure {
- text-align: center;
-}
-
-figure img {
- max-width: 100%;
 }
 
 .resaltado {

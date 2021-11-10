@@ -1,10 +1,16 @@
-import "../cmp/a-js.js";
-import "../cmp/c-string.js";
-import "../cmp/d-write.js";
-import "../cmp/e-orden.js";
-import "../cmp/f-resumen-2.js";
-import "../cmp/b-textos.js";
 import { conceptosIndex } from "./conceptosIndex.js";
+import { d2aAlgoritmo } from "./d2aAlgoritmo.js";
+import { d2bjs } from "./d2bjs.js";
+import { d2cTextos } from "./d2cTextos.js";
+import { d2dString } from "./d2dString.js";
+import { d2elog } from "./d2elog.js";
+import { d2fCPU } from "./d2fCPU.js";
+import { d2gMemoria } from "./d2gMemoria.js";
+import { d2hEntradaSalida } from "./d2hEntradaSalida.js";
+import { d2iOrden } from "./d2iOrden.js";
+import { d2jPseudocodigo } from "./d2jPseudocodigo.js";
+import { d2kDiagrama } from "./d2kDiagrama.js";
+import { d2lResumen } from "./d2lResumen.js";
 
 export function conceptosPrint() {
  return (/* html */
@@ -12,21 +18,39 @@ export function conceptosPrint() {
     ${conceptosIndex()}
    </section>
    <section>
-    <a-js></a-js>
+    ${d2aAlgoritmo()}
    </section>
    <section>
-    <b-textos></b-textos>
+    ${d2bjs()}
    </section>
    <section>
-    <c-string></c-string>
+    ${d2cTextos()}
    </section>
    <section>
-    <d-write></d-write>
+    ${d2dString()}
    </section>
    <section>
-    <e-orden></e-orden>
+    ${d2elog()}
    </section>
    <section>
-    <f-resumen-2></f-resumen-2>
+    ${d2fCPU()}
+   </section>
+   <section>
+    ${d2gMemoria()}
+   </section>
+   <section>
+    ${d2hEntradaSalida()}
+   </section>
+   <section>
+    ${d2iOrden()}
+   </section>
+   <section>
+    ${d2jPseudocodigo()}
+   </section>
+   <section>
+    ${d2kDiagrama()}
+   </section>
+   <section>
+    ${d2lResumen()}
    </section>`)
 }

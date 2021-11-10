@@ -18,7 +18,7 @@ export function d1eOperativosContenido() {
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/e_operativos/4_macos.html">MacOS</a>
+      <a href="/1_fundamentos/e_operativos/4_macos.html">macOS</a>
      </p>
     </li>
     <li>

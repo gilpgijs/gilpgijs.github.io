@@ -1,4 +1,4 @@
-1. ok hasta 1_fundamentos
+1. Revisar contenido de 2_conceptos
 2. Poner los títulos de los operadores como en css de gilpgihc.
 
 Comando para generar el listado:

@@ -6,16 +6,20 @@
  <script type="module" src="/js/configCajon.js"></script>
  <script src="/lib/layout-cajon.js"></script>
  <link rel="icon" sizes="32x32" href="/favicon.ico">
- <meta name="theme-color" content="#ffffff">
+ <meta name="theme-color" content="#039623">
  <link rel="manifest" href="/site.webmanifest">
+ <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
- <script type="module" src="cmp/d-pseudocodigo-1.js"></script>
+ <link rel="stylesheet" href="/lib/css/miNav.css">
+ <link rel="stylesheet" href="/lib/css/cajon.css">
 </head>
 <body>
- <layout-cajon>
-   
-  <d-pseudocodigo-1></d-pseudocodigo-1>
-   
- </layout-cajon>
+ <script type="module">
+  import { layoutCajon } from "../lib/layoutCajon.js"
+  import { miFooter } from "../lib/miFooter.js"
+  import { miNav } from "../js/miNav.js"
+  import { d2jPseudocodigo } from "./js/d2jPseudocodigo.js"
+  layoutCajon(miNav(), d2jPseudocodigo(), miFooter())
+ </script>
 </body>
 </html>
