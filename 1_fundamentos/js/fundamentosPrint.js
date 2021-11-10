@@ -1,52 +1,55 @@
 import {
  d1bDispositivosPrint
 } from "../b_dispositivos/js/d1bDispositivosPrint.js"
-import { d1aComputadoras } from "./d1aComputadoras.js"
-import { d1cProgramas } from "./d1cProgramas.js"
-import { d1dOperativos } from "./d1dOperativos.js"
-import { d1eTiposProgramas } from "./d1eTiposProgramas.js"
-import { d1fHardware } from "./d1fHardware.js"
-import { d1gSoftware } from "./d1gSoftware.js"
-import { d1hLenguaje } from "./d1hLenguaje.js"
-import { d1iCompilador } from "./d1iCompilador.js"
-import { d1jInterprete } from "./d1jInterprete.js"
-import "./d1kResumen.js"
-import { d1kResumen } from "./d1kResumen.js"
+import { d1eOperativosPrint } from "../e_operativos/js/d1eOperativosPrint.js"
+import { d1fProgramasPrint } from "../f_programas/js/d1fProgramasPrint.js"
+import { d1aComputadora } from "./d1aComputadora.js"
+import { d1cPrograma } from "./d1cPrograma.js"
+import { d1dOperativo } from "./d1dOperativo.js"
+import { d1gHardware } from "./d1gHardware.js"
+import { d1hSoftware } from "./d1hSoftware.js"
+import { d1iLenguaje } from "./d1iLenguaje.js"
+import { d1jCompilador } from "./d1jCompilador.js"
+import { d1kInterprete } from "./d1kInterprete.js"
+import { d1lResumen } from "./d1lResumen.js"
 import { fundamentosIndex } from "./fundamentosIndex.js"
 
 export function fundamentosPrint() {
  return fundamentosIndex() + /* html */
   `<section>
-    ${d1aComputadoras()}
+    ${d1aComputadora()}
    </section>
    <section>
     ${d1bDispositivosPrint()}
    </section>
    <section>
-    ${d1cProgramas()}
+    ${d1cPrograma()}
    </section>
    <section>
-    ${d1dOperativos()}
+    ${d1dOperativo()}
    </section>
    <section>
-    ${d1eTiposProgramas()}
+    ${d1eOperativosPrint()}
    </section>
    <section>
-    ${d1fHardware()}
+    ${d1fProgramasPrint()}
    </section>
    <section>
-    ${d1gSoftware()}
+    ${d1gHardware()}
    </section>
    <section>
-    ${d1hLenguaje()}
+    ${d1hSoftware()}
    </section>
    <section>
-    ${d1iCompilador()}
+    ${d1iLenguaje()}
    </section>
    <section>
-    ${d1jInterprete()}
+    ${d1jCompilador()}
    </section>
    <section>
-    ${d1kResumen()}
+    ${d1kInterprete()}
+   </section>
+   <section>
+    ${d1lResumen()}
    </section>`
 }

@@ -6,7 +6,6 @@ export function d1bDispositivosIndex() {
    <div class="lectura">
     <p class="noPrint">
      <a href="print.html" target="_blank">Versión para Imprimir.</a>
-     <h2>Contenido</h2>
      <nav>
       ${d1bDispositivosContenido()}
      </nav>

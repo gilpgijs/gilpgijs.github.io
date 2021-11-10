@@ -13,7 +13,7 @@ import "../17_switch/cmp/switch-contenido.js"
 import {
  fundamentosContenido
 } from "../1_fundamentos/js/fundamentosContenido.js"
-import "../2_conceptos/cmp/conceptos-contenido.js"
+import { conceptosContenido } from "../2_conceptos/js/conceptosContenido.js"
 import "../3_variables/cmp/variables-contenido.js"
 import "../4_comentarios/cmp/comentarios-contenido.js"
 import "../5_bloques/cmp/bloques-contenido.js"
@@ -42,7 +42,7 @@ export function miNav() {
         <summary>
          <h4><a href="/2_conceptos/index.html">Conceptos básicos</a></h4>
         </summary>
-        <conceptos-contenido></conceptos-contenido>
+        ${conceptosContenido()}
        </details>
       </li>
       <li>

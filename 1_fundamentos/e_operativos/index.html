@@ -8,12 +8,16 @@
  <link rel="manifest" href="/site.webmanifest">
  <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/miNav.css">
+ <link rel="stylesheet" href="/lib/css/cajon.css">
 </head>
-<body class="print">
+<body>
  <script type="module">
-  import { conceptosPrint } from "./js/conceptosPrint.js"
-  import { miFooter } from "../lib/miFooter.js"
-  document.body.innerHTML += conceptosPrint() + miFooter()
+  import { layoutCajon } from "../../lib/layoutCajon.js"
+  import { miFooter } from "../../lib/miFooter.js"
+  import { miNav } from "../../js/miNav.js"
+  import { d1eOperativosIndex } from "./js/d1eOperativosIndex.js"
+  layoutCajon(miNav(), d1eOperativosIndex(), miFooter())
  </script>
 </body>
 </html>

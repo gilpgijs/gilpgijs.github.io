@@ -117,7 +117,8 @@ iframe {
  margin: 1rem auto;
 }
 
-.lectura p {
+.lectura p,
+.lectura blockquote {
  text-align: justify;
 }
 
@@ -224,7 +225,6 @@ nav h5 {
 
 footer {
  margin-top: 1rem;
- padding-bottom: 2rem;
  display: block;
  text-align: center;
  font-family: var(--fontSans);
