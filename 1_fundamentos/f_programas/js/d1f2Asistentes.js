@@ -3,7 +3,7 @@ export function d1f2Asistentes() {
   `<h1>Asistentes virtuales</h1>
    <figure>
     <img alt="Asistentes virtuales"
-      src="/1_fundamentos/img/pexels-fabian-hurnaus-977296.jpg">
+      src="/1_fundamentos/img/pexels-fabian-hurnaus-977296.webp">
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/eco-amazonas-negro-sobre-mesa-977296/"

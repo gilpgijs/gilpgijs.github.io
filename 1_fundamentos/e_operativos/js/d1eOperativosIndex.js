@@ -5,7 +5,6 @@ export function d1eOperativosIndex() {
   `<h1>E. Ejemplos de sistemas operativos</h1>
    <div class="lectura">
     <p class="noPrint">
-     <a href="print.html" target="_blank">Versión para Imprimir.</a>
      <nav>
       ${d1eOperativosContenido()}
      </nav>

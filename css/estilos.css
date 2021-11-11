@@ -24,7 +24,7 @@
  --padCtrl: 0.2rem 0.3rem;
  --borderCtrl: solid thin;
  --colFondoNav: #e4e4e4;
- --colNavResaltada: #dd8b11;
+ --colNavResaltada: #785116;
  --colSecundario: #ffff82;
  --colStack1: black;
  --padMiNav: 0.5rem;
@@ -43,7 +43,8 @@
  display: inline-block;
  text-decoration: none;
  padding: var(--padCtrl);
- border: var(--borderCtrl)
+ border: var(--borderCtrl);
+ cursor: pointer;
 }
 
 .anterior.bye,
@@ -96,6 +97,10 @@ figure {
 figure img {
  max-width: 100%;
  max-height: 65vh;
+}
+
+figure img.med {
+ max-height: 55vh;
 }
 
 figcaption {
@@ -222,6 +227,8 @@ nav h5 {
  display: inline;
  color: var(--colSummary);
  font-family: var(--fontSans);
+ margin-top: 1rem;
+ margin-bottom: 1rem;
 }
 
 footer {

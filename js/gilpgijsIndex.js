@@ -18,7 +18,7 @@ export function gilpgijsIndex(miNav) {
       <li>
        <p>
         Una vez concluidos estos temas, puedes continuar con
-        <a href="https://gilpgpoojs.github.io"
+        <a href="https://gilpgpoojs.github.io" rel="noopener"
           target="_blank">https://gilpgpoojs.github.io</a>
         para aprender sobre programación orientada a objetos en JavaScript.
        </p>
@@ -26,7 +26,7 @@ export function gilpgijsIndex(miNav) {
       <li>
        <p>
         Los temas de HTML, CSS y animaciones se han movido al sitio
-        <a href="https://gilpgiw.github.io"
+        <a href="https://gilpgiw.github.io" rel="noopener"
           target="_blank">https://gilpgiw.github.io</a>.
        </p>
       </li>

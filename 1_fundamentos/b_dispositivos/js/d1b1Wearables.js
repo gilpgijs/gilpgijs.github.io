@@ -3,7 +3,7 @@ export function d1b1Wearables() {
   `<h1>Wearables</h1>
    <figure>
     <img alt="Wearables"
-      src="/1_fundamentos/img/pexels-ketut-subiyanto-4436291.jpg">
+      src="/1_fundamentos/img/pexels-ketut-subiyanto-4436291.webp">
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/mujer-telefono-inteligente-navegando-internet-4436291/"

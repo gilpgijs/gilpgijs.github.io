@@ -3,7 +3,7 @@ export function d1b4Consolas() {
   `<h1>Consolas de videojuegos</h1>
    <figure>
     <img alt="Consola"
-      src="/1_fundamentos/img/pexels-ketut-subiyanto-4545975.jpg">
+      src="/1_fundamentos/img/pexels-ketut-subiyanto-4545975.webp">
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/efecto-desenfocado-dentro-reloj-de-pulsera-negro-4545952/"

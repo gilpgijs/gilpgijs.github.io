@@ -13,7 +13,7 @@ export function d1aComputadora() {
        almacenar y tratar información, y resolver problemas de diversa índole.
       </blockquote>
       <figure>
-       <img alt="Computadoras"
+       <img class="med" alt="Computadoras"
          src="/1_fundamentos/img/pexels-teona-swift-6912819.jpg">
        <figcaption>
         Computadoras en nuestra vida

@@ -1,6 +1,6 @@
 /* Espera 11 minutos después de hacer los cambios en tu sitio, para depués
  * actualizar este archivo. */
-const CACHE = "gilpgijs-2.60.06";
+const CACHE = "gilpgijs-2.60.06"
 
 /** Archivos requeridos para que la aplicación funcione fuera de línea. */
 const ARCHIVOS = [
@@ -270,26 +270,26 @@ const ARCHIVOS = [
  "1_fundamentos/f_programas/js/d1fProgramasContenido.js",
  "1_fundamentos/f_programas/js/d1fProgramasIndex.js",
  "1_fundamentos/f_programas/js/d1fProgramasPrint.js",
- "1_fundamentos/img/android.jpg",
+ "1_fundamentos/img/android.webp",
  "1_fundamentos/img/compilador.svg",
  "1_fundamentos/img/fortnite.webp",
  "1_fundamentos/img/interprete.svg",
- "1_fundamentos/img/ios.jpg",
- "1_fundamentos/img/macos.png",
- "1_fundamentos/img/mx-small.png",
- "1_fundamentos/img/pexels-andrea-piacquadio-3776817.jpg",
- "1_fundamentos/img/pexels-andrea-piacquadio-3781725.jpg",
- "1_fundamentos/img/pexels-bich-tran-1714341.jpg",
- "1_fundamentos/img/pexels-fabian-hurnaus-977296.jpg",
- "1_fundamentos/img/pexels-ketut-subiyanto-4436291.jpg",
- "1_fundamentos/img/pexels-ketut-subiyanto-4545975.jpg",
- "1_fundamentos/img/pexels-manuel-geissinger-325229.jpg",
- "1_fundamentos/img/pexels-teona-swift-6912819.jpg",
- "1_fundamentos/img/pexels-the-lazy-artist-gallery-1170344.jpg",
- "1_fundamentos/img/pexels-tima-miroshnichenko-6021573.jpg",
- "1_fundamentos/img/teams.png",
- "1_fundamentos/img/windows10.png",
- "1_fundamentos/img/youtube.png",
+ "1_fundamentos/img/ios.webp",
+ "1_fundamentos/img/macos.webp",
+ "1_fundamentos/img/mx-small.webp",
+ "1_fundamentos/img/pexels-andrea-piacquadio-3776817.webp",
+ "1_fundamentos/img/pexels-andrea-piacquadio-3781725.webp",
+ "1_fundamentos/img/pexels-bich-tran-1714341.webp",
+ "1_fundamentos/img/pexels-fabian-hurnaus-977296.webp",
+ "1_fundamentos/img/pexels-ketut-subiyanto-4436291.webp",
+ "1_fundamentos/img/pexels-ketut-subiyanto-4545975.webp",
+ "1_fundamentos/img/pexels-manuel-geissinger-325229.webp",
+ "1_fundamentos/img/pexels-teona-swift-6912819.webp",
+ "1_fundamentos/img/pexels-the-lazy-artist-gallery-1170344.webp",
+ "1_fundamentos/img/pexels-tima-miroshnichenko-6021573.webp",
+ "1_fundamentos/img/teams.webp",
+ "1_fundamentos/img/windows10.webp",
+ "1_fundamentos/img/youtube.webp",
  "1_fundamentos/js/d1aComputadora.js",
  "1_fundamentos/js/d1cPrograma.js",
  "1_fundamentos/js/d1dOperativo.js",
@@ -302,6 +302,7 @@ const ARCHIVOS = [
  "1_fundamentos/js/fundamentosContenido.js",
  "1_fundamentos/js/fundamentosIndex.js",
  "1_fundamentos/js/fundamentosPrint.js",
+ "1_fundamentos/js/miNav.js",
  "2_conceptos/a_algoritmo.html",
  "2_conceptos/b_js.html",
  "2_conceptos/c_textos.html",
@@ -339,6 +340,7 @@ const ARCHIVOS = [
  "2_conceptos/js/d2jPseudocodigo.js",
  "2_conceptos/js/d2kDiagrama.js",
  "2_conceptos/js/d2lResumen.js",
+ "2_conceptos/js/miNav.js",
  "2_conceptos/src/1_orden.html",
  "3_variables/a_identificadores.html",
  "3_variables/b_proceso.html",
@@ -532,6 +534,15 @@ const ARCHIVOS = [
  "img/icono1024.png",
  "img/icono2048.png",
  "img/icono256.png",
+ "img/maskable_icon.png",
+ "img/maskable_icon2730.png",
+ "img/maskable_icon_x128.png",
+ "img/maskable_icon_x192.png",
+ "img/maskable_icon_x384.png",
+ "img/maskable_icon_x48.png",
+ "img/maskable_icon_x512.png",
+ "img/maskable_icon_x72.png",
+ "img/maskable_icon_x96.png",
  "js/config.js",
  "js/configCajon.js",
  "js/gilpgijsIndex.js",
@@ -551,37 +562,37 @@ const ARCHIVOS = [
  "lib/css/miNav.css",
  "lib/css/prueba.css",
  "/"
-];
+]
 
 self.addEventListener("install", evt => {
- console.log("Service Worker instalado.");
+ console.log("Service Worker instalado.")
  // @ts-ignore
  evt.waitUntil(cargaCache());
-});
+})
 
 self.addEventListener("fetch", evt => {
  // @ts-ignore
  if (evt.request.method === "GET") {
   // @ts-ignore
-  evt.respondWith(usaCache(evt));
+  evt.respondWith(usaCache(evt))
  }
 });
 
-self.addEventListener("activate", () => console.log("Service Worker activo."));
+self.addEventListener("activate", () => console.log("Service Worker activo."))
 
 async function cargaCache() {
- console.log("Intentando cargar cache: " + CACHE);
- const cache = await caches.open(CACHE);
- await cache.addAll(ARCHIVOS);
- console.log("Cache cargado: " + CACHE);
+ console.log("Intentando cargar cache:", CACHE)
+ const cache = await caches.open(CACHE)
+ await cache.addAll(ARCHIVOS)
+ console.log("Cache cargado:", CACHE)
 }
 
 async function usaCache(evt) {
- const cache = await caches.open(CACHE);
- const response = await cache.match(evt.request, { ignoreSearch: true });
+ const cache = await caches.open(CACHE)
+ const response = await cache.match(evt.request, { ignoreSearch: true })
  if (response) {
-  return response;
+  return response
  } else {
-  return fetch(evt.request);
+  return fetch(evt.request)
  }
 }

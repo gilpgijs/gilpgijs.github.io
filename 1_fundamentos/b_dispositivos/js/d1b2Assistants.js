@@ -3,7 +3,7 @@ export function d1b2Assistants() {
   `<h1>Dispositivos asistentes</h1>
    <figure>
     <img alt="Dispositivos asistentes"
-      src="/1_fundamentos/img/pexels-fabian-hurnaus-977296.jpg">
+      src="/1_fundamentos/img/pexels-fabian-hurnaus-977296.webp">
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/eco-amazonas-negro-sobre-mesa-977296/"

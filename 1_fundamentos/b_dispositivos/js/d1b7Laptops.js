@@ -3,7 +3,7 @@ export function d1b7Laptops() {
   `<h1>Laptops</h1>
    <figure>
     <img alt="Laptop"
-      src="/1_fundamentos/img/pexels-tima-miroshnichenko-6021573.jpg">
+      src="/1_fundamentos/img/pexels-tima-miroshnichenko-6021573.webp">
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/persona-cafe-taza-mano-6912819/"

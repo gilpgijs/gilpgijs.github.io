@@ -7,7 +7,7 @@ import "../15_while/cmp/while-print.js"
 import "../16_for/cmp/for-print.js"
 import "../17_switch/cmp/switch-print.js"
 import { fundamentosPrint } from "../1_fundamentos/js/fundamentosPrint.js"
-import "../2_conceptos/cmp/conceptos-print.js"
+import { conceptosPrint } from "../2_conceptos/js/conceptosPrint.js"
 import "../3_variables/cmp/variables-print.js"
 import "../4_comentarios/cmp/comentarios-print.js"
 import "../5_bloques/cmp/bloques-print.js"
@@ -31,7 +31,7 @@ export class GilPGIJSPrint extends Diapositiva {
     </section>
     <section>
      <h1 class="presentación">2. Conceptos básicos</h1>
-     <conceptos-print></conceptos-print>
+     ${conceptosPrint()}
      <mi-footer></mi-footer>
     </section>
     <section>
