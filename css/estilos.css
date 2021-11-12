@@ -39,7 +39,9 @@
 }
 
 .anterior,
-.siguiente {
+.siguiente,
+.leccionAnterior,
+.leccionSiguiente {
  display: inline-block;
  text-decoration: none;
  padding: var(--padCtrl);
@@ -50,6 +52,16 @@
 .anterior.bye,
 .siguiente.bye {
  display: none;
+}
+
+.logo {
+ display: inline-block;
+ height: 50px;
+ line-height: 50px;
+ padding-left: 53px;
+ background-image: url("/img/maskable_icon_x48.png");
+ background-position: left center;
+ background-repeat: no-repeat;
 }
 
 h1:not(.default),

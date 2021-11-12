@@ -7,8 +7,8 @@ export function conceptosIndex() {
     <p class="noPrint">
      <a href="print.html" target="_blank">Versión para Imprimir.</a>
     </p>
-    <h2>Contenido</h2>
     <nav>
+     <h1>Contenido</h1>
      ${conceptosContenido()}
     </nav>
    </div>`)

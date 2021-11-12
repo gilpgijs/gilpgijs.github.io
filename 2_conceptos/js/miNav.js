@@ -5,9 +5,13 @@
 import { conceptosContenido } from "./conceptosContenido.js"
 export function miNav() {
  return (/* html */
-  `<div class="miNav">
-    <p><a href="/index.html">Regresar a Introducción a JavaScript</a></p>
-    <h3><a href="/2_conceptos/index.html">Conceptos básicos</a></h3>
+  `<ul>
+    <li><p><a href="/index.html" class="logo">Inicio</a></p></li>
+   </ul>
+   <section>
+    <p><a href="/1_fundamentos/l_resumen.html" class="leccionAnterior" title="Resumen">▲</a></hp>
+    <h1><a href="/2_conceptos/index.html">Conceptos básicos</a></h1>
     ${conceptosContenido()}
-   </div>`)
+    <p><a href="/3_variables/index.html" class="leccionSiguiente" title="Variables">▼</a></p>
+   </section>`)
 }
