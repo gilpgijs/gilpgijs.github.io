@@ -14,7 +14,7 @@ export function d1aComputadora() {
       </blockquote>
       <figure>
        <img class="med" alt="Computadoras"
-         src="/1_fundamentos/img/pexels-teona-swift-6912819.jpg">
+         src="/1_fundamentos/img/pexels-teona-swift-6912819.webp">
        <figcaption>
         Computadoras en nuestra vida
         (<small><a href="https://www.pexels.com/es-es/foto/persona-cafe-taza-mano-6912819/"
