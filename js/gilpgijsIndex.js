@@ -33,7 +33,6 @@ export function gilpgijsIndex(miNav) {
      </ul>
      ${INSTRUCCIONES_NAV}
      <nav>
-      <h1>Contenido</h1>
       ${miNav}
      </nav>
     </div>`)

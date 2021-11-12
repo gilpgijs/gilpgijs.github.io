@@ -7,15 +7,10 @@ import {
 } from "./fundamentosContenido.js"
 export function miNav() {
  return (/* html */
-  `<ul>
-    <li><p><a href="/index.html" class="logo">Inicio</a></p></li>
-   </ul>
-   <section>
-    <h1><a href="/1_fundamentos/index.html">Fundamentos</a></h1>
-    ${fundamentosContenido()}
-    <p>
-     <a href="/2_conceptos/index.html" class="leccionSiguiente"
-       title="Conceptos básicos">▼</a>
-    </p>
-   </section>`)
+  `<h1><a href="/1_fundamentos/index.html">Fundamentos</a></h1>
+   ${fundamentosContenido()}
+   <p>
+    <a href="/2_conceptos/index.html" class="leccionSiguiente"
+      title="Conceptos básicos">▼</a>
+   </p>`)
 }
