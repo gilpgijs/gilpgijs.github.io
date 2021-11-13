@@ -23,7 +23,7 @@ nav h5 {
  --introDuracion: 2s;
  --introFuncion: ease-out;
  --padCont: 0.5rem;
- --padNav: 0.5rem;
+ --padNav: 0.75rem 0.5rem;
  --anchoNav: 300px;
  --anchoLectura: 900px;
  --colLetra: black;
@@ -74,6 +74,7 @@ a.logo {
  height: 54px;
  line-height: 54px;
  padding-left: 54px;
+ margin-top: 1rem;
  background-image: url("/img/maskable_icon_x48.png");
  background-position: 3px center;
  background-repeat: no-repeat;
