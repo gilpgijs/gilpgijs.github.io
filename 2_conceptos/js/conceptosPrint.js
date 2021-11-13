@@ -1,12 +1,12 @@
 import { conceptosIndex } from "./conceptosIndex.js";
 import { d2aAlgoritmo } from "./d2aAlgoritmo.js";
-import { d2bjs } from "./d2bjs.js";
-import { d2cTextos } from "./d2cTextos.js";
-import { d2dString } from "./d2dString.js";
-import { d2elog } from "./d2elog.js";
-import { d2fCPU } from "./d2fCPU.js";
-import { d2gMemoria } from "./d2gMemoria.js";
-import { d2hEntradaSalida } from "./d2hEntradaSalida.js";
+import { d2bMemoria } from "./d2bMemoria.js";
+import { d2cCPU } from "./d2cCPU.js";
+import { d2dEntradaSalida } from "./d2dEntradaSalida.js";
+import { d2ejs } from "./d2ejs.js";
+import { d2fTextos } from "./d2fTextos.js";
+import { d2gString } from "./d2gString.js";
+import { d2hlog } from "./d2hlog.js";
 import { d2iOrden } from "./d2iOrden.js";
 import { d2jPseudocodigo } from "./d2jPseudocodigo.js";
 import { d2kDiagrama } from "./d2kDiagrama.js";
@@ -21,25 +21,25 @@ export function conceptosPrint() {
     ${d2aAlgoritmo()}
    </section>
    <section>
-    ${d2bjs()}
+    ${d2bMemoria()}
    </section>
    <section>
-    ${d2cTextos()}
+    ${d2cCPU()}
    </section>
    <section>
-    ${d2dString()}
+    ${d2dEntradaSalida()}
    </section>
    <section>
-    ${d2elog()}
+    ${d2ejs()}
    </section>
    <section>
-    ${d2fCPU()}
+    ${d2fTextos()}
    </section>
    <section>
-    ${d2gMemoria()}
+    ${d2gString()}
    </section>
    <section>
-    ${d2hEntradaSalida()}
+    ${d2hlog()}
    </section>
    <section>
     ${d2iOrden()}

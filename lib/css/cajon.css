@@ -3,7 +3,6 @@
  * http://creativecommons.org/licenses/by/4.0/. */
 
 #principal {
- background-color: var(--colBk);
  transition: margin-left 0.7s ease-in-out;
 }
 
@@ -43,11 +42,16 @@ body:not(.pres) #principal {
  overflow: auto;
  color: var(--colLetra);
  background-color: var(--colFondoNav);
- padding: var(--padMiNav);
+ padding: var(--padCont);
  transition: transform 0.7s ease-in-out;
 }
 
+#nav h1 a {
+ color: var(--colTituloLetra);
+}
+
 #nav a.actual {
+ font-weight: bold;
  color: var(--colNavResaltada);
 }
 

@@ -13,6 +13,8 @@ export function d2aAlgoritmo() {
        de un problema.
       </blockquote>
      </li>
+     <li>
+      <p>Los programas son implementaciones de algoritmos.</p>
     </ul>
    </div>`)
 }

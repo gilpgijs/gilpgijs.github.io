@@ -1,6 +1,6 @@
-export function d2bjs() {
+export function d2ejs() {
  return (/* html */
-  `<h1>B. <dfn>JavaScript</dfn></h1>
+  `<h1>E. <dfn>JavaScript</dfn></h1>
    <div class="lectura">
     <ul>
      <li>

@@ -5,35 +5,35 @@ export function conceptosContenido() {
      <p><a href="/2_conceptos/a_algoritmo.html">Algoritmo</a></p>
     </li>
     <li>
-     <p><a href="/2_conceptos/b_js.html">JavaScript</a></p>
-    </li>
-    <li>
-     <p><a href="/2_conceptos/c_textos.html">Textos</a></p>
-    </li>
-    <li>
      <p>
-      <a href="/2_conceptos/d_string.html">El tipo <strong>string</strong></a>
+      <a href="/2_conceptos/b_memoria.html">Memoria</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/2_conceptos/e_log.html">La función
+      <a href="/2_conceptos/c_cpu.html">CPU</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/2_conceptos/d_entrada_salida.html">Entrada/salida</a>
+     </p>
+    </li>
+    <li>
+     <p><a href="/2_conceptos/e_js.html">JavaScript</a></p>
+    </li>
+    <li>
+     <p><a href="/2_conceptos/f_textos.html">Textos</a></p>
+    </li>
+    <li>
+     <p>
+      <a href="/2_conceptos/g_string.html">El tipo <strong>string</strong></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/2_conceptos/h_log.html">La función
        <strong>console.log</strong></a>
-     </p>
-    </li>
-    <li>
-     <p>
-      <a href="/2_conceptos/f_cpu.html">CPU</a>
-     </p>
-    </li>
-    <li>
-     <p>
-      <a href="/2_conceptos/g_memoria.html">Memoria</a>
-     </p>
-    </li>
-    <li>
-     <p>
-      <a href="/2_conceptos/h_entrada_salida.html">Entrada/salida</a>
      </p>
     </li>
     <li>

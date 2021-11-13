@@ -8,26 +8,22 @@ export function d1bDispositivosContenido() {
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/b_dispositivos/2_assistants.html">Dispositivos
-       asistentes</a>
+      <a href="/1_fundamentos/b_dispositivos/2_assistants.html">Dispositivos asistentes</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/b_dispositivos/3_arduino.html">Hardware
-       abierto</a>
+      <a href="/1_fundamentos/b_dispositivos/3_arduino.html">Hardware abierto</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/b_dispositivos/4_consolas.html">Consolas de
-       videojuegos</a>
+      <a href="/1_fundamentos/b_dispositivos/4_consolas.html">Consolas de videojuegos</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/b_dispositivos/5_celulares.html">Teléfonos
-       celulares</a>
+      <a href="/1_fundamentos/b_dispositivos/5_celulares.html">Teléfonos celulares</a>
      </p>
     </li>
     <li>
@@ -40,8 +36,7 @@ export function d1bDispositivosContenido() {
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/b_dispositivos/8_desktops.html">Computadoras de
-       escritorio</a>
+      <a href="/1_fundamentos/b_dispositivos/8_desktops.html">Computadoras de escritorio</a>
      </p>
     </li>
     <li>

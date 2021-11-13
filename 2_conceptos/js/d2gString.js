@@ -1,9 +1,6 @@
-export function d2dString() {
+export function d2gString() {
  return (/* html */
-  `<h1>
-    D. El tipo
-    <strong>string</strong>
-   </h1>
+  `<h1>G. El tipo <strong>string</strong></h1>
    <div class="lectura">
     <ul>
      <li>

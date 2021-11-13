@@ -6,17 +6,17 @@ export function d2lResumen() {
      <li>
       <p>En esta lección se definieron los siguientes conceptos:</p>
       <ul>
-       <li><p>Algoritmo</li></p>
-       <li><p>JavaScript</li></p>
-       <li><p>Textos</li></p>
-       <li><p>string</li></p>
-       <li><p>console.log</li></p>
-       <li><p>CPU</li></p>
-       <li><p>Memoria</li></p>
-       <li><p>Entrada/salida</li></p>
-       <li><p>Orden de ejecución</li></p>
-       <li><p>Pseudocódigo</li></p>
-       <li><p>Diagrama de flujo</li></p>
+       <li><p>Algoritmo</p></li>
+       <li><p>JavaScript</p></li>
+       <li><p>Textos</p></li>
+       <li><p>string</p></li>
+       <li><p>console.log</p></li>
+       <li><p>CPU</p></li>
+       <li><p>Memoria</p></li>
+       <li><p>Entrada/salida</p></li>
+       <li><p>Orden de ejecución</p></li>
+       <li><p>Pseudocódigo</p></li>
+       <li><p>Diagrama de flujo</p></li>
       </ul>
      </li>
     </ul>

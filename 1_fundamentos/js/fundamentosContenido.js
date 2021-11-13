@@ -1,13 +1,3 @@
-import {
- d1bDispositivosContenido
-} from "../b_dispositivos/js/d1bDispositivosContenido.js"
-import {
- d1eOperativosContenido
-} from "../e_operativos/js/d1eOperativosContenido.js"
-import {
- d1fProgramasContenido
-} from "../f_programas/js/d1fProgramasContenido.js"
-
 export function fundamentosContenido() {
  return (/* html */
   `<ol type="A">
@@ -18,8 +8,7 @@ export function fundamentosContenido() {
     </li>
     <li>
      <p>
-      <a href="/1_fundamentos/b_dispositivos/index.html">Tipos de
-       computadoras</a>
+      <a href="/1_fundamentos/b_dispositivos/index.html">Tipos de computadoras</a>
      </p>
     </li>
     <li>
@@ -29,26 +18,14 @@ export function fundamentosContenido() {
      <p><a href="/1_fundamentos/d_operativo.html">Sistema operativo</a></p>
     </li>
     <li>
-     <details>
-      <summary>
-       <h5>
-        <a href="/1_fundamentos/e_operativos/index.html">Ejemplos de sistemas
-        operativos</a>
-       </h5>
-      </summary>
-      ${d1eOperativosContenido()}
-     </details>
+     <p>
+      <a href="/1_fundamentos/e_operativos/index.html">Ejemplos de sistemas operativos</a>
+     </p>
     </li>
     <li>
-     <details>
-      <summary>
-       <h5>
-        <a href="/1_fundamentos/f_programas/index.html">Otros tipos de
-         programas</a>
-       </h5>
-      </summary>
-      ${d1fProgramasContenido()}
-     </details>
+     <p>
+      <a href="/1_fundamentos/f_programas/index.html">Otros tipos de programas</a>
+     </p>
     </li>
     <li>
      <p><a href="/1_fundamentos/g_hardware.html">Hardware</a></p>

@@ -1,6 +1,6 @@
-export function d2cTextos() {
+export function d2fTextos() {
  return (/* html */
-  `<h1>C. Textos</h1>
+  `<h1>F. Textos</h1>
    <div class="lectura">
     <ul>
      <li>

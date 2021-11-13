@@ -1,6 +1,6 @@
 export function d1eOperativosContenido() {
  return (/* html */
-  `<ul class=".contenido">
+  `<ul>
     <li>
      <p>
       <a href="/1_fundamentos/e_operativos/1_android.html">Android</a>

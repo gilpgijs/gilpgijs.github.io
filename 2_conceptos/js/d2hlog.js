@@ -1,9 +1,6 @@
-export function d2elog() {
+export function d2hlog() {
  return (/* html */
-  `<h1>
-    E. La función
-    <strong>console.log</strong>
-   </h1>
+  `<h1>H. La función <strong>console.log</strong></h1>
    <div class="lectura">
     <ul>
      <li>
