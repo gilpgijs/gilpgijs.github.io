@@ -7,7 +7,7 @@ export function d1b2Assistants() {
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/eco-amazonas-negro-sobre-mesa-977296/"
-        target="_blank">Foto de <strong>Fabian Hurnaus</strong> en
+        target="_blank" rel="noopener">Foto de <strong>Fabian Hurnaus</strong> en
        <strong>Pexels</strong></a>
      </small>
     </figcaption>

@@ -1,5 +1,7 @@
-1. Revisar contenido de 2_conceptos
-1. Usar la etiqueta code en los títulos cuando usen código.
+1. Falta generar sw.js
+1. Cambias lo miNav de 1_fundamentos
+1. Revisar estilos de 2_conceptos
+1. Usar la etiqueta code en los títulos y anclas cuando usen código.
 2. Poner los títulos de los operadores como en css de gilpgihc.
 
 Comando para generar el listado:

@@ -7,7 +7,7 @@ export function d1b1Wearables() {
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/mujer-telefono-inteligente-navegando-internet-4436291/"
-        target="_blank">Foto de <strong>Ketut Subiyanto</strong> en
+        target="_blank" rel="noopener">Foto de <strong>Ketut Subiyanto</strong> en
        <strong>Pexels</strong></a>
      </small>
     </figcaption>

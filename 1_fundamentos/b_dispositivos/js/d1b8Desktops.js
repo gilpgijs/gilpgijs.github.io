@@ -7,7 +7,7 @@ export function d1b8Desktops() {
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/encendido-del-monitor-el-teclado-y-los-elementos-del-escritorio-1714341/"
-        target="_blank">Foto de <strong>Bich Tran</strong> en
+        target="_blank" rel="noopener">Foto de <strong>Bich Tran</strong> en
        <strong>Pexels</strong></a>
      </small>
     </figcaption>

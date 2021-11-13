@@ -9,18 +9,24 @@ import {
 export function miNav() {
  return (/* html */
   `<h1><a href="/1_fundamentos/index.html">1. Fundamentos</a></h1>
-   <p>
-    <a href="/1_fundamentos/a_computadora.html" class="leccionAnterior"
-      title="A. Computadora electrónica">▲</a>
-   </p>
-   <section>
-    <h1>
-     <a href="/1_fundamentos/b_dispositivos/index.html">B. Tipos de computadoras</a>
-    </h1>
-    ${d1bDispositivosContenido()}
-    <p>
-     <a href="/1_fundamentos/c_programa.html" class="leccionSiguiente"
-       title="C. Programa">▼</a>
-    </p>
-   </section>`)
+   <ol type="A">
+    <li>
+     <p>
+      <a href="/1_fundamentos/a_computadora.html">Computadora electrónica</a>
+     </p>
+    </li>
+    <li>
+     <section>
+      <h1>
+       <a href="/1_fundamentos/b_dispositivos/index.html">Tipos de computadoras</a>
+      </h1>
+      ${d1bDispositivosContenido()}
+     </section>
+    </li>
+    <li>
+     <p>
+      <a href="/1_fundamentos/c_programa.html">Programa</a>
+     </p>
+    </li>
+   </ol>`)
 }

@@ -42,11 +42,11 @@ export class Plantillas extends Diapositiva {
      <h2>Salida</h2>
      <iframe src="/10_textos/src/3_plantillas.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="/10_textos/src/3_plantillas.html">Ábrelo en otra
+      <a target="_blank" rel="noopener" href="/10_textos/src/3_plantillas.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
         href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20TT%20%3D%20%60bb%60%3B%0A%20const%20T%20%3D%202%3B%0A%20%2F*%20Muestra%3A%20Ejemplo%0A%20de%20bb*%2F%0A%20document.write(%60%3Cpre%3EEjemplo%0Ade%20%24%7BTT%7D%3C%2Fpre%3E%60)%3B%0A%20%2F*%20Muestra%3A%20288%0A%20de%20bb%20yy*%2F%0A%20document.write(%60%3Cpre%3E%24%7BT%20%2B%20%228%22%7D8%0Ade%20%24%7BTT%7D%20yy%3C%2Fpre%3E%60)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>

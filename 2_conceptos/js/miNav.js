@@ -5,8 +5,10 @@
 import { conceptosContenido } from "./conceptosContenido.js"
 export function miNav() {
  return (/* html */
-  `<p><a href="/1_fundamentos/l_resumen.html" class="leccionAnterior" title="1. Fundamentos/l. Resumen">▲</a></p>
-   <h1><a href="/2_conceptos/index.html">Conceptos básicos</a></h1>
+  `<p><a href="/1_fundamentos/l_resumen.html">1. Fundamentos/L. Resumen</a></p>
+   <h1><a href="/2_conceptos/index.html">2. Conceptos básicos</a></h1>
    ${conceptosContenido()}
-   <p><a href="/3_variables/index.html" class="leccionSiguiente" title="3. Variables">▼</a></p>`)
+   <section>
+    <h1><a href="/3_variables/index.html">3. Variables</a></h1>
+   </section>`)
 }

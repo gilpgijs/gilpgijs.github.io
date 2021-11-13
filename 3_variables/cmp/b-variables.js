@@ -72,10 +72,10 @@ export class BVariables extends Diapositiva {
      <h2>Salida</h2>
      <iframe src="/3_variables/src/1_variables.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="/3_variables/src/1_variables.html">Ábrelo en otra pestaña.</a>
+      <a target="_blank" rel="noopener" href="/3_variables/src/1_variables.html">Ábrelo en otra pestaña.</a>
      </p>
      <p class="noPrint">
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
         href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20miNombre%20%3D%20%22pp%22%3B%0A%20let%20suNombre%20%3D%20%22tt%22%3B%0A%20document.write(miNombre)%3B%0A%20document.write(suNombre)%3B%0A%20document.write(%22miNombre%22)%3B%0A%20miNombre%20%3D%20%22bb%22%3B%0A%20document.write(miNombre)%3B%0A%20suNombre%20%3D%20miNombre%3B%0A%20document.write(suNombre)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>

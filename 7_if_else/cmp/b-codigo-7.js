@@ -39,11 +39,11 @@ export class BCodigo extends Diapositiva {
    </muestra-codigo>
    <div class="lectura noPrint">
     <p class="noPrint">
-     <a target="_blank" href="src/2_if_else.html">Ábrelo en otra
+     <a target="_blank" rel="noopener" href="src/2_if_else.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20respuesta%20%3D%20prompt(%0A%20%20%60Agua%20pasa%20por%20mi%20casa%0Acate%20de%20mi%20coraz%C3%B3n.%0A%C2%BFQu%C3%A9%20es%3F%60)%3B%0A%20if%20(respuesta%20%3D%3D%3D%20%22el%20aguacate%22)%20%7B%0A%20%20document.write(%22Bien.%22)%3B%0A%20%7D%20else%20%7B%0A%20%20document.write(%22Mal.%22)%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

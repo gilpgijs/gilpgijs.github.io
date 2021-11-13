@@ -7,7 +7,7 @@ export function d1b9Servidores() {
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/interior-del-edificio-de-oficinas-325229/"
-        target="_blank">Foto de <strong>Manuel Geissinger</strong> en
+        target="_blank" rel="noopener">Foto de <strong>Manuel Geissinger</strong> en
        <strong>Pexels</strong></a>
      </small>
     </figcaption>

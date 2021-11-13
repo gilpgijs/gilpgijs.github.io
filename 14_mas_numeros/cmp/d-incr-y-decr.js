@@ -51,11 +51,11 @@ export class IncrYDecr extends Diapositiva {
    </muestra-codigo>
    <div class="lectura noPrint">
     <p class="noPrint">
-     <a target="_blank" href="src/3_incr_y_decr.html">Ábrelo en otra
+     <a target="_blank" rel="noopener" href="src/3_incr_y_decr.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20z%20%3D%200%3B%0A%20document.write(z)%3B%20%2F%2F%200%0A%20%2F%2F%20Incremento.%20Aumenta%20z%20en%201.%0A%20z%2B%2B%3B%0A%20%2F%2F%20z%20%3D%3D%3D%201%0A%20document.write(z)%3B%20%2F%2F%201%0A%20%2F%2F%20Decremento.%20Disminuye%20z%20en%201.%0A%20z--%3B%0A%20%2F%2F%20z%20%3D%3D%3D%200%0A%20document.write(z)%3B%20%2F%2F%200%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

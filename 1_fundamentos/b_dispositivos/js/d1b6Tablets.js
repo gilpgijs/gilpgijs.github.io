@@ -7,7 +7,7 @@ export function d1b6Tablets() {
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/ordenador-portatil-navidad-papa-noel-ropa-6021573/"
-        target="_blank">Foto de <strong>Andrea Piacquadio</strong> en
+        target="_blank" rel="noopener">Foto de <strong>Andrea Piacquadio</strong> en
        <strong>Pexels</strong></a>
      </small>
     </figcaption>

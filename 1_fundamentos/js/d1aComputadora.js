@@ -18,7 +18,7 @@ export function d1aComputadora() {
        <figcaption>
         Computadoras en nuestra vida
         (<small><a href="https://www.pexels.com/es-es/foto/persona-cafe-taza-mano-6912819/"
-           target="_blank">Foto de <strong>Teona Swift</strong> en
+           target="_blank" rel="noopener">Foto de <strong>Teona Swift</strong> en
            <strong>Pexels</strong></a>)
         </small>
        </figcaption>

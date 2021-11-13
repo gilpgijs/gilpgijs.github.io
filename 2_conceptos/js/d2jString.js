@@ -1,12 +1,12 @@
-export function d2gString() {
+export function d2jString() {
  return (/* html */
-  `<h1>G. El tipo <strong>string</strong></h1>
+  `<h1>J. El tipo <code>string</code></h1>
    <div class="lectura">
     <ul>
      <li>
       <p>
        Al tipo de datos que representa texto se le llama
-       <dfn>string</dfn>,
+       <dfn><code class="language-javascript">string</code></dfn>,
        que es la traducción al inglés del término
        <q>cadena</q>.
       </p>
@@ -53,8 +53,10 @@ export function d2gString() {
      </li>
      <li>
       <p>
-       JavaScript usa la codificación UTF-16 de
-       <a href="https://unicode.org" target="_blank">Unicode</a>.
+       JavaScript usa la codificación UTF-16 de <dfn>Unicode</dfn>, que está
+       definida en
+       <a href="https://unicode.org" target="_blank"
+         rel="noopener">https://unicode.org</a>.
       </p>
      </li>
      <li>
@@ -69,26 +71,30 @@ export function d2gString() {
       </p>
      </li>
     </ul>
-    <h2>Ejemplos</h2>
-    <ul>
-     <li>
-      <p><code class="language-javascript">"Hola pp"</code></p>
-     </li>
-     <li>
-      <p>
-       <code
-         class="language-javascript">'😁¡¡¡¡A sus órdenes jefecita!!!!'</code>
-      </p>
-     </li>
-    </ul>
-    <h2>Cadena Vacía</h2>
-    <p>
-     Hay una cadena sin caracteres:
-     <code class="language-javascript">""</code>
-     o
-     <code class="language-javascript">''</code>
-     conocida como
-     <dfn>cadena vacía</dfn>.
-    </p>
+    <section>
+     <h1>Ejemplos</h1>
+     <ul>
+      <li>
+       <p><code class="language-javascript">"Hola pp"</code></p>
+      </li>
+      <li>
+       <p>
+        <code
+          class="language-javascript">'😁¡¡¡¡A sus órdenes jefecita!!!!'</code>
+       </p>
+      </li>
+     </ul>
+    </section>
+    <section>
+     <h1>Cadena Vacía</h1>
+     <p>
+      Hay una cadena sin caracteres:
+      <code class="language-javascript">""</code>
+      o
+      <code class="language-javascript">''</code>
+      conocida como
+      <dfn>cadena vacía</dfn>.
+     </p>
+    </section>
    </div>`)
 }

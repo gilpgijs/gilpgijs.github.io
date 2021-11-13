@@ -37,20 +37,20 @@ export class DJsDoc extends Diapositiva {
       <p>El contendo de este tipo de comentarios debe seguir las reglas de:</p>
       <ul>
        <li>
-        <p><a href="https://jsdoc.app/" target="_blank">JSDoc</a>.</p>
+        <p><a href="https://jsdoc.app/" target="_blank" rel="noopener">JSDoc</a>.</p>
        </li>
        <li>
         <p>
          <a
            href="https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html"
-           target="_blank">Proyectos de JavaScript usando TypeScript</a>.
+           target="_blank" rel="noopener">Proyectos de JavaScript usando TypeScript</a>.
         </p>
        </li>
        <li>
         <p>
          <a
            href="https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html"
-           target="_blank">revisión de TypeScript para archivos
+           target="_blank" rel="noopener">revisión de TypeScript para archivos
           JavaScript</a>.
         </p>
        </li>
@@ -58,7 +58,7 @@ export class DJsDoc extends Diapositiva {
         <p>
          <a
            href="https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html"
-           target="_blank">referencia de JSDoc</a>.
+           target="_blank" rel="noopener">referencia de JSDoc</a>.
         </p>
        </li>
       </ul>

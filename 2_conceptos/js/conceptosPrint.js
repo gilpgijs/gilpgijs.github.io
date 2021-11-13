@@ -1,16 +1,17 @@
 import { conceptosIndex } from "./conceptosIndex.js";
 import { d2aAlgoritmo } from "./d2aAlgoritmo.js";
-import { d2bMemoria } from "./d2bMemoria.js";
-import { d2cCPU } from "./d2cCPU.js";
-import { d2dEntradaSalida } from "./d2dEntradaSalida.js";
-import { d2ejs } from "./d2ejs.js";
-import { d2fTextos } from "./d2fTextos.js";
-import { d2gString } from "./d2gString.js";
-import { d2hlog } from "./d2hlog.js";
-import { d2iOrden } from "./d2iOrden.js";
-import { d2jPseudocodigo } from "./d2jPseudocodigo.js";
-import { d2kDiagrama } from "./d2kDiagrama.js";
-import { d2lResumen } from "./d2lResumen.js";
+import { d2bMotherboard } from "./d2bMotherboard.js";
+import { d2cMemoria } from "./d2cMemoria.js";
+import { d2dCPU } from "./d2dCPU.js";
+import { d2eEntrada } from "./d2eEntrada.js";
+import { d2fSalida } from "./d2fSalida.js";
+import { d2gEntradaSalida } from "./d2gEntradaSalida.js";
+import { d2hjs } from "./d2hjs.js";
+import { d2iTextos } from "./d2iTextos.js";
+import { d2jString } from "./d2jString.js";
+import { d2klog } from "./d2klog.js";
+import { d2lOrden } from "./d2lOrden.js";
+import { d2mResumen } from "./d2mResumen.js";
 
 export function conceptosPrint() {
  return (/* html */
@@ -21,36 +22,39 @@ export function conceptosPrint() {
     ${d2aAlgoritmo()}
    </section>
    <section>
-    ${d2bMemoria()}
+    ${d2bMotherboard()}
    </section>
    <section>
-    ${d2cCPU()}
+    ${d2cMemoria()}
    </section>
    <section>
-    ${d2dEntradaSalida()}
+    ${d2dCPU()}
    </section>
    <section>
-    ${d2ejs()}
+    ${d2eEntrada()}
    </section>
    <section>
-    ${d2fTextos()}
+    ${d2fSalida()}
    </section>
    <section>
-    ${d2gString()}
+    ${d2gEntradaSalida()}
    </section>
    <section>
-    ${d2hlog()}
+    ${d2hjs()}
    </section>
    <section>
-    ${d2iOrden()}
+    ${d2iTextos()}
    </section>
    <section>
-    ${d2jPseudocodigo()}
+    ${d2jString()}
    </section>
    <section>
-    ${d2kDiagrama()}
+    ${d2klog()}
    </section>
    <section>
-    ${d2lResumen()}
+    ${d2lOrden()}
+   </section>
+   <section>
+    ${d2mResumen()}
    </section>`)
 }

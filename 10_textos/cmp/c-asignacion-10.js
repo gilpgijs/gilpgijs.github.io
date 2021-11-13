@@ -28,11 +28,11 @@ export class Asignacion extends Diapositiva {
     <h2>Salida</h2>
     <iframe src="/10_textos/src/2_asignacion.html"></iframe>
     <p class="noPrint">
-     <a target="_blank" href="/10_textos/src/2_asignacion.html">Ábrelo en otra
+     <a target="_blank" rel="noopener" href="/10_textos/src/2_asignacion.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20c%20%3D%20%22h%22%3B%0A%20const%20D%20%3D%20%22.%22%3B%0A%20c%20%2B%3D%20%22gg%22%3B%2F%2F%20c%20%E2%9E%9D%20%22hgg%22%0A%20document.write(c)%3B%0A%20c%20%2B%3D%202%3B%20%20%20%2F%2F%20c%20%E2%9E%9D%20%22hgg2%22%0A%20document.write(c)%3B%0A%20c%20%2B%3D%20D%3B%20%20%20%2F%2F%20c%20%E2%9E%9D%20%22hgg2.%22%0A%20document.write(c)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

@@ -7,7 +7,7 @@ export function d1b4Consolas() {
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/efecto-desenfocado-dentro-reloj-de-pulsera-negro-4545952/"
-        target="_blank">Foto de <strong>Ketut Subiyanto</strong> en
+        target="_blank" rel="noopener">Foto de <strong>Ketut Subiyanto</strong> en
         <strong>Pexels</strong></a>
      </small>
     </figcaption>

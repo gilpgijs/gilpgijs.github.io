@@ -7,7 +7,7 @@ export function d1b3Arduino() {
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/mujer-jugando-drone-1170344/"
-        target="_blank">Foto de <strong>The Lazy Artist Gallery</strong> en
+        target="_blank" rel="noopener">Foto de <strong>The Lazy Artist Gallery</strong> en
        <strong>Pexels</strong></a>
      </small>
     </figcaption>

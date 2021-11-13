@@ -34,7 +34,7 @@ export class Orden extends Diapositiva {
     <li>
     <p>
      Entre 2 caracteres, el que tenga el menor código
-     <a href="https://home.unicode.org/" target="_blank">Unicode</a>
+     <a href="https://home.unicode.org/" target="_blank" rel="noopener">Unicode</a>
      es el menor.
     </p>
     </li>

@@ -26,10 +26,10 @@ export class Concatenacion extends Diapositiva {
     <h2>Salida</h2>
     <iframe src="/10_textos/src/1_concatenacion.html"></iframe>
     <p class="noPrint">
-     <a target="_blank" href="/10_textos/src/1_concatenacion.html">Ábrelo en otra pestaña.</a>
+     <a target="_blank" rel="noopener" href="/10_textos/src/1_concatenacion.html">Ábrelo en otra pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cmeta%20name%3D%22viewport%22%0A%20%20content%3D%22width%3Ddevice-width%22%3E%0A%3Cscript%3E%0A%20debugger%3B%0A%20document.%0A%20%20write(%22ab%22%20%2B%20'%24%20h')%3B%2F%2Fab%24%20h%0A%20document.%0A%20%20write(%22gg%22%20%2B%202)%3B%20%20%20%20%2F%2Fgg2%0A%20document.%0A%20%20write(true%20%2B%20%22gg%22)%3B%20%2F%2Ftruegg%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

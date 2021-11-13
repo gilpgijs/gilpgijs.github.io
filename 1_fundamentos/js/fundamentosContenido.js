@@ -12,7 +12,10 @@ export function fundamentosContenido() {
      </p>
     </li>
     <li>
-     <p><a href="/1_fundamentos/c_programa.html">Programa</a></p>
+     <p>
+      <a href="/1_fundamentos/c_programa.html"
+        data-prev="/1_fundamentos/b_dispositivos/9_servidores.html"
+        data-prevcont="Servidores">Programa</a></p>
     </li>
     <li>
      <p><a href="/1_fundamentos/d_operativo.html">Sistema operativo</a></p>
@@ -28,7 +31,9 @@ export function fundamentosContenido() {
      </p>
     </li>
     <li>
-     <p><a href="/1_fundamentos/g_hardware.html">Hardware</a></p>
+     <p><a href="/1_fundamentos/g_hardware.html"
+       data-prev="/1_fundamentos/f_programas/5_videoconferencia.html"
+       data-prevcont="Sistemas de videoconferencia">Hardware</a></p>
     </li>
     <li>
      <p><a href="/1_fundamentos/h_software.html">Software</a></p>

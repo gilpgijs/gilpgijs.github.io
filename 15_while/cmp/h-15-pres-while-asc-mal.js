@@ -32,11 +32,11 @@ export class PresWhileAscMal extends Diapositiva {
   </muestra-codigo>
   <div class="lectura noPrint">
    <p class="noPrint">
-    <a target="_blank" href="src/7_while_asc_mal.html">Ábrelo en otra
+    <a target="_blank" rel="noopener" href="src/7_while_asc_mal.html">Ábrelo en otra
      pestaña.</a>
    </p>
    <p class="noPrint">
-    <a target="_blank"
+    <a target="_blank" rel="noopener"
       href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20i%20%3D%202%3B%0A%20while%20(i%20%3E%200)%20%7B%0A%20%20document.write(i)%3B%0A%20%20i%2B%2B%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
      Revísalo en gilpgedit.
     </a>

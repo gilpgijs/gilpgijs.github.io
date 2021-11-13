@@ -35,10 +35,10 @@ export class FPrompt extends Diapositiva {
     </muestra-codigo>
     <div class="lectura noPrint">
     <p class="noPrint">
-     <a target="_blank" href="src/5_prompt.html">Ábrelo en otra pestaña.</a>
+     <a target="_blank" rel="noopener" href="src/5_prompt.html">Ábrelo en otra pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20nombre%20%3D%20prompt(%22Nombre%3A%22)%3B%0A%20document.write(%22Hola%20%22)%3B%0A%20document.write(nombre)%3B%0A%20document.write(%22.%20Lindo%20d%C3%ADa.%22)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

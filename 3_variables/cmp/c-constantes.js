@@ -40,10 +40,10 @@ PI_REDONDEADO</samp></pre>
      <h3>Consola</h3>
      <pre><samp><span style="color: red;">Uncaught TypeError: Assignment to constant variable.</span></samp></pre>
      <p class="noPrint">
-      <a target="_blank" href="src/2_constantes.html">Ábrelo en otra pestaña.</a>
+      <a target="_blank" rel="noopener" href="src/2_constantes.html">Ábrelo en otra pestaña.</a>
      </p>
      <p class="noPrint">
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
         href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20PI_REDONDEADO%20%3D%203.14%3B%0A%20document.write(PI_REDONDEADO)%3B%0A%20document.write(%22PI_REDONDEADO%22)%3B%0A%20PI_REDONDEADO%20%3D%209%3B%0A%20document.write(PI_REDONDEADO)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>

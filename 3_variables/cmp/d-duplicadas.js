@@ -19,10 +19,10 @@ export class DDuplicadas extends Diapositiva {
      <h3>Consola</h3>
      <pre><samp><span style="color: red;">Uncaught SyntaxError: Identifier 'a' has already been declared</span></samp></pre>
      <p class="noPrint">
-      <a target="_blank" href="src/3_duplicados.html">Ábrelo en otra pestaña.</a>
+      <a target="_blank" rel="noopener" href="src/3_duplicados.html">Ábrelo en otra pestaña.</a>
      </p>
      <p class="noPrint">
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
         href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20a%20%3D%20%22Q1%22%3B%0A%20document.write(a)%3B%0A%20const%20a%20%3D%20%22Q2%22%3B%0A%20document.write(a)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>

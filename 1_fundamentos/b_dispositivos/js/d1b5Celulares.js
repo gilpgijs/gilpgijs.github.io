@@ -7,7 +7,7 @@ export function d1b5Celulares() {
     <figcaption>
      <small>
       <a href="https://www.pexels.com/es-es/foto/fotografia-en-primer-plano-de-una-mujer-rubia-3781725/"
-        target="_blank">Foto de <strong>Andrea Piacquadio</strong> en
+        target="_blank" rel="noopener">Foto de <strong>Andrea Piacquadio</strong> en
         <strong>Pexels</strong></a>
      </small>
     </figcaption>

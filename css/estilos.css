@@ -11,12 +11,36 @@ nav summary {
  margin-bottom: 1rem;
 }
 
+a strong {
+ color: var(--colTituloStrong);
+ font-weight: bold;
+}
+
 nav h4,
 nav h5 {
  display: inline;
  font-family: var(--fontSans);
  margin-top: 1rem;
  margin-bottom: 1rem;
+}
+
+nav a {
+ font-family: var(--fontSans);
+}
+
+nav a strong,
+nav a code {
+ color: var(--colTituloStrong);
+ font-family: var(--fontMono);
+ font-weight: bold;
+ font-size: 1.05rem;
+}
+
+h1 strong,
+h1 code {
+ color: var(--colTituloStrong);
+ font-family: var(--fontMono);
+ font-size: 1.2em;
 }
 
 :root {
@@ -30,14 +54,14 @@ nav h5 {
  --colFondo: white;
  --colTituloLetra: #00811c;
  --colTituloShadow: 3px 1px 2px #bdbdbd;
- --colTituloStrong: #7a2c99;
- --colTituloStrongSel: #f3d6ff;
+ --colTituloStrong: #684601;
+ --colTituloStrongSel: #ffdc97;
  --colSombra: #49494980;
  --navSombra: 0.5rem 0 0.5rem var(--colSombra);
  --padCtrl: 0.2rem 0.3rem;
  --borderCtrl: solid thin;
  --colFondoNav: #f2f2f2;
- --colNavResaltada: #744d00;
+ --colNavResaltada: #7a2c99;
  --colSecundario: #ffff82;
  --colStack1: black;
  --gap: 0.5rem;
@@ -50,18 +74,22 @@ nav h5 {
 }
 
 .anterior,
-.siguiente,
-.leccionAnterior,
-.leccionSiguiente {
- display: block;
+.siguiente {
+ display: inline-block;
  text-decoration: none;
  padding: var(--padCtrl);
  border: var(--borderCtrl);
  cursor: pointer;
 }
+
 .leccionAnterior,
 .leccionSiguiente {
+ display: block;
  text-align: center;
+ text-decoration: none;
+ padding: var(--padCtrl);
+ border: var(--borderCtrl);
+ cursor: pointer;
 }
 
 .anterior.bye,
@@ -92,12 +120,6 @@ h1:not(.default),
 h2:not(.default) {
  font-family: var(--fontSans);
  color: var(--colTituloLetra);
-}
-
-h1 strong {
- color: var(--colTituloStrong);
- font-family: var(--fontMono);
- font-size: 1.2em;
 }
 
 .autor {
@@ -219,16 +241,6 @@ table.borde td {
 
 muestra-codigo>div>div {
  white-space: nowrap;
-}
-
-nav a {
- font-family: var(--fontSans);
-}
-
-nav a strong {
- color: var(--colTituloStrong);
- font-family: var(--fontMono);
- font-size: 1.05rem;
 }
 
 footer {

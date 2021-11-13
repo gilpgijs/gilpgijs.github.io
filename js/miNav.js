@@ -23,12 +23,12 @@ export function miNav() {
     </li>
     <li>
      <p>
-      <a href="/6_if/index.html">La estructura de control <strong>if</strong></a>
+      <a href="/6_if/index.html">La estructura de control <code>if</code></a>
       </p>
     </li>
     <li>
      <p>
-      <a href="/7_if_else/index.html">La estructura de control <strong>if-else</strong></a>
+      <a href="/7_if_else/index.html">La estructura de control <code>if-else</code></a>
      </p>
     </li>
     <li>
@@ -36,7 +36,7 @@ export function miNav() {
     </li>
     <li>
      <p>
-      <a href="/9_melse/index.html">Condicional múltiple con <strong>else</strong></a>
+      <a href="/9_melse/index.html">Condicional múltiple con <code>else</code></a>
      </p>
     </li>
     <li>
@@ -47,7 +47,7 @@ export function miNav() {
     </li>
     <li>
      <p>
-      <a href="/12_do_while/index.html">La estructura de control <strong>do-while</strong></a>
+      <a href="/12_do_while/index.html">La estructura de control <code>do-while</code></a>
      </p>
     </li>
     <li>
@@ -60,17 +60,17 @@ export function miNav() {
     </li>
     <li>
      <p>
-      <a href="/15_while/index.html">La estructura de control <strong>while</strong></a>
+      <a href="/15_while/index.html">La estructura de control <code>while</code></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/16_for/index.html">La estructura de control <strong>for</strong></a>
+      <a href="/16_for/index.html">La estructura de control <code>for</code></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/17_switch/index.html">La estructura de control <strong>switch</strong></a>
+      <a href="/17_switch/index.html">La estructura de control <code>switch</code></a>
      </p>
     </li>
    </ol>`)

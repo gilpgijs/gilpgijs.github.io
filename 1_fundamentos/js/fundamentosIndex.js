@@ -5,7 +5,7 @@ export function fundamentosIndex() {
   `<h1 class="leccion">1. Fundamentos</h1>
    <div class="lectura">
     <p class="noPrint">
-     <a href="print.html" target="_blank">Versión para Imprimir.</a>
+     <a href="print.html" target="_blank" rel="noopener">Versión para Imprimir.</a>
     </p>
     <nav>
      <h1>Contenido</h1>

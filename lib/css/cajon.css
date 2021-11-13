@@ -2,6 +2,12 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
+#nav a.actual code,
+#nav a.actual strong {
+ color: var(--colTituloStrongSel);
+ font-size: 1.2em;
+}
+
 #principal {
  transition: margin-left 0.7s ease-in-out;
 }
@@ -67,10 +73,6 @@ body:not(.pres) #principal {
 #nav a.actual {
  color: var(--colFondo);
  background-color: var(--colNavResaltada);
-}
-
-#nav a.actual strong {
- color: var(--colTituloStrongSel);
 }
 
 @media screen and (max-width: 999px) {

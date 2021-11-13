@@ -38,11 +38,11 @@ export class BCodigo extends Diapositiva {
    </muestra-codigo>
    <div class="lectura noPrint">
     <p class="noPrint">
-     <a target="_blank" href="src/2_do_while_prog.html">Ábrelo en otra
+     <a target="_blank" rel="noopener" href="src/2_do_while_prog.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20respuesta%20%3D%20%22%22%3B%0A%20do%20%7B%0A%20%20respuesta%20%3D%20prompt(%0A%20%20%20%60Selecciona%20un%20g%C3%A9nero%20musical%3A%0A%201%20-%20Pop%0A%202%20-%20Reguet%C3%B3n%60)%3B%0A%20%7D%20while%20(respuesta%20!%3D%3D%20%221%22%0A%20%20%26%26%20respuesta%20!%3D%3D%20%222%22)%3B%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

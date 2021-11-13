@@ -79,11 +79,11 @@ export class Asignacion extends Diapositiva {
    </muestra-codigo>
    <div class="lectura noPrint">
     <p class="noPrint">
-     <a target="_blank" href="src/2_asignacion.html">Ábrelo en otra
+     <a target="_blank" rel="noopener" href="src/2_asignacion.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20b%20%3D%204%3B%0A%20const%20d%20%3D%205%3B%0A%20b%20%3D%20d%20*%202%3B%20%2F%2F%20b%20%3D%3D%3D%2010%0A%20document.write(b)%3B%0A%20b%20%2B%3D%20d%3B%20%2F%2F%20b%20%3D%20b%20%2B%20d%3B%20b%20%3D%3D%3D%2015%0A%20document.write(b)%3B%0A%20b%20-%3D%202%3B%20%2F%2F%20b%20%3D%20b%20-%202%3B%20b%20%3D%3D%3D%2013%0A%20document.write(b)%3B%0A%20b%20*%3D%203%3B%20%2F%2F%20b%20%3D%20b%20*%203%3B%20b%20%3D%3D%3D%2039%0A%20document.write(b)%3B%0A%20b%20%2F%3D%203%3B%20%2F%2F%20b%20%3D%20b%20%2F%203%3B%20b%20%3D%3D%3D%2013%0A%20document.write(b)%3B%0A%20b%20%25%3D%205%3B%20%2F%2F%20b%20%3D%20b%20%25%205%3B%20b%20%3D%3D%3D%203%0A%20document.write(b)%3B%0A%20b%20**%3D%202%3B%20%2F%2F%20b%20%3D%20b%20**%202%3B%20b%20%3D%3D%3D%209%0A%20document.write(b)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

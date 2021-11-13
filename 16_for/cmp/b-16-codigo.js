@@ -38,11 +38,11 @@ export class BCodigo extends Diapositiva {
    </muestra-codigo>
    <div class="lectura noPrint">
     <p class="noPrint">
-     <a target="_blank" href="src/1_for_asc.html">Ábrelo en otra
+     <a target="_blank" rel="noopener" href="src/1_for_asc.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20document.write(%22Hola.%22%2C%20%22%3Cbr%3E%22)%3B%0A%20for%20(let%20i%20%3D%201%2C%20j%20%3D%203%3B%0A%20%20i%20%3C%3D%203%3B%0A%20%20i%2B%2B)%20%7B%0A%20%20document.write(i%20%2B%20j%2C%20%22%3Cbr%3E%22)%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

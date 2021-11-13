@@ -12,11 +12,11 @@ export class BPresBloque extends Diapositiva {
      <h2>Salida</h2>
      <iframe src="/5_bloques/src/1_bloques.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="/5_bloques/src/1_bloques.html">Ábrelo en otra
+      <a target="_blank" rel="noopener" href="/5_bloques/src/1_bloques.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
         href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20y%20%3D%20%22z%22%3B%0A%20document.write(%22p%22)%3B%0A%20document.write(y)%3B%0A%20%7B%0A%20%20const%20x%20%3D%20%22gg%22%3B%0A%20%20document.write(x)%3B%0A%20%20document.write(y)%3B%0A%20%7D%0A%20document.write(y)%3B%0A%20document.write(%22a%22)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>

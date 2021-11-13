@@ -14,11 +14,11 @@ export class EIfTrue extends Diapositiva {
     <h2>Salida</h2>
     <iframe src="/6_if/src/3_if_true.html"></iframe>
     <p class="noPrint">
-     <a target="_blank" href="/6_if/src/3_if_true.html">Ábrelo en otra
+     <a target="_blank" rel="noopener" href="/6_if/src/3_if_true.html">Ábrelo en otra
       pestaña.</a>
     </p>
     <p class="noPrint">
-     <a target="_blank"
+     <a target="_blank" rel="noopener"
        href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20const%20fruta%20%3D%20%22pera%22%3B%0A%20if%20(fruta%20%3D%3D%3D%20%22pera%22)%20%7B%0A%20%20document.write(%0A%20%20%20%22El%20que%20es%20%F0%9F%8D%90%2C%20desespera.%22)%3B%0A%20%7D%0A%20document.write(%22Tu%20fruta%3A%20%22)%0A%20document.write(fruta)%3B%0A%3C%2Fscript%3E">
       Revísalo en gilpgedit.
      </a>

@@ -10,8 +10,7 @@ export function miNav() {
  return (/* html */
   `<h1><a href="/1_fundamentos/index.html">1. Fundamentos</a></h1>
    <p>
-    <a href="/1_fundamentos/d_operativo.html" class="leccionAnterior"
-      title="D. Sistema operativo">▲</a>
+    <a href="/1_fundamentos/d_operativo.html">D. Sistema operativo</a>
    </p>
    <section>
     <h1>
@@ -19,8 +18,7 @@ export function miNav() {
     </h1>
     ${d1eOperativosContenido()}
     <p>
-     <a href="/1_fundamentos/f_programas/index.html" class="leccionSiguiente"
-       title="Otros tipos de programas">▼</a>
+     <a href="/1_fundamentos/f_programas/index.html">F. Otros tipos de programas</a>
     </p>
    </section>`)
 }

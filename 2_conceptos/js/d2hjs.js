@@ -1,6 +1,6 @@
-export function d2ejs() {
+export function d2hjs() {
  return (/* html */
-  `<h1>E. <dfn>JavaScript</dfn></h1>
+  `<h1>H. <dfn>JavaScript</dfn></h1>
    <div class="lectura">
     <ul>
      <li>
@@ -8,7 +8,7 @@ export function d2ejs() {
        Lenguaje de programación que cumple con las reglas del estándar
        <dfn>ECMAScript</dfn>,
        que está definido en
-       <a target="_blank"
+       <a target="_blank" rel="noopener"
          href="https://www.ecma-international.org/publications/standards/Ecma-262.htm">
         https://www.ecma-international.org/publications/standards/Ecma-262.htm</a>.
       </p>

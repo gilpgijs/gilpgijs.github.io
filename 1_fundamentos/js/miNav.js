@@ -9,8 +9,9 @@ export function miNav() {
  return (/* html */
   `<h1><a href="/1_fundamentos/index.html">1. Fundamentos</a></h1>
    ${fundamentosContenido()}
-   <p>
-    <a href="/2_conceptos/index.html" class="leccionSiguiente"
-      title="2. Conceptos básicos">▼</a>
-   </p>`)
+   <section>
+    <h1>
+     <a href="/2_conceptos/index.html">2. Conceptos básicos</a>
+    </h1>
+   </section>`)
 }

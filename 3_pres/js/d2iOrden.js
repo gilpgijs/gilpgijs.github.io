@@ -28,7 +28,7 @@ export function d2iOrden() {
      <li>
       <p>
        Usaremos la herramienta
-       <a target="_blank"
+       <a target="_blank" rel="noopener"
          href="https://gilpgedit.github.io/">https://gilpgedit.github.io/</a>
        y los navegadores web para depurar los programas.
       </p>
@@ -41,11 +41,11 @@ export function d2iOrden() {
      <h2>Salida.</h2>
      <iframe src="/2_conceptos/src/1_orden.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="/2_conceptos/src/1_orden.html">Ábrelo en otra
+      <a target="_blank" rel="noopener" href="/2_conceptos/src/1_orden.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
         href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20document.write(%22p%3Cbr%3E%22)%3B%20document.write(%22a%22)%3B%0A%20document.write(%22u%22)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>

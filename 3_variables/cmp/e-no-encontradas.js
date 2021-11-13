@@ -19,11 +19,11 @@ export class ENoEncontradas extends Diapositiva {
      <h3>Consola</h3>
      <pre><samp><span style="color: red;">Uncaught ReferenceError: bb is not defined</span></samp></pre>
      <p class="noPrint">
-      <a target="_blank" href="src/4_no_definida.html">Ábrelo en otra
+      <a target="_blank" rel="noopener" href="src/4_no_definida.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
         href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20b%20%3D%20%22BB%22%3B%0A%20document.write(B)%3B%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>

@@ -30,11 +30,11 @@ export class BCom1 extends Diapositiva {
      <h2>Salida</h2>
      <iframe src="/4_comentarios/src/1_comentarios_una.html"></iframe>
      <p class="noPrint">
-      <a target="_blank" href="/4_comentarios/src/1_comentarios_una.html">Ábrelo en otra
+      <a target="_blank" rel="noopener" href="/4_comentarios/src/1_comentarios_una.html">Ábrelo en otra
        pestaña.</a>
      </p>
      <p class="noPrint">
-      <a target="_blank"
+      <a target="_blank" rel="noopener"
         href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20%2F%2F%20Muestra%20Hola%20pp.%0A%20document.write(%22Hola%22%2C%20%22pp%22)%3B%0A%20document.write(%22t%22)%3B%2F%2FMuestra%20t.%0A%3C%2Fscript%3E">
        Revísalo en gilpgedit.
       </a>

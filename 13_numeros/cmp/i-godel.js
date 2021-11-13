@@ -34,15 +34,15 @@ export class Godel extends Diapositiva {
        <img alt="Foto de Kurt Gödel"
          src="/13_numeros/img/571px-Kurt-godel1.jpg">
        <figcaption>
-        De <a target="_blank"
+        De <a target="_blank" rel="noopener"
           href="//commons.wikimedia.org/w/index.php?title=User:Kedumuc10&amp;amp;action=edit&amp;amp;redlink=1"
           class="new"
           title="User:Kedumuc10 (page does not exist)">;Kedumuc10</a>; - <span
           class="int-own-work" lang="es">;Trabajo
-         propio</span>;, <a target="_blank"
+         propio</span>;, <a target="_blank" rel="noopener"
           href="https://creativecommons.org/licenses/by-sa/4.0"
           title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>,
-        <a target="_blank"
+        <a target="_blank" rel="noopener"
           href="https://commons.wikimedia.org/w/index.php?curid=49253794">Enlace</a>
        </figcaption>
       </figure>

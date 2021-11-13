@@ -33,11 +33,11 @@ export class PresWhileAsc2 extends Diapositiva {
   </muestra-codigo>
   <div class="lectura noPrint">
    <p class="noPrint">
-    <a target="_blank" href="src/2_while_asc_2.html">Ábrelo en otra
+    <a target="_blank" rel="noopener" href="src/2_while_asc_2.html">Ábrelo en otra
      pestaña.</a>
    </p>
    <p class="noPrint">
-    <a target="_blank"
+    <a target="_blank" rel="noopener"
       href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20i%20%3D%200%3B%0A%20while%20(i%20%3C%206)%20%7B%0A%20%20document.write(i)%3B%0A%20%20i%20%2B%3D%202%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
      Revísalo en gilpgedit.
     </a>
