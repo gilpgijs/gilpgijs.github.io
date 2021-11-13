@@ -23,6 +23,7 @@ nav h5 {
  --introDuracion: 2s;
  --introFuncion: ease-out;
  --padCont: 0.5rem;
+ --padNav: 0.5rem;
  --anchoNav: 300px;
  --anchoLectura: 900px;
  --colLetra: black;
@@ -30,12 +31,13 @@ nav h5 {
  --colTituloLetra: #00811c;
  --colTituloShadow: 3px 1px 2px #bdbdbd;
  --colTituloStrong: #7a2c99;
+ --colTituloStrongSel: #f3d6ff;
  --colSombra: #49494980;
  --navSombra: 0.5rem 0 0.5rem var(--colSombra);
  --padCtrl: 0.2rem 0.3rem;
  --borderCtrl: solid thin;
  --colFondoNav: #f2f2f2;
- --colNavResaltada: #6c4b00;
+ --colNavResaltada: #744d00;
  --colSecundario: #ffff82;
  --colStack1: black;
  --gap: 0.5rem;
@@ -51,11 +53,15 @@ nav h5 {
 .siguiente,
 .leccionAnterior,
 .leccionSiguiente {
- display: inline-block;
+ display: block;
  text-decoration: none;
  padding: var(--padCtrl);
  border: var(--borderCtrl);
  cursor: pointer;
+}
+.leccionAnterior,
+.leccionSiguiente {
+ text-align: center;
 }
 
 .anterior.bye,
@@ -63,13 +69,13 @@ nav h5 {
  display: none;
 }
 
-.logo {
- display: inline-block;
- height: 50px;
- line-height: 50px;
- padding-left: 53px;
+a.logo {
+ display: block;
+ height: 54px;
+ line-height: 54px;
+ padding-left: 54px;
  background-image: url("/img/maskable_icon_x48.png");
- background-position: left center;
+ background-position: 3px center;
  background-repeat: no-repeat;
 }
 
@@ -85,7 +91,6 @@ h1:not(.default),
 h2:not(.default) {
  font-family: var(--fontSans);
  color: var(--colTituloLetra);
- text-shadow: var(--colTituloShadow);
 }
 
 h1 strong {

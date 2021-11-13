@@ -33,6 +33,11 @@ body:not(.pres) #principal {
  margin-left: auto
 }
 
+#principal h1:not(.default),
+#principal h2:not(.default) {
+ text-shadow: var(--colTituloShadow);
+}
+
 #nav {
  position: fixed;
  top: 0;
@@ -46,13 +51,26 @@ body:not(.pres) #principal {
  transition: transform 0.7s ease-in-out;
 }
 
+#nav p {
+ margin: 0;
+}
+
+#nav a:not(.logo) {
+ display: block;
+ padding: var(--padNav);
+}
+
 #nav h1 a {
  color: var(--colTituloLetra);
 }
 
 #nav a.actual {
- font-weight: bold;
- color: var(--colNavResaltada);
+ color: var(--colFondo);
+ background-color: var(--colNavResaltada);
+}
+
+#nav a.actual strong {
+ color: var(--colTituloStrongSel);
 }
 
 @media screen and (max-width: 999px) {
