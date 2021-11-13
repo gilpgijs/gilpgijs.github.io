@@ -17,18 +17,16 @@
  <link rel="apple-touch-icon" sizes="2048x2048" href="/img/icono2048.png">
  <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
- <link rel="stylesheet" href="/lib/css/miNav.css">
  <link rel="stylesheet" href="/lib/css/cajon.css">
 </head>
 <body>
  <script type="module">
   import { layoutCajon } from "./lib/layoutCajon.js"
-  import { miFooter } from "./lib/miFooter.js"
   import { miNav } from "./js/miNav.js"
   import { gilpgijsIndex } from "./js/gilpgijsIndex.js"
   let nav = miNav()
-  layoutCajon(nav, gilpgijsIndex(nav), miFooter())
+  layoutCajon(nav, gilpgijsIndex(nav))
   nav = null
- </script>
+  </script>
 </body>
 </html>

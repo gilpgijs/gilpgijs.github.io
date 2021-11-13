@@ -3,13 +3,30 @@
  * http://creativecommons.org/licenses/by/4.0/. */
 
 #principal {
- background-color: var(--colBk, white);
+ background-color: var(--colBk);
  transition: margin-left 0.7s ease-in-out;
+}
+
+body:not(.pres) #principal {
+ opacity: 0;
+ animation-timing-function: var(--introFuncion);
+ animation-duration: var(--introDuracion);
+ animation-fill-mode: forwards;
+ animation-name: aparece;
+}
+
+@keyframes aparece {
+ from {
+  opacity: 0;
+ }
+
+ to {
+  opacity: 1;
+ }
 }
 
 #principal>.controles {
  display: flex;
- margin: 1rem 0;
  gap: var(--gap);
 }
 
@@ -24,21 +41,14 @@
  bottom: 0;
  box-sizing: border-box;
  overflow: auto;
- color: var(--colLetra, black);
+ color: var(--colLetra);
  background-color: var(--colFondoNav);
  padding: var(--padMiNav);
  transition: transform 0.7s ease-in-out;
 }
 
-#nav>header {
- text-align: end
-}
-
-#nav>header>h2 {
- text-align: start;
- font-family: var(--fontSans);
- color: var(--colTituloLetra);
- text-shadow: var(--colTituloShadow);
+#nav a.actual {
+ color: var(--colNavResaltada);
 }
 
 @media screen and (max-width: 999px) {
@@ -49,7 +59,7 @@
   left: 0;
   right: 0;
   background-color: var(--colSombra);
-  transform: translateX(-150%);
+  transform: translateX(-120%);
   transition: transform 0.7s ease-out;
  }
 
@@ -59,7 +69,7 @@
  }
 
  .xmenu>#nav {
-  transform: translateX(-150%);
+  transform: translateX(-120%);
  }
 
  .menu>#cierra,
@@ -74,15 +84,15 @@
  }
 
  #nav {
-  width: var(--anchoNav, 200px);
+  width: var(--anchoNav);
  }
 
  .menu>#nav {
-  transform: translateX(-150%);
+  transform: translateX(-120%);
  }
 
  .xmenu>#principal {
-  margin-left: calc(var(--anchoNav, 200px));
+  margin-left: var(--anchoNav)
  }
 
  .xmenu #abre {
@@ -95,23 +105,5 @@
  #nav,
  #principal>.controles {
   display: none;
- }
-}
-
-body:not(.pres) #principal {
- opacity: 0;
- animation-timing-function: var(--introFuncion, ease-out);
- animation-duration: var(--introDuracion, 3s);
- animation-fill-mode: forwards;
- animation-name: aparece;
-}
-
-@keyframes aparece {
- from {
-  opacity: 0;
- }
-
- to {
-  opacity: 1;
  }
 }

@@ -1,6 +1,6 @@
 export function d1bDispositivosContenido() {
  return (/* html */
-  `<ul class=".contenido">
+  `<ul>
     <li>
      <p>
       <a href="/1_fundamentos/b_dispositivos/1_wearables.html">Wearables</a>

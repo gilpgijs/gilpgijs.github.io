@@ -8,16 +8,14 @@
  <link rel="manifest" href="/site.webmanifest">
  <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
- <link rel="stylesheet" href="/lib/css/miNav.css">
  <link rel="stylesheet" href="/lib/css/cajon.css">
 </head>
 <body>
  <script type="module">
   import { layoutCajon } from "../lib/layoutCajon.js"
-  import { miFooter } from "../lib/miFooter.js"
   import { miNav } from "./js/miNav.js"
   import { d1gHardware } from "./js/d1gHardware.js"
-  layoutCajon(miNav(), d1gHardware(), miFooter())
+  layoutCajon(miNav(), d1gHardware())
  </script>
 </body>
 </html>

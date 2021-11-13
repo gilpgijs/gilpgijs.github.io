@@ -5,9 +5,10 @@ export function d1bDispositivosIndex() {
   `<h1>B. Tipos de computadoras</h1>
    <div class="lectura">
     <p class="noPrint">
-     <nav>
-      ${d1bDispositivosContenido()}
-     </nav>
+     <a href="print.html" target="_blank">Versión para Imprimir.</a>
     </p>
+    <nav>
+     ${d1bDispositivosContenido()}
+    </nav>
    </div>`)
 }

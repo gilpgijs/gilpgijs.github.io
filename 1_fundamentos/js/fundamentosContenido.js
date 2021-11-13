@@ -13,19 +13,14 @@ export function fundamentosContenido() {
   `<ol type="A">
     <li>
      <p>
-      <a href="/1_fundamentos/a_computadora.html">Computadora Electrónica</a>
+      <a href="/1_fundamentos/a_computadora.html">Computadora electrónica</a>
      </p>
     </li>
     <li>
-     <details>
-      <summary>
-       <h5>
-        <a href="/1_fundamentos/b_dispositivos/index.html">Tipos de
-         computadoras</a>
-       </h5>
-      </summary>
-      ${d1bDispositivosContenido()}
-     </details>
+     <p>
+      <a href="/1_fundamentos/b_dispositivos/index.html">Tipos de
+       computadoras</a>
+     </p>
     </li>
     <li>
      <p><a href="/1_fundamentos/c_programa.html">Programa</a></p>

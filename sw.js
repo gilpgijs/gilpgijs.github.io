@@ -559,7 +559,6 @@ const ARCHIVOS = [
  "lib/muestra-codigo_shadow.js",
  "lib/utilHtml.js",
  "lib/css/cajon.css",
- "lib/css/miNav.css",
  "lib/css/prueba.css",
  "/"
 ]

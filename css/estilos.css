@@ -2,6 +2,10 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
+.diapositiva {
+ display: block;
+}
+
 :root {
  --introDuracion: 2s;
  --introFuncion: ease-out;
@@ -24,7 +28,7 @@
  --padCtrl: 0.2rem 0.3rem;
  --borderCtrl: solid thin;
  --colFondoNav: #e4e4e4;
- --colNavResaltada: #785116;
+ --colNavResaltada: #df9321;
  --colSecundario: #ffff82;
  --colStack1: black;
  --padMiNav: 0.5rem;
@@ -64,12 +68,18 @@
  background-repeat: no-repeat;
 }
 
+h1.sitio {
+ font-size: 3rem;
+}
+
+h1.leccion {
+ font-size: 2.5rem;
+}
+
 h1:not(.default),
-h2:not(.default),
-h3:not(.default) {
+h2:not(.default) {
  font-family: var(--fontSans);
  color: var(--colTituloLetra);
- text-shadow: var(--colTituloShadow);
 }
 
 h1 strong {
@@ -80,26 +90,6 @@ h1 strong {
  font-family: var(--fontSans);
  font-size: 1.5rem;
  color: var(--colTituloLetra);
-}
-
-@media screen and (max-width: 999px) {
- h1.sitio {
-  font-size: 3rem;
- }
-
- h1.leccion {
-  font-size: 2.5rem;
- }
-}
-
-@media screen and (min-width: 1000px) {
- h1.sitio {
-  font-size: 9vh;
- }
-
- h1.leccion {
-  font-size: 7vh;
- }
 }
 
 figure {
@@ -132,10 +122,6 @@ figcaption {
 iframe {
  box-sizing: border-box;
  width: 100%;
-}
-
-.diapositiva {
- display: block;
 }
 
 .lectura {
