@@ -28,6 +28,12 @@ nav a {
  font-family: var(--fontSans);
 }
 
+code {
+ color: var(--colTituloStrong);
+ font-family: var(--fontMono);
+ font-size: 1.05rem;
+}
+
 nav a strong,
 nav a code {
  color: var(--colTituloStrong);
@@ -196,22 +202,6 @@ iframe {
 }
 
 pre {
- font-family: var(--fontMono);
-}
-
-code.language-html {
- color: #880000;
- font-family: var(--fontMono);
-}
-
-code.language-css {
- color: #ff0000;
- font-family: var(--fontMono);
-}
-
-code.language-kotlin,
-code.language-javascript {
- color: blue;
  font-family: var(--fontMono);
 }
 

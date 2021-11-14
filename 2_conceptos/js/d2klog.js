@@ -1,6 +1,6 @@
 export function d2klog() {
  return (/* html */
-  `<h1>K. La función <strong>console.log</strong></h1>
+  `<h1>K. La función <code class="language-javascript">console.log</code></h1>
    <div class="lectura">
     <ul>
      <li>

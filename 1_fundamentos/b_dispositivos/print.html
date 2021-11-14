@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
  <meta charset="UTF-8">
+ <meta name="description"
+   content="Página para imprimir fotografías de algunos tipos de computadoras.">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="icon" sizes="32x32" href="/favicon.ico">
  <meta name="theme-color" content="#039623">
@@ -12,7 +14,6 @@
 <body class="print">
  <script type="module">
   import { d1bDispositivosPrint } from "./js/d1bDispositivosPrint.js"
-  import { abreDetails } from "../../lib/abreDetails.js"
   import { miFooter } from "../../lib/miFooter.js"
   document.body.innerHTML += d1bDispositivosPrint() + miFooter()
  </script>

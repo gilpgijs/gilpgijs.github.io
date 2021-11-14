@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
  <meta charset="UTF-8">
+ <meta name="description" content="Página para imprimir fotografías de ejemplos
+   de sistemas operativos.">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="icon" sizes="32x32" href="/favicon.ico">
  <meta name="theme-color" content="#039623">
@@ -12,7 +14,6 @@
 <body class="print">
  <script type="module">
   import { d1eOperativosPrint } from "./js/d1eOperativosPrint.js"
-  import { abreDetails } from "../../lib/abreDetails.js"
   import { miFooter } from "../../lib/miFooter.js"
   document.body.innerHTML += d1eOperativosPrint() + miFooter()
  </script>

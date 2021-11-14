@@ -1,6 +1,6 @@
 export function d2jString() {
  return (/* html */
-  `<h1>J. El tipo <code>string</code></h1>
+  `<h1>J. El tipo <code class="language-javascript">string</code></h1>
    <div class="lectura">
     <ul>
      <li>

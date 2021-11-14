@@ -15,7 +15,6 @@ import "../6_if/cmp/if-print.js"
 import "../7_if_else/cmp/if-else-print.js"
 import "../8_multiple/cmp/multiple-print.js"
 import "../9_melse/cmp/multiple-else-print.js"
-import { abreDetails } from "../lib/abreDetails.js"
 import { miFooter } from "../lib/miFooter.js"
 import { gilpgijsIndex } from "./gilpgijsIndex.js"
 import { miNav } from "./miNav.js"
@@ -109,8 +108,4 @@ export function gilpgijsPrint() {
     <switch-print></switch-print>
     ${miFooter()}
    </section>`
-   const navs = Array.from(document.querySelectorAll("nav"))
-   for (const nav of navs) {
-    abreDetails(nav)
-   }
  }

@@ -15,23 +15,10 @@ export function d2lOrden() {
      </li>
      <li>
       <p>
-       Una <dfn>prueba de escritorio</dfn> es la ejecución detallada y
-       paso a paso de un programa.
-      </p>
-     </li>
-     <li>
-      <p>
-       <dfn>Depurar</dfn> es controlar la realización de una prueba de
-       escritorio usando una herramienta de desarrollo.
-      </p>
-     </li>
-     <li>
-      <p>
-       Usaremos la herramienta
-       <a target="_blank" rel="noopener"
-         href="https://gilpgedit.github.io/">https://gilpgedit.github.io/</a>
-       y los navegadores web para depurar los programas.
-      </p>
+       Opcionalmente se puede poner el símbolo punto y coma
+       (<code class="language-javascript">;</code>)
+       al final de una expresión; pero cuando se ponen 2 o más expresones en
+       un mismo renglón, este símpolo es obligatorio para separarlas.</p>
      </li>
     </ul>
    </div>

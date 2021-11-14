@@ -628,7 +628,6 @@ const ARCHIVOS = [
  "js/gilpgijsIndex.js",
  "js/gilpgijsPrint.js",
  "js/miNav.js",
- "lib/abreDetails.js",
  "lib/Diapositiva.js",
  "lib/INSTRUCCIONES_NAV.js",
  "lib/layout-cajon.js",

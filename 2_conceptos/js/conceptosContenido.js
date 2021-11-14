@@ -42,12 +42,12 @@ export function conceptosContenido() {
     </li>
     <li>
      <p>
-      <a href="/2_conceptos/j_string.html">El tipo <code>string</code></a>
+      <a href="/2_conceptos/j_string.html">El tipo <code class="language-javascript">string</code></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/2_conceptos/k_log.html">La función <code>console.log</code></a>
+      <a href="/2_conceptos/k_log.html">La función <code class="language-javascript">console.log</code></a>
      </p>
     </li>
     <li>
