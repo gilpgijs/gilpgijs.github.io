@@ -1,7 +1,7 @@
 /* Espera 11 minutos después de hacer los cambios en tu sitio, para depués
  * actualizar este archivo. */
 const CACHE = "gilpgijs"
-const VERSION = "2.60.11.03"
+const VERSION = "2.60.12"
 
 /** Archivos requeridos para que la aplicación funcione fuera de línea. */
 const ARCHIVOS = [
@@ -329,7 +329,12 @@ const ARCHIVOS = [
  "2_conceptos/6_pres/index.html",
  "2_conceptos/img/Cadena.svg",
  "2_conceptos/img/Eslabon.svg",
+ "2_conceptos/img/pexels-lex-photography-1109543.webp",
+ "2_conceptos/img/pexels-marek-levak-2265482.webp",
+ "2_conceptos/img/pexels-pok-rie-1432673.webp",
  "2_conceptos/img/pexels-rfstudio-3825581.webp",
+ "2_conceptos/img/pexels-tranmautritam-326514.webp",
+ "2_conceptos/img/pexels-valentine-tanasovich-2588757.webp",
  "2_conceptos/img/winlogo.png",
  "2_conceptos/img/winlogo.xcf",
  "2_conceptos/js/conceptosContenido.js",
@@ -349,7 +354,6 @@ const ARCHIVOS = [
  "2_conceptos/js/d2lOrden.js",
  "2_conceptos/js/d2mResumen.js",
  "2_conceptos/js/miNav.js",
- "2_conceptos/src/1_orden.html",
  "3_pres/a_algoritmo.html",
  "3_pres/b_memoria.html",
  "3_pres/c_cpu.html",
