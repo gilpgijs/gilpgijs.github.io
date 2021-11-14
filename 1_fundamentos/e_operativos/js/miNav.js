@@ -8,17 +8,29 @@ import {
 
 export function miNav() {
  return (/* html */
-  `<h1><a href="/1_fundamentos/index.html">1. Fundamentos</a></h1>
-   <p>
-    <a href="/1_fundamentos/d_operativo.html">D. Sistema operativo</a>
-   </p>
-   <section>
-    <h1>
-     <a href="/1_fundamentos/e_operativos/index.html">E. Ejemplos de sistemas operativos</a>
-    </h1>
-    ${d1eOperativosContenido()}
-    <p>
-     <a href="/1_fundamentos/f_programas/index.html">F. Otros tipos de programas</a>
-    </p>
-   </section>`)
+  `<ol>
+    <li>
+     <h1><a href="/1_fundamentos/index.html">Fundamentos</a></h1>
+     <ol type="A" start="4">
+      <li>
+       <p>
+        <a href="/1_fundamentos/d_operativo.html">Sistema operativo</a>
+       </p>
+      </li>
+      <li>
+       <section>
+        <h1>
+         <a href="/1_fundamentos/e_operativos/index.html">Ejemplos de sistemas operativos</a>
+        </h1>
+        ${d1eOperativosContenido()}
+       </section>
+      </li>
+      <li>
+       <p>
+        <a href="/1_fundamentos/f_programas/index.html">Otros tipos de programas</a>
+       </p>
+      </li>
+      </ol>
+     </li>
+    </ol>`)
 }
