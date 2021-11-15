@@ -18,7 +18,7 @@ export function d2lOrden() {
        Opcionalmente se puede poner el símbolo punto y coma
        (<code class="language-javascript">;</code>)
        al final de una expresión; pero cuando se ponen 2 o más expresones en
-       un mismo renglón, este símpolo es obligatorio para separarlas.</p>
+       un mismo renglón, este símbolo es obligatorio para separarlas.</p>
      </li>
     </ul>
    </div>
