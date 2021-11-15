@@ -2,11 +2,29 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
-import { conceptosContenido } from "./conceptosContenido.js"
+import { adicionalesContenido } from "./adicionalesContenido.js"
+
 export function miNav() {
  return (/* html */
-  `<p><a href="/1_fundamentos/l_resumen.html" class="leccionAnterior" title="1. Fundamentos/l. Resumen">▲</a></p>
-   <h1><a href="/2_conceptos/index.html">Conceptos básicos</a></h1>
-   ${conceptosContenido()}
-   <p><a href="/3_variables/index.html" class="leccionSiguiente" title="3. Variables">▼</a></p>`)
+  `<ol start="3">
+    <li>
+     <section>
+      <h1><a href="/3_pres/index.html">Prueba de escritorio básica</a></h1>
+     </section>
+     <ol start="3">
+      <li>
+       <p><a href="/3_pres/3.html"><code class="language-javascript">console.log("u")</code></a></p>
+      </li>
+     </ol>
+    </li>
+    <li>
+     <h1><a href="/4_adicionales/index.html">Herramientas adicionales</a></h1>
+     ${adicionalesContenido()}
+     </li>
+     <li>
+      <section>
+       <h1><a href="/5_variables/index.html">Herramientas adicionales</a></h1>
+      </section>
+     </li>
+    </ol>`)
 }

@@ -1,0 +1,102 @@
+/*TODO Pintar stacks y números de distinto color, de acuerdo a la activación.*/
+.pres section {
+  display: inline-block;
+  vertical-align: top;
+  margin: 1em;
+}
+
+.pres section pre {
+  margin: 0;
+}
+
+.pres samp {
+  font-weight: bold;
+}
+
+.pres .activo {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+  vertical-align: top;
+  background-color: var(--colSecundario);
+  border: 1px solid var(--colSecundario);
+}
+
+.pres :target,
+.pres :target caption {
+  background-color: var(--colTarget);
+}
+
+.pres .numero-1 {
+  display: inline-block;
+  margin: 0 0.2rem 0 0;
+  color: var(--colStack1);
+  border: 1px solid var(--colStack1);
+}
+
+.pres .numero-2 {
+  display: inline-block;
+  color: var(--colStack2);
+  border: 1px solid var(--colStack2);
+}
+
+.pres .numero-3 {
+  display: inline-block;
+  color: var(--colStack3);
+  border: 1px solid var(--colStack3);
+}
+
+.pres a.parametro-1,
+.pres .parametro-1 {
+  color: var(--colPar1);
+}
+
+.pres a.parametro-2,
+.pres .parametro-2 {
+  color: var(--colPar2);
+}
+
+.pres .descongela {
+  color: var(--colDescongela);
+}
+
+.pres table.tabla-1,
+.pres table.tabla-1 th,
+.pres table.tabla-1 td {
+  border: 1px solid var(--colStack1);
+}
+
+.pres table.tabla-2,
+.pres table.tabla-2 th,
+.pres table.tabla-2 td {
+  border: 1px solid var(--colStack2);
+}
+
+.pres table.tabla-3,
+.pres table.tabla-3 th,
+.pres table.tabla-3 td {
+  border: 1px solid var(--colStack3);
+}
+
+.pres .frame {
+  font-family: var(--fontMono);
+  border-collapse: collapse;
+}
+
+.pres .frame,
+.pres .frame th,
+.pres .frame td {
+  border: thin solid;
+}
+
+.pres .frame caption {
+  font-style: italic;
+}
+
+.pres .objeto caption {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.pres .creación {
+  display: flex;
+}

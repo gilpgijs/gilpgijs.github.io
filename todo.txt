@@ -1,3 +1,4 @@
+1. Continuar con las lecciones 3 y 4.
 1. Usar la etiqueta code en los títulos y anclas cuando usen código.
 2. Poner los títulos de los operadores como en css de gilpgihc.
 

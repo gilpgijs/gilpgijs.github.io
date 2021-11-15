@@ -10,12 +10,13 @@
  <link rel="manifest" href="/site.webmanifest">
  <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/pres.css">
 </head>
 <body class="print">
  <script type="module">
-  import { conceptosPrint } from "./js/conceptosPrint.js"
+  import { presPrint } from "./js/presPrint.js"
   import { miFooter } from "../lib/miFooter.js"
-  document.body.innerHTML += conceptosPrint() + miFooter()
+  document.body.innerHTML += presPrint() + miFooter()
  </script>
 </body>
 </html>

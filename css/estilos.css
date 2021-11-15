@@ -28,10 +28,14 @@ nav a {
  font-family: var(--fontSans);
 }
 
+samp {
+ font-size: 1rem;
+}
+
 code {
  color: var(--colTituloStrong);
  font-family: var(--fontMono);
- font-size: 1.05rem;
+ font-size: 1rem;
 }
 
 nav a strong,
@@ -39,14 +43,14 @@ nav a code {
  color: var(--colTituloStrong);
  font-family: var(--fontMono);
  font-weight: bold;
- font-size: 1.05rem;
+ font-size: 1.1rem;
 }
 
 h1 strong,
 h1 code {
  color: var(--colTituloStrong);
  font-family: var(--fontMono);
- font-size: 1.2em;
+ font-size: 1.3em;
 }
 
 :root {

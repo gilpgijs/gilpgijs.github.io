@@ -5,7 +5,6 @@
 #nav a.actual code,
 #nav a.actual strong {
  color: var(--colTituloStrongSel);
- font-size: 1.2em;
 }
 
 #principal {

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="description" content="Paso 1 de prueba de escritorio básica.">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="icon" sizes="32x32" href="/favicon.ico">
+ <meta name="theme-color" content="#039623">
+ <link rel="manifest" href="/site.webmanifest">
+ <script type="module" src="/js/config.js"></script>
+ <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/cajon.css">
+ <link rel="stylesheet" href="/lib/css/pres.css">
+</head>
+<body class="sintrans">
+ <script type="module">
+  import { layoutCajon } from "../lib/layoutCajon.js"
+  import { miNav } from "./js/miNav.js"
+  import { d3_1 } from "./js/d3_1.js"
+  layoutCajon(miNav(), d3_1())
+ </script>
+</body>
+</html>
