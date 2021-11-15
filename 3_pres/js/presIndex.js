@@ -7,13 +7,19 @@ export function presIndex() {
     <p class="noPrint">
      <a href="print.html" target="_blank" rel="noopener">Versión para Imprimir.</a>
     </p>
-    <p>
-     Una <dfn>prueba de escritorio</dfn> es la ejecucuión detallada y paso a
-     paso de un programa.
-    </p>
-    <p>
-     En esta lección se muestra la prueba de escritorio del siguiente programa.
-    </p>
+    <ul>
+     <li>
+      <p>
+       Una <dfn>prueba de escritorio</dfn> es la ejecucuión detallada y paso a
+       paso de un programa.
+      </p>
+     </li>
+     <li>
+      <p>
+       En esta lección se muestra la prueba de escritorio del siguiente programa.
+      </p>
+     </li>
+    </ul>
    </div>
    <div class="horizontal">
     <section>
