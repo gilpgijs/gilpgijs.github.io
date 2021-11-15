@@ -20,7 +20,11 @@ export function d3_1() {
     </section>
     <section id="explicación">
      <h1>Explicación</h1>
-     <p>Se muestra el texto <samp>p</samp> en la consola.</p>
+     <ul>
+      <li>
+       <p>Se muestra el texto <samp>p</samp> en la consola.</p>
+      </li>
+     </ul>
     </section>
    </div>`)
 }

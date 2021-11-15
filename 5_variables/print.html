@@ -5,16 +5,19 @@
  <meta name="description"
    content="Introducción a JavaScript.">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <script type="module" src="/js/config.js"></script>
  <link rel="icon" sizes="32x32" href="/favicon.ico">
  <meta name="theme-color" content="#039623">
  <link rel="manifest" href="/site.webmanifest">
+ <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
- <script type="module" src="cmp/variables-print.js"></script>
+ <link rel="stylesheet" href="/css/estilos.css">
+ <link rel="stylesheet" href="/lib/css/pres.css">
 </head>
 <body class="print">
- <h1 class="presentación">3. Variables</h1>
- <variables-print></variables-print>
- <mi-footer></mi-footer>
+ <script type="module">
+  import { variablesPrint } from "./js/variablesPrint.js"
+  import { miFooter } from "../lib/miFooter.js"
+  document.body.innerHTML += variablesPrint() + miFooter()
+ </script>
 </body>
 </html>

@@ -18,12 +18,12 @@ export function miNav() {
      </ol>
     </li>
     <li>
-     <h1><a href="/4_adicionales/index.html">Herramientas adicionales</a></h1>
+     <h1><a href="/4_adicionales/index.html">Herramientas de apoyo</a></h1>
      ${adicionalesContenido()}
      </li>
      <li>
       <section>
-       <h1><a href="/5_variables/index.html">Herramientas adicionales</a></h1>
+       <h1><a href="/5_variables/index.html">Variables</a></h1>
       </section>
      </li>
     </ol>`)

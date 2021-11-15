@@ -16,7 +16,7 @@ export function miNav() {
      <p><a href="/3_pres/index.html">Prueba de escritorio básica</a></p>
     </li>
     <li>
-     <p><a href="/4_adicionales/index.html">Herramientas adicionales</a></p>
+     <p><a href="/4_adicionales/index.html">Herramientas de apoyo</a></p>
     </li>
     <li>
      <p><a href="/5_variables/index.html">Variables</a></p>

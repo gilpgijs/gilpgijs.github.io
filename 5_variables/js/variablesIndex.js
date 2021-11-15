@@ -1,15 +1,15 @@
-import { adicionalesContenido } from "./adicionalesContenido.js";
+import { variablesContenido } from "./variablesContenido.js";
 
-export function adicionalesIndex() {
+export function variablesIndex() {
  return (/* html */
-  `<h1 class="leccion">4. Herramientas de apoyo</h1>
+  `<h1 class="presentación">5. Variables</h1>
    <div class="lectura">
     <p class="noPrint">
      <a href="print.html" target="_blank" rel="noopener">Versión para Imprimir.</a>
     </p>
     <nav>
      <h1>Contenido</h1>
-     ${adicionalesContenido()}
+      ${variablesContenido()}
     </nav>
    </div>`)
 }

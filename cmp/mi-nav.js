@@ -2,6 +2,8 @@
  * Atribución 4.0 Internacional License. To view a copy of this license, visit
  * http://creativecommons.org/licenses/by/4.0/. */
 
+import "../10_multiple/cmp/multiple-contenido.js"
+import "../11_melse/cmp/multiple-else-contenido.js"
 import "../12_textos/cmp/textos-contenido.js"
 import "../13_logicos/cmp/logicos-contenido.js"
 import "../14_do_while/cmp/do-while-contenido.js"
@@ -10,15 +12,11 @@ import "../16_mas_numeros/cmp/mas-numeros-contenido.js"
 import "../17_while/cmp/while-contenido.js"
 import "../18_for/cmp/for-contenido.js"
 import "../19_switch/cmp/switch-contenido.js"
-import { fundamentosContenido } from "../1_fundamentos/js/fundamentosContenido.js"
-import { conceptosContenido } from "../2_conceptos/js/conceptosContenido.js"
-import "../5_variables/cmp/variables-contenido.js"
+import { variablesContenido } from "../5_variables/js/variablesContenido.js"
 import "../6_comentarios/cmp/comentarios-contenido.js"
 import "../7_bloques/cmp/bloques-contenido.js"
 import "../8_if/cmp/if-contenido.js"
 import "../9_if_else/cmp/if-else-contenido.js"
-import "../10_multiple/cmp/multiple-contenido.js"
-import "../11_melse/cmp/multiple-else-contenido.js"
 
 export class MiNav extends HTMLElement {
  connectedCallback() {
@@ -29,35 +27,25 @@ export class MiNav extends HTMLElement {
       <h3>Lecciones</h3>
       <ol>
        <li>
-        <details>
-         <summary>
-          <h4><a href="/1_fundamentos/index.html">Fundamentos</a></h4>
-         </summary>
-         ${fundamentosContenido()}
-        </details>
+        <h4><a href="/1_fundamentos/index.html">Fundamentos</a></h4>
        </li>
        <li>
-        <details>
-         <summary>
           <h4><a href="/2_conceptos/index.html">Conceptos básicos</a></h4>
-         </summary>
-         ${conceptosContenido()}
-        </details>
        </li>
        <li>
         <h4><a href="/3_pres/index.html">Prueba de escritorio básica</a></h4>
        </li>
        <li>
-        <h4><a href="/4_adicionales/index.html">Herramientas adicionales</a></h4>
+        <h4><a href="/4_adicionales/index.html">Herramientas de apoyo</a></h4>
        </li>
        <li>
-        <details>
-         <summary>
-          <h4><a href="/5_variables/index.html">Variables</a></h4>
-         </summary>
-         <variables-contenido></variables-contenido>
-        </details>
-       </li>
+       <details>
+       <summary>
+      <h4><a href="/5_variables/index.html">Variables</a></h4>
+      </summary>
+      ${variablesContenido()}
+     </details>
+    </li>
        <li>
         <details>
          <summary>

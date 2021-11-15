@@ -21,10 +21,14 @@ export function d3_2() {
     </section>
     <section id="explicación">
      <h2>Explicación</h2>
-     <p>
-      Se muestra el texto <samp>a</samp> en el siguiente renglón de la
-      consola.
-     </p>
+     <ul>
+      <li>
+       <p>
+        Se muestra el texto <samp>a</samp> en el siguiente renglón de la
+        consola.
+       </p>
+      </li>
+     </ul>
     </section>
    </div>`)
 }

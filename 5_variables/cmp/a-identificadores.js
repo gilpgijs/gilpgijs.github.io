@@ -5,11 +5,11 @@ export class AIdentificadores extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>A. Identificadores</h1>
+   `<h1>A. <dfn>Identificador</dfn></h1>
    <div class="lectura">
     <p>
-     Un <dfn>identificador</dfn> es el nombre que tiene un elemento de un
-     programa y que no se puede repetir en ciertas partes del código.
+     Nombre que tiene un elemento de un programa y que no se puede repetir en
+     ciertas partes del código.
     </p>
     <h2>Reglas que debe cumplir un identificador</h2>
     <ul>

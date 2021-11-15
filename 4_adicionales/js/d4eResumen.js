@@ -1,6 +1,6 @@
-export function d4cResumen() {
+export function d4eResumen() {
  return (/* html */
-  `<h1>L. Resumen</h1>
+  `<h1>E. Resumen</h1>
    <div class="lectura">
     <ul>
      <li>
@@ -9,6 +9,13 @@ export function d4cResumen() {
        <li><p>Depuración</p></li>
        <li><p>Pseudocódigo</p></li>
        <li><p>Diagrama de flujo</p></li>
+      </ul>
+     </li>
+     <li>
+      <p>También se presentaron las siguientes herramientas:</p>
+      <ul>
+       <li><p>JavaScript Tutor del sitio Python Tutor</p></li>
+       <li><p>PSeInt</p></li>
       </ul>
      </li>
     </ul>

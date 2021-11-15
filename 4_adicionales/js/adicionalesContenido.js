@@ -11,7 +11,10 @@ export function adicionalesContenido() {
      <p><a href="/4_adicionales/c_diagramas.html">Diagrama de flujo</a></p>
     </li>
     <li>
-     <p><a href="/4_adicionales/d_resumen.html">Resumen</a></p>
+     <p><a href="/4_adicionales/d_pseint.html">PSeInt</a></p>
+    </li>
+    <li>
+     <p><a href="/4_adicionales/e_resumen.html">Resumen</a></p>
     </li>
    </ol>`)
 }

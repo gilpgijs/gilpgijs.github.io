@@ -6,13 +6,11 @@ export class BVariables extends Diapositiva {
  connectedCallback() {
   super.connectedCallback();
   this.innerHTML = /* html */
-   `<h1>B. Variables</h1>
+   `<h1>B. <dfn>Variable</dfn></h1>
    <div class="lectura">
     <p>
-     Una
-     <dfn>variable</dfn>
-     es un lugar en donde se almacena un dato que puede cambiar durante la
-     ejecución de un programa.
+     Lugar en en la memoria de la computadora donde se almacena un dato que
+     puede cambiar durante la ejecución de un programa.
     </p>
     <h2>Declaración</h2>
     <p>

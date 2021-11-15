@@ -16,5 +16,12 @@ export function d4cDiagrama() {
       </p>
      </li>
     </ul>
-   </div>`)
+   </div>
+   <figure>
+    <img class="med" alt="Ejemplo de diagrama de flujo"
+      src="/4_adicionales/img/Ejemplo.webp">
+    <figcaption>
+     <small>Diagrama de flujo del ejemplo de la lección anterior</small>
+    </figcaption>
+   </figure>`)
 }
