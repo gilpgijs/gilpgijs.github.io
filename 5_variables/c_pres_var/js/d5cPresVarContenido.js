@@ -46,5 +46,10 @@ export function d5cPresVarContenido() {
       <a href="/5_variables/c_pres_var/9.html">console.log(b)</a>
      </p>
     </li>
+    <li>
+     <p>
+      <a href="/5_variables/c_pres_var/10_depura.html">Depura el código</a>
+     </p>
+    </li>
    </ol>`)
 }

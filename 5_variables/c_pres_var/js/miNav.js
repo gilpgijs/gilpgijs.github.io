@@ -25,7 +25,7 @@ export function miNav() {
       </li>
       <li>
        <p>
-        <a href="/5_variables/d_constantes.html">Constantes</a>
+        <a href="/5_variables/d_constante.html">Constante</a>
        </p>
       </li>
      </ol>

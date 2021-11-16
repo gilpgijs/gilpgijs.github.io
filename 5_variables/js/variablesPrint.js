@@ -1,11 +1,10 @@
-import "../cmp/a-identificadores.js";
-import { d5cPresVarPrint } from "../c_pres_var/js/d5cPresVarPrint.js";
-import "../cmp/b-variables.js";
-import "../cmp/c-constantes.js";
 import "../cmp/d-duplicadas.js";
 import "../cmp/e-no-encontradas.js";
 import "../cmp/f-prompt.js";
 import "../cmp/g-resumen-3.js";
+import { d5cPresVarPrint } from "../c_pres_var/js/d5cPresVarPrint.js";
+import { d5aIdentificador } from "./d5aIdentificador.js";
+import { d5bVariable } from "./d5bVariable.js";
 import { variablesIndex } from "./variablesIndex.js";
 
 export function variablesPrint() {
@@ -14,10 +13,10 @@ export function variablesPrint() {
     ${variablesIndex()}
    </section>
    <section>
-    <a-identificadores></a-identificadores>
+    ${d5aIdentificador()}
    </section>
    <section>
-    <b-variables></b-variables>
+    ${d5bVariable()}
    </section>
    <section>
     ${d5cPresVarPrint()}

@@ -22,24 +22,24 @@ export function presIndex() {
     </ul>
    </div>
    <div class="horizontal">
-    <section>
+   <muestra-codigo>
+    <div>
+     <div><span style="color: #001080;">console</span>.<span
+        style="color: #795e26;">log</span>(<span
+        style="color: #a31515;">"p"</span>);&nbsp;<span
+        style="color: #001080;">console</span>.<span
+        style="color: #795e26;">log</span>(<span
+        style="color: #a31515;">"a"</span>)</div>
+     <div><span style="color: #001080;">console</span>.<span
+        style="color: #795e26;">log</span>(<span
+        style="color: #a31515;">"u"</span>)</div>
+    </div>
+   </muestra-codigo>
+   <section>
      <h1>Salida</h1>
      <pre><samp>p
 a
 u</samp></pre>
     </section>
-    <muestra-codigo>
-     <div>
-      <div><span style="color: #001080;">console</span>.<span
-         style="color: #795e26;">log</span>(<span
-         style="color: #a31515;">"p"</span>);&nbsp;<span
-         style="color: #001080;">console</span>.<span
-         style="color: #795e26;">log</span>(<span
-         style="color: #a31515;">"a"</span>)</div>
-      <div><span style="color: #001080;">console</span>.<span
-         style="color: #795e26;">log</span>(<span
-         style="color: #a31515;">"u"</span>)</div>
-     </div>
-    </muestra-codigo>
    </div>`)
 }

@@ -11,7 +11,11 @@ export function variablesContenido() {
      <p><a href="/5_variables/c_pres_var/index.html">Prueba de escritorio con variables</a></p>
     </li>
     <li>
-     <p><a href="/5_variables/d_constantes.html">Constantes</a></p>
+     <p>
+      <a href="/5_variables/d_constante.html"
+        data-prev="/5_variables/c_pres_var/10_depura.html"
+        data-prevcont="Depura el código">Constante</a>
+     </p>
     </li>
     <li>
      <p><a href="/5_variables/e_duplicadas.html">Variables Duplicadas</a></p>

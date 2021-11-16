@@ -1,4 +1,5 @@
 import { d5c1 } from "./d5c1.js"
+import { d5c10Depura } from "./d5c10Depura.js"
 import { d5c2 } from "./d5c2.js"
 import { d5c3 } from "./d5c3.js"
 import { d5c4 } from "./d5c4.js"
@@ -37,5 +38,8 @@ export function d5cPresVarPrint() {
    </section>
    <section>
     ${d5c9()}
+   </section>
+   <section>
+    ${d5c10Depura()}
    </section>`
 }
