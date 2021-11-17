@@ -2,22 +2,22 @@
 <html lang="es">
 <head>
  <meta charset="UTF-8">
- <meta name="description"
-   content="Introducción a JavaScript.">
+ <meta name="description" content="Indica como JavaScript muestra error cuando
+   una variable no está definida.">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <script type="module" src="/js/configCajon.js"></script>
- <script src="/lib/layout-cajon.js"></script>
  <link rel="icon" sizes="32x32" href="/favicon.ico">
  <meta name="theme-color" content="#039623">
  <link rel="manifest" href="/site.webmanifest">
+ <script type="module" src="/js/config.js"></script>
  <link rel="stylesheet" href="/css/estilos.css">
- <script type="module" src="cmp/e-no-encontradas.js"></script>
+ <link rel="stylesheet" href="/lib/css/cajon.css">
 </head>
 <body>
- <layout-cajon>
-   
-  <e-no-encontradas></e-no-encontradas>
-   
- </layout-cajon>
+ <script type="module">
+  import { layoutCajon } from "../lib/layoutCajon.js"
+  import { miNav } from "./js/miNav.js"
+  import { d5fNoEncontradas } from "./js/d5fNoEncontradas.js"
+  layoutCajon(miNav(), d5fNoEncontradas())
+ </script>
 </body>
 </html>

@@ -1,10 +1,12 @@
-import "../cmp/d-duplicadas.js";
-import "../cmp/e-no-encontradas.js";
 import "../cmp/f-prompt.js";
 import "../cmp/g-resumen-3.js";
 import { d5cPresVarPrint } from "../c_pres_var/js/d5cPresVarPrint.js";
 import { d5aIdentificador } from "./d5aIdentificador.js";
 import { d5bVariable } from "./d5bVariable.js";
+import { d5dConstante } from "./d5dConstante.js";
+import { d5eDuplicadas } from "./d5eDuplicadas.js";
+import "./d5fNoEncontradas.js";
+import { d5fNoEncontradas } from "./d5fNoEncontradas.js";
 import { variablesIndex } from "./variablesIndex.js";
 
 export function variablesPrint() {
@@ -22,13 +24,13 @@ export function variablesPrint() {
     ${d5cPresVarPrint()}
    </section>
    <section>
-    <c-constantes></c-constantes>
+    ${d5dConstante()}
    </section>
    <section>
-    <d-duplicadas></d-duplicadas>
+    ${d5eDuplicadas()}
    </section>
    <section>
-    <e-no-encontradas></e-no-encontradas>
+    ${d5fNoEncontradas()}
    </section>
    <section>
     <f-prompt noprint></f-prompt>

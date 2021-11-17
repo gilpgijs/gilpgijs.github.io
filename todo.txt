@@ -1,10 +1,12 @@
-1. Ok hasta 5d.
+1. Ok hasta 5f.
 2. Agregar una página la prueba de escritorio para saltar a la depuración con JavaScript Tutor
 1. Usar la etiqueta code en los títulos y anclas cuando usen código.
 2. Poner los títulos de los operadores como en css de gilpgihc.
 
 Comando para generar el listado:
 Get-ChildItem -path . -Recurse | Select Directory,Name | Out-File archivos.txt
+
+Activar registraServiceWorker("/sw.js") en config.js
 
 Quita  del listado:
 * las carpetas

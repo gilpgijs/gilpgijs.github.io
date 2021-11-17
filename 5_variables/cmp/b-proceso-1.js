@@ -13,25 +13,13 @@ export class BProceso extends Diapositiva {
       es la manera en que normalmente se utilizan los datos en el software.
       Normalmente consta de 3 pasos que se ejecutan uno tras otro:
      </p>
-     <ol>
-      <li>
-       <p>Adquisición de datos</p>
-      </li>
-      <li>
-       <p>Procesamiento de datos</p>
-      </li>
-      <li>
-       <p>Despliegue de resultados</p>
-      </li>
-     </ol>
-     <h2>Definiciones</h2>
      <dl>
-      <dt><dfn>Adquisición de datos</dfn></dt>
+      <dt>1. <dfn>Adquisición de datos</dfn></dt>
       <dt><dfn>Entrada de datos</dfn></dt>
       <dd>
        <p>Obtener los datos que se van a procesar.</p>
       </dd>
-      <dt><dfn>Procesamiento de datos</dfn></dt>
+      <dt>2. <dfn>Procesamiento de datos</dfn></dt>
       <dd>
        <p>
         Aplicar un mecanismo de transformación a los datos para obtener
@@ -39,7 +27,7 @@ export class BProceso extends Diapositiva {
         <dfn>datos de salida</dfn>.
        </p>
       </dd>
-      <dt><dfn>Despliegue de resultados</dfn></dt>
+      <dt>3. <dfn>Despliegue de resultados</dfn></dt>
       <dt><dfn>Salida de datos</dfn></dt>
       <dd>
        <p>
