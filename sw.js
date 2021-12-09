@@ -14,10 +14,11 @@
 
 const CACHE = "cache"
 
-const VERSION = "2.9"
+const VERSION = "3.0"
 
 const ARCHIVOS = [
-  "/favicon.ico",
+  "/docs/index.html",
+   "/favicon.ico",
    "/img/icono/160x30.png",
    "/img/icono/160x30.webp",
    "/img/icono/80x15.png",
