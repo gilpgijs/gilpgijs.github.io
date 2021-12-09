@@ -1,0 +1,5 @@
+{
+ "orden": "H",
+ "title": "Variables no encontradas",
+ "description": "Indica como JavaScript muestra error cuando una variable no está definida."
+}

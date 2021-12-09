@@ -1,0 +1,69 @@
+<div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Representa el orden natural de los datos. Si el valor a la izquierda
+    va antes que el de la derecha, el resultado es
+    <code class="language-javascript">true</code>;
+    en otro caso es
+    <code class="language-javascript">false</code>.
+   </p>
+  </li>
+  <li>
+   <p>
+    Entre 2 caracteres, el que tenga el menor código
+    <a href="https://home.unicode.org/" target="_blank"
+      rel="noopener">Unicode</a>
+    es el menor.
+   </p>
+  </li>
+  <li>
+   <p>
+    Entre 2 textos, el que aparezca primero en el diccionario es el menor.
+   </p>
+  </li>
+  <li>
+   <p>En el ejemplo que sigue, el orden natural es:</p>
+   <p>
+    "0" &lt; "A" &lt; "a" &lt; "aa" &lt; "ah" &lt; "ai" &lt; "b"
+   </p>
+  </li>
+ </ul>
+</div>
+<section>
+ <h1>Ejemplo</h1>
+ <muestra-codigo>
+  <div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"0"</span>
+    &lt; <span style="color: #a31515;">"A"</span>) &nbsp; <span
+      style="color: #008000;">//T</span></div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"A"</span>
+    &lt; <span style="color: #a31515;">"a"</span>) &nbsp; <span
+      style="color: #008000;">//T</span></div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"a"</span>
+    &lt; <span style="color: #a31515;">"b"</span>) &nbsp; <span
+      style="color: #008000;">//T</span></div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"ah"</span> &lt; <span
+      style="color: #a31515;">"aa"</span>) <span
+      style="color: #008000;">//F</span></div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"ah"</span> &lt; <span
+      style="color: #a31515;">"ah"</span>) <span
+      style="color: #008000;">//F</span></div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"ah"</span> &lt; <span
+      style="color: #a31515;">"ai"</span>) <span
+      style="color: #008000;">//T</span></div>
+  </div>
+ </muestra-codigo>
+</section>

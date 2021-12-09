@@ -1,0 +1,7 @@
+{
+ "orden": "3",
+ "title": "console.log(m)",
+ "h1": "<code class='language-javascript'>console.log(m)</code>",
+ "description": "Paso 3 de una prueba de escritorio con 2 variables: «console.log(m)».",
+ "esPruebaDeEscritorio":true
+}

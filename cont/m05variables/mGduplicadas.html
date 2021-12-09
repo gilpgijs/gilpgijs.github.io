@@ -1,0 +1,51 @@
+<div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Las variables o constantes declaradas en el mismo espacio no pueden
+    tener el mismo nombre.
+   </p>
+  </li>
+ </ul>
+</div>
+<section>
+ <h1>Ejemplo</h1>
+ <div class="horizontal">
+  <muestra-codigo>
+   <div>
+    <div><span style="color: #0000ff;">let</span> <span
+       style="color: #001080;">a</span> = <span
+       style="color: #a31515;">"Q1"</span></div>
+    <div><span style="color: #001080;">document</span>.<span
+       style="color: #795e26;">write</span>(<span
+       style="color: #001080;">a</span>)</div>
+    <div><span style="color: #0000ff;">const</span> <span
+       style="color: #0070c1;">a</span> = <span
+       style="color: #a31515;">"Q2"</span></div>
+    <div><span style="color: #001080;">console</span>.<span
+       style="color: #795e26;">log</span>(<span
+       style="color: #001080;">a</span>)
+    </div>
+   </div>
+  </muestra-codigo>
+  <section>
+   <h1>Salida</h1>
+   <p>
+    <samp><span
+       style="color: red;">SyntaxError: Identifier 'a' has already been
+      declared</span></samp>
+   </p>
+  </section>
+ </div>
+ <div>
+  <ul>
+   <li>
+    <p>
+     <a href="https://gilpgnod.github.io/#let%20a%20%3D%20%22Q1%22%0Adocument.write(a)%0Aconst%20a%20%3D%20%22Q2%22%0Aconsole.log(a)"
+       target="_blank" rel="noopener">Ejecútalo en
+      https://gilpgnod.github.io.</a>
+    </p>
+   </li>
+  </ul>
+ </div>
+</section>

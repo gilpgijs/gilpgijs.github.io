@@ -1,0 +1,6 @@
+1. Primera versión completa sin sw.js.
+2. Añadir los enlaces para depurar en GilPG Nod
+2. Revisar GilPG Nod para que funcione bien sin conexión
+2. en 20 / C resumen quitar el ; de la imagen
+3. Volver a poner los estilos para las barras de scroll
+3. Agregar metadatos para que los enlaces puedan obtener el ícono de la página.

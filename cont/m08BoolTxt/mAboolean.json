@@ -1,0 +1,6 @@
+{
+ "orden": "A",
+ "title": "El tipo boolean",
+ "h1": "El tipo <dfn><code class='language-javascript'>boolean</code></dfn>",
+ "description": "Definición del tipo de dato boolean."
+}

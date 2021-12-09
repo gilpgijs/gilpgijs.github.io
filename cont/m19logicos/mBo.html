@@ -1,0 +1,44 @@
+<div class="lectura">
+ <p>
+  Es el operador O en corto circuito.
+ </p>
+ <p>
+  Si
+  <code class="language-javascript">a</code>
+  se evalúa a
+  <code class="language-javascript">true</code>,
+  el resultado es
+  <code class="language-javascript">a</code>
+  y no se evalúa
+  <code class="language-javascript">b</code>;
+  de lo contrario, el resultado es
+  <code class="language-javascript">b</code>.
+ </p>
+</div>
+<section>
+ <h1>Ejemplo</h1>
+ <muestra-codigo>
+  <div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #0000ff;">true</span> || <span
+      style="color: #0000ff;">true</span>) &nbsp; <span
+      style="color: #008000;">//T</span></div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #0000ff;">true</span> || <span
+      style="color: #0000ff;">false</span>) &nbsp;<span
+      style="color: #008000;">//T</span></div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #0000ff;">false</span> || <span
+      style="color: #0000ff;">true</span>) &nbsp;<span
+      style="color: #008000;">//T</span></div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #0000ff;">false</span> || <span
+      style="color: #0000ff;">false</span>) <span
+      style="color: #008000;">//F</span></div>
+  </div>
+ </muestra-codigo>
+</section>

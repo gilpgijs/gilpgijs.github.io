@@ -1,0 +1,6 @@
+{
+ "orden": "A",
+ "title": "El operador de concatenación a + b",
+ "h1": "El operador de <dfn>concatenación</dfn> <code class=\"language-javascript\"><em>a</em> + <em>b</em></code>",
+ "description": "Definición del operador de concatenación a + b."
+}

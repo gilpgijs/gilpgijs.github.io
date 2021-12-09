@@ -1,0 +1,58 @@
+<div class="lectura">
+ <ul>
+  <li>
+   <p>Equivale a</p>
+   <pre><code class="language-javascript">a = a + x;</code></pre>
+   <p>pero se ejecuta más rápido.</p>
+  </li>
+  <li>
+   <p>Nota que el primer operando debe ser una variable.</p>
+  </li>
+ </ul>
+</div>
+<section>
+ <h1>Ejemplo</h1>
+ <div class="horizontal">
+  <muestra-codigo>
+   <div>
+    <div><span style="color: #0000ff;">let</span> <span
+       style="color: #001080;">c</span> = <span
+       style="color: #a31515;">"h"</span></div>
+    <div><span style="color: #0000ff;">const</span> <span
+       style="color: #0070c1;">D</span> = <span
+       style="color: #a31515;">"."</span></div>
+    <div><span style="color: #001080;">c</span> += <span
+       style="color: #a31515;">"gg"</span> <span
+       style="color: #008000;">// c ➝ "hgg"</span></div>
+    <div><span style="color: #001080;">console</span>.<span
+       style="color: #795e26;">log</span>(<span
+       style="color: #001080;">c</span>);</div>
+    <div><span style="color: #001080;">c</span> += <span
+       style="color: #098658;">2</span> &nbsp; &nbsp;<span
+       style="color: #008000;">// c ➝ "hgg2"</span></div>
+    <div><span style="color: #001080;">console</span>.<span
+       style="color: #795e26;">log</span>(<span
+       style="color: #001080;">c</span>);</div>
+    <div><span style="color: #001080;">c</span> += <span
+       style="color: #0070c1;">D</span> &nbsp; &nbsp;<span
+       style="color: #008000;">// c ➝ "hgg2."</span></div>
+    <div><span style="color: #001080;">console</span>.<span
+       style="color: #795e26;">log</span>(<span
+       style="color: #001080;">c</span>)
+    </div>
+   </div>
+  </muestra-codigo>
+  <section>
+   <h1>Salida</h1>
+   <pre><samp>hgg
+hgg2
+hgg2.</samp></pre>
+  </section>
+ </div>
+ <div class="noPrint lectura">
+  <p>
+   <a href="https://pythontutor.com/javascript.html#code=let%20c%20%3D%20%22h%22%0Aconst%20D%20%3D%20%22.%22%0Ac%20%2B%3D%20%22gg%22%20//%20c%20%E2%9E%9D%20%22hgg%22%0Aconsole.log%28c%29%3B%0Ac%20%2B%3D%202%20%20%20%20//%20c%20%E2%9E%9D%20%22hgg2%22%0Aconsole.log%28c%29%3B%0Ac%20%2B%3D%20D%20%20%20%20//%20c%20%E2%9E%9D%20%22hgg2.%22%0Aconsole.log%28c%29&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
+     target="_blank" rel="noopener">Depúralo en JavaScript Tutor.</a>
+  </p>
+ </div>
+</section>

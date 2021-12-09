@@ -1,0 +1,6 @@
+{
+ "orden": "B",
+ "title": "El operador de igualdad de textos a === b",
+ "h1": "El operador de <dfn>igualdad de textos <code class='language-javascript'>a === b</code></dfn>",
+ "description": "Definición del operador de igualdad de textos a === b."
+}

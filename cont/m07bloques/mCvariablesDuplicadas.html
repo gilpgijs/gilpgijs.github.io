@@ -1,0 +1,48 @@
+<div class="lectura">
+ <p>
+  Las variables declaradas con
+  <code class="language-javascript">const</code>
+  o con
+  <code class="language-javascript">let</code>
+  dentro de un bloque ocultan a otras con el mismo nombre que estén
+  declaradas fuera del bloque.
+ </p>
+</div>
+<section>
+ <h1>Ejemplo</h1>
+ <div class="horizontal">
+  <muestra-codigo>
+   <div>
+    <div><span style="color: #0000ff;">const</span> <span
+       style="color: #0070c1;">x</span> = <span
+       style="color: #a31515;">"p"</span></div>
+    <div><span style="color: #001080;">console</span>.<span
+       style="color: #795e26;">log</span>(<span
+       style="color: #0070c1;">x</span>)</div>
+    <div>{</div>
+    <div>&nbsp;<span style="color: #0000ff;">let</span> <span
+       style="color: #001080;">x</span> = <span
+       style="color: #a31515;">"gg"</span></div>
+    <div>&nbsp;<span style="color: #001080;">console</span>.<span
+       style="color: #795e26;">log</span>(<span
+       style="color: #001080;">x</span>)</div>
+    <div>}</div>
+    <div><span style="color: #001080;">console</span>.<span
+       style="color: #795e26;">log</span>(<span
+       style="color: #0070c1;">x</span>)</div>
+   </div>
+  </muestra-codigo>
+  <section>
+   <h1>Salida</h1>
+   <pre><samp>p
+gg
+p</samp></pre>
+  </section>
+ </div>
+ <div class="noPrint lectura">
+  <p>
+   <a href="https://pythontutor.com/javascript.html#code=const%20x%20%3D%20%22p%22%0Aconsole.log%28x%29%0A%7B%0A%20let%20x%20%3D%20%22gg%22%0A%20console.log%28x%29%0A%7D%0Aconsole.log%28x%29&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D"
+     target="_blank" rel="noopener">Depúralo en JavaScript Tutor.</a>
+  </p>
+ </div>
+</section>
