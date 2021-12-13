@@ -1,5 +1,0 @@
-{
- "orden": "G",
- "title": "Variables duplicadas",
- "description": "Indica como JavaScript muestra error cuando una variable está duplicada."
-}

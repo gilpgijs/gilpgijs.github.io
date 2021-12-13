@@ -3,5 +3,40 @@
  "type": "1",
  "title": "Prueba de escritorio con una variable",
  "description": "Código fuente para prueba de escritorio con una variable.",
- "printDescription": "Página para imprimir una prueba de escritorio con una variable."
+ "printDescription": "Página para imprimir una prueba de escritorio con una variable.",
+ "listado": [
+  {
+   "name": "m1.html",
+   "title": "let miNombre = \"pp\"",
+   "h1": "<code class='language-javascript'>let miNombre = \"pp\"</code>",
+   "description": "Paso 1 de una prueba de escritorio con una variable: «let miNombre = \"pp\"».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m2.html",
+   "title": "console.log(miNombre)",
+   "h1": "<code class='language-javascript'>console.log(miNombre)</code>",
+   "description": "Paso 2 de una prueba de escritorio con una variable: «console.log(miNombre)».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m3.html",
+   "title": "miNombre = \"qk\"",
+   "h1": "<code class='language-javascript'>miNombre = \"qk\"</code>",
+   "description": "Paso 3 de una prueba de escritorio con una variable: «miNombre = \"qk\"».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m4.html",
+   "title": "console.log(miNombre)",
+   "h1": "<code class='language-javascript'>console.log(miNombre)</code>",
+   "description": "Paso 4 de una prueba de escritorio con una variable: «console.log(miNombre)».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m5depura.html",
+   "title": "Depura con JavaScript Tutor",
+   "description": "Depuración con JavaScript Tutor de una prueba de escritorio con una variable."
+  }
+ ]
 }

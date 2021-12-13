@@ -2,5 +2,32 @@
  "type": "1",
  "title": "Introducción a JavaScript",
  "description": "Página de inicio de GilPGIJS que enseña introducción a JavaScript.",
- "printDescription": "Página para imprimir todo el contenido de GilPGIJS que enseña introducción a JavaScript."
+ "printDescription": "Página para imprimir todo el contenido de GilPGIJS que enseña introducción a JavaScript.",
+ "listado": [
+  {"name": "m01Fundamentos"},
+  {"name": "m02Conceptos"},
+  {"name": "m03pres"},
+  {"name": "m04apoyo"},
+  {"name": "m05variables"},
+  {"name": "m06comentarios"},
+  {"name": "m07bloques"},
+  {"name": "m08BoolTxt"},
+  {"name": "m09if"},
+  {"name": "m10ifPrograma"},
+  {"name": "m11if-else"},
+  {"name": "m12if-elsePrograma"},
+  {"name": "m13condMult"},
+  {"name": "m14condMultPrograma"},
+  {"name": "m15condMultElse"},
+  {"name": "m16condMultElsePrograma"},
+  {"name": "m17numeros"},
+  {"name": "m18textos"},
+  {"name": "m19logicos"},
+  {"name": "m20do-while"},
+  {"name": "m21do-whilePrograma"},
+  {"name": "m22masNumeros"},
+  {"name": "m23while"},
+  {"name": "m24for"},
+  {"name": "m25switch"}
+ ]
 }

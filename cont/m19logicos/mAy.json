@@ -1,6 +1,0 @@
-{
- "orden": "A",
- "title": "El operador lógico Y a && b",
- "h1": "<dfn>El operador lógico Y</dfn> <code class=\"language-javascript\"><em>a</em> && <em>b</em></code></dfn>",
- "description": "Definición del operador lógico Y a && b."
-}

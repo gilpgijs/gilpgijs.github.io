@@ -1,7 +1,0 @@
-{
- "orden": "1",
- "title": "console.log(\"Hola\", \"pp\")",
- "h1": "<code class='language-javascript'>console.log(\"Hola\", \"pp\")</code>",
- "description": "Paso 1 de una prueba de escritorio con comentarios de una línea: «console.log(\"Hola\", \"pp\")».",
- "esPruebaDeEscritorio":true
-}

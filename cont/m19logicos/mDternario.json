@@ -1,6 +1,0 @@
-{
- "orden": "D",
- "title": "El operador ternario «a : b ? c»",
- "h1": "<dfn>El operador ternario</dfn> <code class=\"language-javascript\"><em>a</em> ? <em>b</em> : <em>c</em></code></dfn>",
- "description": "Definición del operador ternario «a : b ? c»."
-}

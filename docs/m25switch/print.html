@@ -23,6 +23,7 @@
   --colTituloShadow: 3px 1px 2px #bdbdbd;
   --colTituloStrong: #684601;
   --colTituloStrongSel: #ffdc97;
+  --colTarget: #cef4ff;
   --colSombra: #49494980;
   --navSombra: 0.5rem 0 0.5rem var(--colSombra);
   --padCtrl: 0.2rem 0.3rem;
@@ -31,6 +32,8 @@
   --colNavResaltada: #7a2c99;
   --colSecundario: #ffff82;
   --colStack1: black;
+  --colStack2: #224ba5;
+  --colStack3: #92731f;
   --gap: 0.5rem;
   --fontMono: monospace;
   --fontSans: sans-serif;
@@ -78,34 +81,16 @@
 
  pre {
   font-family: var(--fontMono);
-  font-size: 1em;
- }
-
- samp {
-  font-size: 1em;
  }
 
  code {
   color: var(--colTituloStrong);
   font-family: var(--fontMono);
-  font-size: 1em;
- }
-
- a code {
-  font-size: 1rem;
  }
 
  h1:not(.default) {
   font-family: var(--fontSans);
   color: var(--colTituloLetra);
- }
-
- h1.sitio {
-  font-size: 3rem;
- }
-
- h1.leccion {
-  font-size: 2.5rem;
  }
 
  .autor {
@@ -172,12 +157,12 @@
   margin-left: 1rem;
  }
 
- .columnas-4 {
+ .columnas4 {
   columns: 4 180px;
   column-gap: 1rem;
  }
 
- .columnas-2 {
+ .columnas2 {
   columns: 2 360px;
   column-gap: 1rem;
  }
@@ -219,7 +204,6 @@
  }
 </style>
  <style>
- /*TODO Pintar stacks y números de distinto color, de acuerdo a la activación.*/
  .pruebaDeEscritorio section {
   display: inline-block;
   vertical-align: top;
@@ -254,25 +238,25 @@
   border: 1px solid var(--colStack1);
  }
 
- .pruebaDeEscritorio .numero-2 {
+ .pruebaDeEscritorio .numero2 {
   display: inline-block;
   color: var(--colStack2);
   border: 1px solid var(--colStack2);
  }
 
- .pruebaDeEscritorio .numero-3 {
+ .pruebaDeEscritorio .numero3 {
   display: inline-block;
   color: var(--colStack3);
   border: 1px solid var(--colStack3);
  }
 
- .pruebaDeEscritorio a.parametro-1,
- .pruebaDeEscritorio .parametro-1 {
+ .pruebaDeEscritorio a.parametro1,
+ .pruebaDeEscritorio .parametro1 {
   color: var(--colPar1);
  }
 
- .pruebaDeEscritorio a.parametro-2,
- .pruebaDeEscritorio .parametro-2 {
+ .pruebaDeEscritorio a.parametro2,
+ .pruebaDeEscritorio .parametro2 {
   color: var(--colPar2);
  }
 
@@ -280,21 +264,21 @@
   color: var(--colDescongela);
  }
 
- .pruebaDeEscritorio table.tabla-1,
- .pruebaDeEscritorio table.tabla-1 th,
- .pruebaDeEscritorio table.tabla-1 td {
+ .pruebaDeEscritorio table.tabla1,
+ .pruebaDeEscritorio table.tabla1 th,
+ .pruebaDeEscritorio table.tabla1 td {
   border: 1px solid var(--colStack1);
  }
 
- .pruebaDeEscritorio table.tabla-2,
- .pruebaDeEscritorio table.tabla-2 th,
- .pruebaDeEscritorio table.tabla-2 td {
+ .pruebaDeEscritorio table.tabla2,
+ .pruebaDeEscritorio table.tabla2 th,
+ .pruebaDeEscritorio table.tabla2 td {
   border: 1px solid var(--colStack2);
  }
 
- .pruebaDeEscritorio table.tabla-3,
- .pruebaDeEscritorio table.tabla-3 th,
- .pruebaDeEscritorio table.tabla-3 td {
+ .pruebaDeEscritorio table.tabla3,
+ .pruebaDeEscritorio table.tabla3 th,
+ .pruebaDeEscritorio table.tabla3 td {
   border: 1px solid var(--colStack3);
  }
 
@@ -370,29 +354,37 @@
 </div>
      <section >
          <h1 >A. La estructura de control <dfn><code class="language-javascript">switch</code></dfn></h1><div class="lectura">
- <p>
-  El <dfn>switch</dfn> es una alternativa a la condicional múltiple
-  que evalúa una expresión y si su resultado corresponde al valor que
-  aparece después de la palabra reservada
-  <code class="language-javascript">case</code>,
-  empieza a ejecutar las instrucciones que sigan después.
- </p>
- <p>
-  Una vez entrado en un caso, el
-  <code class="language-javascript">switch</code>
-  continúa avanzando sin importar si invade otros casos, hasta
-  encontrar la palabra reservada
-  <code class="language-javascript">break</code>,
-  que nos saca de la estructura de control.
- </p>
- <p>
-  La siguiente figura representa el comportamiento de la estructura de
-  control <code class="language-javascript">switch</code>:
- </p>
- <figure>
-  <img src="/img/m25switch/switch.svg"
-    alt="switch" style="max-width: 350px;">
- </figure>
+ <ul>
+  <li>
+   <p>
+    El <dfn>switch</dfn> es una alternativa a la condicional múltiple
+    que evalúa una expresión y si su resultado corresponde al valor que
+    aparece después de la palabra reservada
+    <code class="language-javascript">case</code>,
+    empieza a ejecutar las instrucciones que sigan después.
+   </p>
+  </li>
+  <li>
+   <p>
+    Una vez entrado en un caso, el
+    <code class="language-javascript">switch</code>
+    continúa avanzando sin importar si invade otros casos, hasta
+    encontrar la palabra reservada
+    <code class="language-javascript">break</code>,
+    que nos saca de la estructura de control.
+   </p>
+  </li>
+  <li>
+   <p>
+    La siguiente figura representa el comportamiento de la estructura de
+    control <code class="language-javascript">switch</code>.
+   </p>
+   <figure>
+    <img src="/img/m25switch/switch.svg"
+      alt="switch" style="max-width: 350px;">
+   </figure>
+  </li>
+ </ul>
 </div>
       </section>
      <section >
@@ -472,10 +464,10 @@
  </p>
  <p>
   La siguiente figura representa el comportamiento de la estructura de
-  control <code class="language-javascript">switch-default</code>:
+  control <code class="language-javascript">switch-default</code>.
  </p>
  <figure>
-  <img src="/19_switch/img/switch-default.svg" alt="switch con default"
+  <img src="/img/m25switch/switch-default.svg" alt="switch con default"
     style="max-width: 350px;">
  </figure>
 </div>
@@ -483,68 +475,61 @@
      <section >
          <h1 >D. Ejemplo de <code class="language-javascript">switch-default</code></h1><muestra-codigo>
  <div>
-  <div><span style="color: #800000;">&lt;script&gt;</span></div>
-  <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-  <div>&nbsp;<span style="color: #0000ff;">let</span>&nbsp;<span
-     style="color: #001080;">género</span>&nbsp;=&nbsp;<span
-     style="color: #795e26;">prompt</span>(</div>
-  <div>&nbsp;&nbsp;<span
-     style="color: #a31515;">&grave;Selecciona&nbsp;un&nbsp;género&nbsp;musical:</span>
-  </div>
-  <div><span style="color: #a31515;">&nbsp;1&nbsp;-&nbsp;Pop</span></div>
-  <div><span style="color: #a31515;">&nbsp;2&nbsp;-&nbsp;Reguetón</span></div>
-  <div><span style="color: #a31515;">&nbsp;3&nbsp;-&nbsp;Balada</span></div>
-  <div><span style="color: #a31515;">&nbsp;4&nbsp;-&nbsp;Mariachi</span></div>
-  <div><span style="color: #a31515;">&nbsp;5&nbsp;-&nbsp;Cumbia</span></div>
-  <div><span style="color: #a31515;">&nbsp;6&nbsp;-&nbsp;Tango&grave;</span>);</div>
-  <div>&nbsp;<span style="color: #af00db;">switch</span>&nbsp;(<span
-     style="color: #001080;">género</span>)&nbsp;{</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div><span style="color: #0000ff;">let</span> <span
+     style="color: #001080;">genero</span> = <span
+     style="color: #795e26;">question</span>(</div>
+  <div>&nbsp;<span
+     style="color: #a31515;">`Selecciona un género musical:</span></div>
+  <div><span style="color: #a31515;">1 - Pop</span></div>
+  <div><span style="color: #a31515;">2 - Reguetón</span></div>
+  <div><span style="color: #a31515;">3 - Balada</span></div>
+  <div><span style="color: #a31515;">4 - Mariachi</span></div>
+  <div><span style="color: #a31515;">5 - Cumbia</span></div>
+  <div><span style="color: #a31515;">6 - Tango</span></div>
+  <div><span style="color: #a31515;">Introduce tu opción: `</span>)</div>
+  <div><span style="color: #af00db;">switch</span> (<span
+     style="color: #001080;">genero</span>) {</div>
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"1"</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Ariana&nbsp;Grande"</span>);</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Ariana Grande"</span>)</div>
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"3"</span>:</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"4"</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Juan&nbsp;Gabriel"</span>);</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #af00db;">break</span>;</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">default</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"De&nbsp;ese&nbsp;género&nbsp;no&nbsp;conozco."</span>);
-  </div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #af00db;">break</span>;</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Juan Gabriel"</span>)</div>
+  <div>&nbsp; <span style="color: #af00db;">break</span></div>
+  <div>&nbsp;<span style="color: #af00db;">default</span>:</div>
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(</div>
+  <div>&nbsp; &nbsp;<span
+     style="color: #a31515;">"De ese género no conozco."</span>)</div>
+  <div>&nbsp; <span style="color: #af00db;">break</span></div>
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"5"</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Selena"</span>);</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #af00db;">break</span>;</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Selena"</span>)</div>
+  <div>&nbsp; <span style="color: #af00db;">break</span></div>
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"2"</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Bad&nbsp;Bunny"</span>);</div>
-  <div>&nbsp;}</div>
-  <div>&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Adios."</span>);</div>
-  <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Bad Bunny"</span>)</div>
+  <div>}</div>
+  <div><span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Adios."</span>)</div>
  </div>
 </muestra-codigo>
 <div class="lectura noPrint">
- <p class="noPrint">
-  <a target="_blank" rel="noopener" href="src/2_switch_default.html">Ábrelo en otra
-   pestaña.</a>
- </p>
- <p class="noPrint">
+ <p>
   <a target="_blank" rel="noopener"
-    href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20g%C3%A9nero%20%3D%20prompt(%0A%20%20%60Selecciona%20un%20g%C3%A9nero%20musical%3A%0A%201%20-%20Pop%0A%202%20-%20Reguet%C3%B3n%0A%203%20-%20Balada%0A%204%20-%20Mariachi%0A%205%20-%20Cumbia%0A%206%20-%20Tango%60)%3B%0A%20switch%20(g%C3%A9nero)%20%7B%0A%20%20case%20%221%22%3A%0A%20%20%20document.write(%22Ariana%20Grande%22)%3B%0A%20%20case%20%223%22%3A%0A%20%20case%20%224%22%3A%0A%20%20%20document.write(%22Juan%20Gabriel%22)%3B%0A%20%20%20break%3B%0A%20%20default%3A%0A%20%20%20document.write(%22De%20ese%20g%C3%A9nero%20no%20conozco.%22)%3B%0A%20%20%20break%3B%0A%20%20case%20%225%22%3A%0A%20%20%20document.write(%22Selena%22)%3B%0A%20%20%20break%3B%0A%20%20case%20%222%22%3A%0A%20%20%20document.write(%22Bad%20Bunny%22)%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
-   Revísalo en gilpgedit.
+    href="https://gilpgnod.github.io/#let%20genero%20%3D%20question(%0A%20%60Selecciona%20un%20g%C3%A9nero%20musical%3A%0A1%20-%20Pop%0A2%20-%20Reguet%C3%B3n%0A3%20-%20Balada%0A4%20-%20Mariachi%0A5%20-%20Cumbia%0A6%20-%20Tango%0AIntroduce%20tu%20opci%C3%B3n%3A%20%60)%0Aswitch%20(genero)%20%7B%0A%20case%20%221%22%3A%0A%20%20console.log(%22Ariana%20Grande%22)%0A%20case%20%223%22%3A%0A%20case%20%224%22%3A%0A%20%20console.log(%22Juan%20Gabriel%22)%0A%20%20break%0A%20default%3A%0A%20%20console.log(%0A%20%20%20%22De%20ese%20g%C3%A9nero%20no%20conozco.%22)%0A%20%20break%0A%20case%20%225%22%3A%0A%20%20console.log(%22Selena%22)%0A%20%20break%0A%20case%20%222%22%3A%0A%20%20console.log(%22Bad%20Bunny%22)%0A%7D%0Aconsole.log(%22Adios.%22)">
+   Revísalo en GilPG Nod.
   </a>
  </p>
 </div>

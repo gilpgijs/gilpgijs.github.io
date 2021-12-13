@@ -1,7 +1,0 @@
-{
- "orden": "1",
- "title": "let miNombre = \"pp\"",
- "h1": "<code class='language-javascript'>let miNombre = \"pp\"</code>",
- "description": "Paso 1 de una prueba de escritorio con una variable: «let miNombre = \"pp\"».",
- "esPruebaDeEscritorio":true
-}

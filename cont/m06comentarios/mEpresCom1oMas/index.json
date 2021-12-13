@@ -3,5 +3,33 @@
  "type": "1",
  "title": "Prueba de escritorio con comentarios de una o más líneas",
  "description": "Prueba de escritorio con comentarios de una o más líneas.",
- "printDescription": "Página para imprimir una prueba de escritorio con comentarios de una o más líneas."
+ "printDescription": "Página para imprimir una prueba de escritorio con comentarios de una o más líneas.",
+ "listado": [
+  {
+   "name": "m1.html",
+   "title": "console.log(\"Hola\", \"pp\")",
+   "h1": "<code class='language-javascript'>console.log(\"Hola\", \"pp\")</code>",
+   "description": "Paso 1 de una prueba de escritorio concomentarios de una o más líneas: «console.log(\"Hola\", \"pp\")».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m2.html",
+   "title": "console.log(\"t\")",
+   "h1": "<code class='language-javascript'>console.log(\"t\")</code>",
+   "description": "Paso 2 de una prueba de escritorio con comentarios de una o más líneas: «console.log(\"t\")».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m3.html",
+   "title": "console.log(\"bb\")",
+   "h1": "<code class='language-javascript'>console.log(\"bb\")</code>",
+   "description": "Paso 3 de una prueba de escritorio con comentarios de una o más líneas: «console.log(\"bb\")».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m4depura.html",
+   "title": "Depura con JavaScript Tutor",
+   "description": "Depuración con JavaScript Tutor de una prueba de escritorio con comentarios de una o más líneas."
+  }
+ ]
 }

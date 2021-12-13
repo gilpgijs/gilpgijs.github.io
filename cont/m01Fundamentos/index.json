@@ -1,7 +1,68 @@
 {
- "orden": "1",
  "type": "A",
  "title": "Fundamentos",
  "description": "Contenido de la lección «1. Fundamentos».",
- "printDescription": "Página para imprimir de la lección «1. Fundamentos»."
+ "printDescription": "Página para imprimir de la lección «1. Fundamentos».",
+ "listado": [
+  {
+   "name": "mAcomputadora.html",
+   "title": "Computadora electrónica",
+   "h1": "<dfn>Computadora electrónica</dfn>",
+   "description": "Definición y fotografía de computadora electrónica."
+  },
+  {
+   "name": "mBdispositivos"
+  },
+  {
+   "name": "mCprograma.html",
+   "title": "Programa",
+   "h1": "<dfn>Programa</dfn>",
+   "description": "Definición de programa."
+  },
+  {
+   "name": "mDoperativo.html",
+   "title": "Sistema operativo",
+   "h1": "<dfn>Sistema operativo</dfn>",
+   "description": "Definición de sistema operativo."
+  },
+  {
+   "name": "mEoperativos"
+  },
+  {
+   "name": "mFprogramas"
+  },
+  {
+   "name": "mGhardware.html",
+   "title": "Hardware",
+   "h1": "<dfn>Hardware</dfn>",
+   "description": "Definición de hardware."
+  },
+  {
+   "name": "mHsoftware.html",
+   "title": "Software",
+   "h1": "<dfn>Software</dfn>",
+   "description": "Definición de software."
+  },
+  {
+   "name": "mIlenguaje.html",
+   "title": "Lenguaje de programación",
+   "description": "Definición de programación, lenguaje de máquina y código fuente."
+  },
+  {
+   "name": "mJcompilador.html",
+   "title": "Compilador",
+   "description": "Definición de compilador y lista algunos lenguajes de programación que son compilados."
+  },
+  {
+   "name": "mKinterprete.html",
+   "title": "Intérprete",
+   "h1": "<dfn>Intérprete</dfn>",
+   "description": "Definición de intérprete y lista algunos lenguajes de programación que son interpretados."
+  },
+  {
+   "name": "mLresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «1. Fundamentos»."
+  }
+ ]
 }

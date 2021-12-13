@@ -1,7 +1,29 @@
 {
- "orden": "7",
  "type": "A",
  "title": "Bloques",
  "description": "Contenido de la lección «7. Bloques».",
- "printDescription": "Página para imprimir de la lección «7. Bloques»."
+ "printDescription": "Página para imprimir de la lección «7. Bloques».",
+ "listado": [
+  {
+   "name": "mAbloque.html",
+   "title": "Bloque",
+   "h1": "<dfn>Bloque</dfn>",
+   "description": "Definición de bloque en JavaScript."
+  },
+  {
+   "name": "mBdepuraBloque.html",
+   "title": "Depuración de bloques",
+   "description": "Depuración de bloques."
+  },
+  {
+   "name": "mCvariablesDuplicadas.html",
+   "title": "Depuración de bloques con variables duplicadas",
+   "description": "Depuración de bloques con variables duplicadas."
+  },
+  {
+   "name": "mDresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «7. Bloques»."
+  }
+ ]
 }

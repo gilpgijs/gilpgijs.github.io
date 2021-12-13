@@ -1,7 +1,0 @@
-{
- "orden": "2",
- "title": "let x = \"adios\"",
- "h1": "<code class='language-javascript'>let x = \"adios\"</code>",
- "description": "Paso 2 de una prueba de escritorio con 2 variables: «let x = \"adios\"».",
- "esPruebaDeEscritorio":true
-}

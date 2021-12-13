@@ -1,7 +1,29 @@
 {
- "orden": "3",
  "type": "1",
  "title": "Prueba de escritorio básica",
  "description": "Código fuente para prueba de escritorio básica.",
- "printDescription": "Página de impresión para prueba de escritorio básica."
+ "printDescription": "Página de impresión para prueba de escritorio básica.",
+ "listado": [
+  {
+   "name": "m1.html",
+   "title": "console.log(\"p\")",
+   "h1": "<code class='language-javascript'>console.log(\"p\")</code>",
+   "description": "Paso 1 de prueba de escritorio básica: «console.log(\"p\")».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m2.html",
+   "title": "console.log(\"a\")",
+   "h1": "<code class='language-javascript'>console.log(\"a\")</code>",
+   "description": "Paso 2 de prueba de escritorio básica: «console.log(\"a\")».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m3.html",
+   "title": "console.log(\"u\")",
+   "h1": "<code class='language-javascript'>console.log(\"u\")</code>",
+   "description": "Paso 3 de prueba de escritorio básica: «console.log(\"u\")».",
+   "esPruebaDeEscritorio": true
+  }
+ ]
 }

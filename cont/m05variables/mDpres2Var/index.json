@@ -3,5 +3,68 @@
  "type": "1",
  "title": "Prueba de escritorio con 2 variables",
  "description": "Prueba de escritorio con 2 variables.",
- "printDescription": "Página para imprimir una prueba de escritorio con 2 variables."
+ "printDescription": "Página para imprimir una prueba de escritorio con 2 variables.",
+ "listado": [
+  {
+   "name": "m1.html",
+   "title": "let m = \"hola\"",
+   "h1": "<code class='language-javascript'>let m = \"hola\"</code>",
+   "description": "Paso 1 de una prueba de escritorio con 2 variables: «let m = \"hola\"».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m2.html",
+   "title": "let x = \"adios\"",
+   "h1": "<code class='language-javascript'>let x = \"adios\"</code>",
+   "description": "Paso 2 de una prueba de escritorio con 2 variables: «let x = \"adios\"».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m3.html",
+   "title": "console.log(m)",
+   "h1": "<code class='language-javascript'>console.log(m)</code>",
+   "description": "Paso 3 de una prueba de escritorio con 2 variables: «console.log(m)».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m4.html",
+   "title": "console.log(x)",
+   "h1": "<code class='language-javascript'>console.log(x)</code>",
+   "description": "Paso 4 de una prueba de escritorio con 2 variables: «console.log(x)».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m5.html",
+   "title": "m = \"gg\"",
+   "h1": "<code class='language-javascript'>m = \"gg\"</code>",
+   "description": "Paso 5 de una prueba de escritorio con 2 variables: «m = \"gg\"».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m6.html",
+   "title": "x = m",
+   "h1": "<code class='language-javascript'>x = m</code>",
+   "description": "Paso 6 de una prueba de escritorio con 2 variables: «x = m».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m7.html",
+   "title": "console.log(m)",
+   "h1": "<code class='language-javascript'>console.log(m)</code>",
+   "description": "Paso 7 de una prueba de escritorio con 2 variables: «console.log(m)».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m8.html",
+   "title": "console.log(m)",
+   "h1": "<code class='language-javascript'>console.log(m)</code>",
+   "description": "Paso 8 de una prueba de escritorio con 2 variables: «console.log(m)».",
+   "esPruebaDeEscritorio": true
+  },
+  {
+   "name": "m9depura.html",
+   "title": "Depura con JavaScript Tutor",
+   "description": "Depuración con JavaScript Tutor de una prueba de escritorio con 2 variables."
+  }
+ ]
 }

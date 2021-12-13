@@ -1,6 +1,0 @@
-{
- "orden": "C",
- "title": "El operador diferente de para textos a !== b",
- "h1": "El operador <dfn>diferente de para textos <code class='language-javascript'>a !== b</code></dfn>",
- "description": "Definición del operador diferente de para textos a === b."
-}

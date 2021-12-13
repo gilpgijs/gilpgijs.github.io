@@ -1,8 +1,34 @@
 {
- "orden": "10",
  "type": "A",
  "title": "Programa con if",
  "h1": "Programa con <code>if</code>",
  "description": "Contenido de la lección «10. Programa con if».",
- "printDescription": "Página para imprimir de la lección «10. Programa con if»."
+ "printDescription": "Página para imprimir de la lección «10. Programa con if».",
+ "listado": [
+  {
+   "name": "mAproblema.html",
+   "title": "Planteamiento del problema",
+   "description": "Planteamiento de un programa que usa la estructura de control if."
+  },
+  {
+   "name": "mBescenarios.html",
+   "title": "Escenarios",
+   "description": "Ejemplo de escenarios de un programa que usa la estructura de control if."
+  },
+  {
+   "name": "mCpseudocodigo.html",
+   "title": "Pseudocódigo",
+   "description": "Pseudocódigo de un programa que usa la estructura de control if."
+  },
+  {
+   "name": "mDdiagrama.html",
+   "title": "Diagrama de flujo",
+   "description": "Diagrama de flujo de un programa que usa la estructura de control if."
+  },
+  {
+   "name": "mEcodigo.html",
+   "title": "Código fuente",
+   "description": "Código fuente de un programa que usa la estructura de control if."
+  }
+ ]
 }

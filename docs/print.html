@@ -23,6 +23,7 @@
   --colTituloShadow: 3px 1px 2px #bdbdbd;
   --colTituloStrong: #684601;
   --colTituloStrongSel: #ffdc97;
+  --colTarget: #cef4ff;
   --colSombra: #49494980;
   --navSombra: 0.5rem 0 0.5rem var(--colSombra);
   --padCtrl: 0.2rem 0.3rem;
@@ -31,6 +32,8 @@
   --colNavResaltada: #7a2c99;
   --colSecundario: #ffff82;
   --colStack1: black;
+  --colStack2: #224ba5;
+  --colStack3: #92731f;
   --gap: 0.5rem;
   --fontMono: monospace;
   --fontSans: sans-serif;
@@ -78,34 +81,16 @@
 
  pre {
   font-family: var(--fontMono);
-  font-size: 1em;
- }
-
- samp {
-  font-size: 1em;
  }
 
  code {
   color: var(--colTituloStrong);
   font-family: var(--fontMono);
-  font-size: 1em;
- }
-
- a code {
-  font-size: 1rem;
  }
 
  h1:not(.default) {
   font-family: var(--fontSans);
   color: var(--colTituloLetra);
- }
-
- h1.sitio {
-  font-size: 3rem;
- }
-
- h1.leccion {
-  font-size: 2.5rem;
  }
 
  .autor {
@@ -172,12 +157,12 @@
   margin-left: 1rem;
  }
 
- .columnas-4 {
+ .columnas4 {
   columns: 4 180px;
   column-gap: 1rem;
  }
 
- .columnas-2 {
+ .columnas2 {
   columns: 2 360px;
   column-gap: 1rem;
  }
@@ -219,7 +204,6 @@
  }
 </style>
  <style>
- /*TODO Pintar stacks y números de distinto color, de acuerdo a la activación.*/
  .pruebaDeEscritorio section {
   display: inline-block;
   vertical-align: top;
@@ -254,25 +238,25 @@
   border: 1px solid var(--colStack1);
  }
 
- .pruebaDeEscritorio .numero-2 {
+ .pruebaDeEscritorio .numero2 {
   display: inline-block;
   color: var(--colStack2);
   border: 1px solid var(--colStack2);
  }
 
- .pruebaDeEscritorio .numero-3 {
+ .pruebaDeEscritorio .numero3 {
   display: inline-block;
   color: var(--colStack3);
   border: 1px solid var(--colStack3);
  }
 
- .pruebaDeEscritorio a.parametro-1,
- .pruebaDeEscritorio .parametro-1 {
+ .pruebaDeEscritorio a.parametro1,
+ .pruebaDeEscritorio .parametro1 {
   color: var(--colPar1);
  }
 
- .pruebaDeEscritorio a.parametro-2,
- .pruebaDeEscritorio .parametro-2 {
+ .pruebaDeEscritorio a.parametro2,
+ .pruebaDeEscritorio .parametro2 {
   color: var(--colPar2);
  }
 
@@ -280,21 +264,21 @@
   color: var(--colDescongela);
  }
 
- .pruebaDeEscritorio table.tabla-1,
- .pruebaDeEscritorio table.tabla-1 th,
- .pruebaDeEscritorio table.tabla-1 td {
+ .pruebaDeEscritorio table.tabla1,
+ .pruebaDeEscritorio table.tabla1 th,
+ .pruebaDeEscritorio table.tabla1 td {
   border: 1px solid var(--colStack1);
  }
 
- .pruebaDeEscritorio table.tabla-2,
- .pruebaDeEscritorio table.tabla-2 th,
- .pruebaDeEscritorio table.tabla-2 td {
+ .pruebaDeEscritorio table.tabla2,
+ .pruebaDeEscritorio table.tabla2 th,
+ .pruebaDeEscritorio table.tabla2 td {
   border: 1px solid var(--colStack2);
  }
 
- .pruebaDeEscritorio table.tabla-3,
- .pruebaDeEscritorio table.tabla-3 th,
- .pruebaDeEscritorio table.tabla-3 td {
+ .pruebaDeEscritorio table.tabla3,
+ .pruebaDeEscritorio table.tabla3 th,
+ .pruebaDeEscritorio table.tabla3 td {
   border: 1px solid var(--colStack3);
  }
 
@@ -1303,47 +1287,36 @@
     <li>
      <p>Computadora electrónica</p>
     </li>
-    </p>
     <li>
      <p>Programa</p>
     </li>
-    </p>
     <li>
      <p>Sistema operativo</p>
     </li>
-    </p>
     <li>
      <p>Hardware</p>
     </li>
-    </p>
     <li>
      <p>Software</p>
     </li>
-    </p>
     <li>
      <p>Lenguaje de programación</p>
     </li>
-    </p>
     <li>
      <p>Lenguaje de máquina</p>
     </li>
-    </p>
     <li>
      <p>Código fuente</p>
     </li>
-    </p>
     <li>
      <p>Compilar</p>
     </li>
-    </p>
     <li>
      <p>Compilador</p>
     </li>
-    </p>
     <li>
      <p>Intérprete</p>
     </li>
-    </p>
    </ul>
   </li>
  </ul>
@@ -2336,7 +2309,7 @@ u</samp></pre>
 </div>
       </section>
      <section >
-         <h1 >M. Resumen</h1><div class="lectura">
+         <h1 >E. Resumen</h1><div class="lectura">
  <ul>
   <li>
    <p>En esta lección se definieron los siguientes conceptos:</p>
@@ -2870,7 +2843,7 @@ qk</samp></pre>
       </section>
       </section>
      <section>
-         <h1 >B. Prueba de escritorio con 2 variables</h1>
+         <h1 >D. Prueba de escritorio con 2 variables</h1>
    <div class="lectura"> 
     <p class="noPrint">
      <a href="print.html" target="_blank" rel="noopener">Versión para
@@ -4639,14 +4612,20 @@ p</samp></pre>
 </div>
      <section >
          <h1 >A. El tipo <dfn><code class='language-javascript'>boolean</code></dfn></h1><div class="lectura">
- <p>Representa la lógica de valores verdaderos y falsos.</p>
- <h2>Valores</h2>
- <dl>
-  <dt>Verdadero</dt>
-  <dd><code class="language-javascript">true</code></dd>
-  <dt>Falso</dt>
-  <dd><code class="language-javascript">false</code></dd>
- </dl>
+ <ul>
+  <li>
+   <p>Representa la lógica de valores verdaderos y falsos.</p>
+  </li>
+ </ul>
+ <section>
+  <h1>Valores</h1>
+  <dl>
+   <dt>Verdadero</dt>
+   <dd><code class="language-javascript">true</code></dd>
+   <dt>Falso</dt>
+   <dd><code class="language-javascript">false</code></dd>
+  </dl>
+ </section>
 </div>
       </section>
      <section >
@@ -5140,7 +5119,7 @@ Tu fruta: pera</samp></pre>
      style="color: #00811c;">"El que es pera, desespera"</span></div>
   <div>&nbsp;&nbsp;<span
      style="color: #001080;font-weight:bold">Fin Si</span></div>
-  <div>&nbsp;&nbsp;&nbsp;<span
+  <div>&nbsp;&nbsp;<span
      style="color: #001080;font-weight:bold">Escribir</span>&nbsp;<span
      style="color: #00811c;">"Tu fruta: "</span> + fruta</div>
   <div><span style="color: #001080;font-weight:bold">FinAlgoritmo</span>
@@ -6921,79 +6900,83 @@ I I I I  /
    </p>
   </li>
  </ul>
- <h2>División entera y residuo</h2>
- <ul>
-  <li>
-   <p>
-    Repartir 🎈🎈🎈🎈 🎈🎈🎈🎈 🎈🎈🎈 entre 👼👼👼 para que a todos les
-    toque lo mismo.
-   </p>
-  </li>
-  <li>
-   <p>👼 🎈🎈🎈<br>👼 🎈🎈🎈<br>👼 🎈🎈🎈<br>y 🎈🎈 no se reparten.</p>
-  </li>
-  <li>
-   <p>11 div 3 === 3.</p>
-  </li>
-  <li>
-   <p>11 % 3 === 2.</p>
-  </li>
-  <li>
-   <p>Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a div c = b. Al resultado se
-    le conoce como <dfn>cociente</dfn> o <dfn>división entera</dfn>.</p>
-   <p>Como 11 = ((3)(3)) + 2 y 0 ≤ 2 &lt; 3, 11 div 3 = 3.</p>
-  </li>
-  <li>
-   <p>
-    Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a % c = d. Al resultado se le
-    conoce como <dfn>módulo</dfn> o como <dfn>residuo</dfn>.
-   </p>
-   <p>Como 11 = 3 * 3 + 2, y 0 ≤ 2 &lt; 3, 11 % 3 = 2 </p>
-  </li>
- </ul>
- <h2>División exacta</h2>
- <ul>
-  <li>
-   <p>
-    Repartir 🎈🎈🎈🎈 🎈🎈🎈🎈 🎈🎈🎈 entre 👼👼👼 para que a todos les
-    toque lo mismo, pero que no sobre nada.
-   </p>
-  </li>
-  <li>
-   <p>
-    A cada 👼 le tocan 🎈🎈🎈 y tenemos que partir los 🎈🎈 que sobran de tal
-    forma que todos les toque la misma cantidad de 🎈.
-   </p>
-  </li>
-  <li>
-   <p>
-    11 / 3 === (9/3) + (2/3) === 3+(2/3). A cada 👼 le tocan 🎈🎈🎈 y 2
-    partes de lo que resulta de partir 🎈 en 3 pedazos iguales.
-   </p>
-  </li>
-  <li>
-   <p>
-    2/3 se puede expresar con decimales, obteniendo 0.6666... con el número 6
-    repitiéndose, sin parar. A la parte que se repite se le llama periodo.
-   </p>
-  </li>
-  <li>
-   <p>
-    Por lo mismo, 11/3 también se puede expresar como 3.666... o 3.(6),
-    poniendo entre paréntesis el periodo.
-   </p>
-  </li>
-  <li>
-   <p>Si (a)(b) = c, entonces c/b = a.</p>
-  </li>
-  <li>
-   <p>
-    Se pensaba que todos los números se podían expresar como fracciones o
-    como números periódicos. Hasta aquí todos eran felices 😁, pero hubo
-    algo que les rompió el corazón 😢.
-   </p>
-  </li>
- </ul>
+ <section>
+  <h1>División entera y residuo</h1>
+  <ul>
+   <li>
+    <p>
+     Repartir 🎈🎈🎈🎈 🎈🎈🎈🎈 🎈🎈🎈 entre 👼👼👼 para que a todos les
+     toque lo mismo.
+    </p>
+   </li>
+   <li>
+    <p>👼 🎈🎈🎈<br>👼 🎈🎈🎈<br>👼 🎈🎈🎈<br>y 🎈🎈 no se reparten.</p>
+   </li>
+   <li>
+    <p>11 div 3 === 3.</p>
+   </li>
+   <li>
+    <p>11 % 3 === 2.</p>
+   </li>
+   <li>
+    <p>Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a div c = b. Al resultado se
+     le conoce como <dfn>cociente</dfn> o <dfn>división entera</dfn>.</p>
+    <p>Como 11 = ((3)(3)) + 2 y 0 ≤ 2 &lt; 3, 11 div 3 = 3.</p>
+   </li>
+   <li>
+    <p>
+     Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a % c = d. Al resultado se le
+     conoce como <dfn>módulo</dfn> o como <dfn>residuo</dfn>.
+    </p>
+    <p>Como 11 = 3 * 3 + 2, y 0 ≤ 2 &lt; 3, 11 % 3 = 2 </p>
+   </li>
+  </ul>
+ </section>
+ <section>
+  <h1>División exacta</h1>
+  <ul>
+   <li>
+    <p>
+     Repartir 🎈🎈🎈🎈 🎈🎈🎈🎈 🎈🎈🎈 entre 👼👼👼 para que a todos les
+     toque lo mismo, pero que no sobre nada.
+    </p>
+   </li>
+   <li>
+    <p>
+     A cada 👼 le tocan 🎈🎈🎈 y tenemos que partir los 🎈🎈 que sobran de tal
+     forma que todos les toque la misma cantidad de 🎈.
+    </p>
+   </li>
+   <li>
+    <p>
+     11 / 3 === (9/3) + (2/3) === 3+(2/3). A cada 👼 le tocan 🎈🎈🎈 y 2
+     partes de lo que resulta de partir 🎈 en 3 pedazos iguales.
+    </p>
+   </li>
+   <li>
+    <p>
+     2/3 se puede expresar con decimales, obteniendo 0.6666... con el número 6
+     repitiéndose, sin parar. A la parte que se repite se le llama periodo.
+    </p>
+   </li>
+   <li>
+    <p>
+     Por lo mismo, 11/3 también se puede expresar como 3.666... o 3.(6),
+     poniendo entre paréntesis el periodo.
+    </p>
+   </li>
+   <li>
+    <p>Si (a)(b) = c, entonces c/b = a.</p>
+   </li>
+   <li>
+    <p>
+     Se pensaba que todos los números se podían expresar como fracciones o
+     como números periódicos. Hasta aquí todos eran felices 😁, pero hubo
+     algo que les rompió el corazón 😢.
+    </p>
+   </li>
+  </ul>
+ </section>
 </div>
       </section>
      <section >
@@ -7093,55 +7076,61 @@ I I I I  /
       </section>
      <section >
          <h1 >G. Rarezas matemáticas</h1><div class="lectura">
- <h2>0 / 0</h2>
- <ul>
-  <li>
-   <p>El resultado de 0/0. De la fórmula, se requiere que (a)(0) = 0.</p>
-  </li>
-  <li>
-   <p>(0)(0) = 0.</p>
-  </li>
-  <li>
-   <p>(1)(0) = 0.</p>
-  </li>
-  <li>
-   <p>(-233.45)(0) = 0.</p>
-  </li>
-  <li>
-   <p>
-    No existe un resultado único; el número que se te ocurra es una solución
-    🤪.
-   </p>
-  </li>
- </ul>
- <h2>√-1</h2>
- <ul>
-  <li>
-   <p>
-    El resultado de √-1. De la fórmula, se requiere que a<sup>2</sup> = -1. O
-    sea que (a)(a) = -1; pero por la regla de los signos el resultado no se
-    puede cumplir (-1)(-1) = 1 y (1)(1) = 1. 😵
-   </p>
-  </li>
- </ul>
- <h2>Paradojas lógicas</h2>
- <ul>
-  <li>
-   <p>
-    Los matemáticos observaron que las matemáticas llevaban a contradicciones
-    lógicas y se les partió el corazón 😢, pero pensaban que se podían
-    corregir. A finales del siglo XIX hicieron un concurso que se llamaba
-    Metamatemáticas, donde se le iba a dar mucho dinero 💵 a quien pudiera
-    hacer una formulación de las matemáticas que no tuviera errores.
-   </p>
-  </li>
-  <li>
-   <p>
-    Los matemáticos tenían entonces la esperanza de ser felices 🙃, pero hubo
-    algo que les rompió el corazón 😭.
-   </p>
-  </li>
- </ul>
+ <section>
+  <h1>0 / 0</h1>
+  <ul>
+   <li>
+    <p>El resultado de 0/0. De la fórmula, se requiere que (a)(0) = 0.</p>
+   </li>
+   <li>
+    <p>(0)(0) = 0.</p>
+   </li>
+   <li>
+    <p>(1)(0) = 0.</p>
+   </li>
+   <li>
+    <p>(-233.45)(0) = 0.</p>
+   </li>
+   <li>
+    <p>
+     No existe un resultado único; el número que se te ocurra es una solución
+     🤪.
+    </p>
+   </li>
+  </ul>
+ </section>
+ <section>
+  <h1>√-1</h1>
+  <ul>
+   <li>
+    <p>
+     El resultado de √-1. De la fórmula, se requiere que a<sup>2</sup> = -1. O
+     sea que (a)(a) = -1; pero por la regla de los signos el resultado no se
+     puede cumplir (-1)(-1) = 1 y (1)(1) = 1. 😵
+    </p>
+   </li>
+  </ul>
+ </section>
+ <section>
+  <h1>Paradojas lógicas</h1>
+  <ul>
+   <li>
+    <p>
+     Los matemáticos observaron que las matemáticas llevaban a contradicciones
+     lógicas y se les partió el corazón 😢, pero pensaban que se podían
+     corregir. A finales del siglo XIX hicieron un concurso que se llamaba
+     Metamatemáticas, donde se le iba a dar mucho dinero 💵 a quien pudiera
+     hacer una formulación de las matemáticas que no tuviera errores.
+    </p>
+   </li>
+   <li>
+    <p>
+     Los matemáticos tenían entonces la esperanza de ser felices 🙃, pero hubo
+     algo que les rompió el corazón 😭.
+    </p>
+   </li>
+  </ul>
+ </section>
 </div>
       </section>
      <section >
@@ -7719,8 +7708,12 @@ de bb yy</samp></pre>
       </section>
      <section >
          <h1 >F. El operador menor o igual que <code class="language-javascript"><em>a</em> &lt;= <em>b</em></code></h1><div class="lectura">
- <p>En el ejemplo que sigue, el orden natural es:</p>
- <p>"aa" &lt; "ah" &lt; "ai"</p>
+ <ul>
+  <li>
+   <p>En el ejemplo que sigue, el orden natural es:</p>
+   <p>"aa" &lt; "ah" &lt; "ai"</p>
+  </li>
+ </ul>
 </div>
 <muestra-codigo>
  <div>
@@ -7744,8 +7737,12 @@ de bb yy</samp></pre>
       </section>
      <section >
          <h1 >G. El operador mayor o igual que <code class="language-javascript"><em>a</em> >= <em>b</em></code></h1><div class="lectura">
- <p>En el ejemplo que sigue, el orden natural es:</p>
- <p>"aa" &lt; "ah" &lt; "ai"</p>
+ <ul>
+  <li>
+   <p>En el ejemplo que sigue, el orden natural es:</p>
+   <p>"aa" &lt; "ah" &lt; "ai"</p>
+  </li>
+ </ul>
 </div>
 <muestra-codigo>
  <div>
@@ -7768,29 +7765,33 @@ de bb yy</samp></pre>
 </muestra-codigo>
       </section>
      <section >
-         <h1 >E. Resumen</h1><div class="lectura">
- <p>Se revisaron los siguientes operadores sobre texto:</p>
+         <h1 >H. Resumen</h1><div class="lectura">
  <ul>
   <li>
-   <p><code class="language-javascript">+</code></p>
-  </li>
-  <li>
-   <p><code class="language-javascript">+=</code></p>
-  </li>
-  <li>
-   <p><code class="language-javascript">&grave;&dollar;{}&grave;</code></p>
-  </li>
-  <li>
-   <p><code class="language-javascript">&lt;</code></p>
-  </li>
-  <li>
-   <p><code class="language-javascript">&gt;</code></p>
-  </li>
-  <li>
-   <p><code class="language-javascript">&lt;=</code></p>
-  </li>
-  <li>
-   <p><code class="language-javascript">&gt;=</code></p>
+   <p>Se revisaron los siguientes operadores sobre texto:</p>
+   <ul>
+    <li>
+     <p><code class="language-javascript">+</code></p>
+    </li>
+    <li>
+     <p><code class="language-javascript">+=</code></p>
+    </li>
+    <li>
+     <p><code class="language-javascript">&grave;&dollar;{}&grave;</code></p>
+    </li>
+    <li>
+     <p><code class="language-javascript">&lt;</code></p>
+    </li>
+    <li>
+     <p><code class="language-javascript">&gt;</code></p>
+    </li>
+    <li>
+     <p><code class="language-javascript">&lt;=</code></p>
+    </li>
+    <li>
+     <p><code class="language-javascript">&gt;=</code></p>
+    </li>
+   </ul>
   </li>
  </ul>
 </div>
@@ -7842,21 +7843,27 @@ de bb yy</samp></pre>
 </div>
      <section >
          <h1 >A. <dfn>El operador lógico Y</dfn> <code class="language-javascript"><em>a</em> && <em>b</em></code></dfn></h1><div class="lectura">
- <p>
-  Es el operador Y en corto circuito.
- </p>
- <p>
-  Si
-  <code class="language-javascript">a</code>
-  se evalúa a
-  <code class="language-javascript">false</code>,
-  el resultado es
-  <code class="language-javascript">a</code>
-  y no se evalúa
-  <code class="language-javascript">b</code>;
-  de lo contrario, el resultado es
-  <code class="language-javascript">b</code>.
- </p>
+ <ul>
+  <li>
+   <p>
+    Es el operador Y en corto circuito.
+   </p>
+  </li>
+  <li>
+   <p>
+    Si
+    <code class="language-javascript">a</code>
+    se evalúa a
+    <code class="language-javascript">false</code>,
+    el resultado es
+    <code class="language-javascript">a</code>
+    y no se evalúa
+    <code class="language-javascript">b</code>;
+    de lo contrario, el resultado es
+    <code class="language-javascript">b</code>.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -7888,21 +7895,27 @@ de bb yy</samp></pre>
       </section>
      <section >
          <h1 >B. <dfn>El operador lógico O</dfn> <code class="language-javascript"><em>a</em> || <em>b</em></code></dfn></h1><div class="lectura">
- <p>
-  Es el operador O en corto circuito.
- </p>
- <p>
-  Si
-  <code class="language-javascript">a</code>
-  se evalúa a
-  <code class="language-javascript">true</code>,
-  el resultado es
-  <code class="language-javascript">a</code>
-  y no se evalúa
-  <code class="language-javascript">b</code>;
-  de lo contrario, el resultado es
-  <code class="language-javascript">b</code>.
- </p>
+ <ul>
+  <li>
+   <p>
+    Es el operador O en corto circuito.
+   </p>
+  </li>
+  <li>
+   <p>
+    Si
+    <code class="language-javascript">a</code>
+    se evalúa a
+    <code class="language-javascript">true</code>,
+    el resultado es
+    <code class="language-javascript">a</code>
+    y no se evalúa
+    <code class="language-javascript">b</code>;
+    de lo contrario, el resultado es
+    <code class="language-javascript">b</code>.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -7934,16 +7947,20 @@ de bb yy</samp></pre>
       </section>
      <section >
          <h1 >C. <dfn>El operador lógico NO</dfn> <code class="language-javascript">!<em>a</em></code></dfn></h1><div class="lectura">
- <p>
-  Si
-  <code class="language-javascript">a</code>
-  se evalúa a
-  <code class="language-javascript">true</code>,
-  el resultado es
-  <code class="language-javascript">false</code>;
-  de lo contrario, el resultado es
-  <code class="language-javascript">true</code>.
- </p>
+ <ul>
+  <li>
+   <p>
+    Si
+    <code class="language-javascript">a</code>
+    se evalúa a
+    <code class="language-javascript">true</code>,
+    el resultado es
+    <code class="language-javascript">false</code>;
+    de lo contrario, el resultado es
+    <code class="language-javascript">true</code>.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -7963,16 +7980,20 @@ de bb yy</samp></pre>
       </section>
      <section >
          <h1 >D. <dfn>El operador ternario</dfn> <code class="language-javascript"><em>a</em> ? <em>b</em> : <em>c</em></code></dfn></h1><div class="lectura">
- <p>
-  Si
-  <code class="language-javascript">a</code>
-  se evalúa a
-  <code class="language-javascript">true</code>,
-  el resultado es
-  <code class="language-javascript">b</code>;
-  de lo contrario, el resultado es
-  <code class="language-javascript">c</code>.
- </p>
+ <ul>
+  <li>
+   <p>
+    Si
+    <code class="language-javascript">a</code>
+    se evalúa a
+    <code class="language-javascript">true</code>,
+    el resultado es
+    <code class="language-javascript">b</code>;
+    de lo contrario, el resultado es
+    <code class="language-javascript">c</code>.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -7987,7 +8008,8 @@ de bb yy</samp></pre>
       style="color: #795e26;">log</span>(<span
       style="color: #0000ff;">false</span> ? <span
       style="color: #098658;">3</span> : <span style="color: #098658;">8</span>)
-    <span style="color: #008000;">//8</span></div>
+    <span style="color: #008000;">//8</span>
+   </div>
   </div>
  </muestra-codigo>
 </section>
@@ -8578,11 +8600,15 @@ Introduce número: </samp></pre>
       </section>
      <section >
          <h1 >C. Operadores aritméticos con asignación</h1><div class="lectura">
- <p>
-  Aparte del operador de asignación
-  (<code class="language-javascript" style="color: #0000ff;">=</code>),
-  hay otros operadores que permiten cambiar el valor de una variable.
- </p>
+ <ul>
+  <li>
+   <p>
+    Aparte del operador de asignación
+    (<code class="language-javascript" style="color: #0000ff;">=</code>),
+    hay otros operadores que permiten cambiar el valor de una variable.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -8662,14 +8688,14 @@ Introduce número: </samp></pre>
      <section >
          <h1 >D. Los operadores de incremento y decremento</h1><div class="lectura">
  <ul>
-  <ul>
+  <li>
    <p>
     También hay operadores de incremento y decremento en 1, pero son algo
     truculentos; es mejor usarlos solos, sin combinarlos con otros
     operadores.
    </p>
-   </li>
-  </ul>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -9518,24 +9544,33 @@ Introduce número: </samp></pre>
 </div>
       </section>
      <section >
-         <h1 >B. Ejemplo de <code class="language-javascript">while</code> ascendente</h1><muestra-codigo>
- <div>
-  <div><span style="color: #0000ff;">let</span> <span
-     style="color: #001080;">i</span> = <span style="color: #098658;">1</span>
+         <h1 >B. Ejemplo de <code class="language-javascript">while</code> ascendente</h1><div class="horizontal">
+ <muestra-codigo>
+  <div>
+   <div><span style="color: #0000ff;">let</span> <span
+      style="color: #001080;">i</span> = <span style="color: #098658;">1</span>
+   </div>
+   <div><span style="color: #af00db;">while</span> (<span
+      style="color: #001080;">i</span> &lt;= <span
+      style="color: #098658;">3</span>) {</div>
+   <div>&nbsp;<span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span style="color: #001080;">i</span>)
+   </div>
+   <div>&nbsp;<span style="color: #001080;">i</span>++</div>
+   <div>}</div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"Adios."</span>)</div>
   </div>
-  <div><span style="color: #af00db;">while</span> (<span
-     style="color: #001080;">i</span> &lt;= <span
-     style="color: #098658;">3</span>) {</div>
-  <div>&nbsp;<span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span style="color: #001080;">i</span>)
-  </div>
-  <div>&nbsp;<span style="color: #001080;">i</span>++</div>
-  <div>}</div>
-  <div><span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
-     style="color: #a31515;">"Adios."</span>)</div>
- </div>
-</muestra-codigo>
+ </muestra-codigo>
+ <section>
+  <h1>Salida</h1>
+  <pre><samp>1
+2
+3
+Adios.</samp></pre>
+ </section>
+</div>
 <div class="lectura noPrint">
  <p>
   <a target="_blank" rel="noopener"
@@ -9546,56 +9581,74 @@ Introduce número: </samp></pre>
 </div>
       </section>
      <section >
-         <h1 >C. Ejemplo de <code class="language-javascript">while</code> ascendente de 2 en 2</h1><muestra-codigo>
- <div>
-  <div><span style="color: #0000ff;">let</span> <span
-     style="color: #001080;">i</span> = <span style="color: #098658;">0</span>;
+         <h1 >C. Ejemplo de <code class="language-javascript">while</code> ascendente de 2 en 2</h1><div class="horizontal">
+ <muestra-codigo>
+  <div>
+   <div><span style="color: #0000ff;">let</span> <span
+      style="color: #001080;">i</span> = <span
+      style="color: #098658;">0</span></div>
+   <div><span style="color: #af00db;">while</span> (<span
+      style="color: #001080;">i</span> &lt; <span
+      style="color: #098658;">6</span>) {</div>
+   <div>&nbsp;<span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #001080;">i</span>)</div>
+   <div>&nbsp;<span style="color: #001080;">i</span> += <span
+      style="color: #098658;">2</span></div>
+   <div>}</div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"Adios."</span>)</div>
   </div>
-  <div><span style="color: #af00db;">while</span> (<span
-     style="color: #001080;">i</span> &lt; <span
-     style="color: #098658;">6</span>) {</div>
-  <div>&nbsp;<span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span style="color: #001080;">i</span>);
-  </div>
-  <div>&nbsp;<span style="color: #001080;">i</span> += <span
-     style="color: #098658;">2</span>;</div>
-  <div>}</div>
-  <div><span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
-     style="color: #a31515;">"Adios."</span>)</div>
- </div>
-</muestra-codigo>
+ </muestra-codigo>
+ <section>
+  <h1>Salida</h1>
+  <pre><samp>0
+2
+4
+Adios.</samp></pre>
+ </section>
+</div>
 <div class="lectura noPrint">
  <p>
   <a target="_blank" rel="noopener"
-    href="https://pythontutor.com/javascript.html#code=let%20i%20%3D%200%3B%0Awhile%20%28i%20%3C%206%29%20%7B%0A%20console.log%28i%29%3B%0A%20i%20%2B%3D%202%3B%0A%7D%0Aconsole.log%28%22Adios.%22%29&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D">
-   Revísalo en JavaScript Tutor.
-  </a>
+    href="https://pythontutor.com/javascript.html#code=let%20i%20%3D%200%0Awhile%20%28i%20%3C%206%29%20%7B%0A%20console.log%28i%29%0A%20i%20%2B%3D%202%0A%7D%0Aconsole.log%28%22Adios.%22%29&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D">
+   Revísalo en JavaScript Tutor.</a>
  </p>
 </div>
       </section>
      <section >
-         <h1 >D. Ejemplo de <code class="language-javascript">while</code> descendente</h1><muestra-codigo>
- <div>
-  <div><span style="color: #0000ff;">let</span> <span
-     style="color: #001080;">a</span> = <span style="color: #098658;">2</span>
+         <h1 >D. Ejemplo de <code class="language-javascript">while</code> descendente</h1><div class="horizontal">
+ <muestra-codigo>
+  <div>
+   <div><span style="color: #0000ff;">let</span> <span
+      style="color: #001080;">a</span> = <span style="color: #098658;">2</span>
+   </div>
+   <div><span style="color: #af00db;">while</span> (<span
+      style="color: #001080;">a</span> &gt; <span
+      style="color: #098658;">0</span>) {</div>
+   <div>&nbsp;<span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span style="color: #001080;">a</span>)
+   </div>
+   <div>&nbsp;<span style="color: #001080;">a</span>--</div>
+   <div>&nbsp;<span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span style="color: #001080;">a</span>)
+   </div>
+   <div>}</div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"Adios."</span>)</div>
   </div>
-  <div><span style="color: #af00db;">while</span> (<span
-     style="color: #001080;">a</span> &gt; <span
-     style="color: #098658;">0</span>) {</div>
-  <div>&nbsp;<span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span style="color: #001080;">a</span>)
-  </div>
-  <div>&nbsp;<span style="color: #001080;">a</span>--</div>
-  <div>&nbsp;<span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span style="color: #001080;">a</span>)
-  </div>
-  <div>}</div>
-  <div><span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
-     style="color: #a31515;">"Adios."</span>)</div>
- </div>
-</muestra-codigo>
+ </muestra-codigo>
+ <section>
+  <h1>Salida</h1>
+  <pre><samp>2
+1
+1
+0
+Adios.</samp></pre>
+ </section>
+</div>
 <div class="lectura noPrint">
  <p>
   <a target="_blank" rel="noopener"
@@ -9606,59 +9659,72 @@ Introduce número: </samp></pre>
 </div>
       </section>
      <section >
-         <h1 >E. Ejemplo de <code class="language-javascript">while</code> descendente de 2 en 2</h1><muestra-codigo>
- <div>
-  <div><span style="color: #0000ff;">let</span> <span
-     style="color: #001080;">a</span> = <span style="color: #098658;">6</span>
+         <h1 >E. Ejemplo de <code class="language-javascript">while</code> descendente de 2 en 2</h1><div class="horizontal">
+ <muestra-codigo>
+  <div>
+   <div><span style="color: #0000ff;">let</span> <span
+      style="color: #001080;">a</span> = <span style="color: #098658;">6</span>
+   </div>
+   <div><span style="color: #af00db;">while</span> (<span
+      style="color: #001080;">a</span> &gt; <span
+      style="color: #098658;">0</span>) {</div>
+   <div>&nbsp;<span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span style="color: #001080;">a</span>)
+   </div>
+   <div>&nbsp;<span style="color: #001080;">a</span> -= <span
+      style="color: #098658;">2</span></div>
+   <div>}</div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"Adios."</span>)</div>
   </div>
-  <div><span style="color: #af00db;">while</span> (<span
-     style="color: #001080;">a</span> &gt; <span
-     style="color: #098658;">0</span>) {</div>
-  <div>&nbsp;<span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span style="color: #001080;">a</span>)
-  </div>
-  <div>&nbsp;<span style="color: #001080;">a</span> -= <span
-     style="color: #098658;">2</span></div>
-  <div>}</div>
-  <div><span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
-     style="color: #a31515;">"Adios."</span>)</div>
- </div>
-</muestra-codigo>
+ </muestra-codigo>
+ <section>
+  <h1>Salida</h1>
+  <pre><samp>6
+4
+2
+Adios.</samp></pre>
+ </section>
+</div>
 <div class="lectura noPrint">
  <p>
   <a target="_blank" rel="noopener"
     href="https://pythontutor.com/javascript.html#code=let%20a%20%3D%206%0Awhile%20%28a%20%3E%200%29%20%7B%0A%20console.log%28a%29%0A%20a%20-%3D%202%0A%7D%0Aconsole.log%28%22Adios.%22%29&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D">
-   Revísalo en JavaScript Tutor.
-  </a>
+   Revísalo en JavaScript Tutor.</a>
  </p>
 </div>
       </section>
      <section >
-         <h1 >F. Ejemplo de <code class="language-javascript">while</code> cuyas instrucciones no se ejecutan</h1><muestra-codigo>
- <div>
-  <div><span style="color: #0000ff;">let</span> <span
-     style="color: #001080;">i</span> = <span style="color: #098658;">8</span>
+         <h1 >F. Ejemplo de <code class="language-javascript">while</code> cuyas instrucciones no se ejecutan</h1><div class="horizontal">
+ <muestra-codigo>
+  <div>
+   <div><span style="color: #0000ff;">let</span> <span
+      style="color: #001080;">i</span> = <span style="color: #098658;">8</span>
+   </div>
+   <div><span style="color: #af00db;">while</span> (<span
+      style="color: #001080;">i</span> &gt; <span
+      style="color: #098658;">8</span>) {</div>
+   <div>&nbsp;<span style="color: #001080;">i</span>--</div>
+   <div>&nbsp;<span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span style="color: #001080;">i</span>)
+   </div>
+   <div>}</div>
+   <div><span style="color: #001080;">console</span>.<span
+      style="color: #795e26;">log</span>(<span
+      style="color: #a31515;">"Adios."</span>)</div>
   </div>
-  <div><span style="color: #af00db;">while</span> (<span
-     style="color: #001080;">i</span> &gt; <span
-     style="color: #098658;">8</span>) {</div>
-  <div>&nbsp;<span style="color: #001080;">i</span>--</div>
-  <div>&nbsp;<span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span style="color: #001080;">i</span>)
-  </div>
-  <div>}</div>
-  <div><span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
-     style="color: #a31515;">"Adios."</span>)</div>
- </div>
-</muestra-codigo>
+ </muestra-codigo>
+ <section>
+  <h1>Salida</h1>
+  <pre><samp>Adios.</samp></pre>
+ </section>
+</div>
 <div class="lectura noPrint">
  <p>
   <a target="_blank" rel="noopener"
     href="https://pythontutor.com/javascript.html#code=let%20i%20%3D%208%0Awhile%20%28i%20%3E%208%29%20%7B%0A%20i--%0A%20console.log%28i%29%0A%7D%0Aconsole.log%28%22Adios.%22%29&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D">
-   Revísalo en gilpgedit.
-  </a>
+   Revísalo en JavaScript Tutor.</a>
  </p>
 </div>
       </section>
@@ -9947,29 +10013,37 @@ Adios.</samp></pre>
 </div>
      <section >
          <h1 >A. La estructura de control <dfn><code class="language-javascript">switch</code></dfn></h1><div class="lectura">
- <p>
-  El <dfn>switch</dfn> es una alternativa a la condicional múltiple
-  que evalúa una expresión y si su resultado corresponde al valor que
-  aparece después de la palabra reservada
-  <code class="language-javascript">case</code>,
-  empieza a ejecutar las instrucciones que sigan después.
- </p>
- <p>
-  Una vez entrado en un caso, el
-  <code class="language-javascript">switch</code>
-  continúa avanzando sin importar si invade otros casos, hasta
-  encontrar la palabra reservada
-  <code class="language-javascript">break</code>,
-  que nos saca de la estructura de control.
- </p>
- <p>
-  La siguiente figura representa el comportamiento de la estructura de
-  control <code class="language-javascript">switch</code>:
- </p>
- <figure>
-  <img src="/img/m25switch/switch.svg"
-    alt="switch" style="max-width: 350px;">
- </figure>
+ <ul>
+  <li>
+   <p>
+    El <dfn>switch</dfn> es una alternativa a la condicional múltiple
+    que evalúa una expresión y si su resultado corresponde al valor que
+    aparece después de la palabra reservada
+    <code class="language-javascript">case</code>,
+    empieza a ejecutar las instrucciones que sigan después.
+   </p>
+  </li>
+  <li>
+   <p>
+    Una vez entrado en un caso, el
+    <code class="language-javascript">switch</code>
+    continúa avanzando sin importar si invade otros casos, hasta
+    encontrar la palabra reservada
+    <code class="language-javascript">break</code>,
+    que nos saca de la estructura de control.
+   </p>
+  </li>
+  <li>
+   <p>
+    La siguiente figura representa el comportamiento de la estructura de
+    control <code class="language-javascript">switch</code>.
+   </p>
+   <figure>
+    <img src="/img/m25switch/switch.svg"
+      alt="switch" style="max-width: 350px;">
+   </figure>
+  </li>
+ </ul>
 </div>
       </section>
      <section >
@@ -10049,10 +10123,10 @@ Adios.</samp></pre>
  </p>
  <p>
   La siguiente figura representa el comportamiento de la estructura de
-  control <code class="language-javascript">switch-default</code>:
+  control <code class="language-javascript">switch-default</code>.
  </p>
  <figure>
-  <img src="/19_switch/img/switch-default.svg" alt="switch con default"
+  <img src="/img/m25switch/switch-default.svg" alt="switch con default"
     style="max-width: 350px;">
  </figure>
 </div>
@@ -10060,68 +10134,61 @@ Adios.</samp></pre>
      <section >
          <h1 >D. Ejemplo de <code class="language-javascript">switch-default</code></h1><muestra-codigo>
  <div>
-  <div><span style="color: #800000;">&lt;script&gt;</span></div>
-  <div>&nbsp;<span style="color: #0000ff;">debugger</span>;</div>
-  <div>&nbsp;<span style="color: #0000ff;">let</span>&nbsp;<span
-     style="color: #001080;">género</span>&nbsp;=&nbsp;<span
-     style="color: #795e26;">prompt</span>(</div>
-  <div>&nbsp;&nbsp;<span
-     style="color: #a31515;">&grave;Selecciona&nbsp;un&nbsp;género&nbsp;musical:</span>
-  </div>
-  <div><span style="color: #a31515;">&nbsp;1&nbsp;-&nbsp;Pop</span></div>
-  <div><span style="color: #a31515;">&nbsp;2&nbsp;-&nbsp;Reguetón</span></div>
-  <div><span style="color: #a31515;">&nbsp;3&nbsp;-&nbsp;Balada</span></div>
-  <div><span style="color: #a31515;">&nbsp;4&nbsp;-&nbsp;Mariachi</span></div>
-  <div><span style="color: #a31515;">&nbsp;5&nbsp;-&nbsp;Cumbia</span></div>
-  <div><span style="color: #a31515;">&nbsp;6&nbsp;-&nbsp;Tango&grave;</span>);</div>
-  <div>&nbsp;<span style="color: #af00db;">switch</span>&nbsp;(<span
-     style="color: #001080;">género</span>)&nbsp;{</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div><span style="color: #0000ff;">let</span> <span
+     style="color: #001080;">genero</span> = <span
+     style="color: #795e26;">question</span>(</div>
+  <div>&nbsp;<span
+     style="color: #a31515;">`Selecciona un género musical:</span></div>
+  <div><span style="color: #a31515;">1 - Pop</span></div>
+  <div><span style="color: #a31515;">2 - Reguetón</span></div>
+  <div><span style="color: #a31515;">3 - Balada</span></div>
+  <div><span style="color: #a31515;">4 - Mariachi</span></div>
+  <div><span style="color: #a31515;">5 - Cumbia</span></div>
+  <div><span style="color: #a31515;">6 - Tango</span></div>
+  <div><span style="color: #a31515;">Introduce tu opción: `</span>)</div>
+  <div><span style="color: #af00db;">switch</span> (<span
+     style="color: #001080;">genero</span>) {</div>
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"1"</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Ariana&nbsp;Grande"</span>);</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Ariana Grande"</span>)</div>
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"3"</span>:</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"4"</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Juan&nbsp;Gabriel"</span>);</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #af00db;">break</span>;</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">default</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"De&nbsp;ese&nbsp;género&nbsp;no&nbsp;conozco."</span>);
-  </div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #af00db;">break</span>;</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Juan Gabriel"</span>)</div>
+  <div>&nbsp; <span style="color: #af00db;">break</span></div>
+  <div>&nbsp;<span style="color: #af00db;">default</span>:</div>
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(</div>
+  <div>&nbsp; &nbsp;<span
+     style="color: #a31515;">"De ese género no conozco."</span>)</div>
+  <div>&nbsp; <span style="color: #af00db;">break</span></div>
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"5"</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Selena"</span>);</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #af00db;">break</span>;</div>
-  <div>&nbsp;&nbsp;<span style="color: #af00db;">case</span>&nbsp;<span
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Selena"</span>)</div>
+  <div>&nbsp; <span style="color: #af00db;">break</span></div>
+  <div>&nbsp;<span style="color: #af00db;">case</span> <span
      style="color: #a31515;">"2"</span>:</div>
-  <div>&nbsp;&nbsp;&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Bad&nbsp;Bunny"</span>);</div>
-  <div>&nbsp;}</div>
-  <div>&nbsp;<span style="color: #001080;">document</span>.<span
-     style="color: #795e26;">write</span>(<span
-     style="color: #a31515;">"Adios."</span>);</div>
-  <div><span style="color: #800000;">&lt;/script&gt;</span></div>
+  <div>&nbsp; <span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Bad Bunny"</span>)</div>
+  <div>}</div>
+  <div><span style="color: #001080;">console</span>.<span
+     style="color: #795e26;">log</span>(<span
+     style="color: #a31515;">"Adios."</span>)</div>
  </div>
 </muestra-codigo>
 <div class="lectura noPrint">
- <p class="noPrint">
-  <a target="_blank" rel="noopener" href="src/2_switch_default.html">Ábrelo en otra
-   pestaña.</a>
- </p>
- <p class="noPrint">
+ <p>
   <a target="_blank" rel="noopener"
-    href="https://gilpgedit.github.io/#%3Cscript%3E%0A%20debugger%3B%0A%20let%20g%C3%A9nero%20%3D%20prompt(%0A%20%20%60Selecciona%20un%20g%C3%A9nero%20musical%3A%0A%201%20-%20Pop%0A%202%20-%20Reguet%C3%B3n%0A%203%20-%20Balada%0A%204%20-%20Mariachi%0A%205%20-%20Cumbia%0A%206%20-%20Tango%60)%3B%0A%20switch%20(g%C3%A9nero)%20%7B%0A%20%20case%20%221%22%3A%0A%20%20%20document.write(%22Ariana%20Grande%22)%3B%0A%20%20case%20%223%22%3A%0A%20%20case%20%224%22%3A%0A%20%20%20document.write(%22Juan%20Gabriel%22)%3B%0A%20%20%20break%3B%0A%20%20default%3A%0A%20%20%20document.write(%22De%20ese%20g%C3%A9nero%20no%20conozco.%22)%3B%0A%20%20%20break%3B%0A%20%20case%20%225%22%3A%0A%20%20%20document.write(%22Selena%22)%3B%0A%20%20%20break%3B%0A%20%20case%20%222%22%3A%0A%20%20%20document.write(%22Bad%20Bunny%22)%3B%0A%20%7D%0A%20document.write(%22Adios.%22)%3B%0A%3C%2Fscript%3E">
-   Revísalo en gilpgedit.
+    href="https://gilpgnod.github.io/#let%20genero%20%3D%20question(%0A%20%60Selecciona%20un%20g%C3%A9nero%20musical%3A%0A1%20-%20Pop%0A2%20-%20Reguet%C3%B3n%0A3%20-%20Balada%0A4%20-%20Mariachi%0A5%20-%20Cumbia%0A6%20-%20Tango%0AIntroduce%20tu%20opci%C3%B3n%3A%20%60)%0Aswitch%20(genero)%20%7B%0A%20case%20%221%22%3A%0A%20%20console.log(%22Ariana%20Grande%22)%0A%20case%20%223%22%3A%0A%20case%20%224%22%3A%0A%20%20console.log(%22Juan%20Gabriel%22)%0A%20%20break%0A%20default%3A%0A%20%20console.log(%0A%20%20%20%22De%20ese%20g%C3%A9nero%20no%20conozco.%22)%0A%20%20break%0A%20case%20%225%22%3A%0A%20%20console.log(%22Selena%22)%0A%20%20break%0A%20case%20%222%22%3A%0A%20%20console.log(%22Bad%20Bunny%22)%0A%7D%0Aconsole.log(%22Adios.%22)">
+   Revísalo en GilPG Nod.
   </a>
  </p>
 </div>

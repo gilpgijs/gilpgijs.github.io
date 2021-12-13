@@ -23,6 +23,7 @@
   --colTituloShadow: 3px 1px 2px #bdbdbd;
   --colTituloStrong: #684601;
   --colTituloStrongSel: #ffdc97;
+  --colTarget: #cef4ff;
   --colSombra: #49494980;
   --navSombra: 0.5rem 0 0.5rem var(--colSombra);
   --padCtrl: 0.2rem 0.3rem;
@@ -31,6 +32,8 @@
   --colNavResaltada: #7a2c99;
   --colSecundario: #ffff82;
   --colStack1: black;
+  --colStack2: #224ba5;
+  --colStack3: #92731f;
   --gap: 0.5rem;
   --fontMono: monospace;
   --fontSans: sans-serif;
@@ -78,34 +81,16 @@
 
  pre {
   font-family: var(--fontMono);
-  font-size: 1em;
- }
-
- samp {
-  font-size: 1em;
  }
 
  code {
   color: var(--colTituloStrong);
   font-family: var(--fontMono);
-  font-size: 1em;
- }
-
- a code {
-  font-size: 1rem;
  }
 
  h1:not(.default) {
   font-family: var(--fontSans);
   color: var(--colTituloLetra);
- }
-
- h1.sitio {
-  font-size: 3rem;
- }
-
- h1.leccion {
-  font-size: 2.5rem;
  }
 
  .autor {
@@ -172,12 +157,12 @@
   margin-left: 1rem;
  }
 
- .columnas-4 {
+ .columnas4 {
   columns: 4 180px;
   column-gap: 1rem;
  }
 
- .columnas-2 {
+ .columnas2 {
   columns: 2 360px;
   column-gap: 1rem;
  }
@@ -219,7 +204,6 @@
  }
 </style>
  <style>
- /*TODO Pintar stacks y números de distinto color, de acuerdo a la activación.*/
  .pruebaDeEscritorio section {
   display: inline-block;
   vertical-align: top;
@@ -254,25 +238,25 @@
   border: 1px solid var(--colStack1);
  }
 
- .pruebaDeEscritorio .numero-2 {
+ .pruebaDeEscritorio .numero2 {
   display: inline-block;
   color: var(--colStack2);
   border: 1px solid var(--colStack2);
  }
 
- .pruebaDeEscritorio .numero-3 {
+ .pruebaDeEscritorio .numero3 {
   display: inline-block;
   color: var(--colStack3);
   border: 1px solid var(--colStack3);
  }
 
- .pruebaDeEscritorio a.parametro-1,
- .pruebaDeEscritorio .parametro-1 {
+ .pruebaDeEscritorio a.parametro1,
+ .pruebaDeEscritorio .parametro1 {
   color: var(--colPar1);
  }
 
- .pruebaDeEscritorio a.parametro-2,
- .pruebaDeEscritorio .parametro-2 {
+ .pruebaDeEscritorio a.parametro2,
+ .pruebaDeEscritorio .parametro2 {
   color: var(--colPar2);
  }
 
@@ -280,21 +264,21 @@
   color: var(--colDescongela);
  }
 
- .pruebaDeEscritorio table.tabla-1,
- .pruebaDeEscritorio table.tabla-1 th,
- .pruebaDeEscritorio table.tabla-1 td {
+ .pruebaDeEscritorio table.tabla1,
+ .pruebaDeEscritorio table.tabla1 th,
+ .pruebaDeEscritorio table.tabla1 td {
   border: 1px solid var(--colStack1);
  }
 
- .pruebaDeEscritorio table.tabla-2,
- .pruebaDeEscritorio table.tabla-2 th,
- .pruebaDeEscritorio table.tabla-2 td {
+ .pruebaDeEscritorio table.tabla2,
+ .pruebaDeEscritorio table.tabla2 th,
+ .pruebaDeEscritorio table.tabla2 td {
   border: 1px solid var(--colStack2);
  }
 
- .pruebaDeEscritorio table.tabla-3,
- .pruebaDeEscritorio table.tabla-3 th,
- .pruebaDeEscritorio table.tabla-3 td {
+ .pruebaDeEscritorio table.tabla3,
+ .pruebaDeEscritorio table.tabla3 th,
+ .pruebaDeEscritorio table.tabla3 td {
   border: 1px solid var(--colStack3);
  }
 
@@ -369,21 +353,27 @@
 </div>
      <section >
          <h1 >A. <dfn>El operador lógico Y</dfn> <code class="language-javascript"><em>a</em> && <em>b</em></code></dfn></h1><div class="lectura">
- <p>
-  Es el operador Y en corto circuito.
- </p>
- <p>
-  Si
-  <code class="language-javascript">a</code>
-  se evalúa a
-  <code class="language-javascript">false</code>,
-  el resultado es
-  <code class="language-javascript">a</code>
-  y no se evalúa
-  <code class="language-javascript">b</code>;
-  de lo contrario, el resultado es
-  <code class="language-javascript">b</code>.
- </p>
+ <ul>
+  <li>
+   <p>
+    Es el operador Y en corto circuito.
+   </p>
+  </li>
+  <li>
+   <p>
+    Si
+    <code class="language-javascript">a</code>
+    se evalúa a
+    <code class="language-javascript">false</code>,
+    el resultado es
+    <code class="language-javascript">a</code>
+    y no se evalúa
+    <code class="language-javascript">b</code>;
+    de lo contrario, el resultado es
+    <code class="language-javascript">b</code>.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -415,21 +405,27 @@
       </section>
      <section >
          <h1 >B. <dfn>El operador lógico O</dfn> <code class="language-javascript"><em>a</em> || <em>b</em></code></dfn></h1><div class="lectura">
- <p>
-  Es el operador O en corto circuito.
- </p>
- <p>
-  Si
-  <code class="language-javascript">a</code>
-  se evalúa a
-  <code class="language-javascript">true</code>,
-  el resultado es
-  <code class="language-javascript">a</code>
-  y no se evalúa
-  <code class="language-javascript">b</code>;
-  de lo contrario, el resultado es
-  <code class="language-javascript">b</code>.
- </p>
+ <ul>
+  <li>
+   <p>
+    Es el operador O en corto circuito.
+   </p>
+  </li>
+  <li>
+   <p>
+    Si
+    <code class="language-javascript">a</code>
+    se evalúa a
+    <code class="language-javascript">true</code>,
+    el resultado es
+    <code class="language-javascript">a</code>
+    y no se evalúa
+    <code class="language-javascript">b</code>;
+    de lo contrario, el resultado es
+    <code class="language-javascript">b</code>.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -461,16 +457,20 @@
       </section>
      <section >
          <h1 >C. <dfn>El operador lógico NO</dfn> <code class="language-javascript">!<em>a</em></code></dfn></h1><div class="lectura">
- <p>
-  Si
-  <code class="language-javascript">a</code>
-  se evalúa a
-  <code class="language-javascript">true</code>,
-  el resultado es
-  <code class="language-javascript">false</code>;
-  de lo contrario, el resultado es
-  <code class="language-javascript">true</code>.
- </p>
+ <ul>
+  <li>
+   <p>
+    Si
+    <code class="language-javascript">a</code>
+    se evalúa a
+    <code class="language-javascript">true</code>,
+    el resultado es
+    <code class="language-javascript">false</code>;
+    de lo contrario, el resultado es
+    <code class="language-javascript">true</code>.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -490,16 +490,20 @@
       </section>
      <section >
          <h1 >D. <dfn>El operador ternario</dfn> <code class="language-javascript"><em>a</em> ? <em>b</em> : <em>c</em></code></dfn></h1><div class="lectura">
- <p>
-  Si
-  <code class="language-javascript">a</code>
-  se evalúa a
-  <code class="language-javascript">true</code>,
-  el resultado es
-  <code class="language-javascript">b</code>;
-  de lo contrario, el resultado es
-  <code class="language-javascript">c</code>.
- </p>
+ <ul>
+  <li>
+   <p>
+    Si
+    <code class="language-javascript">a</code>
+    se evalúa a
+    <code class="language-javascript">true</code>,
+    el resultado es
+    <code class="language-javascript">b</code>;
+    de lo contrario, el resultado es
+    <code class="language-javascript">c</code>.
+   </p>
+  </li>
+ </ul>
 </div>
 <section>
  <h1>Ejemplo</h1>
@@ -514,7 +518,8 @@
       style="color: #795e26;">log</span>(<span
       style="color: #0000ff;">false</span> ? <span
       style="color: #098658;">3</span> : <span style="color: #098658;">8</span>)
-    <span style="color: #008000;">//8</span></div>
+    <span style="color: #008000;">//8</span>
+   </div>
   </div>
  </muestra-codigo>
 </section>

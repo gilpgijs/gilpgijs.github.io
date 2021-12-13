@@ -23,6 +23,7 @@
   --colTituloShadow: 3px 1px 2px #bdbdbd;
   --colTituloStrong: #684601;
   --colTituloStrongSel: #ffdc97;
+  --colTarget: #cef4ff;
   --colSombra: #49494980;
   --navSombra: 0.5rem 0 0.5rem var(--colSombra);
   --padCtrl: 0.2rem 0.3rem;
@@ -31,6 +32,8 @@
   --colNavResaltada: #7a2c99;
   --colSecundario: #ffff82;
   --colStack1: black;
+  --colStack2: #224ba5;
+  --colStack3: #92731f;
   --gap: 0.5rem;
   --fontMono: monospace;
   --fontSans: sans-serif;
@@ -78,34 +81,16 @@
 
  pre {
   font-family: var(--fontMono);
-  font-size: 1em;
- }
-
- samp {
-  font-size: 1em;
  }
 
  code {
   color: var(--colTituloStrong);
   font-family: var(--fontMono);
-  font-size: 1em;
- }
-
- a code {
-  font-size: 1rem;
  }
 
  h1:not(.default) {
   font-family: var(--fontSans);
   color: var(--colTituloLetra);
- }
-
- h1.sitio {
-  font-size: 3rem;
- }
-
- h1.leccion {
-  font-size: 2.5rem;
  }
 
  .autor {
@@ -172,12 +157,12 @@
   margin-left: 1rem;
  }
 
- .columnas-4 {
+ .columnas4 {
   columns: 4 180px;
   column-gap: 1rem;
  }
 
- .columnas-2 {
+ .columnas2 {
   columns: 2 360px;
   column-gap: 1rem;
  }
@@ -219,7 +204,6 @@
  }
 </style>
  <style>
- /*TODO Pintar stacks y números de distinto color, de acuerdo a la activación.*/
  .pruebaDeEscritorio section {
   display: inline-block;
   vertical-align: top;
@@ -254,25 +238,25 @@
   border: 1px solid var(--colStack1);
  }
 
- .pruebaDeEscritorio .numero-2 {
+ .pruebaDeEscritorio .numero2 {
   display: inline-block;
   color: var(--colStack2);
   border: 1px solid var(--colStack2);
  }
 
- .pruebaDeEscritorio .numero-3 {
+ .pruebaDeEscritorio .numero3 {
   display: inline-block;
   color: var(--colStack3);
   border: 1px solid var(--colStack3);
  }
 
- .pruebaDeEscritorio a.parametro-1,
- .pruebaDeEscritorio .parametro-1 {
+ .pruebaDeEscritorio a.parametro1,
+ .pruebaDeEscritorio .parametro1 {
   color: var(--colPar1);
  }
 
- .pruebaDeEscritorio a.parametro-2,
- .pruebaDeEscritorio .parametro-2 {
+ .pruebaDeEscritorio a.parametro2,
+ .pruebaDeEscritorio .parametro2 {
   color: var(--colPar2);
  }
 
@@ -280,21 +264,21 @@
   color: var(--colDescongela);
  }
 
- .pruebaDeEscritorio table.tabla-1,
- .pruebaDeEscritorio table.tabla-1 th,
- .pruebaDeEscritorio table.tabla-1 td {
+ .pruebaDeEscritorio table.tabla1,
+ .pruebaDeEscritorio table.tabla1 th,
+ .pruebaDeEscritorio table.tabla1 td {
   border: 1px solid var(--colStack1);
  }
 
- .pruebaDeEscritorio table.tabla-2,
- .pruebaDeEscritorio table.tabla-2 th,
- .pruebaDeEscritorio table.tabla-2 td {
+ .pruebaDeEscritorio table.tabla2,
+ .pruebaDeEscritorio table.tabla2 th,
+ .pruebaDeEscritorio table.tabla2 td {
   border: 1px solid var(--colStack2);
  }
 
- .pruebaDeEscritorio table.tabla-3,
- .pruebaDeEscritorio table.tabla-3 th,
- .pruebaDeEscritorio table.tabla-3 td {
+ .pruebaDeEscritorio table.tabla3,
+ .pruebaDeEscritorio table.tabla3 th,
+ .pruebaDeEscritorio table.tabla3 td {
   border: 1px solid var(--colStack3);
  }
 
@@ -695,79 +679,83 @@ I I I I  /
    </p>
   </li>
  </ul>
- <h2>División entera y residuo</h2>
- <ul>
-  <li>
-   <p>
-    Repartir 🎈🎈🎈🎈 🎈🎈🎈🎈 🎈🎈🎈 entre 👼👼👼 para que a todos les
-    toque lo mismo.
-   </p>
-  </li>
-  <li>
-   <p>👼 🎈🎈🎈<br>👼 🎈🎈🎈<br>👼 🎈🎈🎈<br>y 🎈🎈 no se reparten.</p>
-  </li>
-  <li>
-   <p>11 div 3 === 3.</p>
-  </li>
-  <li>
-   <p>11 % 3 === 2.</p>
-  </li>
-  <li>
-   <p>Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a div c = b. Al resultado se
-    le conoce como <dfn>cociente</dfn> o <dfn>división entera</dfn>.</p>
-   <p>Como 11 = ((3)(3)) + 2 y 0 ≤ 2 &lt; 3, 11 div 3 = 3.</p>
-  </li>
-  <li>
-   <p>
-    Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a % c = d. Al resultado se le
-    conoce como <dfn>módulo</dfn> o como <dfn>residuo</dfn>.
-   </p>
-   <p>Como 11 = 3 * 3 + 2, y 0 ≤ 2 &lt; 3, 11 % 3 = 2 </p>
-  </li>
- </ul>
- <h2>División exacta</h2>
- <ul>
-  <li>
-   <p>
-    Repartir 🎈🎈🎈🎈 🎈🎈🎈🎈 🎈🎈🎈 entre 👼👼👼 para que a todos les
-    toque lo mismo, pero que no sobre nada.
-   </p>
-  </li>
-  <li>
-   <p>
-    A cada 👼 le tocan 🎈🎈🎈 y tenemos que partir los 🎈🎈 que sobran de tal
-    forma que todos les toque la misma cantidad de 🎈.
-   </p>
-  </li>
-  <li>
-   <p>
-    11 / 3 === (9/3) + (2/3) === 3+(2/3). A cada 👼 le tocan 🎈🎈🎈 y 2
-    partes de lo que resulta de partir 🎈 en 3 pedazos iguales.
-   </p>
-  </li>
-  <li>
-   <p>
-    2/3 se puede expresar con decimales, obteniendo 0.6666... con el número 6
-    repitiéndose, sin parar. A la parte que se repite se le llama periodo.
-   </p>
-  </li>
-  <li>
-   <p>
-    Por lo mismo, 11/3 también se puede expresar como 3.666... o 3.(6),
-    poniendo entre paréntesis el periodo.
-   </p>
-  </li>
-  <li>
-   <p>Si (a)(b) = c, entonces c/b = a.</p>
-  </li>
-  <li>
-   <p>
-    Se pensaba que todos los números se podían expresar como fracciones o
-    como números periódicos. Hasta aquí todos eran felices 😁, pero hubo
-    algo que les rompió el corazón 😢.
-   </p>
-  </li>
- </ul>
+ <section>
+  <h1>División entera y residuo</h1>
+  <ul>
+   <li>
+    <p>
+     Repartir 🎈🎈🎈🎈 🎈🎈🎈🎈 🎈🎈🎈 entre 👼👼👼 para que a todos les
+     toque lo mismo.
+    </p>
+   </li>
+   <li>
+    <p>👼 🎈🎈🎈<br>👼 🎈🎈🎈<br>👼 🎈🎈🎈<br>y 🎈🎈 no se reparten.</p>
+   </li>
+   <li>
+    <p>11 div 3 === 3.</p>
+   </li>
+   <li>
+    <p>11 % 3 === 2.</p>
+   </li>
+   <li>
+    <p>Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a div c = b. Al resultado se
+     le conoce como <dfn>cociente</dfn> o <dfn>división entera</dfn>.</p>
+    <p>Como 11 = ((3)(3)) + 2 y 0 ≤ 2 &lt; 3, 11 div 3 = 3.</p>
+   </li>
+   <li>
+    <p>
+     Si a = ((b)(c)) + d, con 0 ≤ d &lt; c, a % c = d. Al resultado se le
+     conoce como <dfn>módulo</dfn> o como <dfn>residuo</dfn>.
+    </p>
+    <p>Como 11 = 3 * 3 + 2, y 0 ≤ 2 &lt; 3, 11 % 3 = 2 </p>
+   </li>
+  </ul>
+ </section>
+ <section>
+  <h1>División exacta</h1>
+  <ul>
+   <li>
+    <p>
+     Repartir 🎈🎈🎈🎈 🎈🎈🎈🎈 🎈🎈🎈 entre 👼👼👼 para que a todos les
+     toque lo mismo, pero que no sobre nada.
+    </p>
+   </li>
+   <li>
+    <p>
+     A cada 👼 le tocan 🎈🎈🎈 y tenemos que partir los 🎈🎈 que sobran de tal
+     forma que todos les toque la misma cantidad de 🎈.
+    </p>
+   </li>
+   <li>
+    <p>
+     11 / 3 === (9/3) + (2/3) === 3+(2/3). A cada 👼 le tocan 🎈🎈🎈 y 2
+     partes de lo que resulta de partir 🎈 en 3 pedazos iguales.
+    </p>
+   </li>
+   <li>
+    <p>
+     2/3 se puede expresar con decimales, obteniendo 0.6666... con el número 6
+     repitiéndose, sin parar. A la parte que se repite se le llama periodo.
+    </p>
+   </li>
+   <li>
+    <p>
+     Por lo mismo, 11/3 también se puede expresar como 3.666... o 3.(6),
+     poniendo entre paréntesis el periodo.
+    </p>
+   </li>
+   <li>
+    <p>Si (a)(b) = c, entonces c/b = a.</p>
+   </li>
+   <li>
+    <p>
+     Se pensaba que todos los números se podían expresar como fracciones o
+     como números periódicos. Hasta aquí todos eran felices 😁, pero hubo
+     algo que les rompió el corazón 😢.
+    </p>
+   </li>
+  </ul>
+ </section>
 </div>
       </section>
      <section >
@@ -867,55 +855,61 @@ I I I I  /
       </section>
      <section >
          <h1 >G. Rarezas matemáticas</h1><div class="lectura">
- <h2>0 / 0</h2>
- <ul>
-  <li>
-   <p>El resultado de 0/0. De la fórmula, se requiere que (a)(0) = 0.</p>
-  </li>
-  <li>
-   <p>(0)(0) = 0.</p>
-  </li>
-  <li>
-   <p>(1)(0) = 0.</p>
-  </li>
-  <li>
-   <p>(-233.45)(0) = 0.</p>
-  </li>
-  <li>
-   <p>
-    No existe un resultado único; el número que se te ocurra es una solución
-    🤪.
-   </p>
-  </li>
- </ul>
- <h2>√-1</h2>
- <ul>
-  <li>
-   <p>
-    El resultado de √-1. De la fórmula, se requiere que a<sup>2</sup> = -1. O
-    sea que (a)(a) = -1; pero por la regla de los signos el resultado no se
-    puede cumplir (-1)(-1) = 1 y (1)(1) = 1. 😵
-   </p>
-  </li>
- </ul>
- <h2>Paradojas lógicas</h2>
- <ul>
-  <li>
-   <p>
-    Los matemáticos observaron que las matemáticas llevaban a contradicciones
-    lógicas y se les partió el corazón 😢, pero pensaban que se podían
-    corregir. A finales del siglo XIX hicieron un concurso que se llamaba
-    Metamatemáticas, donde se le iba a dar mucho dinero 💵 a quien pudiera
-    hacer una formulación de las matemáticas que no tuviera errores.
-   </p>
-  </li>
-  <li>
-   <p>
-    Los matemáticos tenían entonces la esperanza de ser felices 🙃, pero hubo
-    algo que les rompió el corazón 😭.
-   </p>
-  </li>
- </ul>
+ <section>
+  <h1>0 / 0</h1>
+  <ul>
+   <li>
+    <p>El resultado de 0/0. De la fórmula, se requiere que (a)(0) = 0.</p>
+   </li>
+   <li>
+    <p>(0)(0) = 0.</p>
+   </li>
+   <li>
+    <p>(1)(0) = 0.</p>
+   </li>
+   <li>
+    <p>(-233.45)(0) = 0.</p>
+   </li>
+   <li>
+    <p>
+     No existe un resultado único; el número que se te ocurra es una solución
+     🤪.
+    </p>
+   </li>
+  </ul>
+ </section>
+ <section>
+  <h1>√-1</h1>
+  <ul>
+   <li>
+    <p>
+     El resultado de √-1. De la fórmula, se requiere que a<sup>2</sup> = -1. O
+     sea que (a)(a) = -1; pero por la regla de los signos el resultado no se
+     puede cumplir (-1)(-1) = 1 y (1)(1) = 1. 😵
+    </p>
+   </li>
+  </ul>
+ </section>
+ <section>
+  <h1>Paradojas lógicas</h1>
+  <ul>
+   <li>
+    <p>
+     Los matemáticos observaron que las matemáticas llevaban a contradicciones
+     lógicas y se les partió el corazón 😢, pero pensaban que se podían
+     corregir. A finales del siglo XIX hicieron un concurso que se llamaba
+     Metamatemáticas, donde se le iba a dar mucho dinero 💵 a quien pudiera
+     hacer una formulación de las matemáticas que no tuviera errores.
+    </p>
+   </li>
+   <li>
+    <p>
+     Los matemáticos tenían entonces la esperanza de ser felices 🙃, pero hubo
+     algo que les rompió el corazón 😭.
+    </p>
+   </li>
+  </ul>
+ </section>
 </div>
       </section>
      <section >
