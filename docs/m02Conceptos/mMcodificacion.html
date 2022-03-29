@@ -7,11 +7,12 @@
 <meta name="theme-color" content="#039623">
 <link rel="manifest" href="/site.webmanifest">
 <script src="/js/muestra-codigo.js"></script>
- <title>K. El método «console.log» - GilPG IJS</title>
- <meta name="description" content="Definición del método «console.log».">
+ <title>M. Codificación - GilPG IJS</title>
+ <meta name="description" content="Definición de codificación.">
  <meta name="og:image" content="https://gilpgijs.github.io/img/icono/icono2048.png">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -233,8 +234,8 @@
  }
 </style>
  <style>
- #principal {
-  transition: margin-left 0.7s ease-in-out;
+ body {
+  scroll-padding-top: var(--padTop);
  }
 
  body:not(.sinTransicion) #principal {
@@ -254,13 +255,29 @@
   }
  }
 
- #principal>.controles {
-  display: flex;
-  gap: var(--gap);
+ #principal {
+  padding-top: var(--padTop);
+  transition: margin-left 0.7s ease-in-out;
  }
 
- #principal>.controles>.siguiente {
-  margin-left: auto
+ #principal>#abre {
+  position: fixed;
+  top: var(--gap);
+  left: var(--gap);
+ }
+
+ #principal>.anterior {
+  position: fixed;
+  top: var(--gap);
+  background-color: var(--colFondo);
+  transition: left 0.7s ease-in-out;
+ }
+
+ #principal>.siguiente {
+  position: fixed;
+  top: var(--gap);
+  right: var(--gap);
+  background-color: var(--colFondo);
  }
 
  #principal h1:not(.default) {
@@ -357,6 +374,10 @@
   .menu>#nav {
    transform: translateX(0);
   }
+
+  #principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
  }
 
  @media screen and (min-width: 1000px) {
@@ -376,15 +397,22 @@
    margin-left: var(--anchoNav)
   }
 
-  .xmenu #abre {
-   display: none
+  .menu>#principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
+
+  .xmenu>#principal>.anterior {
+   top: var(--gap);
+   left: calc(var(--anchoNav) + var(--gap));
   }
  }
 
  @media print {
 
   #nav,
-  #principal>.controles {
+  #principal>#abre,
+  #principal>.anterior,
+  #principal>.siguiente {
    display: none;
   }
  }
@@ -393,73 +421,33 @@
 </head>
 <body class="xmenu">
  <div id="principal">
- <div class="controles">
-  <button id="abre" type="button" title="Menú" class="cambiaMenu">
-   &#x2630;
-  </button>
-  <a class="anterior" href="/m02Conceptos/mJstring.html" title="J. El tipo string">◀</a>
-  <a class="siguiente" href="/m02Conceptos/mLorden.html" title="L. Orden de ejecución">▶</a>
- </div>
-   <h1 >K. El método <code class='language-javascript'>console.log</code></h1><div class="lectura">
+ <button id="abre" type="button" title="Menú" class="cambiaMenu">
+  &#x2630;
+ </button>
+ <a class="anterior" href="/m02Conceptos/mLvacia.html" title="L. Cadena vacía">◀</a>
+ <a class="siguiente" href="/m02Conceptos/mNlog.html" title="N. El método «console.log»">▶</a>
+   <h1 >M. <dfn>Codificación</dfn></h1><div class="lectura">
  <ul>
   <li>
    <p>
-    Muestra textos separados por coma
-    (<code class="language-javascript">,</code>)
-    en el dispositivo de salida de la aplicación.
+    Es la implementación en bits de un dato.
    </p>
   </li>
   <li>
    <p>
-    Los textos del método se muestran sin los símbolos que los
-    delimitan y separados por espacios.</p>
+    A cada caracter del texto se le asigna una combinación
+    de varios 1 y 0. La combinación se puede expresar como un número.
+   </p>
   </li>
   <li>
    <p>
-    A cada
-    <code class="language-javascript"><span
-     style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span></code>
-    le corresponde un renglón diferente.
+    JavaScript usa la codificación UTF-16 de <dfn>Unicode</dfn>, que está
+    definida en
+    <a href="https://unicode.org" target="_blank"
+      rel="noopener">https://unicode.org</a>.
    </p>
   </li>
  </ul>
- <section>
-  <h1>Ejemplos</h1>
-  <table class="borde">
-   <thead>
-    <tr>
-     <th>Instrucción</th>
-     <th>Salida</th>
-    </tr>
-   </thead>
-   <tbody>
-    <tr>
-     <td>
-      <pre><code class="language-javascript"><span
-       style="color: #001080;">console</span>.<span
-       style="color: #795e26;">log</span>(<span
-       style="color: #a31515;">"Hola pp"</span>);</code></pre>
-     </td>
-     <td>
-      <pre><samp>Hola pp</samp></pre>
-     </td>
-    </tr>
-    <tr>
-     <td>
-      <pre><code class="language-javascript"></code><span
-       style="color: #001080;">console</span>.<span
-       style="color: #795e26;">log</span>(<span
-       style="color: #a31515;">"ggg"</span>, <span
-       style="color: #a31515;">"7!😁"</span>);</code></pre>
-     </td>
-     <td>
-      <pre><samp>ggg 7!😁</samp></pre>
-     </td>
-    </tr>
-   </tbody>
-  </table>
- </section>
 </div>
  <footer>
  <p>
@@ -491,8 +479,8 @@
     <a href="/index.html"
       data-logo="true">GilPG IJS</a>
    </p><p>
-    <a class="paginaAnterior" href="/m01Fundamentos/mLresumen.html"
-      title="L. Resumen">▲</a>
+    <a class="paginaAnterior" href="/m01Fundamentos/mOresumen.html"
+      title="O. Resumen">▲</a>
    </p>
      <h1><a href="/m02Conceptos/index.html">2. Conceptos básicos</a></h1>
    <ol type="A">
@@ -538,27 +526,42 @@
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mItexto.html">Cadena de texto</a>
+      <a href="/m02Conceptos/mIcaracter.html"><dfn>Caracter</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mJstring.html">El tipo <dfn><code class='language-javascript'>string</code></dfn></a>
+      <a href="/m02Conceptos/mJtexto.html">Cadena de texto</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mKlog.html" class="actual">El método <code class='language-javascript'>console.log</code></a>
+      <a href="/m02Conceptos/mKstring.html">El tipo <dfn><code class='language-javascript'>string</code></dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mLorden.html">Orden de ejecución</a>
+      <a href="/m02Conceptos/mLvacia.html"><dfn>Cadena vacía</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mMresumen.html">Resumen</a>
+      <a href="/m02Conceptos/mMcodificacion.html" class="actual"><dfn>Codificación</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mNlog.html">El método <code class='language-javascript'>console.log</code></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mOorden.html">Orden de ejecución</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mPresumen.html">Resumen</a>
      </p>
     </li>
    </ol><p>
@@ -575,9 +578,9 @@
  const abre = document.querySelector("#abre")
 
  /**@type {string} */
- let urlAnterior = "/m02Conceptos/mJstring.html"
+ let urlAnterior = "/m02Conceptos/mLvacia.html"
  /**@type {string} */
- let urlSiguiente = "/m02Conceptos/mLorden.html"
+ let urlSiguiente = "/m02Conceptos/mNlog.html"
  /**@type {number|null} */
  let iniciaX = null
  /**@type {number|null} */

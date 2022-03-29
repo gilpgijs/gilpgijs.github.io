@@ -7,11 +7,12 @@
 <meta name="theme-color" content="#039623">
 <link rel="manifest" href="/site.webmanifest">
 <script src="/js/muestra-codigo.js"></script>
- <title>M. Resumen - GilPG IJS</title>
- <meta name="description" content="Resumen de la lección «2. Conceptos básicos».">
+ <title>H. Arquitectura de hardware - GilPG IJS</title>
+ <meta name="description" content="Definición de arquitectura de hardware.">
  <meta name="og:image" content="https://gilpgijs.github.io/img/icono/icono2048.png">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -233,8 +234,8 @@
  }
 </style>
  <style>
- #principal {
-  transition: margin-left 0.7s ease-in-out;
+ body {
+  scroll-padding-top: var(--padTop);
  }
 
  body:not(.sinTransicion) #principal {
@@ -254,13 +255,29 @@
   }
  }
 
- #principal>.controles {
-  display: flex;
-  gap: var(--gap);
+ #principal {
+  padding-top: var(--padTop);
+  transition: margin-left 0.7s ease-in-out;
  }
 
- #principal>.controles>.siguiente {
-  margin-left: auto
+ #principal>#abre {
+  position: fixed;
+  top: var(--gap);
+  left: var(--gap);
+ }
+
+ #principal>.anterior {
+  position: fixed;
+  top: var(--gap);
+  background-color: var(--colFondo);
+  transition: left 0.7s ease-in-out;
+ }
+
+ #principal>.siguiente {
+  position: fixed;
+  top: var(--gap);
+  right: var(--gap);
+  background-color: var(--colFondo);
  }
 
  #principal h1:not(.default) {
@@ -357,6 +374,10 @@
   .menu>#nav {
    transform: translateX(0);
   }
+
+  #principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
  }
 
  @media screen and (min-width: 1000px) {
@@ -376,15 +397,22 @@
    margin-left: var(--anchoNav)
   }
 
-  .xmenu #abre {
-   display: none
+  .menu>#principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
+
+  .xmenu>#principal>.anterior {
+   top: var(--gap);
+   left: calc(var(--anchoNav) + var(--gap));
   }
  }
 
  @media print {
 
   #nav,
-  #principal>.controles {
+  #principal>#abre,
+  #principal>.anterior,
+  #principal>.siguiente {
    display: none;
   }
  }
@@ -393,49 +421,34 @@
 </head>
 <body class="xmenu">
  <div id="principal">
- <div class="controles">
-  <button id="abre" type="button" title="Menú" class="cambiaMenu">
-   &#x2630;
-  </button>
-  <a class="anterior" href="/m02Conceptos/mLorden.html" title="L. Orden de ejecución">◀</a>
-  <a class="siguiente" href="/m03pres/index.html" title="3. Prueba de escritorio básica">▶</a>
- </div>
-   <h1 >M. Resumen</h1><div class="lectura">
+ <button id="abre" type="button" title="Menú" class="cambiaMenu">
+  &#x2630;
+ </button>
+ <a class="anterior" href="/m01Fundamentos/mGhardware.html" title="G. Hardware">◀</a>
+ <a class="siguiente" href="/m01Fundamentos/mIsoftware.html" title="I. Software">▶</a>
+   <h1 >H. <dfn>Arquitectura de hardware</dfn></h1><div class="lectura">
  <ul>
   <li>
-   <p>En esta lección se definieron los siguientes conceptos:</p>
-   <ul>
-    <li>
-     <p>Algoritmo</p>
-    </li>
-    <li>
-     <p>Tarjeta madre</p>
-    </li>
-    <li>
-     <p>Memoria</p>
-    </li>
-    <li>
-     <p>CPU</p>
-    </li>
-    <li>
-     <p>Dispositivos de entrada y salida</p>
-    </li>
-    <li>
-     <p>JavaScript</p>
-    </li>
-    <li>
-     <p>Textos</p>
-    </li>
-    <li>
-     <p>El tipo <code class="language-javascript">string</code></p>
-    </li>
-    <li>
-     <p>El método <code class="language-javascript">console.log</code></p>
-    </li>
-    <li>
-     <p>El orden de ejecución de instrucciones</p>
-    </li>
-   </ul>
+   <p>
+    Diseño de hardware con sus propias reglas de funcionamiento, que es
+    incompatible con otras arquitecturas.
+   </p>
+  <li>
+   <p>Algunas arquitecturas de hardware son:</p>
+   <dl>
+    <dt>x86</dt>
+    <dd>
+     <p>Intel y AMD, para computadoras personales y Servidores.</p>
+    </dd>
+    <dt>ARM</dt>
+    <dd>
+     <p>Dispositivos móviles y computadoras personales Apple.</p>
+    </dd>
+    <dt>Arduino</dt>
+    <dd>
+     <p>Hardware abierto, drones, controladores</p>
+    </dd>
+   </dl>
   </li>
  </ul>
 </div>
@@ -468,80 +481,87 @@
  <p>
     <a href="/index.html"
       data-logo="true">GilPG IJS</a>
-   </p><p>
-    <a class="paginaAnterior" href="/m01Fundamentos/mLresumen.html"
-      title="L. Resumen">▲</a>
    </p>
-     <h1><a href="/m02Conceptos/index.html">2. Conceptos básicos</a></h1>
+     <h1><a href="/m01Fundamentos/index.html">1. Fundamentos</a></h1>
    <ol type="A">
     <li>
      <p>
-      <a href="/m02Conceptos/mAalgoritmo.html"><dfn>Algoritmo</dfn></a>
+      <a href="/m01Fundamentos/mAcomputadora.html"><dfn>Computadora electrónica</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mBmotherboard.html"><dfn>Tarjeta madre</dfn></a>
+      <a href="/m01Fundamentos/mBdispositivos/">Tipos de computadoras</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mCmemoria.html"><dfn>Memoria</dfn></a>
+      <a href="/m01Fundamentos/mCprograma.html"><dfn>Programa</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mDcpu.html"><dfn>CPU</dfn></a>
+      <a href="/m01Fundamentos/mDoperativo.html"><dfn>Sistema operativo</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mEentrada.html"><dfn>Dispositivo de entrada</dfn></a>
+      <a href="/m01Fundamentos/mEoperativos/">Ejemplos de sistemas operativos</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mFsalida.html"><dfn>Dispositivo de salida</dfn></a>
+      <a href="/m01Fundamentos/mFprogramas/">Otros tipos de programas</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mGentradaSalida.html"><dfn>Dispositivo de entrada y salida</dfn></a>
+      <a href="/m01Fundamentos/mGhardware.html"><dfn>Hardware</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mHjs.html"><dfn>JavaScript</dfn></a>
+      <a href="/m01Fundamentos/mHarquitectura.html" class="actual"><dfn>Arquitectura de hardware</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mItexto.html">Cadena de texto</a>
+      <a href="/m01Fundamentos/mIsoftware.html"><dfn>Software</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mJstring.html">El tipo <dfn><code class='language-javascript'>string</code></dfn></a>
+      <a href="/m01Fundamentos/mJlenguaje.html"><dfn>Lenguaje de programación</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mKlog.html">El método <code class='language-javascript'>console.log</code></a>
+      <a href="/m01Fundamentos/mKmaquina.html"><dfn>Lenguaje de máquina</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mLorden.html">Orden de ejecución</a>
+      <a href="/m01Fundamentos/mLcodigo.html"><dfn>Código fuente</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mMresumen.html" class="actual">Resumen</a>
+      <a href="/m01Fundamentos/mMcompilador.html">Compilador</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mNinterprete.html"><dfn>Intérprete</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mOresumen.html">Resumen</a>
      </p>
     </li>
    </ol><p>
-    <a class="paginaSiguiente" href="/m03pres/index.html"
-      title="3. Prueba de escritorio básica">▼</a>
+    <a class="paginaSiguiente" href="/m02Conceptos/index.html"
+      title="2. Conceptos básicos">▼</a>
    </p>
 </nav>
  <script>
@@ -553,9 +573,9 @@
  const abre = document.querySelector("#abre")
 
  /**@type {string} */
- let urlAnterior = "/m02Conceptos/mLorden.html"
+ let urlAnterior = "/m01Fundamentos/mGhardware.html"
  /**@type {string} */
- let urlSiguiente = "/m03pres/index.html"
+ let urlSiguiente = "/m01Fundamentos/mIsoftware.html"
  /**@type {number|null} */
  let iniciaX = null
  /**@type {number|null} */

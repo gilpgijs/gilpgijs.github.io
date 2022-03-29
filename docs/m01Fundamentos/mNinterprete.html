@@ -7,11 +7,12 @@
 <meta name="theme-color" content="#039623">
 <link rel="manifest" href="/site.webmanifest">
 <script src="/js/muestra-codigo.js"></script>
- <title>I. Lenguaje de programación - GilPG IJS</title>
- <meta name="description" content="Definición de programación, lenguaje de máquina y código fuente.">
+ <title>N. Intérprete - GilPG IJS</title>
+ <meta name="description" content="Definición de intérprete y lista algunos lenguajes de programación que son interpretados.">
  <meta name="og:image" content="https://gilpgijs.github.io/img/icono/icono2048.png">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -233,8 +234,8 @@
  }
 </style>
  <style>
- #principal {
-  transition: margin-left 0.7s ease-in-out;
+ body {
+  scroll-padding-top: var(--padTop);
  }
 
  body:not(.sinTransicion) #principal {
@@ -254,13 +255,29 @@
   }
  }
 
- #principal>.controles {
-  display: flex;
-  gap: var(--gap);
+ #principal {
+  padding-top: var(--padTop);
+  transition: margin-left 0.7s ease-in-out;
  }
 
- #principal>.controles>.siguiente {
-  margin-left: auto
+ #principal>#abre {
+  position: fixed;
+  top: var(--gap);
+  left: var(--gap);
+ }
+
+ #principal>.anterior {
+  position: fixed;
+  top: var(--gap);
+  background-color: var(--colFondo);
+  transition: left 0.7s ease-in-out;
+ }
+
+ #principal>.siguiente {
+  position: fixed;
+  top: var(--gap);
+  right: var(--gap);
+  background-color: var(--colFondo);
  }
 
  #principal h1:not(.default) {
@@ -357,6 +374,10 @@
   .menu>#nav {
    transform: translateX(0);
   }
+
+  #principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
  }
 
  @media screen and (min-width: 1000px) {
@@ -376,15 +397,22 @@
    margin-left: var(--anchoNav)
   }
 
-  .xmenu #abre {
-   display: none
+  .menu>#principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
+
+  .xmenu>#principal>.anterior {
+   top: var(--gap);
+   left: calc(var(--anchoNav) + var(--gap));
   }
  }
 
  @media print {
 
   #nav,
-  #principal>.controles {
+  #principal>#abre,
+  #principal>.anterior,
+  #principal>.siguiente {
    display: none;
   }
  }
@@ -393,53 +421,34 @@
 </head>
 <body class="xmenu">
  <div id="principal">
- <div class="controles">
-  <button id="abre" type="button" title="Menú" class="cambiaMenu">
-   &#x2630;
-  </button>
-  <a class="anterior" href="/m01Fundamentos/mHsoftware.html" title="H. Software">◀</a>
-  <a class="siguiente" href="/m01Fundamentos/mJcompilador.html" title="J. Compilador">▶</a>
- </div>
-   <h1 >I. Lenguaje de programación</h1><div class="lectura">
+ <button id="abre" type="button" title="Menú" class="cambiaMenu">
+  &#x2630;
+ </button>
+ <a class="anterior" href="/m01Fundamentos/mMcompilador.html" title="M. Compilador">◀</a>
+ <a class="siguiente" href="/m01Fundamentos/mOresumen.html" title="O. Resumen">▶</a>
+   <h1 >N. <dfn>Intérprete</dfn></h1><div class="lectura">
  <ul>
   <li>
    <p>
-    Definiciones de la
-    <em>Real Academia Española</em>:
+    Programa que ejecuta un código de un lenguaje de computación sin generar
+    un archivo de compilación.
    </p>
-   <dl>
-    <dt><dfn>Lenguaje de programación</dfn></dt>
-    <dd>
-     <blockquote>
-      Conjunto de signos y reglas que permite la comunicación con una
-      computadora.
-     </blockquote>
-    </dd>
-    <dt><dfn>Lenguaje de máquina</dfn></dt>
-    <dd>
-     <blockquote>
-      Conjunto de instrucciones codificadas que una computadora interpreta y
-      ejecuta directamente.
-     </blockquote>
-    </dd>
-   </dl>
+   <figure>
+    <img src="/img/m01Fundamentos/interprete.svg"
+      alt="Funcionamiento de un intérprete">
+    <figcaption>Funcionamiento de un intérprete</figcaption>
+   </figure>
   </li>
   <li>
    <p>
-    Cada arquitectura de hardware tiene un código de máquina diferente.
+    Los lenguajes de programación usados normalmente en un navegador
+    web, como HTML, CSS y JavaScript son interpretados.
    </p>
   </li>
   <li>
    <p>
-    Un
-    <dfn>código fuente</dfn>
-    es un programa expresado usando uno o más lenguajes de programación.
-   </p>
-  </li>
-  <li>
-   <p>
-    Los programas normalmente se construyen usando uno o más lenguajes de
-    programación.
+    El lenguaje de programación Java se compila a un lenguaje de máquina
+    genérico y luego es ejecutado por un intérprete de ese lenguaje de máquina.
    </p>
   </li>
  </ul>
@@ -513,27 +522,42 @@
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mHsoftware.html"><dfn>Software</dfn></a>
+      <a href="/m01Fundamentos/mHarquitectura.html"><dfn>Arquitectura de hardware</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mIlenguaje.html" class="actual">Lenguaje de programación</a>
+      <a href="/m01Fundamentos/mIsoftware.html"><dfn>Software</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mJcompilador.html">Compilador</a>
+      <a href="/m01Fundamentos/mJlenguaje.html"><dfn>Lenguaje de programación</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mKinterprete.html"><dfn>Intérprete</dfn></a>
+      <a href="/m01Fundamentos/mKmaquina.html"><dfn>Lenguaje de máquina</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mLresumen.html">Resumen</a>
+      <a href="/m01Fundamentos/mLcodigo.html"><dfn>Código fuente</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mMcompilador.html">Compilador</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mNinterprete.html" class="actual"><dfn>Intérprete</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mOresumen.html">Resumen</a>
      </p>
     </li>
    </ol><p>
@@ -550,9 +574,9 @@
  const abre = document.querySelector("#abre")
 
  /**@type {string} */
- let urlAnterior = "/m01Fundamentos/mHsoftware.html"
+ let urlAnterior = "/m01Fundamentos/mMcompilador.html"
  /**@type {string} */
- let urlSiguiente = "/m01Fundamentos/mJcompilador.html"
+ let urlSiguiente = "/m01Fundamentos/mOresumen.html"
  /**@type {number|null} */
  let iniciaX = null
  /**@type {number|null} */

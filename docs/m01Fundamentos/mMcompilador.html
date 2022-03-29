@@ -7,11 +7,12 @@
 <meta name="theme-color" content="#039623">
 <link rel="manifest" href="/site.webmanifest">
 <script src="/js/muestra-codigo.js"></script>
- <title>H. Software - GilPG IJS</title>
- <meta name="description" content="Definición de software.">
+ <title>M. Compilador - GilPG IJS</title>
+ <meta name="description" content="Definición de compilador y lista algunos lenguajes de programación que son compilados.">
  <meta name="og:image" content="https://gilpgijs.github.io/img/icono/icono2048.png">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -233,8 +234,8 @@
  }
 </style>
  <style>
- #principal {
-  transition: margin-left 0.7s ease-in-out;
+ body {
+  scroll-padding-top: var(--padTop);
  }
 
  body:not(.sinTransicion) #principal {
@@ -254,13 +255,29 @@
   }
  }
 
- #principal>.controles {
-  display: flex;
-  gap: var(--gap);
+ #principal {
+  padding-top: var(--padTop);
+  transition: margin-left 0.7s ease-in-out;
  }
 
- #principal>.controles>.siguiente {
-  margin-left: auto
+ #principal>#abre {
+  position: fixed;
+  top: var(--gap);
+  left: var(--gap);
+ }
+
+ #principal>.anterior {
+  position: fixed;
+  top: var(--gap);
+  background-color: var(--colFondo);
+  transition: left 0.7s ease-in-out;
+ }
+
+ #principal>.siguiente {
+  position: fixed;
+  top: var(--gap);
+  right: var(--gap);
+  background-color: var(--colFondo);
  }
 
  #principal h1:not(.default) {
@@ -357,6 +374,10 @@
   .menu>#nav {
    transform: translateX(0);
   }
+
+  #principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
  }
 
  @media screen and (min-width: 1000px) {
@@ -376,15 +397,22 @@
    margin-left: var(--anchoNav)
   }
 
-  .xmenu #abre {
-   display: none
+  .menu>#principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
+
+  .xmenu>#principal>.anterior {
+   top: var(--gap);
+   left: calc(var(--anchoNav) + var(--gap));
   }
  }
 
  @media print {
 
   #nav,
-  #principal>.controles {
+  #principal>#abre,
+  #principal>.anterior,
+  #principal>.siguiente {
    display: none;
   }
  }
@@ -393,24 +421,53 @@
 </head>
 <body class="xmenu">
  <div id="principal">
- <div class="controles">
-  <button id="abre" type="button" title="Menú" class="cambiaMenu">
-   &#x2630;
-  </button>
-  <a class="anterior" href="/m01Fundamentos/mGhardware.html" title="G. Hardware">◀</a>
-  <a class="siguiente" href="/m01Fundamentos/mIlenguaje.html" title="I. Lenguaje de programación">▶</a>
- </div>
-   <h1 >H. <dfn>Software</dfn></h1><div class="lectura">
+ <button id="abre" type="button" title="Menú" class="cambiaMenu">
+  &#x2630;
+ </button>
+ <a class="anterior" href="/m01Fundamentos/mLcodigo.html" title="L. Código fuente">◀</a>
+ <a class="siguiente" href="/m01Fundamentos/mNinterprete.html" title="N. Intérprete">▶</a>
+   <h1 >M. Compilador</h1><div class="lectura">
  <ul>
   <li>
    <p>
-    Definición de la
-    <em>Real Academia Española</em>;
-   <blockquote>
-    Conjunto de programas, instrucciones y reglas informáticas para
-    ejecutar ciertas tareas en una computadora.
-   </blockquote>
+    Definiciones de la
+    <em>Real Academia Española</em>:
    </p>
+   <dl>
+    <dt><dfn>Compilar</dfn></dt>
+    <dd>
+     <blockquote>
+      Convertir un programa en lenguaje máquina a partir de otro programa de
+      computadora escrito en otro lenguaje.
+     </blockquote>
+    </dd>
+    <dt><dfn>Compilador</dfn></dt>
+    <dd>
+     <blockquote>
+      Programa que compila.
+     </blockquote>
+    </dd>
+   </dl>
+  </li>
+  <li>
+   <p>
+    Un compilador toma como entrada el código de un lenguaje de programación y
+    genera el código para una combinación de lenguaje de máquina y sistema
+    operativo precisos.
+   </p>
+   <figure>
+    <img src="/img/m01Fundamentos/compilador.svg"
+      alt="Funcionamiento de un compilador">
+    <figcaption>Funcionamiento de un compilador</figcaption>
+   </figure>
+  </li>
+  <li>
+   <p>Algunos lenguajes de programación que se compilan son:</p>
+   <ul>
+    <li>Java</li>
+    <li>C</li>
+    <li>C++</li>
+   </ul>
   </li>
  </ul>
 </div>
@@ -483,27 +540,42 @@
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mHsoftware.html" class="actual"><dfn>Software</dfn></a>
+      <a href="/m01Fundamentos/mHarquitectura.html"><dfn>Arquitectura de hardware</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mIlenguaje.html">Lenguaje de programación</a>
+      <a href="/m01Fundamentos/mIsoftware.html"><dfn>Software</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mJcompilador.html">Compilador</a>
+      <a href="/m01Fundamentos/mJlenguaje.html"><dfn>Lenguaje de programación</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mKinterprete.html"><dfn>Intérprete</dfn></a>
+      <a href="/m01Fundamentos/mKmaquina.html"><dfn>Lenguaje de máquina</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mLresumen.html">Resumen</a>
+      <a href="/m01Fundamentos/mLcodigo.html"><dfn>Código fuente</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mMcompilador.html" class="actual">Compilador</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mNinterprete.html"><dfn>Intérprete</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mOresumen.html">Resumen</a>
      </p>
     </li>
    </ol><p>
@@ -520,9 +592,9 @@
  const abre = document.querySelector("#abre")
 
  /**@type {string} */
- let urlAnterior = "/m01Fundamentos/mGhardware.html"
+ let urlAnterior = "/m01Fundamentos/mLcodigo.html"
  /**@type {string} */
- let urlSiguiente = "/m01Fundamentos/mIlenguaje.html"
+ let urlSiguiente = "/m01Fundamentos/mNinterprete.html"
  /**@type {number|null} */
  let iniciaX = null
  /**@type {number|null} */

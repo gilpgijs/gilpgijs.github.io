@@ -53,29 +53,47 @@
    "description": "Definición de JavaScript."
   },
   {
-   "name": "mItexto.html",
+   "name": "mIcaracter.html",
+   "title": "Caracter",
+   "h1": "<dfn>Caracter</dfn>",
+   "description": "Definición de Cadena de texto."
+  },
+  {
+   "name": "mJtexto.html",
    "title": "Cadena de texto",
    "description": "Definición de Cadena de texto."
   },
   {
-   "name": "mJstring.html",
+   "name": "mKstring.html",
    "title": "El tipo string",
    "h1": "El tipo <dfn><code class='language-javascript'>string</code></dfn>",
    "description": "Definición del tipo de dato string."
   },
   {
-   "name": "mKlog.html",
+   "name": "mLvacia.html",
+   "title": "Cadena vacía",
+   "h1": "<dfn>Cadena vacía</dfn>",
+   "description": "Definición de cadena vacía."
+  },
+  {
+   "name": "mMcodificacion.html",
+   "title": "Codificación",
+   "h1": "<dfn>Codificación</dfn>",
+   "description": "Definición de codificación."
+  },
+  {
+   "name": "mNlog.html",
    "title": "El método «console.log»",
    "h1": "El método <code class='language-javascript'>console.log</code>",
    "description": "Definición del método «console.log»."
   },
   {
-   "name": "mLorden.html",
+   "name": "mOorden.html",
    "title": "Orden de ejecución",
    "description": "Definición del método «console.log»."
   },
   {
-   "name": "mMresumen.html",
+   "name": "mPresumen.html",
    "title": "Resumen",
    "description": "Resumen de la lección «2. Conceptos básicos»."
     }

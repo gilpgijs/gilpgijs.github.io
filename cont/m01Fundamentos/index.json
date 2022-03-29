@@ -38,29 +38,48 @@
    "description": "Definición de hardware."
   },
   {
-   "name": "mHsoftware.html",
+   "name": "mHarquitectura.html",
+   "title": "Arquitectura de hardware",
+   "h1": "<dfn>Arquitectura de hardware</dfn>",
+   "description": "Definición de arquitectura de hardware."
+  },
+  {
+   "name": "mIsoftware.html",
    "title": "Software",
    "h1": "<dfn>Software</dfn>",
    "description": "Definición de software."
   },
   {
-   "name": "mIlenguaje.html",
+   "name": "mJlenguaje.html",
    "title": "Lenguaje de programación",
-   "description": "Definición de programación, lenguaje de máquina y código fuente."
+   "h1": "<dfn>Lenguaje de programación</dfn>",
+   "description": "Definición de lenguaje de programación."
   },
   {
-   "name": "mJcompilador.html",
+   "name": "mKmaquina.html",
+   "title": "Lenguaje de máquina",
+   "h1": "<dfn>Lenguaje de máquina</dfn>",
+   "description": "Definición de lenguaje de máquina."
+  },
+  {
+   "name": "mLcodigo.html",
+   "title": "Código fuente",
+   "h1": "<dfn>Código fuente</dfn>",
+   "description": "Definición de código fuente."
+  },
+  {
+   "name": "mMcompilador.html",
    "title": "Compilador",
    "description": "Definición de compilador y lista algunos lenguajes de programación que son compilados."
   },
   {
-   "name": "mKinterprete.html",
+   "name": "mNinterprete.html",
    "title": "Intérprete",
    "h1": "<dfn>Intérprete</dfn>",
    "description": "Definición de intérprete y lista algunos lenguajes de programación que son interpretados."
   },
   {
-   "name": "mLresumen.html",
+   "name": "mOresumen.html",
    "title": "Resumen",
    "description": "Resumen de la lección «1. Fundamentos»."
   }

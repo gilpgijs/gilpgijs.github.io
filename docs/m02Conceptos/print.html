@@ -11,6 +11,7 @@
  <meta name="description" content="Página para imprimir de la lección «2. Conceptos básicos».">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -394,27 +395,42 @@
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mItexto.html">Cadena de texto</a>
+      <a href="/m02Conceptos/mIcaracter.html"><dfn>Caracter</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mJstring.html">El tipo <dfn><code class='language-javascript'>string</code></dfn></a>
+      <a href="/m02Conceptos/mJtexto.html">Cadena de texto</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mKlog.html">El método <code class='language-javascript'>console.log</code></a>
+      <a href="/m02Conceptos/mKstring.html">El tipo <dfn><code class='language-javascript'>string</code></dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mLorden.html">Orden de ejecución</a>
+      <a href="/m02Conceptos/mLvacia.html"><dfn>Cadena vacía</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mMresumen.html">Resumen</a>
+      <a href="/m02Conceptos/mMcodificacion.html"><dfn>Codificación</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mNlog.html">El método <code class='language-javascript'>console.log</code></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mOorden.html">Orden de ejecución</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mPresumen.html">Resumen</a>
      </p>
     </li>
    </ol>
@@ -492,11 +508,9 @@
      src="/img/m02Conceptos/pexels-valentine-tanasovich-2588757-640.webp">
   </picture>
   <figcaption>
-   <small>
-    <a href="https://www.pexels.com/es-es/foto/placa-base-de-computadora-negra-y-gris-2588757/"
-      target="_blank" rel="noopener">Foto de <strong>Valentine
-      Tanasovich</strong> en <strong>Pexels</strong></a>
-   </small>
+   <a href="https://www.pexels.com/es-es/foto/placa-base-de-computadora-negra-y-gris-2588757/"
+     target="_blank" rel="noopener">Foto de <strong>Valentine
+     Tanasovich</strong> en <strong>Pexels</strong></a>
   </figcaption>
  </figure>
 </div>
@@ -544,11 +558,9 @@
      src="/img/m02Conceptos/pexels-pok-rie-1432673-1920.webp">
   </picture>
   <figcaption>
-   <small>
-    <a href="https://www.pexels.com/es-es/foto/fotografia-de-enfoque-selectivo-de-la-placa-base-1432673/"
-      target="_blank" rel="noopener">Foto de <strong>Pok Rie</strong> en
-     <strong>Pexels</strong></a>
-   </small>
+   <a href="https://www.pexels.com/es-es/foto/fotografia-de-enfoque-selectivo-de-la-placa-base-1432673/"
+     target="_blank" rel="noopener">Foto de <strong>Pok Rie</strong> en
+    <strong>Pexels</strong></a>
   </figcaption>
  </figure>
 </div>
@@ -680,7 +692,7 @@
   </li>
   <li>
    <p>
-    En 2021, la versión más usada es la edición 6, del año 2015, pero
+    En 2022, la versión más usada es la edición 6, del año 2015, pero
     algunos navegadores incorporan caracterísiticas más nuevas.
    </p>
   </li>
@@ -688,22 +700,32 @@
 </div>
       </section>
      <section >
-         <h1 >I. Cadena de texto</h1><div class="lectura">
+         <h1 >I. <dfn>Caracter</dfn></h1><div class="lectura">
  <ul>
   <li>
    <p>
-    Los
-    <dfn>caracteres</dfn>
-    son los diferentes símbolos de comunicación escrita; por ejemplo:
+    Símbolo de comunicación escrita; por ejemplo:
    </p>
    <dl>
     <dt>letras</dt>
-    <dd>como a, b o C</dd>
+    <dd>
+     <p>a, b o C</p>
+    </dd>
     <dt>dígitos</dt>
-    <dd>como 1, 2 o 5</dd>
+    <dd>
+     <p>1, 2 o 5</p>
+    </dd>
     <dt>signos de puntuación</dt>
-    <dd>como %, $ o !</dd>.
+    <dd>
+     <p>%, $ o !</p>
+    </dd>
+    <dt>emojis</dt>
+    <dd>
+     <p>😎, 🎸 o 🤸‍♀️</p>
+    </dd>.
    </dl>
+  </li>
+  <li>
    <p>
     En computación a cada uno de los símbolos anteriores se les considera un
     <dfn>eslabón</dfn>.
@@ -713,6 +735,12 @@
     <figcaption>Un eslabón</figcaption>
    </figure>
   </li>
+ </ul>
+</div>
+      </section>
+     <section >
+         <h1 >J. Cadena de texto</h1><div class="lectura">
+ <ul>
   <li>
    <p>
     Para formar un texto juntamos caracteres. Si consideramos a un caracter
@@ -728,7 +756,7 @@
 </div>
       </section>
      <section >
-         <h1 >J. El tipo <dfn><code class='language-javascript'>string</code></dfn></h1><div class="lectura">
+         <h1 >K. El tipo <dfn><code class='language-javascript'>string</code></dfn></h1><div class="lectura">
  <ul>
   <li>
    <p>
@@ -777,22 +805,6 @@
   </li>
   <li>
    <p>
-    La
-    <dfn>codificación</dfn>
-    de un texto es asignar a cada caracter del texto una combinación
-    de varios 1 y 0. La combinación se puede expresar como un número.
-   </p>
-  </li>
-  <li>
-   <p>
-    JavaScript usa la codificación UTF-16 de <dfn>Unicode</dfn>, que está
-    definida en
-    <a href="https://unicode.org" target="_blank"
-      rel="noopener">https://unicode.org</a>.
-   </p>
-  </li>
-  <li>
-   <p>
     Para agregar un emoji desde Windows solo tienes que presionar la tecla
     con el logotipo de Windows al mismo tiempo que el punto
     (<kbd>
@@ -817,21 +829,49 @@
    </li>
   </ul>
  </section>
- <section>
-  <h1>Cadena Vacía</h1>
-  <p>
-   Hay una cadena sin caracteres:
-   <code class="language-javascript">""</code>
-   o
-   <code class="language-javascript">''</code>
-   conocida como
-   <dfn>cadena vacía</dfn>.
-  </p>
- </section>
 </div>
       </section>
      <section >
-         <h1 >K. El método <code class='language-javascript'>console.log</code></h1><div class="lectura">
+         <h1 >L. <dfn>Cadena vacía</dfn></h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Cadena sin caracteres, Se escribe
+    <code class="language-javascript">""</code>
+    o
+    <code class="language-javascript">''</code>.
+   </p>
+  </li>
+ </ul>
+</div>
+      </section>
+     <section >
+         <h1 >M. <dfn>Codificación</dfn></h1><div class="lectura">
+ <ul>
+  <li>
+   <p>
+    Es la implementación en bits de un dato.
+   </p>
+  </li>
+  <li>
+   <p>
+    A cada caracter del texto se le asigna una combinación
+    de varios 1 y 0. La combinación se puede expresar como un número.
+   </p>
+  </li>
+  <li>
+   <p>
+    JavaScript usa la codificación UTF-16 de <dfn>Unicode</dfn>, que está
+    definida en
+    <a href="https://unicode.org" target="_blank"
+      rel="noopener">https://unicode.org</a>.
+   </p>
+  </li>
+ </ul>
+</div>
+      </section>
+     <section >
+         <h1 >N. El método <code class='language-javascript'>console.log</code></h1><div class="lectura">
  <ul>
   <li>
    <p>
@@ -894,7 +934,7 @@
 </div>
       </section>
      <section >
-         <h1 >L. Orden de ejecución</h1><div class="lectura">
+         <h1 >O. Orden de ejecución</h1><div class="lectura">
  <ul>
   <li>
    <p>
@@ -950,7 +990,7 @@ u</samp></pre>
 </section>
       </section>
      <section >
-         <h1 >M. Resumen</h1><div class="lectura">
+         <h1 >P. Resumen</h1><div class="lectura">
  <ul>
   <li>
    <p>En esta lección se definieron los siguientes conceptos:</p>

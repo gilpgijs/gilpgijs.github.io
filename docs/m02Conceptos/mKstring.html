@@ -7,11 +7,12 @@
 <meta name="theme-color" content="#039623">
 <link rel="manifest" href="/site.webmanifest">
 <script src="/js/muestra-codigo.js"></script>
- <title>K. Intérprete - GilPG IJS</title>
- <meta name="description" content="Definición de intérprete y lista algunos lenguajes de programación que son interpretados.">
+ <title>K. El tipo string - GilPG IJS</title>
+ <meta name="description" content="Definición del tipo de dato string.">
  <meta name="og:image" content="https://gilpgijs.github.io/img/icono/icono2048.png">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -233,8 +234,8 @@
  }
 </style>
  <style>
- #principal {
-  transition: margin-left 0.7s ease-in-out;
+ body {
+  scroll-padding-top: var(--padTop);
  }
 
  body:not(.sinTransicion) #principal {
@@ -254,13 +255,29 @@
   }
  }
 
- #principal>.controles {
-  display: flex;
-  gap: var(--gap);
+ #principal {
+  padding-top: var(--padTop);
+  transition: margin-left 0.7s ease-in-out;
  }
 
- #principal>.controles>.siguiente {
-  margin-left: auto
+ #principal>#abre {
+  position: fixed;
+  top: var(--gap);
+  left: var(--gap);
+ }
+
+ #principal>.anterior {
+  position: fixed;
+  top: var(--gap);
+  background-color: var(--colFondo);
+  transition: left 0.7s ease-in-out;
+ }
+
+ #principal>.siguiente {
+  position: fixed;
+  top: var(--gap);
+  right: var(--gap);
+  background-color: var(--colFondo);
  }
 
  #principal h1:not(.default) {
@@ -357,6 +374,10 @@
   .menu>#nav {
    transform: translateX(0);
   }
+
+  #principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
  }
 
  @media screen and (min-width: 1000px) {
@@ -376,15 +397,22 @@
    margin-left: var(--anchoNav)
   }
 
-  .xmenu #abre {
-   display: none
+  .menu>#principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
+
+  .xmenu>#principal>.anterior {
+   top: var(--gap);
+   left: calc(var(--anchoNav) + var(--gap));
   }
  }
 
  @media print {
 
   #nav,
-  #principal>.controles {
+  #principal>#abre,
+  #principal>.anterior,
+  #principal>.siguiente {
    display: none;
   }
  }
@@ -393,39 +421,84 @@
 </head>
 <body class="xmenu">
  <div id="principal">
- <div class="controles">
-  <button id="abre" type="button" title="Menú" class="cambiaMenu">
-   &#x2630;
-  </button>
-  <a class="anterior" href="/m01Fundamentos/mJcompilador.html" title="J. Compilador">◀</a>
-  <a class="siguiente" href="/m01Fundamentos/mLresumen.html" title="L. Resumen">▶</a>
- </div>
-   <h1 >K. <dfn>Intérprete</dfn></h1><div class="lectura">
+ <button id="abre" type="button" title="Menú" class="cambiaMenu">
+  &#x2630;
+ </button>
+ <a class="anterior" href="/m02Conceptos/mJtexto.html" title="J. Cadena de texto">◀</a>
+ <a class="siguiente" href="/m02Conceptos/mLvacia.html" title="L. Cadena vacía">▶</a>
+   <h1 >K. El tipo <dfn><code class='language-javascript'>string</code></dfn></h1><div class="lectura">
  <ul>
   <li>
    <p>
-    Programa que ejecuta un código de un lenguaje de computación sin generar
-    un archivo de compilación.
-   </p>
-   <figure>
-    <img src="/img/m01Fundamentos/interprete.svg"
-      alt="Funcionamiento de un intérprete">
-    <figcaption>Funcionamiento de un intérprete</figcaption>
-   </figure>
-  </li>
-  <li>
-   <p>
-    Los lenguajes de programación usados normalmente en un navegador
-    web, como HTML, CSS y JavaScript son interpretados.
+    Representa texto en JavaScript.
    </p>
   </li>
   <li>
    <p>
-    El lenguaje de programación Java se compila a un código de máquina
-    genérica y luego es ejecutado por un intérprete de ese código.
+    La palabra
+    <code class="language-javascript">string</code>,
+    es la traducción al inglés del término
+    <q>cadena</q>.
+   </p>
+  </li>
+  <li>
+   <p>
+    En JavaScript los textos se representan con secuencias de caracteres
+    delimitadas por los siguientes símbolos:
+   </p>
+   <dl>
+    <dt><code class="language-javascript">' '</code></dt>
+    <dd>
+     <p>
+      El delimitador es el símbolo
+      <dfn>apóstrofo</dfn>
+      (<code class="language-javascript">'</code>).
+     </p>
+     <p>
+      En su interior puedes poner cualquier caracter, excepto apóstrofo y
+      salto de línea.
+     </p>
+    </dd>
+    <dt><code class="language-javascript">" "</code></dt>
+    <dd>
+     <p>
+      El delimitador es el símbolo
+      <dfn>comillas</dfn>
+      (<code class="language-javascript">"</code>).
+     </p>
+     <p>
+      En su interior puedes poner cualquier caracter, excepto comillas y
+      salto de línea.
+     </p>
+    </dd>
+   </dl>
+  </li>
+  <li>
+   <p>
+    Para agregar un emoji desde Windows solo tienes que presionar la tecla
+    con el logotipo de Windows al mismo tiempo que el punto
+    (<kbd>
+     <img style="vertical-align: middle;" src="/img/m02Conceptos/winlogo.png"
+       alt="Logotipo de Windows">+.
+    </kbd>)
+    y aparece un cuadro de diálogo que te permite seleccionar un emoji.
    </p>
   </li>
  </ul>
+ <section>
+  <h1>Ejemplos</h1>
+  <ul>
+   <li>
+    <p><code class="language-javascript">"Hola pp"</code></p>
+   </li>
+   <li>
+    <p>
+     <code
+       class="language-javascript">'😁¡¡¡¡A sus órdenes jefecita!!!!'</code>
+    </p>
+   </li>
+  </ul>
+ </section>
 </div>
  <footer>
  <p>
@@ -456,72 +529,95 @@
  <p>
     <a href="/index.html"
       data-logo="true">GilPG IJS</a>
+   </p><p>
+    <a class="paginaAnterior" href="/m01Fundamentos/mOresumen.html"
+      title="O. Resumen">▲</a>
    </p>
-     <h1><a href="/m01Fundamentos/index.html">1. Fundamentos</a></h1>
+     <h1><a href="/m02Conceptos/index.html">2. Conceptos básicos</a></h1>
    <ol type="A">
     <li>
      <p>
-      <a href="/m01Fundamentos/mAcomputadora.html"><dfn>Computadora electrónica</dfn></a>
+      <a href="/m02Conceptos/mAalgoritmo.html"><dfn>Algoritmo</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mBdispositivos/">Tipos de computadoras</a>
+      <a href="/m02Conceptos/mBmotherboard.html"><dfn>Tarjeta madre</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mCprograma.html"><dfn>Programa</dfn></a>
+      <a href="/m02Conceptos/mCmemoria.html"><dfn>Memoria</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mDoperativo.html"><dfn>Sistema operativo</dfn></a>
+      <a href="/m02Conceptos/mDcpu.html"><dfn>CPU</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mEoperativos/">Ejemplos de sistemas operativos</a>
+      <a href="/m02Conceptos/mEentrada.html"><dfn>Dispositivo de entrada</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mFprogramas/">Otros tipos de programas</a>
+      <a href="/m02Conceptos/mFsalida.html"><dfn>Dispositivo de salida</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mGhardware.html"><dfn>Hardware</dfn></a>
+      <a href="/m02Conceptos/mGentradaSalida.html"><dfn>Dispositivo de entrada y salida</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mHsoftware.html"><dfn>Software</dfn></a>
+      <a href="/m02Conceptos/mHjs.html"><dfn>JavaScript</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mIlenguaje.html">Lenguaje de programación</a>
+      <a href="/m02Conceptos/mIcaracter.html"><dfn>Caracter</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mJcompilador.html">Compilador</a>
+      <a href="/m02Conceptos/mJtexto.html">Cadena de texto</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mKinterprete.html" class="actual"><dfn>Intérprete</dfn></a>
+      <a href="/m02Conceptos/mKstring.html" class="actual">El tipo <dfn><code class='language-javascript'>string</code></dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mLresumen.html">Resumen</a>
+      <a href="/m02Conceptos/mLvacia.html"><dfn>Cadena vacía</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mMcodificacion.html"><dfn>Codificación</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mNlog.html">El método <code class='language-javascript'>console.log</code></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mOorden.html">Orden de ejecución</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m02Conceptos/mPresumen.html">Resumen</a>
      </p>
     </li>
    </ol><p>
-    <a class="paginaSiguiente" href="/m02Conceptos/index.html"
-      title="2. Conceptos básicos">▼</a>
+    <a class="paginaSiguiente" href="/m03pres/index.html"
+      title="3. Prueba de escritorio básica">▼</a>
    </p>
 </nav>
  <script>
@@ -533,9 +629,9 @@
  const abre = document.querySelector("#abre")
 
  /**@type {string} */
- let urlAnterior = "/m01Fundamentos/mJcompilador.html"
+ let urlAnterior = "/m02Conceptos/mJtexto.html"
  /**@type {string} */
- let urlSiguiente = "/m01Fundamentos/mLresumen.html"
+ let urlSiguiente = "/m02Conceptos/mLvacia.html"
  /**@type {number|null} */
  let iniciaX = null
  /**@type {number|null} */

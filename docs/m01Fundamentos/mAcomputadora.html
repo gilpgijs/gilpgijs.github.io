@@ -12,6 +12,7 @@
  <meta name="og:image" content="https://gilpgijs.github.io/img/icono/icono2048.png">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -233,8 +234,8 @@
  }
 </style>
  <style>
- #principal {
-  transition: margin-left 0.7s ease-in-out;
+ body {
+  scroll-padding-top: var(--padTop);
  }
 
  body:not(.sinTransicion) #principal {
@@ -254,13 +255,29 @@
   }
  }
 
- #principal>.controles {
-  display: flex;
-  gap: var(--gap);
+ #principal {
+  padding-top: var(--padTop);
+  transition: margin-left 0.7s ease-in-out;
  }
 
- #principal>.controles>.siguiente {
-  margin-left: auto
+ #principal>#abre {
+  position: fixed;
+  top: var(--gap);
+  left: var(--gap);
+ }
+
+ #principal>.anterior {
+  position: fixed;
+  top: var(--gap);
+  background-color: var(--colFondo);
+  transition: left 0.7s ease-in-out;
+ }
+
+ #principal>.siguiente {
+  position: fixed;
+  top: var(--gap);
+  right: var(--gap);
+  background-color: var(--colFondo);
  }
 
  #principal h1:not(.default) {
@@ -357,6 +374,10 @@
   .menu>#nav {
    transform: translateX(0);
   }
+
+  #principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
  }
 
  @media screen and (min-width: 1000px) {
@@ -376,15 +397,22 @@
    margin-left: var(--anchoNav)
   }
 
-  .xmenu #abre {
-   display: none
+  .menu>#principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
+
+  .xmenu>#principal>.anterior {
+   top: var(--gap);
+   left: calc(var(--anchoNav) + var(--gap));
   }
  }
 
  @media print {
 
   #nav,
-  #principal>.controles {
+  #principal>#abre,
+  #principal>.anterior,
+  #principal>.siguiente {
    display: none;
   }
  }
@@ -393,13 +421,11 @@
 </head>
 <body class="xmenu">
  <div id="principal">
- <div class="controles">
-  <button id="abre" type="button" title="Menú" class="cambiaMenu">
-   &#x2630;
-  </button>
-  <a class="anterior" href="/m01Fundamentos/index.html" title="1. Fundamentos">◀</a>
-  <a class="siguiente" href="/m01Fundamentos/mBdispositivos/index.html" title="B. Tipos de computadoras">▶</a>
- </div>
+ <button id="abre" type="button" title="Menú" class="cambiaMenu">
+  &#x2630;
+ </button>
+ <a class="anterior" href="/m01Fundamentos/index.html" title="1. Fundamentos">◀</a>
+ <a class="siguiente" href="/m01Fundamentos/mBdispositivos/index.html" title="B. Tipos de computadoras">▶</a>
    <h1 >A. <dfn>Computadora electrónica</dfn></h1><div class="lectura">
  <ul>
   <li>
@@ -420,11 +446,10 @@
     </picture>
     <figcaption>
      Computadoras en nuestra vida
-     (<small><a
+     (<a
         href="https://www.pexels.com/es-es/foto/persona-cafe-taza-mano-6912819/"
         target="_blank" rel="noopener">Foto de <strong>Teona Swift</strong> en
        <strong>Pexels</strong></a>)
-     </small>
     </figcaption>
    </figure>
   </li>
@@ -499,27 +524,42 @@
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mHsoftware.html"><dfn>Software</dfn></a>
+      <a href="/m01Fundamentos/mHarquitectura.html"><dfn>Arquitectura de hardware</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mIlenguaje.html">Lenguaje de programación</a>
+      <a href="/m01Fundamentos/mIsoftware.html"><dfn>Software</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mJcompilador.html">Compilador</a>
+      <a href="/m01Fundamentos/mJlenguaje.html"><dfn>Lenguaje de programación</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mKinterprete.html"><dfn>Intérprete</dfn></a>
+      <a href="/m01Fundamentos/mKmaquina.html"><dfn>Lenguaje de máquina</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m01Fundamentos/mLresumen.html">Resumen</a>
+      <a href="/m01Fundamentos/mLcodigo.html"><dfn>Código fuente</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mMcompilador.html">Compilador</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mNinterprete.html"><dfn>Intérprete</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mOresumen.html">Resumen</a>
      </p>
     </li>
    </ol><p>

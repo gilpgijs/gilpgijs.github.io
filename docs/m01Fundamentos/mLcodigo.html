@@ -7,11 +7,12 @@
 <meta name="theme-color" content="#039623">
 <link rel="manifest" href="/site.webmanifest">
 <script src="/js/muestra-codigo.js"></script>
- <title>L. Orden de ejecución - GilPG IJS</title>
- <meta name="description" content="Definición del método «console.log».">
+ <title>L. Código fuente - GilPG IJS</title>
+ <meta name="description" content="Definición de código fuente.">
  <meta name="og:image" content="https://gilpgijs.github.io/img/icono/icono2048.png">
  <style>
  :root {
+  --padTop: 2rem;
   --introDuracion: 2s;
   --introFuncion: ease-out;
   --padCont: 0.5rem;
@@ -233,8 +234,8 @@
  }
 </style>
  <style>
- #principal {
-  transition: margin-left 0.7s ease-in-out;
+ body {
+  scroll-padding-top: var(--padTop);
  }
 
  body:not(.sinTransicion) #principal {
@@ -254,13 +255,29 @@
   }
  }
 
- #principal>.controles {
-  display: flex;
-  gap: var(--gap);
+ #principal {
+  padding-top: var(--padTop);
+  transition: margin-left 0.7s ease-in-out;
  }
 
- #principal>.controles>.siguiente {
-  margin-left: auto
+ #principal>#abre {
+  position: fixed;
+  top: var(--gap);
+  left: var(--gap);
+ }
+
+ #principal>.anterior {
+  position: fixed;
+  top: var(--gap);
+  background-color: var(--colFondo);
+  transition: left 0.7s ease-in-out;
+ }
+
+ #principal>.siguiente {
+  position: fixed;
+  top: var(--gap);
+  right: var(--gap);
+  background-color: var(--colFondo);
  }
 
  #principal h1:not(.default) {
@@ -357,6 +374,10 @@
   .menu>#nav {
    transform: translateX(0);
   }
+
+  #principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
  }
 
  @media screen and (min-width: 1000px) {
@@ -376,15 +397,22 @@
    margin-left: var(--anchoNav)
   }
 
-  .xmenu #abre {
-   display: none
+  .menu>#principal>.anterior {
+   left: calc(2 * var(--gap) + 2rem);
+  }
+
+  .xmenu>#principal>.anterior {
+   top: var(--gap);
+   left: calc(var(--anchoNav) + var(--gap));
   }
  }
 
  @media print {
 
   #nav,
-  #principal>.controles {
+  #principal>#abre,
+  #principal>.anterior,
+  #principal>.siguiente {
    display: none;
   }
  }
@@ -393,67 +421,18 @@
 </head>
 <body class="xmenu">
  <div id="principal">
- <div class="controles">
-  <button id="abre" type="button" title="Menú" class="cambiaMenu">
-   &#x2630;
-  </button>
-  <a class="anterior" href="/m02Conceptos/mKlog.html" title="K. El método «console.log»">◀</a>
-  <a class="siguiente" href="/m02Conceptos/mMresumen.html" title="M. Resumen">▶</a>
- </div>
-   <h1 >L. Orden de ejecución</h1><div class="lectura">
+ <button id="abre" type="button" title="Menú" class="cambiaMenu">
+  &#x2630;
+ </button>
+ <a class="anterior" href="/m01Fundamentos/mKmaquina.html" title="K. Lenguaje de máquina">◀</a>
+ <a class="siguiente" href="/m01Fundamentos/mMcompilador.html" title="M. Compilador">▶</a>
+   <h1 >L. <dfn>Código fuente</dfn></h1><div class="lectura">
  <ul>
   <li>
-   <p>
-    En cada renglón, las instrucciones se ejecutan de izquierda a derecha.
-   </p>
-  </li>
-  <li>
-   <p>Los renglones de instrucciones se ejecutan de arriba para abajo.</p>
-  </li>
-  <li>
-   <p>
-    Opcionalmente se puede poner el símbolo punto y coma
-    (<code class="language-javascript">;</code>)
-    al final de una expresión; pero cuando se ponen 2 o más expresones en
-    un mismo renglón, este símbolo es obligatorio para separarlas.
-   </p>
+   <p>Programa expresado usando uno o más lenguajes de programación.</p>
   </li>
  </ul>
 </div>
-<section>
- <h1>Ejemplo</h1>
- <div class="horizontal">
-  <muestra-codigo>
-   <div>
-    <div><span style="color: #001080;">console</span>.<span
-       style="color: #795e26;">log</span>(<span
-       style="color: #a31515;">"p"</span>); <span
-       style="color: #001080;">console</span>.<span
-       style="color: #795e26;">log</span>(<span
-       style="color: #a31515;">"a"</span>)</div>
-    <div><span style="color: #001080;">console</span>.<span
-       style="color: #795e26;">log</span>(<span
-       style="color: #a31515;">"u"</span>)</div>
-   </div>
-  </muestra-codigo>
-  <section>
-   <h1>Salida.</h1>
-   <pre><samp>p
-a
-u</samp></pre>
-  </section>
- </div>
- <div class="lectura">
-  <ul>
-   <li>
-    <p>
-     En la próxima lección se explica con más detalle como funciona este
-     código fuente.
-    </p>
-   </li>
-  </ul>
- </div>
-</section>
  <footer>
  <p>
   <a rel="license"
@@ -483,80 +462,87 @@ u</samp></pre>
  <p>
     <a href="/index.html"
       data-logo="true">GilPG IJS</a>
-   </p><p>
-    <a class="paginaAnterior" href="/m01Fundamentos/mLresumen.html"
-      title="L. Resumen">▲</a>
    </p>
-     <h1><a href="/m02Conceptos/index.html">2. Conceptos básicos</a></h1>
+     <h1><a href="/m01Fundamentos/index.html">1. Fundamentos</a></h1>
    <ol type="A">
     <li>
      <p>
-      <a href="/m02Conceptos/mAalgoritmo.html"><dfn>Algoritmo</dfn></a>
+      <a href="/m01Fundamentos/mAcomputadora.html"><dfn>Computadora electrónica</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mBmotherboard.html"><dfn>Tarjeta madre</dfn></a>
+      <a href="/m01Fundamentos/mBdispositivos/">Tipos de computadoras</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mCmemoria.html"><dfn>Memoria</dfn></a>
+      <a href="/m01Fundamentos/mCprograma.html"><dfn>Programa</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mDcpu.html"><dfn>CPU</dfn></a>
+      <a href="/m01Fundamentos/mDoperativo.html"><dfn>Sistema operativo</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mEentrada.html"><dfn>Dispositivo de entrada</dfn></a>
+      <a href="/m01Fundamentos/mEoperativos/">Ejemplos de sistemas operativos</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mFsalida.html"><dfn>Dispositivo de salida</dfn></a>
+      <a href="/m01Fundamentos/mFprogramas/">Otros tipos de programas</a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mGentradaSalida.html"><dfn>Dispositivo de entrada y salida</dfn></a>
+      <a href="/m01Fundamentos/mGhardware.html"><dfn>Hardware</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mHjs.html"><dfn>JavaScript</dfn></a>
+      <a href="/m01Fundamentos/mHarquitectura.html"><dfn>Arquitectura de hardware</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mItexto.html">Cadena de texto</a>
+      <a href="/m01Fundamentos/mIsoftware.html"><dfn>Software</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mJstring.html">El tipo <dfn><code class='language-javascript'>string</code></dfn></a>
+      <a href="/m01Fundamentos/mJlenguaje.html"><dfn>Lenguaje de programación</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mKlog.html">El método <code class='language-javascript'>console.log</code></a>
+      <a href="/m01Fundamentos/mKmaquina.html"><dfn>Lenguaje de máquina</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mLorden.html" class="actual">Orden de ejecución</a>
+      <a href="/m01Fundamentos/mLcodigo.html" class="actual"><dfn>Código fuente</dfn></a>
      </p>
     </li>
     <li>
      <p>
-      <a href="/m02Conceptos/mMresumen.html">Resumen</a>
+      <a href="/m01Fundamentos/mMcompilador.html">Compilador</a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mNinterprete.html"><dfn>Intérprete</dfn></a>
+     </p>
+    </li>
+    <li>
+     <p>
+      <a href="/m01Fundamentos/mOresumen.html">Resumen</a>
      </p>
     </li>
    </ol><p>
-    <a class="paginaSiguiente" href="/m03pres/index.html"
-      title="3. Prueba de escritorio básica">▼</a>
+    <a class="paginaSiguiente" href="/m02Conceptos/index.html"
+      title="2. Conceptos básicos">▼</a>
    </p>
 </nav>
  <script>
@@ -568,9 +554,9 @@ u</samp></pre>
  const abre = document.querySelector("#abre")
 
  /**@type {string} */
- let urlAnterior = "/m02Conceptos/mKlog.html"
+ let urlAnterior = "/m01Fundamentos/mKmaquina.html"
  /**@type {string} */
- let urlSiguiente = "/m02Conceptos/mMresumen.html"
+ let urlSiguiente = "/m01Fundamentos/mMcompilador.html"
  /**@type {number|null} */
  let iniciaX = null
  /**@type {number|null} */
