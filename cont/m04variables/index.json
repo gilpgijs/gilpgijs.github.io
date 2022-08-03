@@ -1,0 +1,63 @@
+{
+ "type": "A",
+ "title": "Variables",
+ "description": "Contenido de la lección «4. Variables».",
+ "printDescription": "Página para imprimir de la lección 4. Variables».",
+ "listado": [
+  {
+   "name": "mAidentificador.html",
+   "title": "Identificador",
+   "h1": "<dfn>Identificador</dfn>",
+   "description": "Definición y reglas para los identificadores en JavaScript."
+  },
+  {
+   "name": "mBvariable.html",
+   "title": "Variable",
+   "h1": "<dfn>Variable</dfn>",
+   "description": "Definición de variable."
+  },
+  {
+   "name": "mCpresVar"
+  },
+  {
+   "name": "mDpres2Var"
+  },
+  {
+   "name": "mEtextosYVariables.html",
+   "title": "Textos y Variables",
+   "description": "Precauciones a tomar cuando se usan variables y textos."
+  },
+  {
+   "name": "mFconstante.html",
+   "title": "Constante",
+   "h1": "<dfn>Constante</dfn>",
+   "description": "Definición de constante."
+  },
+  {
+   "name": "mGduplicadas.html",
+   "title": "Variables duplicadas",
+   "description": "Indica como JavaScript muestra error cuando una variable está duplicada."
+  },
+  {
+   "name": "mHnoEncontradas.html",
+   "title": "Variables no encontradas",
+   "description": "Indica como JavaScript muestra error cuando una variable no está definida."
+  },
+  {
+   "name": "mIquestion.html",
+   "title": "La función question",
+   "h1": "La función <code class='language-javascript'>question</code>",
+   "description": "Define la función question."
+  },
+  {
+   "name": "mJproceso.html",
+   "title": "Proceso de información",
+   "description": "Definición del proceso de información."
+  },
+  {
+   "name": "mKresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «4. Variables»."
+  }
+ ]
+}

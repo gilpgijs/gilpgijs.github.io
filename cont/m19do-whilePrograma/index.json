@@ -1,0 +1,34 @@
+{
+ "type": "A",
+ "title": "Programa con do-while",
+ "h1": "Programa con <code class=\"language-javascript\">do-while</code>",
+ "description": "Contenido de la lección «19. Programa con do-while».",
+ "printDescription": "Página para imprimir de la lección «19. Programa con do-while».",
+ "listado": [
+  {
+   "name": "mAproblema.html",
+   "title": "Planteamiento del problema",
+   "description": "Planteamiento de un programa que usa la estructura de control do-while."
+  },
+  {
+   "name": "mBescenarios.html",
+   "title": "Escenarios",
+   "description": "Ejemplo de escenarios de un programa que usa la estructura de control do-while."
+  },
+  {
+   "name": "mCpseudocodigo.html",
+   "title": "Pseudocódigo",
+   "description": "Pseudocódigo de un programa que usa la estructura de control do-while."
+  },
+  {
+   "name": "mDdiagrama.html",
+   "title": "Diagrama de flujo",
+   "description": "Diagrama de flujo de un programa que usa la estructura de control do-while."
+  },
+  {
+   "name": "mEcodigo.html",
+   "title": "Código fuente",
+   "description": "Código fuente de un programa que usa la estructura de control de control do-while."
+  }
+ ]
+}

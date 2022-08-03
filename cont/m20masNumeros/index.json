@@ -1,0 +1,58 @@
+{
+ "type": "A",
+ "title": "Más números",
+ "description": "Contenido de la lección «20. Más números».",
+ "printDescription": "Página para imprimir de la lección «20. Más números».",
+ "listado": [
+  {
+   "name": "mArecta.html",
+   "title": "Recta numérica",
+   "description": "Definición de la recta numérica para number de JavaScript."
+  },
+  {
+   "name": "mBopsArit.html",
+   "title": "Operadores aritméticos",
+   "description": "Definición de los operadores aritméticos."
+  },
+  {
+   "name": "mCopsAritAsig.html",
+   "title": "Operadores aritméticos con asignación",
+   "description": "Definición de los operadores aritméticos con asignación."
+  },
+  {
+   "name": "mDIncrDecr.html",
+   "title": "Los operadores de incremento y decremento",
+   "description": "Definición de los operadores de incremento y decremento."
+  },
+  {
+   "name": "mEigualdad.html",
+   "title": "Los operadores de igualdad y desigualdad",
+   "description": "Definición de los operadores de igualdad y desigualdad."
+  },
+  {
+   "name": "mForden.html",
+   "title": "Los operadores de orden",
+   "description": "Definición de los operadores de orden."
+  },
+  {
+   "name": "mGordenIgual.html",
+   "title": "Los operadores de orden e igualdad",
+   "description": "Definición de los operadores de orden e igualdad."
+  },
+  {
+   "name": "mHprecedencia.html",
+   "title": "Precedencia de operadores",
+   "description": "Definición de la precendencia de operadores."
+  },
+  {
+   "name": "mIexpresiones.html",
+   "title": "De matemáticas a programación",
+   "description": "Se ejemplifica como pasar de expresiones matemáticas a expresiones de programación."
+  },
+  {
+   "name": "mJresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «20. Más números»."
+  }
+ ]
+}

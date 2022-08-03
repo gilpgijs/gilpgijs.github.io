@@ -1,0 +1,33 @@
+{
+ "type": "A",
+ "title": "Programa con condicional múltiple con else",
+ "description": "Contenido de la lección «15. Programa con condicional múltiple con else».",
+ "printDescription": "Página para imprimir de la lección «15. Programa con condicional múltiple con else».",
+ "listado": [
+  {
+   "name": "mAproblema.html",
+   "title": "Planteamiento del problema",
+   "description": "Planteamiento de un programa que usa la estructura de control condicional múltiple con else."
+  },
+  {
+   "name": "mBescenarios.html",
+   "title": "Escenarios",
+   "description": "Ejemplo de escenarios de un programa que usa la estructura de control condicional múltiple con else."
+  },
+  {
+   "name": "mCpseudocodigo.html",
+   "title": "Pseudocódigo",
+   "description": "Pseudocódigo de un programa que usa la estructura de control condicional múltiple con else."
+  },
+  {
+   "name": "mDdiagrama.html",
+   "title": "Diagrama de flujo",
+   "description": "Diagrama de flujo de un programa que usa la estructura de control condicional múltiple con else."
+  },
+  {
+   "name": "mEcodigo.html",
+   "title": "Código fuente",
+   "description": "Código fuente de un programa que usa la estructura de control de control condicional múltiple con else."
+  }
+ ]
+}

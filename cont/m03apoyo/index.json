@@ -1,0 +1,37 @@
+{
+ "type": "A",
+ "title": "Herramientas de apoyo",
+ "description": "Contenido de la lección «3. Herramientas de apoyo»",
+ "printDescription": "Página para imprimir de la lección «3. Herramientas de apoyo».",
+ "listado": [
+  {
+   "name": "mAdepuracion.html",
+   "title": "Depuración",
+   "h1": "<dfn>Depuración</dfn>",
+   "description": "Definición de depuración."
+  },
+  {
+   "name": "mBpseudocodigo.html",
+   "title": "Pseudocódigo",
+   "h1": "<dfn>Pseudocódigo</dfn>",
+   "description": "Definición de pseudocódigo."
+  },
+  {
+   "name": "mCdiagramas.html",
+   "title": "Diagrama de flujo",
+   "h1": "<dfn>Diagrama de flujo</dfn>",
+   "description": "Definición de diagrama de flujo."
+  },
+  {
+   "name": "mDpseint.html",
+   "title": "PSeInt",
+   "h1": "<dfn>PSeInt</dfn>",
+   "description": "Presenta la herramienta PSeInt para editar y depurar tanto pseudcódigos como diagramas de flujo."
+  },
+  {
+   "name": "mEresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección 3. Herramientas de apoyo»."
+  }
+ ]
+}

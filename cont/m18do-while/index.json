@@ -1,0 +1,26 @@
+{
+ "type": "A",
+ "title": "do-while",
+ "h1": "<code class=\"language-javascript\">do-while</code>",
+ "description": "Contenido de la lección «18. do-while».",
+ "printDescription": "Página para imprimir de la lección «18. do-while».",
+ "listado": [
+  {
+   "name": "mAdo-while.html",
+   "title": "La estructura de control do-while",
+   "h1": "La estructura de control <dfn><code class=\"language-javascript\">do-while</code></dfn>",
+   "description": "Definición de la estructura de control do-while."
+  },
+  {
+   "name": "mBdo-whileEj.html",
+   "title": "Ejemplo de do-while",
+   "h1": "Ejemplo de <code class=\"language-javascript\">do-while</code>",
+   "description": "Ejemplo de do-while."
+  },
+  {
+   "name": "mCresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «18. do-while»."
+  }
+ ]
+}

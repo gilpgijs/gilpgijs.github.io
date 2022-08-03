@@ -1,0 +1,25 @@
+{
+ "type": "A",
+ "title": "Booleanos y textos",
+ "description": "Contenido de la lección «7. Comparación de textos».",
+ "printDescription": "Página para imprimir de la lección «7. Comparación de textos».",
+ "listado": [
+  {
+   "name": "mAigualdadTxt.html",
+   "title": "El operador de igualdad de textos a === b",
+   "h1": "El operador de <dfn>igualdad de textos <code class='language-javascript'>a === b</code></dfn>",
+   "description": "Definición del operador de igualdad de textos a === b."
+  },
+  {
+   "name": "mBdiferenteTxt.html",
+   "title": "El operador diferente de para textos a !== b",
+   "h1": "El operador <dfn>diferente de para textos <code class='language-javascript'>a !== b</code></dfn>",
+   "description": "Definición del operador diferente de para textos a === b."
+  },
+  {
+   "name": "mCresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «7. Comparación de textos»."
+  }
+ ]
+}

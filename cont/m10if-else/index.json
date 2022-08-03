@@ -1,0 +1,32 @@
+{
+ "type": "A",
+ "title": "if-else",
+ "h1": "<code>if-else</code>",
+ "description": "Contenido de la lección «10. if-else».",
+ "printDescription": "Página para imprimir de la lección «10. if-else».",
+ "listado": [
+  {
+   "name": "mAif-else.html",
+   "title": "La estructura de control if-else",
+   "h1": "La estructura de control <dfn><code class='language-javascript'>if-else</code></dfn>",
+   "description": "Definición de la estructura de control if-else."
+  },
+  {
+   "name": "mBif-elseTrue.html",
+   "title": "Cuando la condición de if-else es verdadera",
+   "h1": "Cuando la condición de <code class='language-javascript'>if-else</code> es verdadera",
+   "description": "Ejemplo cuando la condición de if-else es verdadera."
+  },
+  {
+   "name": "mCif-elseFalse.html",
+   "title": "Cuando la condición de if-else es falsa",
+   "h1": "Cuando la condición de <code class='language-javascript'>if-else</code> es falsa",
+   "description": "Ejemplo cuando la condición de if-else es falsa."
+  },
+  {
+   "name": "mDresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «10. if-else»."
+  }
+ ]
+}

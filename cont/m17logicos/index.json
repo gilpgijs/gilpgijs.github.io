@@ -1,0 +1,37 @@
+{
+ "type": "A",
+ "title": "Operadores lógicos",
+ "description": "Contenido de la lección «17. Operadores lógicos».",
+ "printDescription": "Página para imprimir de la lección «17. Operadores lógicos».",
+ "listado": [
+  {
+   "name": "mAy.html",
+   "title": "El operador lógico Y a && b",
+   "h1": "<dfn>El operador lógico Y</dfn> <code class=\"language-javascript\"><em>a</em> && <em>b</em></code></dfn>",
+   "description": "Definición del operador lógico Y a && b."
+  },
+  {
+   "name": "mBo.html",
+   "title": "El operador lógico O a || b",
+   "h1": "<dfn>El operador lógico O</dfn> <code class=\"language-javascript\"><em>a</em> || <em>b</em></code></dfn>",
+   "description": "Definiciónn del operador lógico O a || b."
+  },
+  {
+   "name": "mCno.html",
+   "title": "El operador lógico NO !a",
+   "h1": "<dfn>El operador lógico NO</dfn> <code class=\"language-javascript\">!<em>a</em></code></dfn>",
+   "description": "Definición del operador lógico NO !a."
+  },
+  {
+   "name": "mDternario.html",
+   "title": "El operador ternario «a : b ? c»",
+   "h1": "<dfn>El operador ternario</dfn> <code class=\"language-javascript\"><em>a</em> ? <em>b</em> : <em>c</em></code></dfn>",
+   "description": "Definición del operador ternario «a : b ? c»."
+  },
+  {
+   "name": "mEresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «17. Operadores lógicos»."
+  }
+ ]
+}

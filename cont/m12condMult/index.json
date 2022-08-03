@@ -1,0 +1,34 @@
+{
+ "type": "A",
+ "title": "Condicional múltiple",
+ "description": "Contenido de la lección «12. Condicional múltiple».",
+ "printDescription": "Página para imprimir de la lección «12. Condicional múltiple».",
+ "listado": [
+  {
+   "name": "mAcondMult.html",
+   "title": "La estructura de control condicional múltiple",
+   "h1": "<dfn>La estructura de control condicional múltiple</dfn>",
+   "description": "Definición de la estructura de control condicional múltiple."
+  },
+  {
+   "name": "mBcondMultTrue1.html",
+   "title": "Cuando la primera condición de una condicional múltiple es verdadera",
+   "description": "Ejemplo cuando la primera condición de una condicional múltiple es verdadera."
+  },
+  {
+   "name": "mCcondMultTrue2.html",
+   "title": "Cuando una condición de en medio de una condicional múltiple es la primera verdadera",
+   "description": "Ejemplo cuando una condición de en medio de una condicional múltiple es la primera verdadera."
+  },
+  {
+   "name": "mDcondMultFalse.html",
+   "title": "Cuando todas las condiciones de una condicional múltiple son falsas",
+   "description": "Ejemplo cuando todas las condiciones de una condicional múltiple son falsas."
+  },
+  {
+   "name": "mEresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «12. Condicional múltiple»."
+  }
+ ]
+}

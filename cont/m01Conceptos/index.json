@@ -1,0 +1,42 @@
+{
+ "type": "A",
+ "title": "Conceptos básicos",
+ "description": "Contenido de la lección «1. Conceptos básicos»",
+ "printDescription": "Página para imprimir de la lección «1. Conceptos básicos».",
+ "listado": [
+  {
+   "name": "mAjs.html",
+   "title": "JavaScript",
+   "h1": "<dfn>JavaScript</dfn>",
+   "description": "Definición de JavaScript."
+  },
+  {
+   "name": "mBstring.html",
+   "title": "El tipo string",
+   "h1": "El tipo <dfn><code class='language-javascript'>string</code></dfn>",
+   "description": "Definición del tipo de dato string."
+  },
+  {
+   "name": "mCvacia.html",
+   "title": "Cadena vacía",
+   "h1": "<dfn>Cadena vacía</dfn>",
+   "description": "Definición de cadena vacía."
+  },
+  {
+   "name": "mDlog.html",
+   "title": "El método «console.log»",
+   "h1": "El método <code class='language-javascript'>console.log</code>",
+   "description": "Definición del método «console.log»."
+  },
+  {
+   "name": "mEorden.html",
+   "title": "Orden de ejecución",
+   "description": "Definición del método «console.log»."
+  },
+  {
+   "name": "mFresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «1. Conceptos básicos»."
+    }
+ ]
+}

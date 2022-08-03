@@ -1,0 +1,33 @@
+{
+ "orden": "9",
+ "type": "A",
+ "title": "if",
+ "h1": "<code>if</code>",
+ "description": "Contenido de la lección «8. if».",
+ "printDescription": "Página para imprimir de la lección «8. if».",
+ "listado": [
+  {
+   "name": "mAif.html",
+   "title": "La estructura de control if",
+   "h1": "La estructura de control <dfn><code class='language-javascript'>if</code></dfn>",
+   "description": "Definición de la estructura de control if."
+  },
+  {
+   "name": "mBifTrue.html",
+   "title": "Cuando la condición de if es verdadera",
+   "h1": "Cuando la condición de <code class='language-javascript'>if</code> es verdadera",
+   "description": "Ejemplo cuando la condición de if es verdadera."
+  },
+  {
+   "name": "mCifFalse.html",
+   "title": "Cuando la condición de if es falsa",
+   "h1": "Cuando la condición de <code class='language-javascript'>if</code> es falsa",
+   "description": "Ejemplo cuando la condición de if es falsa."
+  },
+  {
+   "name": "mDresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «8. if»."
+  }
+ ]
+}
