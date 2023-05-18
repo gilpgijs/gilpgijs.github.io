@@ -15,17 +15,20 @@
     El ejemplo que aparece después utiliza el sitio.
     <a href="https://gilpgnod.github.io/">https://gilpgnod.github.io/</a>,
     que permite ejecutar y depurar programas que utilicen
-    <code class="language-javascript">question</code>
+    <code class="language-javascript">await question</code>
+    para pedir datos
     y
-    <code class="language-javascript">console.log</code>.
+    <code class="language-javascript">await log</code>
+    para mostrar los datos cuando se trabaja de forma interactiva.
    </p>
   </li>
   <li>
    <p>
     El ambiente Node.js, que sirve para desarrollar aplicaciones de consola,
     servidores web y programar dispositivos para IoT, puede usar la función
-    question, pero primero tienes que importarla de la librería
-    <code class="language-javascript">readline-sync</code>.
+    await question, pero primero tienes que importarla de la librería
+    <code class="language-javascript">readline</code>
+    y usarla de una forma un poco diferente a como trabajamos en este sitio.
    </p>
   </li>
  </ul>
@@ -34,20 +37,19 @@
  <h1>Ejemplo</h1>
  <muestra-codigo>
   <div>
-   <div><span style="color: #0000ff;">const</span> <span
-      style="color: #0070c1;">nombre</span> = <span
-      style="color: #795e26;">question</span>(<span
+   <div><span
+      style="color: #0000ff;">const</span> nombre = <span
+      style="color: #0000ff;">await</span> question(<span
       style="color: #a31515;">"Nombre: "</span>)</div>
-   <div><span style="color: #001080;">console</span>.<span
-      style="color: #795e26;">log</span>(<span
-      style="color: #a31515;">"Hola"</span>, <span
-      style="color: #0070c1;">nombre</span>)</div>
+   <div><span
+      style="color: #0000ff;">await</span> log(<span
+      style="color: #a31515;">"Hola"</span>, nombre)</div>
   </div>
  </muestra-codigo>
  <div class="lectura noPrint">
   <p>
    <a target="_blank" rel="noopener"
-     href="https://gilpgnod.github.io/#const%20nombre%20%3D%20question(%22Nombre%3A%20%22)%0Aconsole.log(%22Hola%22%2C%20nombre)">
+     href="https://gilpgnod.github.io/#const%20nombre%20%3D%20await%20question(%22Nombre%3A%20%22)%0Aawait%20log(%22Hola%22%2C%20nombre)">
     Revísalo en gilpgnod.
    </a>
   </p>

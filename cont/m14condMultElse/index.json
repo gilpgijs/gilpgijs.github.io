@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Condicional múltiple con else",
- "description": "Contenido de la lección «14. Condicional múltiple con else».",
- "printDescription": "Página para imprimir de la lección «14. Condicional múltiple con else».",
+ "description": "Contenido de la lección «Condicional múltiple con else».",
+ "printDescription": "Página para imprimir de la lección «Condicional múltiple con else».",
  "listado": [
   {
    "name": "mAcondMult.html",
@@ -28,7 +28,7 @@
   {
    "name": "mEresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «14. Condicional múltiple con else»."
+   "description": "Resumen de la lección «Condicional múltiple con else»."
   }
  ]
 }

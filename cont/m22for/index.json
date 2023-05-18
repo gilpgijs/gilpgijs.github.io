@@ -2,8 +2,8 @@
  "type": "A",
  "title": "for",
  "h1": "<code class=\"language-javascript\">for</code>",
- "description": "Contenido de la lección «22. for».",
- "printDescription": "Página para imprimir de la lección «22. for».",
+ "description": "Contenido de la lección «for».",
+ "printDescription": "Página para imprimir de la lección «for».",
  "listado": [
   {
    "name": "mAfor.html",
@@ -20,7 +20,7 @@
   {
    "name": "mCresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «22. for»."
+   "description": "Resumen de la lección «for»."
   }
  ]
 }

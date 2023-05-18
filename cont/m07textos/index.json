@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Booleanos y textos",
- "description": "Contenido de la lección «7. Comparación de textos».",
- "printDescription": "Página para imprimir de la lección «7. Comparación de textos».",
+ "description": "Contenido de la lección «Comparación de textos».",
+ "printDescription": "Página para imprimir de la lección «Comparación de textos».",
  "listado": [
   {
    "name": "mAigualdadTxt.html",
@@ -19,7 +19,7 @@
   {
    "name": "mCresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «7. Comparación de textos»."
+   "description": "Resumen de la lección «Comparación de textos»."
   }
  ]
 }

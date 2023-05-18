@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Condicional múltiple",
- "description": "Contenido de la lección «12. Condicional múltiple».",
- "printDescription": "Página para imprimir de la lección «12. Condicional múltiple».",
+ "description": "Contenido de la lección «Condicional múltiple».",
+ "printDescription": "Página para imprimir de la lección «Condicional múltiple».",
  "listado": [
   {
    "name": "mAcondMult.html",
@@ -28,7 +28,7 @@
   {
    "name": "mEresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «12. Condicional múltiple»."
+   "description": "Resumen de la lección «Condicional múltiple»."
   }
  ]
 }

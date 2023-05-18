@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Conceptos básicos",
- "description": "Contenido de la lección «1. Conceptos básicos»",
- "printDescription": "Página para imprimir de la lección «1. Conceptos básicos».",
+ "description": "Contenido de la lección «Conceptos básicos»",
+ "printDescription": "Página para imprimir de la lección «Conceptos básicos».",
  "listado": [
   {
    "name": "mAjs.html",
@@ -36,7 +36,7 @@
   {
    "name": "mFresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «1. Conceptos básicos»."
+   "description": "Resumen de la lección «Conceptos básicos»."
     }
  ]
 }

@@ -4,28 +4,104 @@
  "description": "Página de inicio de GilPGIJS que enseña introducción a JavaScript.",
  "printDescription": "Página para imprimir todo el contenido de GilPGIJS que enseña introducción a JavaScript.",
  "listado": [
-  {"name": "m01Conceptos"},
-  {"name": "m02pres"},
-  {"name": "m03apoyo"},
-  {"name": "m04variables"},
-  {"name": "m05comentarios"},
-  {"name": "m06bloques"},
-  {"name": "m07textos"},
-  {"name": "m08if"},
-  {"name": "m09ifPrograma"},
-  {"name": "m10if-else"},
-  {"name": "m11if-elsePrograma"},
-  {"name": "m12condMult"},
-  {"name": "m13condMultPrograma"},
-  {"name": "m14condMultElse"},
-  {"name": "m15condMultElsePrograma"},
-  {"name": "m16textos"},
-  {"name": "m17logicos"},
-  {"name": "m18do-while"},
-  {"name": "m19do-whilePrograma"},
-  {"name": "m20masNumeros"},
-  {"name": "m21while"},
-  {"name": "m22for"},
-  {"name": "m23switch"}
+  {
+   "name": "m01Conceptos"
+  },
+  {
+   "name": "m02pres"
+  },
+  {
+   "name": "m03apoyo"
+  },
+  {
+   "name": "m04variables"
+  },
+  {
+   "name": "m05comentarios"
+  },
+  {
+   "name": "m06bloques"
+  },
+  {
+   "name": "m07textos"
+  },
+  {
+   "name": "m08if"
+  },
+  {
+   "name": "m09ifPrograma"
+  },
+  {
+   "name": "m10if-else"
+  },
+  {
+   "name": "m11if-elsePrograma"
+  },
+  {
+   "name": "m12condMult"
+  },
+  {
+   "name": "m13condMultPrograma"
+  },
+  {
+   "name": "m14condMultElse"
+  },
+  {
+   "name": "m15condMultElsePrograma"
+  },
+  {
+   "name": "m16textos"
+  },
+  {
+   "name": "m17logicos"
+  },
+  {
+   "name": "m18do-while"
+  },
+  {
+   "name": "m19do-whilePrograma"
+  },
+  {
+   "name": "m20masNumeros"
+  },
+  {
+   "name": "m21while"
+  },
+  {
+   "name": "m22for"
+  },
+  {
+   "name": "m23switch"
+  },
+  {
+   "name": "m01funciones"
+  },
+  {
+   "name": "m02objsBasicos"
+  },
+  {
+   "name": "m03clases"
+  },
+  {
+   "name": "m04herencia"
+  },
+  {
+   "name": "m05arreglos"
+  },
+  {
+   "name": "m06polimorfismo"
+  },
+  {
+   "name": "m07excepciones"
+  },
+  {
+   "name": "m08promesas"
+  },
+  {
+   "name": "m09asociaciones"
+  },
+  {
+   "name": "m10patrones"
+  }
  ]
 }

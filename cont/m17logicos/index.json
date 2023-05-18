@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Operadores lógicos",
- "description": "Contenido de la lección «17. Operadores lógicos».",
- "printDescription": "Página para imprimir de la lección «17. Operadores lógicos».",
+ "description": "Contenido de la lección «Operadores lógicos».",
+ "printDescription": "Página para imprimir de la lección «Operadores lógicos».",
  "listado": [
   {
    "name": "mAy.html",
@@ -31,7 +31,7 @@
   {
    "name": "mEresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «17. Operadores lógicos»."
+   "description": "Resumen de la lección «Operadores lógicos»."
   }
  ]
 }

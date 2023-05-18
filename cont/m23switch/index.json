@@ -2,8 +2,8 @@
  "type": "A",
  "title": "switch",
  "h1": "<code class=\"language-javascript\">switch</code>",
- "description": "Contenido de la lección «23. switch».",
- "printDescription": "Página para imprimir de la lección «23. switch».",
+ "description": "Contenido de la lección «switch».",
+ "printDescription": "Página para imprimir de la lección «switch».",
  "listado": [
   {
    "name": "mAswitch.html",
@@ -32,7 +32,7 @@
   {
    "name": "mEresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «23. switch»."
+   "description": "Resumen de la lección «switch»."
   }
  ]
 }

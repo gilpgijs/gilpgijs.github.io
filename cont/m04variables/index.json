@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Variables",
- "description": "Contenido de la lección «4. Variables».",
- "printDescription": "Página para imprimir de la lección 4. Variables».",
+ "description": "Contenido de la lección «Variables».",
+ "printDescription": "Página para imprimir de la lección Variables».",
  "listado": [
   {
    "name": "mAidentificador.html",
@@ -57,7 +57,7 @@
   {
    "name": "mKresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «4. Variables»."
+   "description": "Resumen de la lección «Variables»."
   }
  ]
 }

@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Herramientas de apoyo",
- "description": "Contenido de la lección «3. Herramientas de apoyo»",
- "printDescription": "Página para imprimir de la lección «3. Herramientas de apoyo».",
+ "description": "Contenido de la lección «Herramientas de apoyo»",
+ "printDescription": "Página para imprimir de la lección «Herramientas de apoyo».",
  "listado": [
   {
    "name": "mAdepuracion.html",
@@ -31,7 +31,7 @@
   {
    "name": "mEresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección 3. Herramientas de apoyo»."
+   "description": "Resumen de la lección Herramientas de apoyo»."
   }
  ]
 }

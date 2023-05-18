@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Operadores de texto",
- "description": "Contenido de la lección «16. Operadores de texto».",
- "printDescription": "Página para imprimir de la lección «16. Operadores de texto».",
+ "description": "Contenido de la lección «Operadores de texto».",
+ "printDescription": "Página para imprimir de la lección «Operadores de texto».",
  "listado": [
   {
    "name": "mAnumber.html",
@@ -55,7 +55,7 @@
   {
    "name": "mIresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «16. Operadores de texto»."
+   "description": "Resumen de la lección «Operadores de texto»."
   }
  ]
 }

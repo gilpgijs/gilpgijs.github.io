@@ -1,28 +1,33 @@
 <muestra-codigo>
  <div>
-  <div><span style="color: #0000ff;">let</span> <span
-     style="color: #001080;">respuesta</span> = <span
+  <div><span
+     style="color: #0000ff;">let</span> respuesta = <span
      style="color: #a31515;">""</span>;</div>
-  <div><span style="color: #af00db;">do</span> {</div>
-  <div>&nbsp;<span style="color: #001080;">respuesta</span> = <span
-     style="color: #795e26;">question</span>(</div>
-  <div>&nbsp; <span style="color: #a31515;">`Selecciona:</span></div>
-  <div><span style="color: #a31515;">1 - Pop</span></div>
-  <div><span style="color: #a31515;">2 - Reguetón</span></div>
-  <div><span style="color: #a31515;">Introduce número: `</span>)</div>
-  <div>} <span style="color: #af00db;">while</span> (<span
-     style="color: #001080;">respuesta</span> !== <span
+  <div><span
+     style="color: #0000ff;">do</span>&nbsp;{</div>
+  <div>&nbsp;respuesta = <span
+     style="color: #0000ff;">await</span> question(</div>
+  <div>&nbsp;&nbsp;<span
+     style="color: #a31515;">`Selecciona:</span></div>
+  <div><span
+     style="color: #a31515;">1 - Pop</span></div>
+  <div><span
+     style="color: #a31515;">2 - Reguetón</span></div>
+  <div><span
+     style="color: #a31515;">Introduce número: `</span>)</div>
+  <div>}&nbsp;<span
+     style="color: #0000ff;">while</span> (respuesta !== <span
      style="color: #a31515;">"1"</span></div>
-  <div>&nbsp;&amp;&amp; <span style="color: #001080;">respuesta</span> !== <span
+  <div>&nbsp;&amp;&amp; respuesta !== <span
      style="color: #a31515;">"2"</span>)</div>
-  <div><span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
+  <div><span
+     style="color: #0000ff;">await</span> log(<span
      style="color: #a31515;">"Adios."</span>)</div>
  </div>
 </muestra-codigo>
 <div class="noPrint lectura">
  <p>
-  <a href="https://gilpgnod.github.io/#let%20respuesta%20%3D%20%22%22%3B%0Ado%20%7B%0A%20respuesta%20%3D%20question(%0A%20%20%60Selecciona%3A%0A1%20-%20Pop%0A2%20-%20Reguet%C3%B3n%0AIntroduce%20n%C3%BAmero%3A%20%60)%0A%7D%20while%20(respuesta%20!%3D%3D%20%221%22%0A%20%26%26%20respuesta%20!%3D%3D%20%222%22)%0Aconsole.log(%22Adios.%22)"
+  <a href="https://gilpgnod.github.io/#let%20respuesta%20%3D%20%22%22%3B%0Ado%20%7B%0A%20respuesta%20%3D%20await%20question(%0A%20%20%60Selecciona%3A%0A1%20-%20Pop%0A2%20-%20Reguet%C3%B3n%0AIntroduce%20n%C3%BAmero%3A%20%60)%0A%7D%20while%20(respuesta%20!%3D%3D%20%221%22%0A%20%26%26%20respuesta%20!%3D%3D%20%222%22)%0Aawait%20log(%22Adios.%22)"
     target="_blank" rel="noopener">Depúralo en GilPGNod.</a>
  </p>
 </div>

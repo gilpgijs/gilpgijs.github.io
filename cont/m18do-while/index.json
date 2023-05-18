@@ -2,8 +2,8 @@
  "type": "A",
  "title": "do-while",
  "h1": "<code class=\"language-javascript\">do-while</code>",
- "description": "Contenido de la lección «18. do-while».",
- "printDescription": "Página para imprimir de la lección «18. do-while».",
+ "description": "Contenido de la lección «do-while».",
+ "printDescription": "Página para imprimir de la lección «do-while».",
  "listado": [
   {
    "name": "mAdo-while.html",
@@ -20,7 +20,7 @@
   {
    "name": "mCresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «18. do-while»."
+   "description": "Resumen de la lección «do-while»."
   }
  ]
 }

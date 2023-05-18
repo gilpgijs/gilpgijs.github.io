@@ -449,25 +449,29 @@
  <a class="siguiente" href="/m12condMult/index.html" title="12. Condicional múltiple">▶</a>
    <h1 >E. Código fuente</h1><muestra-codigo>
  <div>
-  <div><span style="color: #0000ff;">const</span> <span
-     style="color: #0070c1;">respuesta</span> = <span
-     style="color: #795e26;">question</span>(</div>
-  <div>&nbsp;<span style="color: #a31515;">`Agua pasa por mi casa</span></div>
-  <div><span style="color: #a31515;">cate de mi corazón.</span></div>
-  <div><span style="color: #a31515;">Adivina (en minúsculas): `</span>);</div>
-  <div><span style="color: #af00db;">if</span> (<span
-     style="color: #0070c1;">respuesta</span> === <span
-     style="color: #a31515;">"el aguacate"</span>) {</div>
-  <div>&nbsp;<span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
+  <div><span
+     style="color: #0000ff;">const</span> respuesta = <span
+     style="color: #0000ff;">await</span> question(</div>
+  <div>&nbsp;<span
+     style="color: #a31515;">`Agua pasa por mi casa</span></div>
+  <div><span
+     style="color: #a31515;">cate de mi corazón.</span></div>
+  <div><span
+     style="color: #a31515;">Adivina (en minúsculas): `</span>);</div>
+  <div><span
+     style="color: #0000ff;">if</span> (respuesta === <span
+     style="color: #a31515;">"el aguacate"</span>)&nbsp;{</div>
+  <div>&nbsp;<span
+     style="color: #0000ff;">await</span> log(<span
      style="color: #a31515;">"Bien."</span>);</div>
-  <div>} <span style="color: #af00db;">else</span> {</div>
-  <div>&nbsp;<span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
+  <div>}&nbsp;<span
+     style="color: #0000ff;">else</span>&nbsp;{</div>
+  <div>&nbsp;<span
+     style="color: #0000ff;">await</span> log(<span
      style="color: #a31515;">"Mal."</span>);</div>
   <div>}</div>
-  <div><span style="color: #001080;">console</span>.<span
-     style="color: #795e26;">log</span>(<span
+  <div><span
+     style="color: #0000ff;">await</span> log(<span
      style="color: #a31515;">"Adios."</span>)</div>
  </div>
 </muestra-codigo>

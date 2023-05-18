@@ -1,10 +1,9 @@
 {
- "orden": "9",
  "type": "A",
  "title": "if",
  "h1": "<code>if</code>",
- "description": "Contenido de la lección «8. if».",
- "printDescription": "Página para imprimir de la lección «8. if».",
+ "description": "Contenido de la lección «if».",
+ "printDescription": "Página para imprimir de la lección «if».",
  "listado": [
   {
    "name": "mAif.html",
@@ -27,7 +26,7 @@
   {
    "name": "mDresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «8. if»."
+   "description": "Resumen de la lección «if»."
   }
  ]
 }

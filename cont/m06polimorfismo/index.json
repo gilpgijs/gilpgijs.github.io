@@ -1,0 +1,33 @@
+{
+ "type": "A",
+ "title": "Polimorfismo",
+ "description": "Contenido de la lección «Polimorfismo».",
+ "printDescription": "Página para imprimir de la lección «Polimorfismo».",
+ "listado": [
+  {
+   "name": "mAsobrescritura.html",
+   "title": "Sobrescritura de métodos",
+   "description": "Polimorfismo usando sobrescritura de métodos."
+  },
+  {
+   "name": "mBInterfaces.html",
+   "title": "Interfaces",
+   "description": "Polimorfismo usando interfaces."
+  },
+  {
+   "name": "mCInterfacesJs.html",
+   "title": "Interfaces de JavaScript",
+   "description": "Polimorfismo usando interfaces de JavaScript."
+  },
+  {
+   "name": "mDabstractas.html",
+   "title": "Clases abstractas",
+   "description": "Polimorfismo con clases abstractas."
+  },
+  {
+   "name": "mEresumen.html",
+   "title": "Resumen",
+   "description": "Resumen de la lección «Polimorfismo."
+  }
+ ]
+}

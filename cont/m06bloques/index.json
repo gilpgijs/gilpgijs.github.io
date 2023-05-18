@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Bloques",
- "description": "Contenido de la lección «6. Bloques».",
- "printDescription": "Página para imprimir de la lección «6. Bloques».",
+ "description": "Contenido de la lección «Bloques».",
+ "printDescription": "Página para imprimir de la lección «Bloques».",
  "listado": [
   {
    "name": "mAbloque.html",
@@ -23,7 +23,7 @@
   {
    "name": "mDresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «6. Bloques»."
+   "description": "Resumen de la lección «Bloques»."
   }
  ]
 }

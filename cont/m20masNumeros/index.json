@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Más números",
- "description": "Contenido de la lección «20. Más números».",
- "printDescription": "Página para imprimir de la lección «20. Más números».",
+ "description": "Contenido de la lección «Más números».",
+ "printDescription": "Página para imprimir de la lección «Más números».",
  "listado": [
   {
    "name": "mArecta.html",
@@ -52,7 +52,7 @@
   {
    "name": "mJresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «20. Más números»."
+   "description": "Resumen de la lección «Más números»."
   }
  ]
 }

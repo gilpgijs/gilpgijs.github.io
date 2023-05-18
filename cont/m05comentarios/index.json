@@ -1,8 +1,8 @@
 {
  "type": "A",
  "title": "Comentarios",
- "description": "Contenido de la lección «5. Comentarios».",
- "printDescription": "Página para imprimir de la lección «5. Comentarios».",
+ "description": "Contenido de la lección «Comentarios».",
+ "printDescription": "Página para imprimir de la lección «Comentarios».",
  "listado": [
   {
    "name": "mAcomentario.html",
@@ -37,7 +37,7 @@
   {
    "name": "mGresumen.html",
    "title": "Resumen",
-   "description": "Resumen de la lección «5. Comentarios»."
+   "description": "Resumen de la lección «Comentarios»."
   }
  ]
 }
